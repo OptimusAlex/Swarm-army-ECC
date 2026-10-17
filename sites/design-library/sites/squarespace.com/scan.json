@@ -1,0 +1,2026 @@
+{
+  "url": "https://www.squarespace.com",
+  "scannedAt": "2026-10-17T10:26:36.172Z",
+  "errors": [],
+  "title": "Website Builder – Easily Create Your Own Website — Squarespace",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "Clarkson",
+        "uses": 918
+      },
+      {
+        "value": "Clarkson Serif",
+        "uses": 20
+      },
+      {
+        "value": "sans-serif",
+        "uses": 1
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "15px",
+        "uses": 297
+      },
+      {
+        "value": "12px",
+        "uses": 227
+      },
+      {
+        "value": "13px",
+        "uses": 113
+      },
+      {
+        "value": "16px",
+        "uses": 105
+      },
+      {
+        "value": "64px",
+        "uses": 75
+      },
+      {
+        "value": "20px",
+        "uses": 47
+      },
+      {
+        "value": "14px",
+        "uses": 30
+      },
+      {
+        "value": "26px",
+        "uses": 24
+      },
+      {
+        "value": "40px",
+        "uses": 15
+      },
+      {
+        "value": "10px",
+        "uses": 3
+      },
+      {
+        "value": "8px",
+        "uses": 1
+      },
+      {
+        "value": "72px",
+        "uses": 1
+      },
+      {
+        "value": "56px",
+        "uses": 1
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "400",
+        "uses": 741
+      },
+      {
+        "value": "500",
+        "uses": 117
+      },
+      {
+        "value": "300",
+        "uses": 78
+      },
+      {
+        "value": "700",
+        "uses": 3
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "-0.015px",
+        "uses": 297
+      },
+      {
+        "value": "-3.84px",
+        "uses": 75
+      },
+      {
+        "value": "-0.2px",
+        "uses": 47
+      },
+      {
+        "value": "-0.52px",
+        "uses": 22
+      },
+      {
+        "value": "-1.6px",
+        "uses": 15
+      },
+      {
+        "value": "-0.026px",
+        "uses": 2
+      },
+      {
+        "value": "0.16px",
+        "uses": 1
+      },
+      {
+        "value": "-3.6px",
+        "uses": 1
+      },
+      {
+        "value": "-2.24px",
+        "uses": 1
+      }
+    ],
+    "textColors": [
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 713
+      },
+      {
+        "value": "rgb(137, 137, 137)",
+        "uses": 184
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "uses": 39
+      },
+      {
+        "value": "rgb(90, 90, 90)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(221, 221, 221)",
+        "uses": 1
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "rgba(255, 255, 255, 0.1)",
+        "uses": 120
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "uses": 49
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.41)",
+        "uses": 20
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 14
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.54)",
+        "uses": 10
+      },
+      {
+        "value": "rgb(47, 47, 47)",
+        "uses": 9
+      },
+      {
+        "value": "rgb(50, 50, 50)",
+        "uses": 6
+      },
+      {
+        "value": "rgb(26, 26, 26)",
+        "uses": 5
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.3)",
+        "uses": 4
+      },
+      {
+        "value": "rgb(34, 34, 34)",
+        "uses": 4
+      },
+      {
+        "value": "rgb(90, 90, 90)",
+        "uses": 4
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.2)",
+        "uses": 3
+      },
+      {
+        "value": "rgb(217, 217, 217)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(30, 76, 65)",
+        "uses": 1
+      }
+    ],
+    "gradients": [
+      {
+        "value": "linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255))",
+        "uses": 30
+      },
+      {
+        "value": "linear-gradient(-45deg, rgb(0, 0, 0) 100%, rgba(255, 255, 255, 0) 100%)",
+        "uses": 6
+      },
+      {
+        "value": "linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%)",
+        "uses": 5
+      },
+      {
+        "value": "linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 100%)",
+        "uses": 2
+      },
+      {
+        "value": "linear-gradient(90deg, rgb(255, 255, 255) 29.44%, rgb(136, 188, 216) 39.97%, rgb(243, 255, 193) 61.04%, rgb(255, 255, 255) 71.57%), none",
+        "uses": 2
+      },
+      {
+        "value": "linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0))",
+        "uses": 1
+      },
+      {
+        "value": "linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 70%, rgb(0, 0, 0) 100%)",
+        "uses": 1
+      },
+      {
+        "value": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(0, 0, 0) 100%)",
+        "uses": 1
+      }
+    ],
+    "radii": [
+      {
+        "value": "30px",
+        "uses": 133
+      },
+      {
+        "value": "8px",
+        "uses": 60
+      },
+      {
+        "value": "4px",
+        "uses": 56
+      },
+      {
+        "value": "3px",
+        "uses": 40
+      },
+      {
+        "value": "100px",
+        "uses": 11
+      },
+      {
+        "value": "50%",
+        "uses": 7
+      },
+      {
+        "value": "100%",
+        "uses": 4
+      },
+      {
+        "value": "6px",
+        "uses": 4
+      },
+      {
+        "value": "16px",
+        "uses": 3
+      }
+    ],
+    "shadows": [
+      {
+        "value": "rgba(0, 0, 0, 0.1) 0px 8px 16px 0px",
+        "uses": 3
+      },
+      {
+        "value": "color(srgb 1 1 1 / 0.2) 0px 0px 0px 2px inset",
+        "uses": 2
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.05) 0px 23px 14px 0px, rgba(0, 0, 0, 0.09) 0px 10px 10px 0px, rgba(0, 0, 0, 0.1) 0px 3px 6px 0px",
+        "uses": 1
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.05) 0px 134px 80px 0px, rgba(0, 0, 0, 0.09) 0px 60px 60px 0px, rgba(0, 0, 0, 0.1) 0px 15px 33px 0px",
+        "uses": 1
+      },
+      {
+        "value": "color(srgb 0 0 0 / 0.2) 0px 0px 0px 2px inset",
+        "uses": 1
+      }
+    ],
+    "blur": [
+      {
+        "value": "blur(25px)",
+        "uses": 12
+      },
+      {
+        "value": "blur(50px)",
+        "uses": 2
+      },
+      {
+        "value": "blur(10px)",
+        "uses": 2
+      }
+    ],
+    "bodyBackground": "rgb(255, 255, 255)"
+  },
+  "transitions": [
+    {
+      "value": "color 0.3s ease",
+      "uses": 210
+    },
+    {
+      "value": "background 0.3s ease",
+      "uses": 120
+    },
+    {
+      "value": "opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1)",
+      "uses": 40
+    },
+    {
+      "value": "color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1)",
+      "uses": 40
+    },
+    {
+      "value": "transform 0.35s cubic-bezier(0.645, 0.045, 0.355, 1)",
+      "uses": 26
+    },
+    {
+      "value": "background-color 0.3s ease",
+      "uses": 21
+    },
+    {
+      "value": "opacity, visibility 0.3s, 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), steps(1)",
+      "uses": 20
+    },
+    {
+      "value": "transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1)",
+      "uses": 20
+    },
+    {
+      "value": "box-shadow 0.3s cubic-bezier(0.645, 0.045, 0.355, 1)",
+      "uses": 19
+    },
+    {
+      "value": "transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1)",
+      "uses": 11
+    },
+    {
+      "value": "box-shadow 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+      "uses": 10
+    },
+    {
+      "value": "opacity 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+      "uses": 10
+    },
+    {
+      "value": "box-shadow 0.3s linear",
+      "uses": 9
+    },
+    {
+      "value": "color, background-color 0.2s, 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), cubic-bezier(0.645, 0.045, 0.355, 1)",
+      "uses": 8
+    }
+  ],
+  "keyframes": [
+    {
+      "name": "moveAndFade",
+      "css": "@keyframes moveAndFade { \n  0% { opacity: 1; bottom: 0px; }\n  66.66% { opacity: 1; bottom: 10px; }\n  100% { opacity: 0; bottom: 10px; visibility: hidden; }\n}"
+    }
+  ],
+  "unreadableSheets": [
+    "https://assets.squarespace.com/www/versioned-assets/styles/fonts.628e18e0.css",
+    "https://assets.squarespace.com/universal/styles-compressed/user-account-core-3d01a2f01227067c-min.en-US.css",
+    "https://assets.squarespace.com/www/versioned-assets/styles/defaults.c223ab87.css",
+    "https://assets.squarespace.com/www/versioned-assets/styles/pages/homepage/default/index.0ad708af.css",
+    "https://assets.squarespace.com/www/versioned-assets/styles/external/trustarc.27dccdcd.css"
+  ],
+  "libraries": {
+    "three": false,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": false,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 0,
+    "webglCanvases": 0,
+    "videos": 10,
+    "scriptHosts": [
+      "s.pinimg.com",
+      "bzrcdn.openai.com",
+      "d34r8q7sht0t9k.cloudfront.net",
+      "pixel.byspotify.com",
+      "cdn.mgln.ai",
+      "c.hrzn-nxt.com",
+      "utt.impactcdn.com",
+      "connect.facebook.net",
+      "c.amazon-adsystem.com",
+      "p.teads.tv",
+      "www.redditstatic.com",
+      "bat.bing.com",
+      "www.squarespace.com",
+      "www.googletagmanager.com",
+      "assets.squarespace.com",
+      "consent.trustarc.com",
+      "googleads.g.doubleclick.net"
+    ]
+  },
+  "sections": [
+    {
+      "tag": "header",
+      "id": "global-navigation",
+      "heading": null,
+      "height": 80,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "homepage-hero",
+      "heading": "A website makes it real",
+      "height": 1375,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "grow-your-business",
+      "heading": "Grow your business",
+      "height": 1091,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "one-platform",
+      "heading": "Everything you need on one platform",
+      "height": 776,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "get-started",
+      "heading": "Getting started has never been easier with AI",
+      "height": 1097,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "your-domain",
+      "heading": "Find the perfect domain for your website",
+      "height": 381,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "customers-served",
+      "heading": "Trusted by 14 million entrepreneurs worldwide",
+      "height": 306,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "made-with-sqsp",
+      "heading": "Websites made with Squarespace",
+      "height": 772,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "homepage-how-to",
+      "heading": "How to build a website",
+      "height": 123,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": ":Rin:-content",
+      "heading": "Start your free website trial",
+      "height": 0,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "homepage-faq",
+      "heading": "Frequently asked questions",
+      "height": 123,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": ":Rkn:-content",
+      "heading": "How do I create a website with Squarespace?",
+      "height": 0,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": ":Rmlkn:-body",
+      "heading": null,
+      "height": 0,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": ":R16lkn:-body",
+      "heading": null,
+      "height": 0,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": ":R1mlkn:-body",
+      "heading": null,
+      "height": 0,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": ":R26lkn:-body",
+      "heading": null,
+      "height": 0,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": ":R2mlkn:-body",
+      "heading": null,
+      "height": 0,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": ":R36lkn:-body",
+      "heading": null,
+      "height": 0,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": ":R3mlkn:-body",
+      "heading": null,
+      "height": 0,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": ":R46lkn:-body",
+      "heading": null,
+      "height": 0,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": ":R4mlkn:-body",
+      "heading": null,
+      "height": 0,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": ":R56lkn:-body",
+      "heading": null,
+      "height": 0,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": ":R5mlkn:-body",
+      "heading": null,
+      "height": 0,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "homepage-support",
+      "heading": "24/7 Support",
+      "height": 123,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": ":Rmn:-content",
+      "heading": "Help Center",
+      "height": 0,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "support",
+      "heading": "Help Center",
+      "height": 499,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": "Start your free website trial today",
+      "height": 852,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "conversion",
+      "heading": "Start your free website trial today",
+      "height": 852,
+      "pinned": false
+    },
+    {
+      "tag": "footer",
+      "id": "footer",
+      "heading": null,
+      "height": 727,
+      "pinned": false
+    }
+  ],
+  "links": [
+    "https://account.squarespace.com/",
+    "https://account.squarespace.com/domains",
+    "https://domains.squarespace.com/",
+    "https://domains.squarespace.com/transfer-a-domain",
+    "https://support.squarespace.com/",
+    "https://forum.squarespace.com/",
+    "https://learning.squarespace.com/",
+    "https://domains.squarespace.com/",
+    "https://domains.squarespace.com/transfer-a-domain",
+    "https://support.squarespace.com/",
+    "https://forum.squarespace.com/",
+    "https://learning.squarespace.com/",
+    "https://domains.squarespace.com/",
+    "https://domains.squarespace.com/transfer-a-domain",
+    "https://www.samfresquez.com/",
+    "https://www.andamirobk.com/",
+    "https://www.hello-world.studio/",
+    "https://www.yarzatwins.com/",
+    "https://www.myrtlegreen.org/",
+    "https://www.littleripper.la/",
+    "https://www.breathpod.com/",
+    "https://www.franklygoodcoffee.com/",
+    "https://www.thedial.world/",
+    "https://www.shopmemor.com/",
+    "https://www.abathhouse.com/",
+    "https://www.margaretrajic.com/",
+    "https://www.thesorrygirls.com/",
+    "https://www.onemag.us/",
+    "https://www.fatchoynyc.com/",
+    "https://www.samuelsparrow.com/",
+    "https://camptowncatskills.com/",
+    "https://www.shopnotworkrelated.com/",
+    "https://www.stretchsquared.com/",
+    "https://www.notcrispyenough.com/",
+    "https://www.wearesunnie.com/",
+    "https://www.dreamsake.co/",
+    "https://www.naughtynancy.com.au/",
+    "https://www.radhiarahman.com/",
+    "https://www.flaneur-magazine.com/",
+    "https://www.pottedplantdesign.com/",
+    "https://www.elahousestudio.com/",
+    "https://www.fieldtheory.us/",
+    "https://www.xanadu.nyc/",
+    "https://www.myrtlegreen.org/",
+    "https://www.hotel-weekend.com/",
+    "https://www.studiocote.co/",
+    "https://www.secondstory.info/",
+    "https://nerine-floral.squarespace.com/",
+    "https://www.ryucreative.com/",
+    "https://backbipoc.com/",
+    "https://caylonhackwith.com/",
+    "https://www.ember-studio.co/",
+    "https://www.fatchoynyc.com/",
+    "https://www.radhiarahman.com/",
+    "https://domains.squarespace.com/",
+    "https://domains.squarespace.com/tools/domain-name-generator",
+    "https://domains.squarespace.com/tlds",
+    "https://domains.squarespace.com/",
+    "https://domains.squarespace.com/tlds",
+    "https://acuityscheduling.com/",
+    "https://support.squarespace.com/",
+    "https://learning.squarespace.com/",
+    "https://www.squarespace.com/",
+    "https://de.squarespace.com/",
+    "https://es.squarespace.com/",
+    "https://fr.squarespace.com/",
+    "https://it.squarespace.com/",
+    "https://ja.squarespace.com/",
+    "https://pt.squarespace.com/",
+    "https://ko.squarespace.com/",
+    "https://domains.squarespace.com/",
+    "https://collection.squarespace.com/",
+    "https://www.acuityscheduling.com/",
+    "https://www.biosites.com/",
+    "https://www.unfold.com/",
+    "https://support.squarespace.com/",
+    "https://forum.squarespace.com/",
+    "https://learning.squarespace.com/",
+    "https://www.squarespace.com/designer/home?channel=sqsp_circle&subchannel=frontsite_footer&utm_medium=sqsp_circle&utm_source=frontsite_footer",
+    "https://engineering.squarespace.com/",
+    "https://developers.squarespace.com/",
+    "https://status.squarespace.com/",
+    "https://brand.squarespace.com/",
+    "https://newsroom.squarespace.com/",
+    "https://www.instagram.com/squarespace/",
+    "https://www.youtube.com/squarespace",
+    "https://www.linkedin.com/company/squarespace/",
+    "https://www.facebook.com/squarespace",
+    "https://x.com/squarespace",
+    "https://time.com/",
+    "https://www.squarespace.com/",
+    "https://de.squarespace.com/",
+    "https://es.squarespace.com/",
+    "https://fr.squarespace.com/",
+    "https://it.squarespace.com/",
+    "https://ja.squarespace.com/",
+    "https://pt.squarespace.com/",
+    "https://ko.squarespace.com/"
+  ],
+  "animations": [
+    {
+      "when": "load",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "img.global-navigation__resources-menu-carousel-image",
+      "duration": 1000,
+      "delay": 0,
+      "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "img.global-navigation__resources-menu-carousel-image.global-navigation__resources-menu-carousel-image--is-active",
+      "duration": 1000,
+      "delay": 0,
+      "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "span.text.text--footnote",
+      "duration": 700,
+      "delay": 0,
+      "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "span.text.text--footnote",
+      "duration": 700,
+      "delay": 0,
+      "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.dynamic-background__item",
+      "duration": 800,
+      "delay": 0,
+      "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.dynamic-background__item.dynamic-background__item--active",
+      "duration": 800,
+      "delay": 0,
+      "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "homepageHeroReveal",
+      "kind": "CSSAnimation",
+      "target": "div.homepage-hero__background",
+      "duration": 400,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "rotateAnimation",
+      "kind": "CSSAnimation",
+      "target": "div.ai-dots",
+      "duration": 14000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "scaleAnimationLarge",
+      "kind": "CSSAnimation",
+      "target": "span.ai-dots__dot.ai-dots__dot--large",
+      "duration": 14000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "scaleAnimationMedium",
+      "kind": "CSSAnimation",
+      "target": "span.ai-dots__dot.ai-dots__dot--medium",
+      "duration": 14000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "scaleAnimationSmall",
+      "kind": "CSSAnimation",
+      "target": "span.ai-dots__dot.ai-dots__dot--small",
+      "duration": 14000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "web-animation",
+      "kind": "Animation",
+      "target": "div.angled-carousel__card",
+      "duration": 800,
+      "delay": 0,
+      "easing": "linear(0 0%, 0.0059 1.2658227848101267%, 0.0133 2.5316455696202533%, 0.0226 3.79746835443038%, 0.0334 5.063291139240507%, 0.0463 6.329113924050633%, 0.0614 7.594936708860759%, 0.078 8.860759493670885%, 0.097 10.126582278481012%, 0.1174 11.392405063291138%, 0.1398 12.658227848101264%, 0.164 13.92405063291139%, 0.1896 15.189873417721516%, 0.2163 16.455696202531644%, 0.244 17.72151898734177%, 0.2721 18.987341772151897%, 0.301 20.253164556962023%, 0.3299 21.51898734177215%, 0.3587 22.784810126582276%, 0.3872 24.050632911392402%, 0.4154 25.316455696202528%, 0.4431 26.582278481012654%, 0.4695 27.84810126582278%, 0.4953 29.113924050632907%, 0.5204 30.379746835443033%, 0.5448 31.64556962025316%, 0.5684 32.91139240506329%, 0.5904 34.177215189873415%, 0.6123 35.44303797468354%, 0.6327 36.70886075949367%, 0.6528 37.974683544303794%, 0.6713 39.24050632911392%, 0.6897 40.506329113924046%, 0.7071 41.77215189873417%, 0.7236 43.0379746835443%, 0.7392 44.303797468354425%, 0.7546 45.56962025316455%, 0.7691 46.83544303797468%, 0.7827 48.101265822784804%, 0.796 49.36708860759493%, 0.8085 50.632911392405056%, 0.8207 51.89873417721518%, 0.8321 53.16455696202531%, 0.8432 54.430379746835435%, 0.8535 55.69620253164556%, 0.8636 56.96202531645569%, 0.8728 58.22784810126581%, 0.8819 59.49367088607594%, 0.8902 60.759493670886066%, 0.8983 62.02531645569619%, 0.9061 63.29113924050632%, 0.9136 64.55696202531645%, 0.9205 65.82278481012658%, 0.9272 67.0886075949367%, 0.9332 68.35443037974683%, 0.939 69.62025316455696%, 0.9445 70.88607594936708%, 0.9499 72.15189873417721%, 0.9547 73.41772151898734%, 0.9592 74.68354430379746%, 0.9636 75.94936708860759%, 0.9677 77.21518987341771%, 0.9716 78.48101265822784%, 0.975 79.74683544303797%, 0.9782 81.01265822784809%, 0.9812 82.27848101265822%, 0.9839 83.54430379746834%, 0.9865 84.81012658227847%, 0.9887 86.0759493670886%, 0.9907 87.34177215189872%, 0.9925 88.60759493670885%, 0.9942 89.87341772151898%, 0.9955 91.1392405063291%, 0.9968 92.40506329113923%, 0.9978 93.67088607594935%, 0.9986 94.93670886075948%, 0.9992 96.20253164556961%, 0.9996 97.46835443037973%, 0.9999 98.73417721518987%, 1 100%)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 700px",
+      "name": "background-color",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__header.global-navigation__header--has-scrolled",
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "backgroundColor"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 700px",
+      "name": "fadeIn",
+      "kind": "CSSAnimation",
+      "target": "div.stats__card.stats__card--reveal-one",
+      "duration": 1200,
+      "delay": 200,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 700px",
+      "name": "fadeIn",
+      "kind": "CSSAnimation",
+      "target": "div.stats__card.stats__card--reveal-two",
+      "duration": 1200,
+      "delay": 400,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 700px",
+      "name": "fadeIn",
+      "kind": "CSSAnimation",
+      "target": "div.stats__card.stats__card--mobile-hide",
+      "duration": 1200,
+      "delay": 600,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 700px",
+      "name": "web-animation",
+      "kind": "Animation",
+      "target": "h2.text.text--subtitle1",
+      "duration": 600,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 1400px",
+      "name": "web-animation",
+      "kind": "Animation",
+      "target": "li.pills__pill-container",
+      "duration": 600,
+      "delay": 200,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 1400px",
+      "name": "web-animation",
+      "kind": "Animation",
+      "target": "a.cta.cta--inline",
+      "duration": 600,
+      "delay": 449.99999999999994,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 1400px",
+      "name": "web-animation",
+      "kind": "Animation",
+      "target": "p.text.text--body",
+      "duration": 600,
+      "delay": 300,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 2100px",
+      "name": "web-animation",
+      "kind": "Animation",
+      "target": "div.paging-indicator.king-carousel__paging-indicator",
+      "duration": 600,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 2100px",
+      "name": "web-animation",
+      "kind": "Animation",
+      "target": "button.cta.cta--inline",
+      "duration": 600,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 3500px",
+      "name": "gradient-animation",
+      "kind": "CSSAnimation",
+      "target": "h3.text.text--footnote",
+      "duration": 1800,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "backgroundPositionX",
+        "backgroundPositionY"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 3500px",
+      "name": "gradient-animation",
+      "kind": "CSSAnimation",
+      "target": "h3.text.text--footnote",
+      "duration": 2200,
+      "delay": 500,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "backgroundPositionX",
+        "backgroundPositionY"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 4200px",
+      "name": "web-animation",
+      "kind": "Animation",
+      "target": "p.text.text--footnote",
+      "duration": 300,
+      "delay": 300,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 4200px",
+      "name": "web-animation",
+      "kind": "Animation",
+      "target": "img.faces__face",
+      "duration": 300,
+      "delay": 300,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 4900px",
+      "name": "web-animation",
+      "kind": "Animation",
+      "target": "div.paging-indicator__dot",
+      "duration": 1000,
+      "delay": 0,
+      "easing": "linear(0 0%, 0.0038 1.0101010101010102%, 0.0082 2.0202020202020203%, 0.0136 3.0303030303030303%, 0.0195 4.040404040404041%, 0.0267 5.050505050505051%, 0.0346 6.060606060606061%, 0.0436 7.070707070707072%, 0.054 8.080808080808081%, 0.0652 9.090909090909092%, 0.0776 10.101010101010102%, 0.0916 11.111111111111112%, 0.1065 12.121212121212123%, 0.1228 13.131313131313133%, 0.1408 14.141414141414144%, 0.1597 15.151515151515154%, 0.18 16.161616161616163%, 0.2016 17.171717171717173%, 0.224 18.181818181818183%, 0.2477 19.191919191919194%, 0.2721 20.202020202020204%, 0.2971 21.212121212121215%, 0.3226 22.222222222222225%, 0.3479 23.232323232323235%, 0.3736 24.242424242424246%, 0.3988 25.252525252525256%, 0.4236 26.262626262626267%, 0.4479 27.272727272727277%, 0.4716 28.282828282828287%, 0.4946 29.292929292929298%, 0.5169 30.303030303030308%, 0.5385 31.31313131313132%, 0.5594 32.323232323232325%, 0.5801 33.333333333333336%, 0.5993 34.343434343434346%, 0.6178 35.35353535353536%, 0.6354 36.36363636363637%, 0.6528 37.37373737373738%, 0.6687 38.38383838383839%, 0.6845 39.3939393939394%, 0.7 40.40404040404041%, 0.7141 41.41414141414142%, 0.728 42.42424242424243%, 0.7411 43.43434343434344%, 0.754 44.44444444444445%, 0.7661 45.45454545454546%, 0.778 46.46464646464647%, 0.7891 47.47474747474748%, 0.8 48.48484848484849%, 0.8102 49.4949494949495%, 0.8201 50.50505050505051%, 0.8294 51.51515151515152%, 0.8385 52.52525252525253%, 0.8473 53.53535353535354%, 0.8555 54.545454545454554%, 0.8636 55.555555555555564%, 0.8709 56.565656565656575%, 0.8786 57.575757575757585%, 0.8856 58.585858585858595%, 0.892 59.595959595959606%, 0.8987 60.606060606060616%, 0.9048 61.61616161616163%, 0.9107 62.62626262626264%, 0.9165 63.63636363636365%, 0.9217 64.64646464646465%, 0.9268 65.65656565656566%, 0.9317 66.66666666666667%, 0.9365 67.67676767676768%, 0.9411 68.68686868686869%, 0.9452 69.6969696969697%, 0.9492 70.70707070707071%, 0.9531 71.71717171717172%, 0.9568 72.72727272727273%, 0.9604 73.73737373737374%, 0.9636 74.74747474747475%, 0.9669 75.75757575757576%, 0.9698 76.76767676767678%, 0.9726 77.77777777777779%, 0.9752 78.7878787878788%, 0.9778 79.7979797979798%, 0.98 80.80808080808082%, 0.9823 81.81818181818183%, 0.9842 82.82828282828284%, 0.9863 83.83838383838385%, 0.988 84.84848484848486%, 0.9896 85.85858585858587%, 0.9911 86.86868686868688%, 0.9925 87.87878787878789%, 0.9937 88.8888888888889%, 0.9949 89.89898989898991%, 0.9958 90.90909090909092%, 0.9968 91.91919191919193%, 0.9975 92.92929292929294%, 0.9982 93.93939393939395%, 0.9987 94.94949494949496%, 0.9992 95.95959595959597%, 0.9996 96.96969696969698%, 0.9998 97.979797979798%, 1 98.98989898989899%, 1 100%)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 4900px",
+      "name": "web-animation",
+      "kind": "Animation",
+      "target": "div.paging-indicator__dot-progress",
+      "duration": 1000,
+      "delay": 0,
+      "easing": "linear(0 0%, 0.0038 1.0101010101010102%, 0.0082 2.0202020202020203%, 0.0136 3.0303030303030303%, 0.0195 4.040404040404041%, 0.0267 5.050505050505051%, 0.0346 6.060606060606061%, 0.0436 7.070707070707072%, 0.054 8.080808080808081%, 0.0652 9.090909090909092%, 0.0776 10.101010101010102%, 0.0916 11.111111111111112%, 0.1065 12.121212121212123%, 0.1228 13.131313131313133%, 0.1408 14.141414141414144%, 0.1597 15.151515151515154%, 0.18 16.161616161616163%, 0.2016 17.171717171717173%, 0.224 18.181818181818183%, 0.2477 19.191919191919194%, 0.2721 20.202020202020204%, 0.2971 21.212121212121215%, 0.3226 22.222222222222225%, 0.3479 23.232323232323235%, 0.3736 24.242424242424246%, 0.3988 25.252525252525256%, 0.4236 26.262626262626267%, 0.4479 27.272727272727277%, 0.4716 28.282828282828287%, 0.4946 29.292929292929298%, 0.5169 30.303030303030308%, 0.5385 31.31313131313132%, 0.5594 32.323232323232325%, 0.5801 33.333333333333336%, 0.5993 34.343434343434346%, 0.6178 35.35353535353536%, 0.6354 36.36363636363637%, 0.6528 37.37373737373738%, 0.6687 38.38383838383839%, 0.6845 39.3939393939394%, 0.7 40.40404040404041%, 0.7141 41.41414141414142%, 0.728 42.42424242424243%, 0.7411 43.43434343434344%, 0.754 44.44444444444445%, 0.7661 45.45454545454546%, 0.778 46.46464646464647%, 0.7891 47.47474747474748%, 0.8 48.48484848484849%, 0.8102 49.4949494949495%, 0.8201 50.50505050505051%, 0.8294 51.51515151515152%, 0.8385 52.52525252525253%, 0.8473 53.53535353535354%, 0.8555 54.545454545454554%, 0.8636 55.555555555555564%, 0.8709 56.565656565656575%, 0.8786 57.575757575757585%, 0.8856 58.585858585858595%, 0.892 59.595959595959606%, 0.8987 60.606060606060616%, 0.9048 61.61616161616163%, 0.9107 62.62626262626264%, 0.9165 63.63636363636365%, 0.9217 64.64646464646465%, 0.9268 65.65656565656566%, 0.9317 66.66666666666667%, 0.9365 67.67676767676768%, 0.9411 68.68686868686869%, 0.9452 69.6969696969697%, 0.9492 70.70707070707071%, 0.9531 71.71717171717172%, 0.9568 72.72727272727273%, 0.9604 73.73737373737374%, 0.9636 74.74747474747475%, 0.9669 75.75757575757576%, 0.9698 76.76767676767678%, 0.9726 77.77777777777779%, 0.9752 78.7878787878788%, 0.9778 79.7979797979798%, 0.98 80.80808080808082%, 0.9823 81.81818181818183%, 0.9842 82.82828282828284%, 0.9863 83.83838383838385%, 0.988 84.84848484848486%, 0.9896 85.85858585858587%, 0.9911 86.86868686868688%, 0.9925 87.87878787878789%, 0.9937 88.8888888888889%, 0.9949 89.89898989898991%, 0.9958 90.90909090909092%, 0.9968 91.91919191919193%, 0.9975 92.92929292929294%, 0.9982 93.93939393939395%, 0.9987 94.94949494949496%, 0.9992 95.95959595959597%, 0.9996 96.96969696969698%, 0.9998 97.979797979798%, 1 98.98989898989899%, 1 100%)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 7000px",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.angled-carousel__card-overlay.angled-carousel__card-overlay--active",
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 7000px",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.angled-carousel__card-overlay",
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "svg.global-navigation__header-link-item-caret.global-navigation__header-link-item-caret--is-active",
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu.global-navigation__menu--is-active",
+      "duration": 600,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "visibility",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu.global-navigation__menu--is-active",
+      "duration": 300,
+      "delay": 0,
+      "easing": "steps(1, start)",
+      "iterations": 1,
+      "properties": [
+        "visibility"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "height",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu.global-navigation__menu--is-active",
+      "duration": 600,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "height"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu-content.global-navigation__menu-content--is-active",
+      "duration": 300,
+      "delay": 150,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "visibility",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu-content.global-navigation__menu-content--is-active",
+      "duration": 300,
+      "delay": 150,
+      "easing": "steps(1, start)",
+      "iterations": 1,
+      "properties": [
+        "visibility"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__links-container.global-navigation__links-container--is-active",
+      "duration": 500,
+      "delay": 150,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__links-container.global-navigation__links-container--is-active",
+      "duration": 750,
+      "delay": 150,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "visibility",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__links-container.global-navigation__links-container--is-active",
+      "duration": 300,
+      "delay": 150,
+      "easing": "steps(1, start)",
+      "iterations": 1,
+      "properties": [
+        "visibility"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu-gradient.global-navigation__menu-gradient--is-active",
+      "duration": 500,
+      "delay": 400,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "--gradient",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu-gradient.global-navigation__menu-gradient--is-active",
+      "duration": 500,
+      "delay": 150,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "--gradient"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "--gradient-two",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu-gradient.global-navigation__menu-gradient--is-active",
+      "duration": 500,
+      "delay": 400,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "--gradient-two"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu-divider.global-navigation__menu-divider--is-active",
+      "duration": 750,
+      "delay": 400,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu-divider.global-navigation__menu-divider--is-active",
+      "duration": 750,
+      "delay": 400,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__spotlight-container.global-navigation__spotlight-container--is-active",
+      "duration": 500,
+      "delay": 400,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__spotlight-container.global-navigation__spotlight-container--is-active",
+      "duration": 750,
+      "delay": 400,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "visibility",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__spotlight-container.global-navigation__spotlight-container--is-active",
+      "duration": 300,
+      "delay": 400,
+      "easing": "steps(1, start)",
+      "iterations": 1,
+      "properties": [
+        "visibility"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "web-animation",
+      "kind": "Animation",
+      "target": "div.global-navigation__header-link-item-indicator",
+      "duration": 600,
+      "delay": 0,
+      "easing": "ease-out",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "svg.global-navigation__header-link-item-caret",
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "width",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu.global-navigation__menu--is-active",
+      "duration": 600,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "width"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu-content",
+      "duration": 300,
+      "delay": 0,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "visibility",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu-content",
+      "duration": 300,
+      "delay": 0,
+      "easing": "steps(1)",
+      "iterations": 1,
+      "properties": [
+        "visibility"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__links-container",
+      "duration": 298.92461751056624,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__links-container",
+      "duration": 283.81822391330275,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "visibility",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__links-container",
+      "duration": 300,
+      "delay": 0,
+      "easing": "steps(1)",
+      "iterations": 1,
+      "properties": [
+        "visibility"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu-gradient",
+      "duration": 63.221323913088916,
+      "delay": 300,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "--gradient",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu-gradient",
+      "duration": 98.96685965606272,
+      "delay": 300,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "--gradient"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "--gradient-two",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu-gradient",
+      "duration": 63.221323913088916,
+      "delay": 300,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "--gradient-two"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu-divider",
+      "duration": 517.68450484252,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu-divider",
+      "duration": 517.68450484252,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__spotlight-container",
+      "duration": 189.66397173926677,
+      "delay": 0,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__spotlight-container",
+      "duration": 517.68450484252,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "visibility",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__spotlight-container",
+      "duration": 300,
+      "delay": 0,
+      "easing": "steps(1)",
+      "iterations": 1,
+      "properties": [
+        "visibility"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__solutions-submenu.global-navigation__solutions-submenu--is-active",
+      "duration": 500,
+      "delay": 100,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__solutions-submenu.global-navigation__solutions-submenu--is-active",
+      "duration": 750,
+      "delay": 100,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "visibility",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__solutions-submenu.global-navigation__solutions-submenu--is-active",
+      "duration": 300,
+      "delay": 100,
+      "easing": "steps(1, start)",
+      "iterations": 1,
+      "properties": [
+        "visibility"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "visibility",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__solutions-submenu-details.global-navigation__solutions-submenu-details--is-visible",
+      "duration": 300,
+      "delay": 0,
+      "easing": "steps(1, start)",
+      "iterations": 1,
+      "properties": [
+        "visibility"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "svg.global-navigation__header-link-item-caret",
+      "duration": 498.20944948531786,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu-content",
+      "duration": 299.49111365472686,
+      "delay": 0,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__solutions-submenu",
+      "duration": 277.4588284619581,
+      "delay": 0,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__solutions-submenu",
+      "duration": 663.3536326451651,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "visibility",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__solutions-submenu",
+      "duration": 300,
+      "delay": 0,
+      "easing": "steps(1)",
+      "iterations": 1,
+      "properties": [
+        "visibility"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu-divider",
+      "duration": 149.6224689030164,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu-divider",
+      "duration": 149.6224689030164,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "visibility",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__solutions-submenu-details.global-navigation__solutions-submenu-details--is-visible",
+      "duration": 300,
+      "delay": 0,
+      "easing": "steps(1)",
+      "iterations": 1,
+      "properties": [
+        "visibility"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu-gradient",
+      "duration": 5.028447646227939,
+      "delay": 300,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "--gradient",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu-gradient",
+      "duration": 86.11184201521819,
+      "delay": 300,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "--gradient"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "--gradient-two",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu-gradient",
+      "duration": 5.028447646227939,
+      "delay": 300,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "--gradient-two"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "background-color",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__header",
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "backgroundColor"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "svg.global-navigation__header-link-item-caret",
+      "duration": 481.2796598755928,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "width",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu",
+      "duration": 600,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "width"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "height",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu",
+      "duration": 600,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "height"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu",
+      "duration": 600,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "visibility",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu",
+      "duration": 300,
+      "delay": 0,
+      "easing": "steps(1)",
+      "iterations": 1,
+      "properties": [
+        "visibility"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu-content",
+      "duration": 255.68186551806716,
+      "delay": 0,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__links-container",
+      "duration": 239.22831261443434,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__links-container",
+      "duration": 196.82345193509772,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "--gradient",
+      "kind": "CSSTransition",
+      "target": "div.global-navigation__menu-gradient",
+      "duration": 57.58492444750865,
+      "delay": 300,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "--gradient"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "background-color",
+      "kind": "CSSTransition",
+      "target": "a.cta.cta--primary-subtle",
+      "duration": 200,
+      "delay": 0,
+      "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)",
+      "iterations": 1,
+      "properties": [
+        "backgroundColor"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "span.cta__label",
+      "duration": 350,
+      "delay": 0,
+      "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "span",
+      "duration": 350,
+      "delay": 0,
+      "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "span.cta__arrow-icon",
+      "duration": 350,
+      "delay": 0,
+      "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    }
+  ],
+  "pageHeight": 7796
+}

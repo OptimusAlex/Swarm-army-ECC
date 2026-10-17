@@ -1,0 +1,354 @@
+{
+  "url": "https://tlb.betteroff.studio/",
+  "scannedAt": "2026-10-17T10:27:16.324Z",
+  "errors": [],
+  "title": "THE LOOKBACK",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "mono",
+        "uses": 512
+      },
+      {
+        "value": "sans",
+        "uses": 69
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "13.44px",
+        "uses": 513
+      },
+      {
+        "value": "101.088px",
+        "uses": 39
+      },
+      {
+        "value": "19.2px",
+        "uses": 29
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "500",
+        "uses": 542
+      },
+      {
+        "value": "700",
+        "uses": 39
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "-1.01088px",
+        "uses": 39
+      }
+    ],
+    "textColors": [
+      {
+        "value": "rgb(0, 0, 0)",
+        "uses": 468
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 112
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.3)",
+        "uses": 1
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "rgb(249, 249, 249)",
+        "uses": 6
+      },
+      {
+        "value": "rgb(190, 190, 190)",
+        "uses": 5
+      },
+      {
+        "value": "rgb(188, 188, 188)",
+        "uses": 4
+      },
+      {
+        "value": "rgb(189, 189, 189)",
+        "uses": 4
+      },
+      {
+        "value": "rgb(186, 186, 186)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(30, 136, 162)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(79, 164, 178)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(204, 150, 8)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(19, 95, 224)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(243, 25, 33)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(253, 5, 8)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(7, 77, 162)",
+        "uses": 1
+      }
+    ],
+    "gradients": [],
+    "radii": [
+      {
+        "value": "2.88px",
+        "uses": 6
+      },
+      {
+        "value": "3.84px",
+        "uses": 2
+      },
+      {
+        "value": "4.8px",
+        "uses": 1
+      }
+    ],
+    "shadows": [],
+    "blur": [],
+    "bodyBackground": "rgba(0, 0, 0, 0)"
+  },
+  "transitions": [
+    {
+      "value": "transform 0.7s cubic-bezier(0.19, 1, 0.22, 1)",
+      "uses": 392
+    },
+    {
+      "value": "opacity 0.5s cubic-bezier(0.23, 1, 0.32, 1)",
+      "uses": 8
+    },
+    {
+      "value": "opacity 0.35s ease-out",
+      "uses": 4
+    },
+    {
+      "value": "color, background-color, border-color, text-decoration-color, fill, stroke 0.5s cubic-bezier(0.23, 1, 0.32, 1)",
+      "uses": 3
+    }
+  ],
+  "keyframes": [
+    {
+      "name": "marquee",
+      "css": "@keyframes marquee { \n  0% { transform: translate(0px); }\n  100% { transform: translate(-100%); }\n}"
+    },
+    {
+      "name": "noise",
+      "css": "@keyframes noise { \n  0% { transform: translate3d(0px, 9rem, 0px); }\n  10% { transform: translate3d(-1rem, -4rem, 0px); }\n  20% { transform: translate3d(-8rem, 2rem, 0px); }\n  30% { transform: translate3d(9rem, -9rem, 0px); }\n  40% { transform: translate3d(-2rem, 7rem, 0px); }\n  50% { transform: translate3d(-9rem, -4rem, 0px); }\n  60% { transform: translate3d(2rem, 6rem, 0px); }\n  70% { transform: translate3d(7rem, -8rem, 0px); }\n  80% { transform: translate3d(-9rem, 1rem, 0px); }\n  90% { transform: translate3d(6rem, -5rem, 0px); }\n  100% { transform: translate3d(-7rem, 0px, 0px); }\n}"
+    }
+  ],
+  "unreadableSheets": [],
+  "libraries": {
+    "three": false,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": false,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 1,
+    "webglCanvases": 0,
+    "videos": 3,
+    "scriptHosts": [
+      "tlb.betteroff.studio"
+    ]
+  },
+  "sections": [
+    {
+      "tag": "header",
+      "id": null,
+      "heading": null,
+      "height": 900,
+      "pinned": false
+    }
+  ],
+  "links": [],
+  "animations": [
+    {
+      "when": "load",
+      "name": "marquee",
+      "kind": "CSSAnimation",
+      "target": "div.marquee.flex",
+      "duration": 20000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "noise",
+      "kind": "CSSAnimation",
+      "target": "div.noise.fixed",
+      "duration": 1000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "a.site-menu-link.inline-flex",
+      "duration": 350,
+      "delay": 0,
+      "easing": "ease-out",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "a.site-menu-link.inline-flex",
+      "duration": 348.5707343459979,
+      "delay": 0,
+      "easing": "ease-out",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "img.transition-opacity.duration-500",
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "background-color",
+      "kind": "CSSTransition",
+      "target": "button.group.inline-flex",
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "iterations": 1,
+      "properties": [
+        "backgroundColor"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "path.transition-transform.duration-700",
+      "duration": 700,
+      "delay": 0,
+      "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "background-color",
+      "kind": "CSSTransition",
+      "target": "button.group.inline-flex",
+      "duration": 498.9552842074598,
+      "delay": 0,
+      "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "iterations": 1,
+      "properties": [
+        "backgroundColor"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "path.transition-transform.duration-700",
+      "duration": 689.6335935738898,
+      "delay": 100,
+      "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "path.transition-transform.duration-700",
+      "duration": 666.8234755920206,
+      "delay": 0,
+      "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "button.uline.inline-flex",
+      "duration": 750,
+      "delay": 0,
+      "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    }
+  ],
+  "pageHeight": 900
+}

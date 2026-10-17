@@ -1,0 +1,233 @@
+{
+  "url": "https://aino.agency/",
+  "scannedAt": "2026-10-17T10:31:41.086Z",
+  "errors": [],
+  "title": "Aino — Design & Technology Agency",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "abcplus",
+        "uses": 46
+      },
+      {
+        "value": "mono",
+        "uses": 1
+      },
+      {
+        "value": "abc",
+        "uses": 1
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "12.5831px",
+        "uses": 46
+      },
+      {
+        "value": "37.7494px",
+        "uses": 1
+      },
+      {
+        "value": "22.6497px",
+        "uses": 1
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "500",
+        "uses": 30
+      },
+      {
+        "value": "400",
+        "uses": 16
+      },
+      {
+        "value": "720",
+        "uses": 2
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "0.54px",
+        "uses": 35
+      },
+      {
+        "value": "0.02px",
+        "uses": 11
+      },
+      {
+        "value": "-1.13248px",
+        "uses": 1
+      },
+      {
+        "value": "-0.452993px",
+        "uses": 1
+      }
+    ],
+    "textColors": [
+      {
+        "value": "rgb(24, 24, 24)",
+        "uses": 47
+      },
+      {
+        "value": "rgb(245, 245, 240)",
+        "uses": 1
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "rgb(245, 245, 240)",
+        "uses": 2
+      },
+      {
+        "value": "rgba(24, 24, 24, 0.1)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(24, 24, 24)",
+        "uses": 1
+      }
+    ],
+    "gradients": [],
+    "radii": [
+      {
+        "value": "4px",
+        "uses": 3
+      }
+    ],
+    "shadows": [],
+    "blur": [],
+    "bodyBackground": "rgba(0, 0, 0, 0)"
+  },
+  "transitions": [],
+  "keyframes": [
+    {
+      "name": "blinker",
+      "css": "@keyframes blinker { \n  0% { opacity: 0; }\n  49% { opacity: 0; }\n  50% { opacity: 1; }\n  99% { opacity: 1; }\n}"
+    },
+    {
+      "name": "agent-pulse",
+      "css": "@keyframes agent-pulse { \n  0%, 100% { opacity: 1; }\n  50% { opacity: 0.3; }\n}"
+    }
+  ],
+  "unreadableSheets": [],
+  "libraries": {
+    "three": false,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": false,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 0,
+    "webglCanvases": 0,
+    "videos": 1,
+    "scriptHosts": [
+      "aino.agency"
+    ]
+  },
+  "sections": [
+    {
+      "tag": "header",
+      "id": null,
+      "heading": null,
+      "height": 0,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": null,
+      "height": 900,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": "A002 SANDISK",
+      "height": 6336,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "A002 SANDISK",
+      "height": 920,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "A design and technology agency in Scandinavia. We design and build online stores for fashi",
+      "height": 197,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "a001 nudie jeans",
+      "height": 919,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "A007 All Blues",
+      "height": 880,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "a011 beyond medals",
+      "height": 842,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "a014 Socksss",
+      "height": 475,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "a005 Molo",
+      "height": 1106,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": null,
+      "height": 94,
+      "pinned": false
+    },
+    {
+      "tag": "footer",
+      "id": "footer",
+      "heading": "New Business",
+      "height": 273,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "New Business",
+      "height": 32,
+      "pinned": false
+    }
+  ],
+  "links": [
+    "https://linkedin.com/company/aino",
+    "https://instagram.com/aino.agency"
+  ],
+  "animations": [],
+  "pageHeight": 6723
+}

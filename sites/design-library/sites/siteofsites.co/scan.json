@@ -1,0 +1,754 @@
+{
+  "url": "https://www.siteofsites.co/",
+  "scannedAt": "2026-10-17T10:26:36.176Z",
+  "errors": [],
+  "title": "Site of Sites | The Best Web Design Inspiration 2026",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "helvetica-w01-roman",
+        "uses": 136
+      },
+      {
+        "value": "madefor-text",
+        "uses": 11
+      },
+      {
+        "value": "Arial",
+        "uses": 5
+      },
+      {
+        "value": "wfont_05def0_af28d001bd244e64a4f46e1b094efdc9",
+        "uses": 4
+      },
+      {
+        "value": "Helvetica",
+        "uses": 1
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "14px",
+        "uses": 58
+      },
+      {
+        "value": "13px",
+        "uses": 42
+      },
+      {
+        "value": "16px",
+        "uses": 23
+      },
+      {
+        "value": "20px",
+        "uses": 15
+      },
+      {
+        "value": "18px",
+        "uses": 7
+      },
+      {
+        "value": "10px",
+        "uses": 5
+      },
+      {
+        "value": "15px",
+        "uses": 3
+      },
+      {
+        "value": "50.8229px",
+        "uses": 2
+      },
+      {
+        "value": "50.8235px",
+        "uses": 2
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "400",
+        "uses": 157
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "0.16px",
+        "uses": 6
+      },
+      {
+        "value": "1.3px",
+        "uses": 4
+      },
+      {
+        "value": "0.7px",
+        "uses": 1
+      }
+    ],
+    "textColors": [
+      {
+        "value": "rgb(0, 0, 0)",
+        "uses": 86
+      },
+      {
+        "value": "rgb(117, 117, 117)",
+        "uses": 44
+      },
+      {
+        "value": "rgb(4, 0, 216)",
+        "uses": 19
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 6
+      },
+      {
+        "value": "rgb(17, 109, 255)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(141, 141, 141)",
+        "uses": 1
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 171
+      },
+      {
+        "value": "rgba(255, 255, 255, 0)",
+        "uses": 135
+      },
+      {
+        "value": "rgba(238, 238, 238, 0)",
+        "uses": 52
+      },
+      {
+        "value": "rgb(4, 0, 216)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "uses": 2
+      },
+      {
+        "value": "rgba(226, 226, 226, 0)",
+        "uses": 1
+      },
+      {
+        "value": "rgba(4, 0, 216, 0)",
+        "uses": 1
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.8)",
+        "uses": 1
+      }
+    ],
+    "gradients": [],
+    "radii": [
+      {
+        "value": "20px",
+        "uses": 113
+      },
+      {
+        "value": "999px",
+        "uses": 52
+      },
+      {
+        "value": "5px",
+        "uses": 40
+      },
+      {
+        "value": "13px",
+        "uses": 36
+      },
+      {
+        "value": "100px",
+        "uses": 3
+      },
+      {
+        "value": "24px",
+        "uses": 1
+      },
+      {
+        "value": "120px",
+        "uses": 1
+      },
+      {
+        "value": "9999px",
+        "uses": 1
+      },
+      {
+        "value": "1000.56px",
+        "uses": 1
+      }
+    ],
+    "shadows": [
+      {
+        "value": "rgb(4, 0, 216) 0px 0px 0px 0px",
+        "uses": 1
+      }
+    ],
+    "blur": [],
+    "bodyBackground": "rgba(0, 0, 0, 0)"
+  },
+  "transitions": [
+    {
+      "value": "all, visibility 0s, 0s ease-in-out, ease",
+      "uses": 517
+    },
+    {
+      "value": "all, visibility 0s, 0s linear, ease",
+      "uses": 288
+    },
+    {
+      "value": "all, visibility 0.2s, 0s ease, ease",
+      "uses": 92
+    },
+    {
+      "value": "background-color 0.4s ease",
+      "uses": 7
+    },
+    {
+      "value": "all 0.08s cubic-bezier(0, 0, 1, 1)",
+      "uses": 4
+    },
+    {
+      "value": "transform, opacity 0.15s, 0.3s cubic-bezier(0.12, 0, 0.39, 0), cubic-bezier(0.61, 1, 0.88, 1)",
+      "uses": 4
+    },
+    {
+      "value": "all, visibility 0.4s, 0s ease, ease",
+      "uses": 3
+    },
+    {
+      "value": "border-color, background-color 0.4s, 0.4s ease, ease",
+      "uses": 2
+    },
+    {
+      "value": "color 0.4s ease",
+      "uses": 2
+    },
+    {
+      "value": "all 0.3s, 0.1s cubic-bezier(0.12, 0, 0.39, 0), cubic-bezier(0.61, 1, 0.88, 1)",
+      "uses": 2
+    },
+    {
+      "value": "opacity 0.2s cubic-bezier(0.12, 0, 0.39, 0)",
+      "uses": 2
+    },
+    {
+      "value": "background-color, border-color, color, border-width 0.2s, 0.2s, 0.2s, 0.2s ease-in-out, ease-in-out, ease-in-out, ease-in-out",
+      "uses": 1
+    },
+    {
+      "value": "background-color, border-color, border-width, border-radius 0.2s, 0.2s, 0.2s, 0.2s linear, linear, linear, linear",
+      "uses": 1
+    },
+    {
+      "value": "border-color, border-width, border-radius 0.2s, 0.2s, 0.2s linear, linear, linear",
+      "uses": 1
+    }
+  ],
+  "keyframes": [
+    {
+      "name": "slide-horizontal-new",
+      "css": "@keyframes slide-horizontal-new { \n  0% { transform: translate(100%); }\n}"
+    },
+    {
+      "name": "slide-horizontal-old",
+      "css": "@keyframes slide-horizontal-old { \n  80% { opacity: 1; }\n  100% { opacity: 0; transform: translate(-100%); }\n}"
+    },
+    {
+      "name": "slide-vertical-new",
+      "css": "@keyframes slide-vertical-new { \n  0% { transform: translateY(-100%); }\n}"
+    },
+    {
+      "name": "slide-vertical-old",
+      "css": "@keyframes slide-vertical-old { \n  80% { opacity: 1; }\n  100% { opacity: 0; transform: translateY(100%); }\n}"
+    },
+    {
+      "name": "out-in-new",
+      "css": "@keyframes out-in-new { \n  0% { opacity: 0; }\n}"
+    },
+    {
+      "name": "out-in-old",
+      "css": "@keyframes out-in-old { \n  100% { opacity: 0; }\n}"
+    },
+    {
+      "name": "itemDepth02233374943__fadeIn",
+      "css": "@keyframes itemDepth02233374943__fadeIn { \n  0% { opacity: 0; }\n  100% { opacity: 1; }\n}"
+    },
+    {
+      "name": "itemDepth12472627565__fadeIn",
+      "css": "@keyframes itemDepth12472627565__fadeIn { \n  0% { opacity: 0; }\n  100% { opacity: 1; }\n}"
+    },
+    {
+      "name": "Spinner258773209__rotate",
+      "css": "@keyframes Spinner258773209__rotate { \n  100% { transform: rotate(1turn); }\n}"
+    },
+    {
+      "name": "Spinner258773209__dash",
+      "css": "@keyframes Spinner258773209__dash { \n  0% { stroke-dasharray: 1, 150; stroke-dashoffset: 0; }\n  50% { stroke-dasharray: 90, 150; stroke-dashoffset: -35; }\n  100% { stroke-dasharray: 90, 150; stroke-dashoffset: -124; }\n}"
+    },
+    {
+      "name": "StatesButton1540571134__bounce-in",
+      "css": "@keyframes StatesButton1540571134__bounce-in { \n  0% { opacity: 0; transform: translateY(30px); }\n  32% { opacity: 1; transform: translateY(-5px); }\n  68% { opacity: 1; transform: translateY(2px); }\n  100% { opacity: 1; transform: translateY(0px); }\n}"
+    },
+    {
+      "name": "lWfcIs",
+      "css": "@keyframes lWfcIs { \n  0% { opacity: 0; transform: translateY(-10px); }\n  100% { opacity: 1; transform: translateY(0px); }\n}"
+    },
+    {
+      "name": "motion-fadeIn",
+      "css": "@keyframes motion-fadeIn { \n  0% { opacity: 0; }\n  100% { opacity: var(--comp-opacity, 1); }\n}"
+    },
+    {
+      "name": "CpPwy",
+      "css": "@keyframes CpPwy { \n  100% { transform: translateX(100%); }\n}"
+    }
+  ],
+  "unreadableSheets": [],
+  "libraries": {
+    "three": false,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": false,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 0,
+    "webglCanvases": 0,
+    "videos": 2,
+    "scriptHosts": [
+      "browser.sentry-cdn.com",
+      "connect.facebook.net",
+      "www.googletagmanager.com",
+      "static.parastorage.com"
+    ]
+  },
+  "sections": [
+    {
+      "tag": "header",
+      "id": "comp-lrp09e5m",
+      "heading": null,
+      "height": 69,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "comp-lrp09e5m_r_comp-lrp09dua",
+      "heading": null,
+      "height": 69,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "comp-lq24em7l",
+      "heading": "Categories",
+      "height": 264,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "comp-lq24gvcq",
+      "heading": "All websites (604)",
+      "height": 2968,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "comp-lq27fhvw",
+      "heading": "Explore the Best\nof Site of Sites",
+      "height": 792,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "comp-mbysm3lh",
+      "heading": "Product Spotlight with                           Yael Renous / Brik",
+      "height": 741,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "comp-lq2952di",
+      "heading": "Explore our collections",
+      "height": 786,
+      "pinned": false
+    },
+    {
+      "tag": "footer",
+      "id": "comp-lretgmhs",
+      "heading": null,
+      "height": 914,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "comp-lretgmhs_r_comp-lq3qw75r",
+      "heading": null,
+      "height": 914,
+      "pinned": false
+    }
+  ],
+  "links": [
+    "https://www.siteofsites.co/",
+    "https://www.siteofsites.co/",
+    "https://www.siteofsites.co/collections",
+    "https://www.siteofsites.co/events",
+    "https://www.siteofsites.co/agencies",
+    "https://www.siteofsites.co/blog",
+    "https://www.siteofsites.co/glossary/accessibility",
+    "https://www.siteofsites.co/about",
+    "https://www.siteofsites.co/submit",
+    "https://www.siteofsites.co/submit",
+    "https://www.instagram.com/siteofsites/",
+    "https://www.siteofsites.co/websites/betteroff",
+    "https://tlb.betteroff.studio/surf",
+    "https://www.siteofsites.co/websites/btay",
+    "https://btay.ca/",
+    "https://www.siteofsites.co/websites/odyssee",
+    "https://www.odysseeclinic.com.au/",
+    "https://brik.space/Home",
+    "https://brik.space/Home",
+    "https://www.siteofsites.co/websites/letude.group",
+    "https://letude.group/",
+    "https://www.siteofsites.co/websites/brik.space",
+    "https://brik.space/home",
+    "https://www.siteofsites.co/websites/seventeenagency",
+    "https://www.seventeenagency.com/",
+    "https://www.siteofsites.co/websites/sam-thies",
+    "https://samthies.com/",
+    "https://www.siteofsites.co/websites/aino.agency",
+    "https://aino.agency/",
+    "https://www.siteofsites.co/websites/the-design-society",
+    "https://www.thedesignsociety.fr/",
+    "https://www.siteofsites.co/websites/shira-wiesenberg",
+    "https://www.shirawiesenberg.com/",
+    "https://www.siteofsites.co/websites/arcteryx-system-0",
+    "https://arcteryx.com/us/en/explore/system0/",
+    "https://www.siteofsites.co/websites/the-surfers-journal-archives",
+    "https://archives.surfersjournal.com/",
+    "https://www.siteofsites.co/websites/play",
+    "https://celinelkw.com/",
+    "https://www.siteofsites.co/websites/flowlife",
+    "https://www.flowlife.com/en-BG",
+    "https://www.siteofsites.co/websites/andmade-inc.",
+    "https://andmade.jp/",
+    "https://www.siteofsites.co/websites/bleibtgleich26",
+    "https://bleibtgleich.dev/",
+    "https://www.siteofsites.co/websites/a-lign-studio",
+    "https://www.a-lign.studio/",
+    "https://www.siteofsites.co/websites/plnty",
+    "https://plnty.app/",
+    "https://www.siteofsites.co/websites/united-carriers",
+    "https://unitedcarriers.com/",
+    "https://www.siteofsites.co/websites/child-appetite",
+    "https://childappetite.com/",
+    "https://www.siteofsites.co/websites/huichuan-wang",
+    "https://paintriver.art/",
+    "https://www.siteofsites.co/websites/encyclopedia-of-collecting-receipts",
+    "https://mintiepnita.github.io/encyclopedia-of-collecting-receipts/index.html",
+    "https://www.siteofsites.co/websites/shay-portfolio",
+    "https://www.shayzipori.com/",
+    "https://www.siteofsites.co/websites/estelle-scottsdale",
+    "https://www.estellescottsdale.com/",
+    "https://www.siteofsites.co/websites/don't-do-drugs",
+    "https://dontdodrugs.co/",
+    "https://www.siteofsites.co/websites/junyeop-lee",
+    "https://junyeoplee.com/",
+    "https://www.siteofsites.co/websites/wndws",
+    "https://wndws.space/",
+    "https://www.siteofsites.co/websites/partizan",
+    "https://partizan.com/works/",
+    "https://www.siteofsites.co/websites/sam-getting-himself-out-there",
+    "https://scng.work/",
+    "https://www.siteofsites.co/websites/-julien-pianetti-portfolio",
+    "https://www.julienpianetti.com/",
+    "https://www.siteofsites.co/websites/ras-ko%C5%A1",
+    "https://raskos.net/comics",
+    "https://www.siteofsites.co/websites/baran-ceylan",
+    "https://baranceylan.co/",
+    "https://www.siteofsites.co/websites/funner",
+    "https://www.shopfunner.com/",
+    "https://www.siteofsites.co/websites/1-800-happy-birthday-",
+    "https://1800happybirthday.com/",
+    "https://www.siteofsites.co/websites/the-list",
+    "https://thelist.design/",
+    "https://www.siteofsites.co/websites/undercurrents",
+    "https://www.siteofsites.co/websites/undercurrents",
+    "https://www.siteofsites.co/websites/nrthview",
+    "https://www.siteofsites.co/websites/nrthview",
+    "https://www.siteofsites.co/post/product-spotlight-with-yael-renous-brik",
+    "https://www.siteofsites.co/post/product-spotlight-with-yael-renous-brik",
+    "https://www.siteofsites.co/collections",
+    "https://www.siteofsites.co/termsandconditions",
+    "https://www.siteofsites.co/privacypolicy",
+    "https://www.instagram.com/siteofsites/",
+    "https://thelist.design/",
+    "https://www.siteofsites.co/",
+    "https://www.siteofsites.co/collections",
+    "https://www.siteofsites.co/events",
+    "https://www.siteofsites.co/agencies",
+    "https://www.siteofsites.co/blog",
+    "https://www.siteofsites.co/glossary/accessibility",
+    "https://www.siteofsites.co/about",
+    "https://www.siteofsites.co/",
+    "https://www.siteofsites.co/",
+    "https://www.siteofsites.co/collections",
+    "https://www.siteofsites.co/events",
+    "https://www.siteofsites.co/agencies",
+    "https://www.siteofsites.co/blog",
+    "https://www.siteofsites.co/glossary/accessibility",
+    "https://www.siteofsites.co/about",
+    "https://www.siteofsites.co/submit",
+    "https://www.instagram.com/siteofsites/"
+  ],
+  "animations": [
+    {
+      "when": "load",
+      "name": "motion-fadeIn",
+      "kind": "CSSAnimation",
+      "target": "div#comp-lq27hbjz.HFEOE3.NaeT1r",
+      "duration": 600,
+      "delay": 1,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "motion-fadeIn",
+      "kind": "CSSAnimation",
+      "target": "div#comp-lq27lmgy3.ArRNfA.comp-lq27lmgy3",
+      "duration": 300,
+      "delay": 1,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "motion-fadeIn",
+      "kind": "CSSAnimation",
+      "target": "div#comp-mbysoxgy.comp-mbysoxgy.lIkFMb",
+      "duration": 1200,
+      "delay": 1,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "motion-fadeIn",
+      "kind": "CSSAnimation",
+      "target": "div#comp-mbysoxhp2.N8MGzv._v6ohL",
+      "duration": 1200,
+      "delay": 200,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "motion-fadeIn",
+      "kind": "CSSAnimation",
+      "target": "div#comp-mbysoxhy12.N8MGzv._v6ohL",
+      "duration": 1200,
+      "delay": 400,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "motion-fadeIn",
+      "kind": "CSSAnimation",
+      "target": "div#comp-lq2952dm.HFEOE3.NaeT1r",
+      "duration": 600,
+      "delay": 1,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "motion-fadeIn",
+      "kind": "CSSAnimation",
+      "target": "div#comp-lq2bjzl4.HFEOE3.NaeT1r",
+      "duration": 300,
+      "delay": 1,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "motion-fadeIn",
+      "kind": "CSSAnimation",
+      "target": "div#comp-lretgmhs_r_comp-lq29dm7w4.N8MGzv._v6ohL",
+      "duration": 1200,
+      "delay": 1,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "motion-fadeIn",
+      "kind": "CSSAnimation",
+      "target": "div#comp-lretgmhs_r_comp-lq29dm7u3.N8MGzv._v6ohL",
+      "duration": 1200,
+      "delay": 200,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "motion-fadeIn",
+      "kind": "CSSAnimation",
+      "target": "div#comp-lretgmhs_r_comp-lq29fh7g10.N8MGzv._v6ohL",
+      "duration": 1200,
+      "delay": 400,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "motion-fadeIn",
+      "kind": "CSSAnimation",
+      "target": "div#comp-lretgmhs_r_comp-lq29sd2l.N8MGzv._v6ohL",
+      "duration": 1200,
+      "delay": 1,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "motion-fadeIn",
+      "kind": "CSSAnimation",
+      "target": "div#comp-lretgmhs_r_comp-lq29scrc.N8MGzv._v6ohL",
+      "duration": 1200,
+      "delay": 200,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "motion-fadeIn",
+      "kind": "CSSAnimation",
+      "target": "div#comp-lretgmhs_r_comp-lq29scra3.N8MGzv._v6ohL",
+      "duration": 1200,
+      "delay": 200,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "motion-fadeIn",
+      "kind": "CSSAnimation",
+      "target": "div#comp-lretgmhs_r_comp-lq29scr6.N8MGzv._v6ohL",
+      "duration": 1200,
+      "delay": 200,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "motion-fadeIn",
+      "kind": "CSSAnimation",
+      "target": "div#comp-lretgmhs_r_comp-mrrdj6cj.N8MGzv._v6ohL",
+      "duration": 1200,
+      "delay": 200,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "background-color",
+      "kind": "CSSTransition",
+      "target": "a.PoVCDy.wixui-button",
+      "duration": 400,
+      "delay": 0,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "backgroundColor"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "color",
+      "kind": "CSSTransition",
+      "target": "span.Gf1CuA.wixui-button__label",
+      "duration": 400,
+      "delay": 0,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "color"
+      ],
+      "timeline": "DocumentTimeline"
+    }
+  ],
+  "pageHeight": 6535
+}

@@ -1,0 +1,648 @@
+{
+  "url": "https://www.figma.com/resource-library/web-design-trends/",
+  "scannedAt": "2026-10-17T10:27:15.965Z",
+  "errors": [],
+  "title": "Top Web Design Trends for 2026 | Figma",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "figmaSans",
+        "uses": 490
+      },
+      {
+        "value": "figmaMono",
+        "uses": 24
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "16px",
+        "uses": 280
+      },
+      {
+        "value": "18px",
+        "uses": 111
+      },
+      {
+        "value": "24px",
+        "uses": 75
+      },
+      {
+        "value": "56px",
+        "uses": 18
+      },
+      {
+        "value": "14px",
+        "uses": 12
+      },
+      {
+        "value": "32px",
+        "uses": 12
+      },
+      {
+        "value": "12px",
+        "uses": 5
+      },
+      {
+        "value": "86px",
+        "uses": 1
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "400",
+        "uses": 273
+      },
+      {
+        "value": "330",
+        "uses": 110
+      },
+      {
+        "value": "320",
+        "uses": 96
+      },
+      {
+        "value": "340",
+        "uses": 29
+      },
+      {
+        "value": "520",
+        "uses": 5
+      },
+      {
+        "value": "540",
+        "uses": 1
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "-0.12px",
+        "uses": 91
+      },
+      {
+        "value": "-0.84px",
+        "uses": 18
+      },
+      {
+        "value": "0.5px",
+        "uses": 12
+      },
+      {
+        "value": "-0.32px",
+        "uses": 12
+      },
+      {
+        "value": "0.48px",
+        "uses": 7
+      },
+      {
+        "value": "-0.24px",
+        "uses": 5
+      },
+      {
+        "value": "0.6px",
+        "uses": 5
+      },
+      {
+        "value": "-1.72px",
+        "uses": 1
+      }
+    ],
+    "textColors": [
+      {
+        "value": "rgb(0, 0, 0)",
+        "uses": 408
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 78
+      },
+      {
+        "value": "oklch(0 0 none / 0.54)",
+        "uses": 23
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.6)",
+        "uses": 5
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 12
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "uses": 11
+      },
+      {
+        "value": "rgb(228, 255, 151)",
+        "uses": 5
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.16)",
+        "uses": 5
+      },
+      {
+        "value": "oklch(0 0 none / 0.08)",
+        "uses": 4
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.24)",
+        "uses": 4
+      },
+      {
+        "value": "oklch(0 0 none / 0)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(175, 188, 207)",
+        "uses": 1
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.5)",
+        "uses": 1
+      }
+    ],
+    "gradients": [],
+    "radii": [
+      {
+        "value": "2px",
+        "uses": 130
+      },
+      {
+        "value": "8px",
+        "uses": 22
+      },
+      {
+        "value": "4px",
+        "uses": 9
+      },
+      {
+        "value": "50%",
+        "uses": 4
+      }
+    ],
+    "shadows": [
+      {
+        "value": "oklch(0 0 none / 0.16) 0px 1px 0px 0px",
+        "uses": 2
+      },
+      {
+        "value": "oklch(0 0 none / 0.16) 0px 0px 0px 1px inset",
+        "uses": 2
+      },
+      {
+        "value": "oklch(0 0 none / 0.1) 0px 4px 32px 0px",
+        "uses": 1
+      }
+    ],
+    "blur": [],
+    "bodyBackground": "rgba(0, 0, 0, 0)"
+  },
+  "transitions": [
+    {
+      "value": "all 0.18s ease-out",
+      "uses": 130
+    },
+    {
+      "value": "background, box-shadow 0.18s, 0.18s ease-out, ease-out",
+      "uses": 13
+    },
+    {
+      "value": "translate 0.18s ease-out",
+      "uses": 12
+    },
+    {
+      "value": "opacity 0.18s ease-out",
+      "uses": 12
+    },
+    {
+      "value": "transform 0.1s ease-out",
+      "uses": 7
+    },
+    {
+      "value": "transform 0.25s ease",
+      "uses": 5
+    },
+    {
+      "value": "background 0.4s cubic-bezier(0.8, 0, 0.2, 1)",
+      "uses": 1
+    },
+    {
+      "value": "all 0.2s ease",
+      "uses": 1
+    }
+  ],
+  "keyframes": [],
+  "unreadableSheets": [
+    "https://accounts.google.com/gsi/style"
+  ],
+  "libraries": {
+    "three": false,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": false,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 0,
+    "webglCanvases": 0,
+    "videos": 0,
+    "scriptHosts": [
+      "www.youtube.com",
+      "www.figma.com",
+      "accounts.google.com"
+    ]
+  },
+  "sections": [
+    {
+      "tag": "header",
+      "id": null,
+      "heading": "What you can do in figma",
+      "height": 78,
+      "pinned": false
+    },
+    {
+      "tag": "header",
+      "id": null,
+      "heading": null,
+      "height": 0,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": null,
+      "height": 93,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": "Top Web design trends for 2026",
+      "height": 19840,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Explore more from",
+      "height": 17977,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Explore more from",
+      "height": 779,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "What is Web design and development?",
+      "height": 987,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Build faster with Figma AI",
+      "height": 712,
+      "pinned": false
+    },
+    {
+      "tag": "footer",
+      "id": null,
+      "heading": "Figma Socials",
+      "height": 1224,
+      "pinned": false
+    }
+  ],
+  "links": [
+    "https://www.figma.com/",
+    "https://www.figma.com/design-explore/",
+    "https://www.figma.com/build-ship/",
+    "https://www.figma.com/design/",
+    "https://www.figma.com/make/",
+    "https://weave.figma.com/?utm_source=figma&utm_medium=web&utm_campaign=nav",
+    "https://www.figma.com/dev-mode/",
+    "https://www.figma.com/motion/",
+    "https://www.figma.com/specs/",
+    "https://www.figma.com/figjam/",
+    "https://www.figma.com/slides/",
+    "https://www.figma.com/draw/",
+    "https://www.figma.com/sites/",
+    "https://www.figma.com/buzz/",
+    "https://www.figma.com/ai/",
+    "https://www.figma.com/release-notes/",
+    "https://www.figma.com/downloads/",
+    "https://www.figma.com/design-systems/",
+    "https://www.figma.com/prototyping/",
+    "https://www.figma.com/ux-design-tool/",
+    "https://www.figma.com/web-design/",
+    "https://www.figma.com/wireframe-tool/",
+    "https://www.figma.com/figjam/online-whiteboard/",
+    "https://www.figma.com/figjam/agile-workflows/",
+    "https://www.figma.com/figjam/strategic-planning/",
+    "https://www.figma.com/figjam/brainstorming-tool/",
+    "https://www.figma.com/figjam/diagramming-tool/",
+    "https://www.figma.com/product-development/",
+    "https://www.figma.com/web-development/",
+    "https://www.figma.com/design-handoff/",
+    "https://www.figma.com/solutions/",
+    "https://www.figma.com/designers/",
+    "https://www.figma.com/engineers/",
+    "https://www.figma.com/product-managers/",
+    "https://www.figma.com/enterprise/",
+    "https://www.figma.com/education/",
+    "https://www.figma.com/government/",
+    "https://www.figma.com/events-and-webinars/#upcoming-events",
+    "https://friends.figma.com/",
+    "https://www.figma.com/customers/",
+    "https://www.figma.com/blog/",
+    "https://www.figma.com/community/plugins",
+    "https://www.figma.com/community/category/ui-kits",
+    "https://www.figma.com/community/category/icons",
+    "https://www.figma.com/community/widgets",
+    "https://www.figma.com/templates/",
+    "https://www.figma.com/tools/",
+    "https://www.figma.com/partners/",
+    "https://www.figma.com/community",
+    "https://www.figma.com/best-practices/",
+    "https://www.figma.com/reports/",
+    "https://www.figma.com/resource-library/",
+    "https://www.figma.com/demo/",
+    "https://www.figma.com/events-and-webinars/#on-demand",
+    "https://help.figma.com/hc/en-us",
+    "https://help.figma.com/hc/en-us/requests/new",
+    "https://www.figma.com/pricing/",
+    "https://www.figma.com/login",
+    "https://www.figma.com/contact/",
+    "https://www.figma.com/signup",
+    "https://www.figma.com/signup",
+    "https://www.figma.com/",
+    "https://www.figma.com/login",
+    "https://www.figma.com/contact/",
+    "https://www.figma.com/signup",
+    "https://www.figma.com/signup",
+    "https://www.figma.com/resource-library/",
+    "https://www.figma.com/resource-library/design-basics/",
+    "https://www.figma.com/resource-library/design-basics/",
+    "https://www.figma.com/resource-library/design-token-architecture/",
+    "https://www.figma.com/resource-library/enterprise-design-systems/",
+    "https://www.figma.com/resource-library/user-centered-design-questions/",
+    "https://www.figma.com/resource-library/automated-ui-handoff/",
+    "https://www.figma.com/resource-library/what-is-product-design/",
+    "https://www.figma.com/resource-library/design-tokens/",
+    "https://www.figma.com/resource-library/button-states/",
+    "https://www.figma.com/resource-library/ux-for-product-managers/",
+    "https://www.figma.com/resource-library/what-is-ux-design/",
+    "https://www.figma.com/resource-library/what-is-graphic-design/",
+    "https://www.figma.com/resource-library/what-is-design-thinking/",
+    "https://www.figma.com/resource-library/difference-between-ui-and-ux/",
+    "https://www.figma.com/resource-library/what-is-ui-design/",
+    "https://www.figma.com/resource-library/ui-design-principles/",
+    "https://www.figma.com/resource-library/design-system-examples/",
+    "https://www.figma.com/resource-library/interaction-design/",
+    "https://www.figma.com/resource-library/golden-ratio/",
+    "https://www.figma.com/resource-library/fitts-law/",
+    "https://www.figma.com/resource-library/graphic-design-principles/",
+    "https://www.figma.com/resource-library/human-computer-interaction/",
+    "https://www.figma.com/resource-library/what-are-design-aesthetics/",
+    "https://www.figma.com/resource-library/getting-started-in-design/",
+    "https://www.figma.com/resource-library/what-is-skeuomorphism/",
+    "https://www.figma.com/resource-library/gestalt-principles/",
+    "https://www.figma.com/resource-library/human-centered-design/",
+    "https://www.figma.com/resource-library/lateral-thinking-explained/",
+    "https://www.figma.com/resource-library/what-is-visual-hierarchy/",
+    "https://www.figma.com/resource-library/what-is-ux-strategy/",
+    "https://www.figma.com/resource-library/ux-design-research-methods/",
+    "https://www.figma.com/resource-library/how-to-create-a-design-brief/",
+    "https://www.figma.com/resource-library/creating-accessible-and-inclusive-design/",
+    "https://www.figma.com/resource-library/design-ethics/",
+    "https://www.figma.com/resource-library/reducing-design-complexity/",
+    "https://www.figma.com/resource-library/content-research/",
+    "https://www.figma.com/resource-library/consistency-in-design/",
+    "https://www.figma.com/resource-library/constraints-in-design/",
+    "https://www.figma.com/resource-library/how-to-create-a-ux-storyboard/",
+    "https://www.figma.com/resource-library/simplicity-design-principles/",
+    "https://www.figma.com/resource-library/using-an-existing-system/",
+    "https://www.figma.com/resource-library/what-is-design-research/",
+    "https://www.figma.com/resource-library/ux-validation/",
+    "https://www.figma.com/resource-library/vibe-coding-tools/",
+    "https://www.figma.com/resource-library/no-code-vs-low-code/",
+    "https://www.figma.com/resource-library/how-to-design-an-app/",
+    "https://www.figma.com/resource-library/user-flow/",
+    "https://www.figma.com/resource-library/what-is-rapid-prototyping/",
+    "https://www.figma.com/resource-library/what-is-wireframing/",
+    "https://www.figma.com/resource-library/wireframe-vs-mockup/",
+    "https://www.figma.com/resource-library/what-is-a-minimum-viable-product/",
+    "https://www.figma.com/resource-library/what-is-prototyping/",
+    "https://www.figma.com/resource-library/high-fidelity-prototyping/",
+    "https://www.figma.com/resource-library/low-fidelity-prototyping/",
+    "https://www.figma.com/resource-library/pricing-page-best-practices/",
+    "https://www.figma.com/resource-library/web-design-trends/",
+    "https://www.figma.com/resource-library/ai-website-examples/",
+    "https://www.figma.com/resource-library/no-code-app-examples/",
+    "https://www.figma.com/resource-library/vibe-coding-examples/",
+    "https://www.figma.com/resource-library/landing-page-examples/",
+    "https://www.figma.com/resource-library/web-development-trends/",
+    "https://www.figma.com/resource-library/web-design-statistics/",
+    "https://www.figma.com/resource-library/design-statistics/",
+    "https://www.figma.com/resource-library/static-vs-dynamic-website/",
+    "https://www.figma.com/resource-library/portfolio-website-examples/",
+    "https://www.figma.com/resource-library/responsive-website-design/",
+    "https://www.figma.com/resource-library/web-design-and-development/",
+    "https://www.figma.com/resource-library/instagram-story-ideas/",
+    "https://www.figma.com/resource-library/personal-website-examples/",
+    "https://www.figma.com/resource-library/what-is-vibe-coding/",
+    "https://www.figma.com/resource-library/what-is-web-design/",
+    "https://www.figma.com/resource-library/mobile-website-design/",
+    "https://www.figma.com/resource-library/mobile-first-design/",
+    "https://www.figma.com/resource-library/website-structure/",
+    "https://www.figma.com/resource-library/what-is-mcp/",
+    "https://www.figma.com/resource-library/website-redesign/",
+    "https://www.figma.com/resource-library/one-page-website/",
+    "https://www.figma.com/resource-library/how-to-make-a-business-website/",
+    "https://www.figma.com/resource-library/hamburger-menu/",
+    "https://www.figma.com/resource-library/website-color-schemes/",
+    "https://www.figma.com/resource-library/call-to-action-examples/",
+    "https://www.figma.com/resource-library/website-layout-ideas/",
+    "https://www.figma.com/resource-library/web-design-grid-layout-examples/",
+    "https://www.figma.com/resource-library/best-sans-serif-fonts/",
+    "https://www.figma.com/resource-library/wedding-font-pairings/",
+    "https://www.figma.com/resource-library/best-font-for-resume/",
+    "https://www.figma.com/resource-library/typography-anatomy/",
+    "https://www.figma.com/resource-library/best-serif-fonts/",
+    "https://www.figma.com/resource-library/futuristic-fonts/",
+    "https://www.figma.com/resource-library/best-script-fonts/",
+    "https://www.figma.com/resource-library/minimalist-fonts/",
+    "https://www.figma.com/resource-library/best-fonts-for-logos/",
+    "https://www.figma.com/resource-library/best-fonts-for-thumbnails/",
+    "https://www.figma.com/resource-library/professional-fonts/",
+    "https://www.figma.com/resource-library/modern-fonts/",
+    "https://www.figma.com/resource-library/what-is-kerning/",
+    "https://www.figma.com/resource-library/font-pairings/",
+    "https://www.figma.com/resource-library/best-fonts-for-websites/",
+    "https://www.figma.com/resource-library/typography-in-design/",
+    "https://www.figma.com/resource-library/thank-you-card-ideas/",
+    "https://www.figma.com/resource-library/flyer-sizes/",
+    "https://www.figma.com/resource-library/flyer-examples/",
+    "https://www.figma.com/resource-library/how-to-design-a-flyer/",
+    "https://www.figma.com/resource-library/how-to-make-a-brochure/",
+    "https://www.figma.com/resource-library/brochure-examples/",
+    "https://www.figma.com/resource-library/how-to-make-a-cinemagraph/",
+    "https://www.figma.com/resource-library/storyboarding/",
+    "https://www.figma.com/resource-library/how-to-start-a-presentation/",
+    "https://www.figma.com/resource-library/types-of-logos/",
+    "https://www.figma.com/resource-library/how-to-design-a-logo/",
+    "https://www.figma.com/resource-library/presentation-ideas/",
+    "https://www.figma.com/resource-library/what-is-a-style-guide/",
+    "https://www.figma.com/resource-library/how-to-design-a-resume/",
+    "https://www.figma.com/resource-library/storytelling-in-design/",
+    "https://www.figma.com/resource-library/what-is-a-workshop/",
+    "https://www.figma.com/resource-library/color-grading/",
+    "https://www.figma.com/resource-library/color-combinations/",
+    "https://www.figma.com/resource-library/types-of-color-palettes/",
+    "https://www.figma.com/resource-library/what-is-color-theory/",
+    "https://www.figma.com/resource-library/what-is-rgb/",
+    "https://www.figma.com/resource-library/what-are-primary-colors/",
+    "https://www.figma.com/resource-library/what-are-secondary-colors/",
+    "https://www.figma.com/resource-library/what-are-complementary-colors/",
+    "https://www.figma.com/resource-library/what-is-cmyk/",
+    "https://www.figma.com/resource-library/what-are-triadic-colors/",
+    "https://www.figma.com/resource-library/what-are-split-complementary-colors/",
+    "https://www.figma.com/resource-library/shades-of-brown/",
+    "https://www.figma.com/resource-library/shades-of-green/",
+    "https://www.figma.com/resource-library/shades-of-red/",
+    "https://www.figma.com/resource-library/color-symbolism/",
+    "https://www.figma.com/resource-library/monochromatic-colors/",
+    "https://www.figma.com/signup",
+    "https://www.ikea.co.id/en/where-are-we/store/ikea-alam-sutera/virtual-reality",
+    "https://locomotive.ca/en",
+    "https://theoutline.com/",
+    "https://www.palmer-dinnerware.com/",
+    "https://artsandculture.google.com/",
+    "https://www.lush.com/us/en_us",
+    "https://www.headspace.com/",
+    "https://starface.world/",
+    "https://www.figma.com/community/file/1572395765350072413/vibrant-designer-portfolio",
+    "https://www.glossier.com/",
+    "https://www.samsung.com/us/",
+    "https://www.figma.com/community/website-templates",
+    "https://www.ralphlauren.com/rl-50-timeline-feat",
+    "https://jitter.video/",
+    "https://www.sofihealth.com/",
+    "https://www.silosilosilo.com/",
+    "https://www.duolingo.com/",
+    "https://www.sephora.com/beauty/challenges",
+    "https://www.flow.ninja/",
+    "https://stripe.com/",
+    "https://www.ensemblelapalatine.com/",
+    "https://www.figma.com/signup",
+    "https://www.figma.com/reports/state-of-the-designer-2026/",
+    "https://www.figma.com/blog/",
+    "https://www.figma.com/reports/state-of-the-designer-2026/",
+    "https://www.figma.com/signup",
+    "https://www.figma.com/resource-library/web-design-and-development/",
+    "https://www.figma.com/resource-library/mobile-website-design/",
+    "https://www.figma.com/solutions/ai-website-builder/",
+    "https://www.figma.com/solutions/ai-web-design/",
+    "https://www.figma.com/solutions/ai-website-generator/",
+    "https://www.figma.com/solutions/ai-landing-page-generator/",
+    "https://www.figma.com/solutions/ai-portfolio-website-builder/",
+    "https://www.figma.com/solutions/ai-app-builder/",
+    "https://www.figma.com/solutions/prompt-to-app/",
+    "https://www.figma.com/solutions/ai-code-generator/",
+    "https://www.figma.com/solutions/design-to-code/",
+    "https://www.figma.com/solutions/ai-design-generator/",
+    "https://www.figma.com/solutions/ai-wireframe-generator/",
+    "https://www.figma.com/solutions/ai-ui-generator/",
+    "https://www.figma.com/solutions/ai-prototype-generator/",
+    "https://www.figma.com/solutions/ai-ux-design/",
+    "https://www.figma.com/solutions/mockup-generator/",
+    "https://www.figma.com/solutions/ai-dashboard-prototype-generator/",
+    "https://www.figma.com/solutions/ai-brand-guideline-generator/",
+    "https://www.figma.com/solutions/ai-design-systems-generator/",
+    "https://www.figma.com/solutions/ai-game-generator/",
+    "https://www.figma.com/solutions/ai-card-game-generator/",
+    "https://www.figma.com/solutions/ai-board-game-generator/",
+    "https://www.figma.com/solutions/ai-visual-novel-generator/",
+    "https://www.figma.com/",
+    "https://x.com/figma",
+    "https://www.youtube.com/figmadesign",
+    "https://www.instagram.com/figma",
+    "https://www.facebook.com/figmadesign",
+    "https://www.figma.com/design/",
+    "https://www.figma.com/make/",
+    "https://weave.figma.com/",
+    "https://www.figma.com/dev-mode/",
+    "https://www.figma.com/motion/",
+    "https://www.figma.com/specs/",
+    "https://www.figma.com/figjam/",
+    "https://www.figma.com/slides/",
+    "https://www.figma.com/draw/",
+    "https://www.figma.com/sites/",
+    "https://www.figma.com/buzz/",
+    "https://www.figma.com/agent/",
+    "https://www.figma.com/design-explore/",
+    "https://www.figma.com/build-ship/",
+    "https://www.figma.com/ai/",
+    "https://www.figma.com/release-notes/",
+    "https://www.figma.com/downloads/",
+    "https://www.figma.com/pricing/",
+    "https://www.figma.com/enterprise/",
+    "https://www.figma.com/organization/",
+    "https://www.figma.com/professional/",
+    "https://www.figma.com/ui-design-tool/",
+    "https://www.figma.com/ux-design-tool/",
+    "https://www.figma.com/wireframe-tool/",
+    "https://www.figma.com/figjam/diagramming-tool/",
+    "https://www.figma.com/prototyping/",
+    "https://www.figma.com/figjam/brainstorming-tool/",
+    "https://www.figma.com/presentation-maker/",
+    "https://www.figma.com/figjam/online-whiteboard/",
+    "https://www.figma.com/figjam/strategic-planning/",
+    "https://www.figma.com/figjam/mind-map/",
+    "https://www.figma.com/solutions/ai-website-generator/",
+    "https://www.figma.com/solutions/ai-design-generator/",
+    "https://www.figma.com/solutions/ai-app-builder/",
+    "https://www.figma.com/solutions/ai-ui-generator/",
+    "https://www.figma.com/solutions/figma-ai-tool-weave/",
+    "https://www.figma.com/blog/",
+    "https://www.figma.com/best-practices/",
+    "https://www.figma.com/gradients/",
+    "https://www.figma.com/gradient-generator/",
+    "https://www.figma.com/gif-maker/",
+    "https://www.figma.com/color-wheel/",
+    "https://www.figma.com/colors/",
+    "https://www.figma.com/color-picker/",
+    "https://www.figma.com/fonts/",
+    "https://www.figma.com/templates/",
+    "https://www.figma.com/developers",
+    "https://www.figma.com/product-integrations/",
+    "https://www.figma.com/affiliate-program/",
+    "https://www.figma.com/resource-library/",
+    "https://www.figma.com/reports/",
+    "https://help.figma.com/hc/en-us",
+    "https://status.figma.com/",
+    "https://www.figma.com/legal/",
+    "https://static.figma.com/uploads/35bc6db4415269cfeace41c8c4637945a85732b2.pdf",
+    "https://static.figma.com/uploads/d2a204b5cc4d64ff539fcd445d0ddedab7dc00f6",
+    "https://www.figma.com/legal/impressum/",
+    "https://www.figma.com/events/",
+    "https://www.figma.com/customers/",
+    "https://www.figma.com/careers/",
+    "https://www.figma.com/newsroom/",
+    "https://www.figma.com/using-the-figma-brand/"
+  ],
+  "animations": [],
+  "pageHeight": 21459
+}

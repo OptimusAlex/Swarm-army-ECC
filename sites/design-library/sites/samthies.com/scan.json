@@ -1,0 +1,308 @@
+{
+  "url": "https://samthies.com/",
+  "scannedAt": "2026-10-17T10:31:06.104Z",
+  "errors": [],
+  "title": "Australian Film Maker & Photographer | Sam Thies",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "Quadrant Text Mono",
+        "uses": 116
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "12px",
+        "uses": 79
+      },
+      {
+        "value": "10px",
+        "uses": 37
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "400",
+        "uses": 116
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "-0.24px",
+        "uses": 109
+      }
+    ],
+    "textColors": [
+      {
+        "value": "rgb(43, 39, 40)",
+        "uses": 115
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 1
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "rgba(0, 0, 0, 0.1)",
+        "uses": 30
+      },
+      {
+        "value": "rgb(255, 252, 248)",
+        "uses": 16
+      },
+      {
+        "value": "rgba(255, 252, 248, 0.75)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(245, 245, 245)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(18, 18, 18)",
+        "uses": 1
+      }
+    ],
+    "gradients": [],
+    "radii": [],
+    "shadows": [],
+    "blur": [
+      {
+        "value": "blur(12.6px)",
+        "uses": 1
+      }
+    ],
+    "bodyBackground": "rgb(18, 18, 18)"
+  },
+  "transitions": [
+    {
+      "value": "opacity 0.3s ease",
+      "uses": 72
+    },
+    {
+      "value": "opacity 0.5s linear",
+      "uses": 45
+    },
+    {
+      "value": "opacity 0.25s linear",
+      "uses": 45
+    },
+    {
+      "value": "transform 0.3s ease",
+      "uses": 30
+    },
+    {
+      "value": "opacity 0.5s ease",
+      "uses": 2
+    },
+    {
+      "value": "transform 0.4s ease",
+      "uses": 2
+    },
+    {
+      "value": "color 0.5s ease",
+      "uses": 1
+    },
+    {
+      "value": "background 0.75s ease",
+      "uses": 1
+    }
+  ],
+  "keyframes": [
+    {
+      "name": "swiper-preloader-spin",
+      "css": "@keyframes swiper-preloader-spin { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(1turn); }\n}"
+    }
+  ],
+  "unreadableSheets": [],
+  "libraries": {
+    "three": false,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": true,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": false,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 0,
+    "webglCanvases": 0,
+    "videos": 1,
+    "scriptHosts": [
+      "www.googletagmanager.com",
+      "samthies.com",
+      "static.cloudflareinsights.com"
+    ]
+  },
+  "sections": [
+    {
+      "tag": "header",
+      "id": null,
+      "heading": null,
+      "height": 46,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": null,
+      "height": 900,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": null,
+      "height": 100,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": null,
+      "height": 2056,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": null,
+      "height": 100,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": null,
+      "height": 100,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": null,
+      "height": 100,
+      "pinned": false
+    }
+  ],
+  "links": [],
+  "animations": [
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "span.transition-opacity",
+      "duration": 300,
+      "delay": 0,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "a.link.transition-opacity",
+      "duration": 300,
+      "delay": 0,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "color",
+      "kind": "CSSTransition",
+      "target": "header.masthead",
+      "duration": 500,
+      "delay": 0,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "color"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "p.text-sm.op-0",
+      "duration": 300,
+      "delay": 0,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "a.pr-11.project-item",
+      "duration": 300,
+      "delay": 0,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "a.flex.flex-col",
+      "duration": 300,
+      "delay": 0,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "div.image.bg-grey",
+      "duration": 300,
+      "delay": 0,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "color",
+      "kind": "CSSTransition",
+      "target": "header.masthead.dark",
+      "duration": 500,
+      "delay": 0,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "color"
+      ],
+      "timeline": "DocumentTimeline"
+    }
+  ],
+  "pageHeight": 3356
+}

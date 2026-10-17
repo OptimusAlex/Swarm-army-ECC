@@ -1,0 +1,847 @@
+{
+  "url": "https://www.odysseeclinic.com.au/",
+  "scannedAt": "2026-10-17T10:28:05.961Z",
+  "errors": [],
+  "title": "Odyssée",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "baselGrotesk",
+        "uses": 109
+      },
+      {
+        "value": "psTimes",
+        "uses": 80
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "14px",
+        "uses": 86
+      },
+      {
+        "value": "32px",
+        "uses": 49
+      },
+      {
+        "value": "48px",
+        "uses": 23
+      },
+      {
+        "value": "12px",
+        "uses": 20
+      },
+      {
+        "value": "18px",
+        "uses": 8
+      },
+      {
+        "value": "13px",
+        "uses": 3
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "400",
+        "uses": 189
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "0.36px",
+        "uses": 21
+      }
+    ],
+    "textColors": [
+      {
+        "value": "rgb(30, 48, 94)",
+        "uses": 131
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 58
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "rgb(255, 252, 248)",
+        "uses": 5
+      },
+      {
+        "value": "rgb(30, 48, 94)",
+        "uses": 3
+      },
+      {
+        "value": "rgb(40, 41, 42)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(167, 159, 156)",
+        "uses": 1
+      },
+      {
+        "value": "oklab(0.320652 -0.0062989 -0.0848706 / 0.2)",
+        "uses": 1
+      }
+    ],
+    "gradients": [
+      {
+        "value": "linear-gradient(rgb(30, 48, 94), rgb(30, 48, 94))",
+        "uses": 8
+      },
+      {
+        "value": "linear-gradient(to top, rgb(255, 252, 248) 0%, color(srgb 1 0.988235 0.972549 / 0.738) 19%, color(srgb 1 0.988235 0.972549 / 0.541) 34%, color(srgb 1 0.988235 0",
+        "uses": 1
+      }
+    ],
+    "radii": [],
+    "shadows": [],
+    "blur": [],
+    "bodyBackground": "rgb(255, 252, 248)"
+  },
+  "transitions": [
+    {
+      "value": "opacity 0.3s cubic-bezier(0.16, 1, 0.3, 1)",
+      "uses": 10
+    },
+    {
+      "value": "opacity 0.5s cubic-bezier(0, 0, 0.2, 1)",
+      "uses": 9
+    },
+    {
+      "value": "opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "uses": 8
+    },
+    {
+      "value": "all 0.5s ease",
+      "uses": 7
+    },
+    {
+      "value": "background-size 0.4s cubic-bezier(0.16, 1, 0.3, 1)",
+      "uses": 5
+    },
+    {
+      "value": "opacity, filter 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "uses": 3
+    },
+    {
+      "value": "opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1)",
+      "uses": 3
+    },
+    {
+      "value": "transform, translate, scale, rotate 1s cubic-bezier(0.1, 0, 0, 1)",
+      "uses": 2
+    },
+    {
+      "value": "padding-left, padding-right 0.5s cubic-bezier(0.4, 0, 0.2, 1)",
+      "uses": 2
+    },
+    {
+      "value": "opacity 1s cubic-bezier(0.4, 0, 0.2, 1)",
+      "uses": 1
+    }
+  ],
+  "keyframes": [
+    {
+      "name": "pulse",
+      "css": "@keyframes pulse { \n  50% { opacity: 0.5; }\n}"
+    }
+  ],
+  "unreadableSheets": [],
+  "libraries": {
+    "three": false,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": true,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": false,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 0,
+    "webglCanvases": 0,
+    "videos": 8,
+    "scriptHosts": [
+      "connect.facebook.net",
+      "www.googletagmanager.com",
+      "www.odysseeclinic.com.au",
+      "analytics.odysseeclinic.com.au"
+    ]
+  },
+  "sections": [
+    {
+      "tag": "div",
+      "id": "curtain",
+      "heading": null,
+      "height": 900,
+      "pinned": false
+    },
+    {
+      "tag": "header",
+      "id": null,
+      "heading": null,
+      "height": 42,
+      "pinned": true
+    },
+    {
+      "tag": "section",
+      "id": "260a041f0750",
+      "heading": "Medical aesthetics for timeless results.",
+      "height": 1800,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "d5bb345e2eaa",
+      "heading": "At Odyssée, we prioritise a personalised approach. Visit our Hunters Hill space for a tran",
+      "height": 311,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "56aeb8077c21",
+      "heading": "Why Odyssée?",
+      "height": 900,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "124f8c78a2cc1bd5c3d892fa5987b954",
+      "heading": "BESPOKEMEDICALAESTHETIC",
+      "height": 900,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "a63f63099d3f",
+      "heading": "Every treatment at Odyssée is grounded in evidence-based medicine and the latest advances ",
+      "height": 216,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "0190894d0397",
+      "heading": "Method, not myth.",
+      "height": 1316,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "985db005c72c",
+      "heading": "BESPOKEMEDICALAESTHETIC",
+      "height": 990,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "47f9a0942d96",
+      "heading": "We combine medical knowledge with aesthetic artistry to create care that feels personal an",
+      "height": 67,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "089f524d8d47",
+      "heading": "Our approach",
+      "height": 429,
+      "pinned": false
+    },
+    {
+      "tag": "footer",
+      "id": null,
+      "heading": null,
+      "height": 589,
+      "pinned": false
+    }
+  ],
+  "links": [
+    "https://odysseeaesthetic.dapplecrm.com/start/book",
+    "https://odysseeaesthetic.dapplecrm.com/start/book",
+    "https://odysseeaesthetic.dapplecrm.com/start/book",
+    "https://maps.app.goo.gl/vUsQGG21r9VXzvQb9",
+    "https://www.instagram.com/odysseeclinic/",
+    "https://odysseeaesthetic.dapplecrm.com/start/giftcard",
+    "https://nightjar.co/",
+    "https://odysseeaesthetic.dapplecrm.com/start/book"
+  ],
+  "animations": [
+    {
+      "when": "scroll 2100px",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "img.opacity-0.absolute",
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(0, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "a.hidden.lg:block",
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "scale",
+      "kind": "CSSTransition",
+      "target": "a.hidden.lg:block",
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "scale"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "a.hidden.lg:block",
+      "duration": 487.62724695869105,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "scale",
+      "kind": "CSSTransition",
+      "target": "a.hidden.lg:block",
+      "duration": 487.62724695869105,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "scale"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "a.hidden.lg:block",
+      "duration": 460.40306595711144,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "scale",
+      "kind": "CSSTransition",
+      "target": "a.hidden.lg:block",
+      "duration": 460.40306595711144,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "scale"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "a.hidden.lg:block",
+      "duration": 460.3734726178361,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "scale",
+      "kind": "CSSTransition",
+      "target": "a.hidden.lg:block",
+      "duration": 460.3734726178361,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "scale"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "a.dot-hover.dot-outside",
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "scale",
+      "kind": "CSSTransition",
+      "target": "a.dot-hover.dot-outside",
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "scale"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "a.dot-hover.dot-outside",
+      "duration": 438.00279678142147,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "scale",
+      "kind": "CSSTransition",
+      "target": "a.dot-hover.dot-outside",
+      "duration": 438.00279678142147,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "scale"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "padding-left",
+      "kind": "CSSTransition",
+      "target": "a.dot-hover.block",
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "paddingLeft"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "padding-right",
+      "kind": "CSSTransition",
+      "target": "a.dot-hover.block",
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "paddingRight"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "a.dot-hover.block",
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "scale",
+      "kind": "CSSTransition",
+      "target": "a.dot-hover.block",
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "scale"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "padding-left",
+      "kind": "CSSTransition",
+      "target": "a.dot-hover.block",
+      "duration": 460.3609477704114,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "paddingLeft"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "padding-right",
+      "kind": "CSSTransition",
+      "target": "a.dot-hover.block",
+      "duration": 460.3609477704114,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "paddingRight"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "a.dot-hover.block",
+      "duration": 460.3609477704114,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "scale",
+      "kind": "CSSTransition",
+      "target": "a.dot-hover.block",
+      "duration": 460.3609477704114,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "scale"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "article.w-full.transition-opacity",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "p.mt-3.transition-opacity",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "padding-left",
+      "kind": "CSSTransition",
+      "target": "a.dot-hover.block",
+      "duration": 423.8078109963788,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "paddingLeft"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "padding-right",
+      "kind": "CSSTransition",
+      "target": "a.dot-hover.block",
+      "duration": 423.8078109963788,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "paddingRight"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "a.dot-hover.block",
+      "duration": 423.8078109963788,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "scale",
+      "kind": "CSSTransition",
+      "target": "a.dot-hover.block",
+      "duration": 423.8078109963788,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "scale"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "span.block.text-white",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "scale",
+      "kind": "CSSTransition",
+      "target": "span.block.text-white",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "scale"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.bg-ebony.mix-blend-difference",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.bg-blue.mix-blend-screen",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.bg-black.opacity-10",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "filter",
+      "kind": "CSSTransition",
+      "target": "div.lg:h-[110%].opacity-80",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "filter"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.lg:h-[110%].opacity-80",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "filter",
+      "kind": "CSSTransition",
+      "target": "div.absolute.inset-0",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "filter"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.absolute.inset-0",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "background-size",
+      "kind": "CSSTransition",
+      "target": "a.not-hover:underline",
+      "duration": 400,
+      "delay": 0,
+      "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "iterations": 1,
+      "properties": [
+        "backgroundSize"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "background-size",
+      "kind": "CSSTransition",
+      "target": "a.not-hover:underline",
+      "duration": 399.7541990225324,
+      "delay": 0,
+      "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "iterations": 1,
+      "properties": [
+        "backgroundSize"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "background-size",
+      "kind": "CSSTransition",
+      "target": "a.not-hover:underline",
+      "duration": 399.9724991818357,
+      "delay": 0,
+      "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "iterations": 1,
+      "properties": [
+        "backgroundSize"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "background-size",
+      "kind": "CSSTransition",
+      "target": "a.not-hover:underline",
+      "duration": 399.49360276043234,
+      "delay": 0,
+      "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "iterations": 1,
+      "properties": [
+        "backgroundSize"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "background-size",
+      "kind": "CSSTransition",
+      "target": "a",
+      "duration": 400,
+      "delay": 0,
+      "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "iterations": 1,
+      "properties": [
+        "backgroundSize"
+      ],
+      "timeline": "DocumentTimeline"
+    }
+  ],
+  "pageHeight": 8840
+}

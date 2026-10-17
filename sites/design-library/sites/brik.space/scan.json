@@ -1,0 +1,979 @@
+{
+  "url": "https://brik.space/",
+  "scannedAt": "2026-10-17T10:28:48.300Z",
+  "errors": [],
+  "title": "AI Design Tools Platform - Build, Design, Share | Brik",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "HAL Matex Book",
+        "uses": 262
+      },
+      {
+        "value": "HAL Matex",
+        "uses": 63
+      },
+      {
+        "value": "Proto Mono",
+        "uses": 17
+      },
+      {
+        "value": "EarlySans",
+        "uses": 1
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "15px",
+        "uses": 169
+      },
+      {
+        "value": "50px",
+        "uses": 40
+      },
+      {
+        "value": "130px",
+        "uses": 33
+      },
+      {
+        "value": "117px",
+        "uses": 32
+      },
+      {
+        "value": "13px",
+        "uses": 27
+      },
+      {
+        "value": "14px",
+        "uses": 18
+      },
+      {
+        "value": "24px",
+        "uses": 14
+      },
+      {
+        "value": "10px",
+        "uses": 4
+      },
+      {
+        "value": "16px",
+        "uses": 3
+      },
+      {
+        "value": "12px",
+        "uses": 2
+      },
+      {
+        "value": "118px",
+        "uses": 1
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "400",
+        "uses": 326
+      },
+      {
+        "value": "500",
+        "uses": 17
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "-0.45px",
+        "uses": 160
+      },
+      {
+        "value": "-2.5px",
+        "uses": 40
+      },
+      {
+        "value": "-9.1px",
+        "uses": 33
+      },
+      {
+        "value": "-8.19px",
+        "uses": 32
+      },
+      {
+        "value": "-0.28px",
+        "uses": 17
+      },
+      {
+        "value": "-0.96px",
+        "uses": 14
+      },
+      {
+        "value": "-0.3px",
+        "uses": 6
+      },
+      {
+        "value": "-0.15px",
+        "uses": 3
+      },
+      {
+        "value": "-0.8px",
+        "uses": 3
+      },
+      {
+        "value": "-0.12px",
+        "uses": 2
+      },
+      {
+        "value": "-0.2px",
+        "uses": 2
+      },
+      {
+        "value": "-0.1px",
+        "uses": 2
+      },
+      {
+        "value": "-8.26px",
+        "uses": 1
+      }
+    ],
+    "textColors": [
+      {
+        "value": "rgb(38, 38, 38)",
+        "uses": 257
+      },
+      {
+        "value": "rgb(89, 89, 89)",
+        "uses": 37
+      },
+      {
+        "value": "rgb(178, 178, 178)",
+        "uses": 15
+      },
+      {
+        "value": "rgb(31, 31, 31)",
+        "uses": 10
+      },
+      {
+        "value": "rgb(99, 99, 99)",
+        "uses": 10
+      },
+      {
+        "value": "rgb(250, 250, 250)",
+        "uses": 7
+      },
+      {
+        "value": "rgb(225, 225, 225)",
+        "uses": 5
+      },
+      {
+        "value": "rgb(25, 62, 249)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(10, 10, 10)",
+        "uses": 1
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "rgb(250, 250, 250)",
+        "uses": 32
+      },
+      {
+        "value": "rgb(229, 229, 229)",
+        "uses": 18
+      },
+      {
+        "value": "rgb(237, 237, 237)",
+        "uses": 15
+      },
+      {
+        "value": "rgb(31, 31, 31)",
+        "uses": 9
+      },
+      {
+        "value": "rgb(232, 232, 232)",
+        "uses": 5
+      },
+      {
+        "value": "rgb(99, 99, 99)",
+        "uses": 5
+      },
+      {
+        "value": "rgb(26, 26, 26)",
+        "uses": 5
+      },
+      {
+        "value": "rgb(242, 242, 242)",
+        "uses": 3
+      },
+      {
+        "value": "rgb(240, 240, 240)",
+        "uses": 3
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(54, 217, 114)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(89, 89, 89)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(208, 255, 59)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(25, 62, 249)",
+        "uses": 1
+      }
+    ],
+    "gradients": [],
+    "radii": [],
+    "shadows": [],
+    "blur": [],
+    "bodyBackground": "rgb(255, 255, 255)"
+  },
+  "transitions": [
+    {
+      "value": "color, background-color, border-color, text-decoration-color, fill, stroke 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+      "uses": 65
+    },
+    {
+      "value": "opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "uses": 24
+    },
+    {
+      "value": "color, background-color, border-color, text-decoration-color, fill, stroke 0.3s cubic-bezier(0, 0, 0.2, 1)",
+      "uses": 22
+    },
+    {
+      "value": "border-color, opacity 0.3s cubic-bezier(0.22, 1, 0.36, 1)",
+      "uses": 11
+    },
+    {
+      "value": "opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1)",
+      "uses": 7
+    },
+    {
+      "value": "color, padding 0.22s cubic-bezier(0.4, 0, 0.2, 1)",
+      "uses": 6
+    },
+    {
+      "value": "clip-path 0.22s cubic-bezier(0.22, 1, 0.36, 1)",
+      "uses": 6
+    },
+    {
+      "value": "transform 0.18s cubic-bezier(0.22, 1, 0.36, 1)",
+      "uses": 3
+    },
+    {
+      "value": "color, background-color, border-color, text-decoration-color, fill, stroke 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "uses": 2
+    },
+    {
+      "value": "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "uses": 1
+    },
+    {
+      "value": "transform 0.45s cubic-bezier(0.22, 1, 0.36, 1)",
+      "uses": 1
+    },
+    {
+      "value": "transform 0.2s cubic-bezier(0, 0, 0.2, 1)",
+      "uses": 1
+    },
+    {
+      "value": "opacity, transform 0.3s cubic-bezier(0, 0, 0.2, 1)",
+      "uses": 1
+    },
+    {
+      "value": "opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "uses": 1
+    }
+  ],
+  "keyframes": [
+    {
+      "name": "canvas-pending-in",
+      "css": "@keyframes canvas-pending-in { \n  0% { opacity: 0; transform: scale(0.92); }\n  100% { opacity: 1; transform: scale(1); }\n}"
+    },
+    {
+      "name": "caret-blink",
+      "css": "@keyframes caret-blink { \n  0%, 49% { opacity: 1; }\n  50%, 100% { opacity: 0; }\n}"
+    },
+    {
+      "name": "confetti-fly",
+      "css": "@keyframes confetti-fly { \n  0% { transform: translate(0px) rotate(0deg) scale(0.85); }\n  100% { transform: translate(var(--confetti-x),var(--confetti-y)) rotate(var(--confetti-r)) scale(1); }\n}"
+    },
+    {
+      "name": "loader",
+      "css": "@keyframes loader { \n  0% { transform: translate(-100%); }\n  100% { transform: translate(400%); }\n}"
+    },
+    {
+      "name": "ping",
+      "css": "@keyframes ping { \n  75%, 100% { transform: scale(2); opacity: 0; }\n}"
+    },
+    {
+      "name": "project-bar-content-in",
+      "css": "@keyframes project-bar-content-in { \n  0% { opacity: 0; transform: translate(-4px); }\n  100% { opacity: 1; transform: translate(0px); }\n}"
+    },
+    {
+      "name": "project-bar-content-out",
+      "css": "@keyframes project-bar-content-out { \n  0% { opacity: 1; }\n  100% { opacity: 0; }\n}"
+    },
+    {
+      "name": "project-bar-glow",
+      "css": "@keyframes project-bar-glow { \n  0% { opacity: 0; }\n  40% { opacity: 0.6; }\n  100% { opacity: 0; }\n}"
+    },
+    {
+      "name": "project-bar-sweep-in",
+      "css": "@keyframes project-bar-sweep-in { \n  0% { transform: scaleX(0); }\n  100% { transform: scaleX(1); }\n}"
+    },
+    {
+      "name": "project-bar-sweep-out",
+      "css": "@keyframes project-bar-sweep-out { \n  0% { transform: scaleX(1); }\n  100% { transform: scaleX(0); }\n}"
+    },
+    {
+      "name": "pulse",
+      "css": "@keyframes pulse { \n  50% { opacity: 0.5; }\n}"
+    },
+    {
+      "name": "spin",
+      "css": "@keyframes spin { \n  100% { transform: rotate(360deg); }\n}"
+    },
+    {
+      "name": "marquee-scroll",
+      "css": "@keyframes marquee-scroll { \n  0% { transform: translateZ(0px); }\n  100% { transform: translate3d(-50%, 0px, 0px); }\n}"
+    },
+    {
+      "name": "hero-letter-rise",
+      "css": "@keyframes hero-letter-rise { \n  0% { transform: translate3d(0px, 125%, 0px); }\n  100% { transform: translateZ(0px); }\n}"
+    },
+    {
+      "name": "hero-logo-open",
+      "css": "@keyframes hero-logo-open { \n  0% { width: 0px; margin-left: 0.18em; }\n  100% { width: 1.061em; margin-left: 0px; }\n}"
+    },
+    {
+      "name": "hero-logo-open-mobile",
+      "css": "@keyframes hero-logo-open-mobile { \n  0% { width: 0px; }\n  100% { width: 64px; }\n}"
+    },
+    {
+      "name": "hero-follow-rise",
+      "css": "@keyframes hero-follow-rise { \n  0% { opacity: 0; transform: translate3d(0px, 24px, 0px); }\n  100% { opacity: 1; transform: translateZ(0px); }\n}"
+    },
+    {
+      "name": "suggestExpand",
+      "css": "@keyframes suggestExpand { \n  0% { grid-template-rows: 0fr; }\n  100% { grid-template-rows: 1fr; }\n}"
+    },
+    {
+      "name": "suggestReveal",
+      "css": "@keyframes suggestReveal { \n  0% { opacity: 0; transform: translateY(-10px); }\n  100% { opacity: 1; transform: translateY(0px); }\n}"
+    },
+    {
+      "name": "suggestCollapse",
+      "css": "@keyframes suggestCollapse { \n  0% { grid-template-rows: 1fr; }\n  100% { grid-template-rows: 0fr; }\n}"
+    },
+    {
+      "name": "suggestHide",
+      "css": "@keyframes suggestHide { \n  0% { opacity: 1; transform: translateY(0px); }\n  100% { opacity: 0; transform: translateY(-10px); }\n}"
+    },
+    {
+      "name": "suggestOpen",
+      "css": "@keyframes suggestOpen { \n  0% { grid-template-rows: 0fr; opacity: 0; }\n  100% { grid-template-rows: 1fr; opacity: 1; }\n}"
+    },
+    {
+      "name": "scroll-left",
+      "css": "@keyframes scroll-left { \n  0% { transform: translate(0px); }\n  100% { transform: translate(-50%); }\n}"
+    },
+    {
+      "name": "scroll-right",
+      "css": "@keyframes scroll-right { \n  0% { transform: translate(-50%); }\n  100% { transform: translate(0px); }\n}"
+    },
+    {
+      "name": "blink",
+      "css": "@keyframes blink { \n  0%, 100% { opacity: 1; }\n  50% { opacity: 0; }\n}"
+    },
+    {
+      "name": "float-0",
+      "css": "@keyframes float-0 { \n  0% { transform: translate(0px); }\n  33% { transform: translate(20px, -15px); }\n  66% { transform: translate(-10px, 20px); }\n  100% { transform: translate(0px); }\n}"
+    },
+    {
+      "name": "float-1",
+      "css": "@keyframes float-1 { \n  0% { transform: translate(0px); }\n  33% { transform: translate(-18px, 12px); }\n  66% { transform: translate(15px, -8px); }\n  100% { transform: translate(0px); }\n}"
+    },
+    {
+      "name": "float-2",
+      "css": "@keyframes float-2 { \n  0% { transform: translate(0px); }\n  33% { transform: translate(12px, 18px); }\n  66% { transform: translate(-20px, -12px); }\n  100% { transform: translate(0px); }\n}"
+    },
+    {
+      "name": "float-3",
+      "css": "@keyframes float-3 { \n  0% { transform: translate(0px); }\n  33% { transform: translate(-15px, -20px); }\n  66% { transform: translate(18px, 10px); }\n  100% { transform: translate(0px); }\n}"
+    },
+    {
+      "name": "step-enter",
+      "css": "@keyframes step-enter { \n  0% { opacity: 0; transform: scale(0.3) translateY(40px); }\n  60% { opacity: 1; transform: scale(1.05) translateY(-5px); }\n  100% { opacity: 1; transform: scale(1) translateY(0px); }\n}"
+    },
+    {
+      "name": "mobileMenuExpand",
+      "css": "@keyframes mobileMenuExpand { \n  0% { opacity: 0; transform: translateY(-6px); }\n  100% { opacity: 1; transform: translateY(0px); }\n}"
+    },
+    {
+      "name": "mobileMenuCollapse",
+      "css": "@keyframes mobileMenuCollapse { \n  0% { opacity: 1; transform: translateY(0px); }\n  100% { opacity: 0; transform: translateY(-6px); }\n}"
+    },
+    {
+      "name": "lp-hero-gradient-flow",
+      "css": "@keyframes lp-hero-gradient-flow { \n  0% { background-position: 50% 0%; }\n  100% { background-position: 50% 100%; }\n}"
+    },
+    {
+      "name": "chat-shimmer",
+      "css": "@keyframes chat-shimmer { \n  0% { background-position: 200% 0px; }\n  100% { background-position: -100% 0px; }\n}"
+    },
+    {
+      "name": "chat-border-turn",
+      "css": "@keyframes chat-border-turn { \n  100% { --chat-border-angle: 360deg; }\n}"
+    },
+    {
+      "name": "drawer-slide-out-right",
+      "css": "@keyframes drawer-slide-out-right { \n  0% { transform: translate(0px); }\n  100% { transform: translate(100%); }\n}"
+    },
+    {
+      "name": "drawer-slide-in-right",
+      "css": "@keyframes drawer-slide-in-right { \n  0% { transform: translate(100%); }\n  100% { transform: translate(0px); }\n}"
+    },
+    {
+      "name": "brik-hero-send-arrow",
+      "css": "@keyframes brik-hero-send-arrow { \n  0% { transform: translateY(0px); }\n  100% { transform: translateY(-50%); }\n}"
+    },
+    {
+      "name": "brik-hero-send-arrow-enter",
+      "css": "@keyframes brik-hero-send-arrow-enter { \n  0% { transform: translateY(50%); }\n  100% { transform: translateY(0px); }\n}"
+    },
+    {
+      "name": "brik-hero-chip-wave",
+      "css": "@keyframes brik-hero-chip-wave { \n  0%, 100% { transform: translateY(0px); }\n  45% { transform: translateY(-3px); }\n}"
+    },
+    {
+      "name": "brik-nav-flip",
+      "css": "@keyframes brik-nav-flip { \n  0% { transform: rotateX(0deg); }\n  100% { transform: rotateX(360deg); }\n}"
+    },
+    {
+      "name": "explore-vt-fade-out",
+      "css": "@keyframes explore-vt-fade-out { \n  100% { opacity: 0; }\n}"
+    },
+    {
+      "name": "explore-vt-rise-in",
+      "css": "@keyframes explore-vt-rise-in { \n  0% { opacity: 0; transform: translateY(8px); }\n}"
+    }
+  ],
+  "unreadableSheets": [],
+  "libraries": {
+    "three": false,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": false,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 0,
+    "webglCanvases": 0,
+    "videos": 13,
+    "scriptHosts": [
+      "connect.facebook.net",
+      "www.googletagmanager.com",
+      "brik.space",
+      "unpkg.com",
+      "js.stripe.com",
+      "eu-assets.i.posthog.com"
+    ]
+  },
+  "sections": [
+    {
+      "tag": "div",
+      "id": null,
+      "heading": "Build the design tool you wish existed",
+      "height": 14395,
+      "pinned": false
+    },
+    {
+      "tag": "header",
+      "id": null,
+      "heading": null,
+      "height": 50,
+      "pinned": true
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Build the design tool you wish existed",
+      "height": 601,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": null,
+      "height": 804,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": null,
+      "height": 804,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": "Other design tools stop at export. Brik gives you something to come back to. A reusable ca",
+      "height": 258,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Other design tools stop at export. Brik gives you something to come back to. A reusable ca",
+      "height": 258,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": null,
+      "height": 4450,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": null,
+      "height": 850,
+      "pinned": true
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": "Brief it. Control it. Use it.",
+      "height": 1754,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Brief it. Control it. Use it.",
+      "height": 1754,
+      "pinned": false
+    },
+    {
+      "tag": "header",
+      "id": null,
+      "heading": "Brief it. Control it. Use it.",
+      "height": 104,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "From chat to design tool",
+      "height": 411,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": "Start for free and go from there",
+      "height": 818,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Start for free and go from there",
+      "height": 818,
+      "pinned": false
+    },
+    {
+      "tag": "header",
+      "id": null,
+      "heading": "Start for free and go from there",
+      "height": 104,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": null,
+      "height": 937,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": null,
+      "height": 844,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": "Your entire creative arsenal",
+      "height": 954,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Your entire creative arsenal",
+      "height": 954,
+      "pinned": false
+    },
+    {
+      "tag": "header",
+      "id": null,
+      "heading": "Your entire creative arsenal",
+      "height": 283,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Fresh tools, experiments and what's cooking",
+      "height": 554,
+      "pinned": false
+    },
+    {
+      "tag": "footer",
+      "id": null,
+      "heading": "Product",
+      "height": 850,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Product",
+      "height": 140,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Use cases",
+      "height": 186,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Resources",
+      "height": 117,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Community",
+      "height": 94,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Company",
+      "height": 71,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Legal",
+      "height": 94,
+      "pinned": false
+    }
+  ],
+  "links": [
+    "https://discord.gg/brik",
+    "https://www.instagram.com/brik.space",
+    "https://www.linkedin.com/company/brik-space",
+    "https://www.wix.com/about/privacy",
+    "https://www.wix.com/about/terms-of-use"
+  ],
+  "animations": [
+    {
+      "when": "load",
+      "name": "hero-letter-rise",
+      "kind": "CSSAnimation",
+      "target": "span.hero-letter-rise.inline-block",
+      "duration": 1250,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "hero-logo-open",
+      "kind": "CSSAnimation",
+      "target": "span.inline-flex.items-center",
+      "duration": 1250,
+      "delay": 2025,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "marginLeft",
+        "width"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "hero-follow-rise",
+      "kind": "CSSAnimation",
+      "target": "div.hero-follow-rise.flex",
+      "duration": 700,
+      "delay": 2025,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "hero-follow-rise",
+      "kind": "CSSAnimation",
+      "target": "div.hero-follow-rise.hero-follow-rise-trailing",
+      "duration": 700,
+      "delay": 2225,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "brik-hero-send-arrow-enter",
+      "kind": "CSSAnimation",
+      "target": "span.brik-hero-send-arrow-enter.absolute",
+      "duration": 700,
+      "delay": 2400,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "marquee-scroll",
+      "kind": "CSSAnimation",
+      "target": "div.marquee-track.mt-[30px]",
+      "duration": 60000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 700px",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "iframe.absolute.inset-0",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 3500px",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "iframe.absolute.inset-0",
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 9100px",
+      "name": "web-animation",
+      "kind": "Animation",
+      "target": "div.order-2.lg:order-none",
+      "duration": 550,
+      "delay": 120,
+      "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 9100px",
+      "name": "web-animation",
+      "kind": "Animation",
+      "target": "div.order-3.lg:order-none",
+      "duration": 550,
+      "delay": 240,
+      "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 9100px",
+      "name": "web-animation",
+      "kind": "Animation",
+      "target": "div.order-4.lg:order-none",
+      "duration": 550,
+      "delay": 360,
+      "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "section#home-v2-use-cases-menu.relative.h-full",
+      "duration": 360,
+      "delay": 0,
+      "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "section#home-v2-use-cases-menu.relative.h-full",
+      "duration": 360,
+      "delay": 0,
+      "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "brik-nav-flip",
+      "kind": "CSSAnimation",
+      "target": "span.brik-nav-flip-letter.inline-block",
+      "duration": 500,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "border-bottom-color",
+      "kind": "CSSTransition",
+      "target": "button.font-brik-book.text-brik-body",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "iterations": 1,
+      "properties": [
+        "borderBottomColor"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "border-left-color",
+      "kind": "CSSTransition",
+      "target": "button.font-brik-book.text-brik-body",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "iterations": 1,
+      "properties": [
+        "borderLeftColor"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "border-right-color",
+      "kind": "CSSTransition",
+      "target": "button.font-brik-book.text-brik-body",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "iterations": 1,
+      "properties": [
+        "borderRightColor"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "border-top-color",
+      "kind": "CSSTransition",
+      "target": "button.font-brik-book.text-brik-body",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "iterations": 1,
+      "properties": [
+        "borderTopColor"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "button.font-brik-book.text-brik-body",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    }
+  ],
+  "pageHeight": 14395
+}

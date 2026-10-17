@@ -1,0 +1,380 @@
+{
+  "url": "https://www.seventeenagency.com/",
+  "scannedAt": "2026-10-17T10:30:27.355Z",
+  "errors": [],
+  "title": "A Creative Agency.",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "Bagosscondensed",
+        "uses": 115
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "14px",
+        "uses": 88
+      },
+      {
+        "value": "12px",
+        "uses": 24
+      },
+      {
+        "value": "13px",
+        "uses": 2
+      },
+      {
+        "value": "18px",
+        "uses": 1
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "400",
+        "uses": 115
+      }
+    ],
+    "letterSpacing": [],
+    "textColors": [
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 96
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "uses": 12
+      },
+      {
+        "value": "rgb(175, 174, 167)",
+        "uses": 7
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "rgb(0, 0, 0)",
+        "uses": 29
+      },
+      {
+        "value": "rgb(175, 174, 167)",
+        "uses": 15
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 13
+      },
+      {
+        "value": "rgb(193, 52, 55)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(39, 93, 130)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(4, 148, 53)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(166, 246, 100)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(147, 105, 0)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(0, 164, 168)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(247, 127, 176)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(1, 104, 201)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(97, 79, 67)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(209, 185, 243)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(117, 239, 226)",
+        "uses": 2
+      }
+    ],
+    "gradients": [],
+    "radii": [],
+    "shadows": [],
+    "blur": [],
+    "bodyBackground": "rgb(255, 255, 255)"
+  },
+  "transitions": [
+    {
+      "value": "width 1s cubic-bezier(0.32, 0.72, 0, 1)",
+      "uses": 22
+    },
+    {
+      "value": "all 0.5s cubic-bezier(0.76, 0, 0.24, 1)",
+      "uses": 9
+    },
+    {
+      "value": "all 0.3s ease",
+      "uses": 8
+    },
+    {
+      "value": "scale 0.45s cubic-bezier(0.32, 0.72, 0, 1)",
+      "uses": 4
+    },
+    {
+      "value": "opacity 0.075s ease",
+      "uses": 4
+    },
+    {
+      "value": "opacity 0.25s ease-out",
+      "uses": 2
+    },
+    {
+      "value": "all 0.6s ease",
+      "uses": 2
+    },
+    {
+      "value": "transform 0.45s cubic-bezier(0.32, 0.72, 0, 1)",
+      "uses": 2
+    },
+    {
+      "value": "transform 0.65s linear(0 0%, 0.5737 7.6%, 0.8382 11.87%, 0.9463 14.19%, 1.0292 16.54%, 1.0886 18.97%, 1.1258 21.53%, 1.137 22.97%, 1.1424 24.48%, 1.1423 26.1%, 1.1366 27.86%, 1.1165 31.01%, 1.0507 38.62%, 1.0219 42.57%, 0.9995 46.99%, 0.9872 51.63%, 0.9842 58.77%, 1.0011 81.26%, 1 100%)",
+      "uses": 2
+    },
+    {
+      "value": "box-shadow 0.3s ease",
+      "uses": 2
+    },
+    {
+      "value": "transform 0.5s cubic-bezier(0.16, 1, 0.3, 1)",
+      "uses": 1
+    },
+    {
+      "value": "opacity, transform 0.4s, 0.4s ease-in-out, ease-in-out",
+      "uses": 1
+    },
+    {
+      "value": "opacity 0.2s ease",
+      "uses": 1
+    },
+    {
+      "value": "transform 0.4s ease-in-out",
+      "uses": 1
+    }
+  ],
+  "keyframes": [
+    {
+      "name": "spin",
+      "css": "@keyframes spin { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}"
+    }
+  ],
+  "unreadableSheets": [
+    "https://cdn.plyr.io/3.7.8/plyr.css",
+    "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css",
+    "https://c77qdh.csb.app/styles.css"
+  ],
+  "libraries": {
+    "three": true,
+    "gsap": true,
+    "scrollTrigger": true,
+    "lenis": true,
+    "locomotive": false,
+    "lottie": true,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": true,
+    "barba": true,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 0,
+    "webglCanvases": 0,
+    "videos": 3,
+    "scriptHosts": [
+      "www.googletagmanager.com",
+      "www.seventeenagency.com",
+      "d3e54v103j8qbb.cloudfront.net",
+      "cdn.prod.website-files.com",
+      "cdn.jsdelivr.net",
+      "cdnjs.cloudflare.com",
+      "unpkg.com",
+      "cdn.plyr.io",
+      "c77qdh.csb.app"
+    ]
+  },
+  "sections": [
+    {
+      "tag": "div",
+      "id": null,
+      "heading": null,
+      "height": 0,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": null,
+      "height": 900,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": null,
+      "height": 900,
+      "pinned": false
+    }
+  ],
+  "links": [],
+  "animations": [
+    {
+      "when": "hover",
+      "name": "scale",
+      "kind": "CSSTransition",
+      "target": "span.sev-btn_inner",
+      "duration": 450,
+      "delay": 70,
+      "easing": "cubic-bezier(0.32, 0.72, 0, 1)",
+      "iterations": 1,
+      "properties": [
+        "scale"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "scale",
+      "kind": "CSSTransition",
+      "target": "span.sev-btn_text",
+      "duration": 450,
+      "delay": 70,
+      "easing": "cubic-bezier(0.32, 0.72, 0, 1)",
+      "iterations": 1,
+      "properties": [
+        "scale"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "scale",
+      "kind": "CSSTransition",
+      "target": "span.sev-btn_inner",
+      "duration": 430.9790480523865,
+      "delay": 0,
+      "easing": "cubic-bezier(0.32, 0.72, 0, 1)",
+      "iterations": 1,
+      "properties": [
+        "scale"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "scale",
+      "kind": "CSSTransition",
+      "target": "span.sev-btn_text",
+      "duration": 430.9790480523865,
+      "delay": 0,
+      "easing": "cubic-bezier(0.32, 0.72, 0, 1)",
+      "iterations": 1,
+      "properties": [
+        "scale"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "scale",
+      "kind": "CSSTransition",
+      "target": "span.sev-btn_inner",
+      "duration": 430.9739627335131,
+      "delay": 0,
+      "easing": "cubic-bezier(0.32, 0.72, 0, 1)",
+      "iterations": 1,
+      "properties": [
+        "scale"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "scale",
+      "kind": "CSSTransition",
+      "target": "span.sev-btn_text",
+      "duration": 430.9739627335131,
+      "delay": 0,
+      "easing": "cubic-bezier(0.32, 0.72, 0, 1)",
+      "iterations": 1,
+      "properties": [
+        "scale"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "color",
+      "kind": "CSSTransition",
+      "target": "div.filter-item.w-dyn-item",
+      "duration": 300,
+      "delay": 0,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "color"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "padding-left",
+      "kind": "CSSTransition",
+      "target": "div.filter-item.w-dyn-item",
+      "duration": 300,
+      "delay": 0,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "paddingLeft"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "width",
+      "kind": "CSSTransition",
+      "target": "div.work-item.w-dyn-item",
+      "duration": 1000,
+      "delay": 0,
+      "easing": "cubic-bezier(0.32, 0.72, 0, 1)",
+      "iterations": 1,
+      "properties": [
+        "width"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "div.work-item_info.visible",
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    }
+  ],
+  "pageHeight": 900
+}

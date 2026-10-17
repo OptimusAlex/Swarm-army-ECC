@@ -1,0 +1,1151 @@
+{
+  "url": "https://letude.group/",
+  "scannedAt": "2026-10-17T10:29:55.863Z",
+  "errors": [],
+  "title": "L'Étude — Modular Creative Studio",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "Indivisible",
+        "uses": 64
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "13.008px",
+        "uses": 31
+      },
+      {
+        "value": "32px",
+        "uses": 18
+      },
+      {
+        "value": "24px",
+        "uses": 4
+      },
+      {
+        "value": "16px",
+        "uses": 4
+      },
+      {
+        "value": "56px",
+        "uses": 3
+      },
+      {
+        "value": "19.152px",
+        "uses": 1
+      },
+      {
+        "value": "72px",
+        "uses": 1
+      },
+      {
+        "value": "100.8px",
+        "uses": 1
+      },
+      {
+        "value": "14px",
+        "uses": 1
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "700",
+        "uses": 19
+      },
+      {
+        "value": "550",
+        "uses": 17
+      },
+      {
+        "value": "650",
+        "uses": 12
+      },
+      {
+        "value": "600",
+        "uses": 9
+      },
+      {
+        "value": "500",
+        "uses": 7
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "-0.32px",
+        "uses": 18
+      },
+      {
+        "value": "-0.72px",
+        "uses": 4
+      },
+      {
+        "value": "-1.12px",
+        "uses": 3
+      },
+      {
+        "value": "-0.57456px",
+        "uses": 1
+      },
+      {
+        "value": "-2.16px",
+        "uses": 1
+      },
+      {
+        "value": "-2.016px",
+        "uses": 1
+      },
+      {
+        "value": "-0.14px",
+        "uses": 1
+      }
+    ],
+    "textColors": [
+      {
+        "value": "rgb(1, 32, 148)",
+        "uses": 34
+      },
+      {
+        "value": "rgb(21, 21, 21)",
+        "uses": 27
+      },
+      {
+        "value": "rgb(149, 151, 167)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(238, 56, 43)",
+        "uses": 1
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "rgb(149, 151, 167)",
+        "uses": 5
+      },
+      {
+        "value": "rgb(238, 56, 43)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(1, 32, 148)",
+        "uses": 1
+      }
+    ],
+    "gradients": [
+      {
+        "value": "linear-gradient(90deg, rgb(1, 32, 148), rgb(1, 32, 148))",
+        "uses": 5
+      },
+      {
+        "value": "linear-gradient(rgba(0, 0, 0, 0) 0px, rgb(149, 151, 167) 10%, rgb(149, 151, 167) 90%, rgba(0, 0, 0, 0) 100%)",
+        "uses": 4
+      }
+    ],
+    "radii": [
+      {
+        "value": "4px",
+        "uses": 12
+      },
+      {
+        "value": "900px",
+        "uses": 2
+      }
+    ],
+    "shadows": [],
+    "blur": [],
+    "bodyBackground": "rgba(0, 0, 0, 0)"
+  },
+  "transitions": [
+    {
+      "value": "opacity 0.7s cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "uses": 17
+    },
+    {
+      "value": "transform, fill 0.75s cubic-bezier(0.76, 0, 0.24, 1)",
+      "uses": 16
+    },
+    {
+      "value": "background-color, color, border-color 0.4s cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "uses": 12
+    },
+    {
+      "value": "transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "uses": 12
+    },
+    {
+      "value": "opacity 0.4s cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "uses": 11
+    },
+    {
+      "value": "background-size 0.3s cubic-bezier(0.76, 0, 0.24, 1)",
+      "uses": 5
+    },
+    {
+      "value": "background-color, color, border-color 0.5s cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "uses": 4
+    },
+    {
+      "value": "transform, fill 0.75s cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "uses": 4
+    },
+    {
+      "value": "color 0.15s cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "uses": 4
+    },
+    {
+      "value": "transform, opacity 0.5s cubic-bezier(0.76, 0, 0.24, 1)",
+      "uses": 2
+    },
+    {
+      "value": "grid-template-columns 0.5s cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "uses": 2
+    },
+    {
+      "value": "color 0.5s cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "uses": 1
+    },
+    {
+      "value": "transform, color, background-color, border-color, opacity 0.65s, 0.5s, 0.5s, 0.5s, 0.5s cubic-bezier(0.33, 1, 0.68, 1), cubic-bezier(0.165, 0.84, 0.44, 1), cubic-bezier(0.165, 0.84, 0.44, 1), cubic-bezier(0.165, 0.84, 0.44, 1), cubic-bezier(0.76, 0, 0.24, 1)",
+      "uses": 1
+    }
+  ],
+  "keyframes": [
+    {
+      "name": "svelte-15iu8ku-fade-pulse",
+      "css": "@keyframes svelte-15iu8ku-fade-pulse { \n  0%, 100% { opacity: 1; }\n  50% { opacity: 0.25; }\n}"
+    },
+    {
+      "name": "svelte-15iu8ku-move-icon",
+      "css": "@keyframes svelte-15iu8ku-move-icon { \n  0%, 100% { transform: translate(0px); }\n  66% { transform: translate(115%, -115%); }\n  66.01% { transform: translate(-100%, 100%); }\n}"
+    },
+    {
+      "name": "svelte-sb5i7j-flip",
+      "css": "@keyframes svelte-sb5i7j-flip { \n  0% { transform: rotateY(0deg); }\n  100% { transform: rotateY(1turn); }\n}"
+    },
+    {
+      "name": "svelte-dlq2cl-shake",
+      "css": "@keyframes svelte-dlq2cl-shake { \n  0% { transform: translate(0px); }\n  25% { transform: translate(5px); }\n  50% { transform: translate(-5px); }\n  75% { transform: translate(5px); }\n  100% { transform: translate(0px); }\n}"
+    },
+    {
+      "name": "svelte-12apd5l-logo-top-draw",
+      "css": "@keyframes svelte-12apd5l-logo-top-draw { \n  0% { stroke-dashoffset: 450px; }\n  100% { stroke-dashoffset: 0; }\n}"
+    },
+    {
+      "name": "svelte-12apd5l-logo-bottom-draw",
+      "css": "@keyframes svelte-12apd5l-logo-bottom-draw { \n  0% { stroke-dashoffset: 450px; }\n  100% { stroke-dashoffset: 900px; }\n}"
+    },
+    {
+      "name": "svelte-12apd5l-logo-top-hover",
+      "css": "@keyframes svelte-12apd5l-logo-top-hover { \n  0%, 100% { stroke-dashoffset: 0; }\n  50% { stroke-dashoffset: 450px; }\n}"
+    },
+    {
+      "name": "svelte-12apd5l-logo-bottom-hover",
+      "css": "@keyframes svelte-12apd5l-logo-bottom-hover { \n  0%, 100% { stroke-dashoffset: 900px; }\n  50% { stroke-dashoffset: 450px; }\n}"
+    },
+    {
+      "name": "svelte-19h1vj-progress-grow",
+      "css": "@keyframes svelte-19h1vj-progress-grow { \n  0% { transform: scaleX(0); }\n  100% { transform: scaleX(1); }\n}"
+    },
+    {
+      "name": "svelte-u5hy0-marquee",
+      "css": "@keyframes svelte-u5hy0-marquee { \n  0% { transform: translate(0px); }\n  100% { transform: translateX(calc(-100% - var(--gap))) translateZ(0); }\n}"
+    },
+    {
+      "name": "svelte-jzimv9-slide-y",
+      "css": "@keyframes svelte-jzimv9-slide-y { \n  0% { transform-origin: 0px 100%; transform: scaleY(0); }\n  60% { transform-origin: 0px 100%; transform: scaleY(1); }\n  60.01% { transform-origin: 0px 0px; transform: scaleY(1); }\n  100% { transform-origin: 0px 0px; transform: scaleY(0); }\n}"
+    },
+    {
+      "name": "svelte-jzimv9-scale-up",
+      "css": "@keyframes svelte-jzimv9-scale-up { \n  0% { transform: scale(1); }\n  100% { transform: scale(var(--scale)); }\n}"
+    }
+  ],
+  "unreadableSheets": [],
+  "libraries": {
+    "three": false,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": true,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": false,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 0,
+    "webglCanvases": 0,
+    "videos": 18,
+    "scriptHosts": [
+      "analytics.letude.group",
+      "static.cloudflareinsights.com"
+    ]
+  },
+  "sections": [
+    {
+      "tag": "header",
+      "id": null,
+      "heading": null,
+      "height": 868,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Weareaninternationalboutiquestudio,blendingdesignculturesandtechnologytocraftbranduniverse",
+      "height": 900,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Our vision",
+      "height": 6852,
+      "pinned": false
+    },
+    {
+      "tag": "footer",
+      "id": null,
+      "heading": null,
+      "height": 453,
+      "pinned": false
+    }
+  ],
+  "links": [
+    "https://www.instagram.com/letudegroup/",
+    "https://www.linkedin.com/company/letude",
+    "https://x.com/letudegroup",
+    "https://vimeo.com/letude"
+  ],
+  "animations": [
+    {
+      "when": "load",
+      "name": "svelte-sb5i7j-flip",
+      "kind": "CSSAnimation",
+      "target": "svg.svelte-sb5i7j",
+      "duration": 5000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 700px",
+      "name": "background-color",
+      "kind": "CSSTransition",
+      "target": "a.navlink.navlink-info",
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "backgroundColor"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 7700px",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "g.logotype-letter.svelte-5hpql1",
+      "duration": 750,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 7700px",
+      "name": "fill",
+      "kind": "CSSTransition",
+      "target": "path.svelte-5hpql1",
+      "duration": 750,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "fill"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 7700px",
+      "name": "fill",
+      "kind": "CSSTransition",
+      "target": "path.logotype-letter.svelte-5hpql1",
+      "duration": 750,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "fill"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 7700px",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "path.logotype-letter.svelte-5hpql1",
+      "duration": 750,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "color",
+      "kind": "CSSTransition",
+      "target": "a.logo.is-hovered",
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "color"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "fill",
+      "kind": "CSSTransition",
+      "target": "path.logotype-letter.svelte-5hpql1",
+      "duration": 750,
+      "delay": 0,
+      "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+      "iterations": 1,
+      "properties": [
+        "fill"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "path.logotype-letter.svelte-5hpql1",
+      "duration": 750,
+      "delay": 0,
+      "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "svelte-12apd5l-logo-top-hover",
+      "kind": "CSSAnimation",
+      "target": "path.logo-top",
+      "duration": 1750,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "strokeDashoffset"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "svelte-12apd5l-logo-bottom-hover",
+      "kind": "CSSAnimation",
+      "target": "path.logo-bottom",
+      "duration": 1750,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "strokeDashoffset"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "grid-template-columns",
+      "kind": "CSSTransition",
+      "target": "span.rest.svelte-sjqsw3",
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "gridTemplateColumns"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "grid-template-columns",
+      "kind": "CSSTransition",
+      "target": "span.rest.svelte-sjqsw3",
+      "duration": 498.19944045047544,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "gridTemplateColumns"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "a.navlink.navlink-info",
+      "duration": 650,
+      "delay": 0,
+      "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "a.navlink.navlink-info",
+      "duration": 560.4861288057142,
+      "delay": 0,
+      "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "color",
+      "kind": "CSSTransition",
+      "target": "a.logo.theme-secondary",
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "color"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "background-color",
+      "kind": "CSSTransition",
+      "target": "span.label.vertical",
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "backgroundColor"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "grid-template-columns",
+      "kind": "CSSTransition",
+      "target": "span.rest.svelte-sjqsw3",
+      "duration": 491.42186228571796,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "gridTemplateColumns"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "background-color",
+      "kind": "CSSTransition",
+      "target": "a.navlink.navlink-info",
+      "duration": 497.06773354149016,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "backgroundColor"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.client.svelte-jzimv9",
+      "duration": 400,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.block-text.vision",
+      "duration": 700,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.block-text.expertise",
+      "duration": 700,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.block-title.motto",
+      "duration": 700,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.block-text.culture",
+      "duration": 700,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.block-text.solutions",
+      "duration": 700,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "svelte-jzimv9-slide-y",
+      "kind": "CSSAnimation",
+      "target": "div.thumbnail.svelte-jzimv9",
+      "duration": 1100,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "transform",
+        "transformOrigin"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "svelte-jzimv9-scale-up",
+      "kind": "CSSAnimation",
+      "target": "div.inner.svelte-jzimv9",
+      "duration": 450,
+      "delay": 45,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.client.svelte-jzimv9",
+      "duration": 398.75232509414406,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.client.svelte-jzimv9",
+      "duration": 394.10302729643996,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.block-text.vision",
+      "duration": 685.8305661167617,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.block-text.expertise",
+      "duration": 685.8305661167617,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.block-title.motto",
+      "duration": 685.8305661167617,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.block-text.culture",
+      "duration": 685.8305661167617,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.block-text.solutions",
+      "duration": 685.8305661167617,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.client.svelte-jzimv9",
+      "duration": 398.75351199646013,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.client.svelte-jzimv9",
+      "duration": 391.49163978552957,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.block-text.vision",
+      "duration": 660.7073030393242,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.block-text.expertise",
+      "duration": 660.7073030393242,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.block-title.motto",
+      "duration": 660.7073030393242,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.block-text.culture",
+      "duration": 660.7073030393242,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.block-text.solutions",
+      "duration": 660.7073030393242,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.client.svelte-jzimv9",
+      "duration": 398.7510295516444,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.client.svelte-jzimv9",
+      "duration": 397.660352280287,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.block-text.vision",
+      "duration": 671.0920189064608,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.block-text.expertise",
+      "duration": 671.0920189064608,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.block-title.motto",
+      "duration": 671.0920189064608,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.block-text.culture",
+      "duration": 671.0920189064608,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.block-text.solutions",
+      "duration": 671.0920189064608,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.client.svelte-jzimv9",
+      "duration": 397.6555143939784,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.client.svelte-jzimv9",
+      "duration": 398.74843614956666,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.block-text.vision",
+      "duration": 671.0886830472177,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.block-text.expertise",
+      "duration": 671.0886830472177,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.block-title.motto",
+      "duration": 671.0886830472177,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.block-text.culture",
+      "duration": 671.0886830472177,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.block-text.solutions",
+      "duration": 671.0886830472177,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.client.svelte-jzimv9",
+      "duration": 399.4744370794158,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.client.svelte-jzimv9",
+      "duration": 398.7514614849469,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "g.logotype-letter.svelte-5hpql1",
+      "duration": 750,
+      "delay": 0,
+      "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "fill",
+      "kind": "CSSTransition",
+      "target": "path.svelte-5hpql1",
+      "duration": 750,
+      "delay": 0,
+      "easing": "cubic-bezier(0.76, 0, 0.24, 1)",
+      "iterations": 1,
+      "properties": [
+        "fill"
+      ],
+      "timeline": "DocumentTimeline"
+    }
+  ],
+  "pageHeight": 8285
+}

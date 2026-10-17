@@ -1,0 +1,139 @@
+{
+  "url": "https://while-scrolling-cards-animation-3d.webflow.io",
+  "scannedAt": "2026-10-17T07:43:25.243Z",
+  "errors": [],
+  "title": "Webflow While-Scrolling Cards Animation with 3D Effects",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "Satoshi",
+        "uses": 37
+      },
+      {
+        "value": "system-ui",
+        "uses": 1
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "207px",
+        "uses": 18
+      },
+      {
+        "value": "16px",
+        "uses": 7
+      },
+      {
+        "value": "13.5px",
+        "uses": 6
+      },
+      {
+        "value": "27px",
+        "uses": 6
+      },
+      {
+        "value": "90px",
+        "uses": 1
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "700",
+        "uses": 18
+      },
+      {
+        "value": "400",
+        "uses": 13
+      },
+      {
+        "value": "500",
+        "uses": 7
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "0.54px",
+        "uses": 6
+      },
+      {
+        "value": "1.8px",
+        "uses": 1
+      }
+    ],
+    "textColors": [
+      {
+        "value": "rgb(20, 20, 20)",
+        "uses": 20
+      },
+      {
+        "value": "rgb(250, 250, 250)",
+        "uses": 18
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "rgb(250, 250, 250)",
+        "uses": 6
+      }
+    ],
+    "gradients": [],
+    "radii": [
+      {
+        "value": "16px",
+        "uses": 1
+      }
+    ],
+    "shadows": [
+      {
+        "value": "rgba(149, 157, 165, 0.2) 0px 8px 24px 0px",
+        "uses": 6
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.2) 20px 20px 60px 0px",
+        "uses": 1
+      }
+    ],
+    "blur": [],
+    "bodyBackground": "rgb(255, 255, 255)"
+  },
+  "transitions": [],
+  "keyframes": [],
+  "unreadableSheets": [
+    "https://cdn.prod.website-files.com/61b48922dfd09dacac40d4a9/css/while-scrolling-cards-animation-3d.webflow.c7ebbed0e.min.css"
+  ],
+  "libraries": {
+    "three": false,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": true,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 0,
+    "webglCanvases": 0,
+    "videos": 0,
+    "scriptHosts": [
+      "d3e54v103j8qbb.cloudfront.net",
+      "cdn.prod.website-files.com"
+    ]
+  },
+  "sections": [
+    {
+      "tag": "section",
+      "id": null,
+      "heading": null,
+      "height": 5400,
+      "pinned": false
+    }
+  ],
+  "links": [
+    "https://academy.supasaito.com/en"
+  ],
+  "animations": [],
+  "pageHeight": 10800
+}

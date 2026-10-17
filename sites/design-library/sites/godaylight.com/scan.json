@@ -1,0 +1,64 @@
+{
+  "url": "https://godaylight.com/?ref=landing.love",
+  "scannedAt": "2026-10-17T07:49:20.363Z",
+  "errors": [],
+  "title": "",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "monospace",
+        "uses": 1
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "13px",
+        "uses": 1
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "400",
+        "uses": 1
+      }
+    ],
+    "letterSpacing": [],
+    "textColors": [
+      {
+        "value": "rgb(0, 0, 0)",
+        "uses": 1
+      }
+    ],
+    "backgrounds": [],
+    "gradients": [],
+    "radii": [],
+    "shadows": [],
+    "blur": [],
+    "bodyBackground": "rgba(0, 0, 0, 0)"
+  },
+  "transitions": [],
+  "keyframes": [],
+  "unreadableSheets": [],
+  "libraries": {
+    "three": false,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": false,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 0,
+    "webglCanvases": 0,
+    "videos": 0,
+    "scriptHosts": []
+  },
+  "sections": [],
+  "links": [],
+  "animations": [],
+  "pageHeight": 900
+}

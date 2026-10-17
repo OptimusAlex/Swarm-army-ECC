@@ -1,0 +1,575 @@
+{
+  "url": "https://worldofnrg.com/?ref=landing.love",
+  "scannedAt": "2026-10-17T07:55:27.510Z",
+  "errors": [],
+  "title": "The World of NRG | Energy Insights & Ideas",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "Riegla",
+        "uses": 61
+      },
+      {
+        "value": "Effra W01",
+        "uses": 32
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "18.2973px",
+        "uses": 51
+      },
+      {
+        "value": "16px",
+        "uses": 14
+      },
+      {
+        "value": "10.0635px",
+        "uses": 9
+      },
+      {
+        "value": "13.008px",
+        "uses": 8
+      },
+      {
+        "value": "14.08px",
+        "uses": 5
+      },
+      {
+        "value": "18px",
+        "uses": 2
+      },
+      {
+        "value": "10.9784px",
+        "uses": 1
+      },
+      {
+        "value": "12px",
+        "uses": 1
+      },
+      {
+        "value": "14.4px",
+        "uses": 1
+      },
+      {
+        "value": "13.6px",
+        "uses": 1
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "200",
+        "uses": 60
+      },
+      {
+        "value": "400",
+        "uses": 15
+      },
+      {
+        "value": "700",
+        "uses": 13
+      },
+      {
+        "value": "600",
+        "uses": 5
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "1.28px",
+        "uses": 4
+      },
+      {
+        "value": "0.16px",
+        "uses": 2
+      }
+    ],
+    "textColors": [
+      {
+        "value": "rgb(0, 0, 0)",
+        "uses": 44
+      },
+      {
+        "value": "rgb(38, 29, 38)",
+        "uses": 19
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 10
+      },
+      {
+        "value": "rgb(246, 247, 243)",
+        "uses": 8
+      },
+      {
+        "value": "rgb(123, 21, 206)",
+        "uses": 7
+      },
+      {
+        "value": "rgb(85, 85, 85)",
+        "uses": 2
+      },
+      {
+        "value": "rgba(246, 247, 243, 0.85)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(95, 119, 117)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(56, 96, 190)",
+        "uses": 1
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "rgba(0, 0, 0, 0.5)",
+        "uses": 11
+      },
+      {
+        "value": "rgb(127, 239, 246)",
+        "uses": 7
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 6
+      },
+      {
+        "value": "rgb(238, 212, 254)",
+        "uses": 5
+      },
+      {
+        "value": "rgba(246, 247, 243, 0.85)",
+        "uses": 4
+      },
+      {
+        "value": "rgb(249, 249, 249)",
+        "uses": 4
+      },
+      {
+        "value": "rgb(255, 194, 14)",
+        "uses": 3
+      },
+      {
+        "value": "rgb(70, 130, 84)",
+        "uses": 3
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.1)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(38, 29, 38)",
+        "uses": 2
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.96)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(224, 174, 255)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(48, 255, 234)",
+        "uses": 1
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.8)",
+        "uses": 1
+      }
+    ],
+    "gradients": [
+      {
+        "value": "linear-gradient(90deg, rgb(255, 255, 255) 45%, rgb(255, 194, 14) 46%, rgb(255, 194, 14) 54%, rgba(255, 255, 255, 0.2) 55%)",
+        "uses": 3
+      },
+      {
+        "value": "linear-gradient(90deg, rgb(38, 29, 38) 50%, rgb(48, 255, 234) 50%)",
+        "uses": 1
+      },
+      {
+        "value": "linear-gradient(90deg, rgb(38, 29, 38) 50%, rgb(255, 255, 255) 50%)",
+        "uses": 1
+      },
+      {
+        "value": "linear-gradient(90deg, rgb(38, 29, 38) 50%, rgb(127, 239, 246) 50%)",
+        "uses": 1
+      },
+      {
+        "value": "linear-gradient(90deg, rgb(38, 29, 38) 50%, rgb(224, 174, 255) 50%)",
+        "uses": 1
+      },
+      {
+        "value": "linear-gradient(90deg, rgb(38, 29, 38) 50%, rgb(255, 194, 14) 50%)",
+        "uses": 1
+      }
+    ],
+    "radii": [
+      {
+        "value": "18.2973px",
+        "uses": 17
+      },
+      {
+        "value": "2px",
+        "uses": 12
+      },
+      {
+        "value": "100%",
+        "uses": 11
+      },
+      {
+        "value": "8px",
+        "uses": 5
+      },
+      {
+        "value": "9.14867px",
+        "uses": 3
+      },
+      {
+        "value": "10.9784px",
+        "uses": 3
+      },
+      {
+        "value": "3.65947px",
+        "uses": 3
+      },
+      {
+        "value": "8.2338px",
+        "uses": 3
+      },
+      {
+        "value": "20px",
+        "uses": 3
+      },
+      {
+        "value": "7.31893px",
+        "uses": 2
+      },
+      {
+        "value": "4.57433px",
+        "uses": 2
+      },
+      {
+        "value": "3px",
+        "uses": 2
+      },
+      {
+        "value": "10.0635px",
+        "uses": 1
+      },
+      {
+        "value": "5.94663px",
+        "uses": 1
+      }
+    ],
+    "shadows": [
+      {
+        "value": "rgba(0, 0, 0, 0.12) 0px 4px 8px 0px",
+        "uses": 1
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.2) 0px 0px 4px 0px",
+        "uses": 1
+      },
+      {
+        "value": "rgb(153, 153, 153) 0px 2px 10px -3px",
+        "uses": 1
+      },
+      {
+        "value": "rgb(199, 197, 199) -3px -3px 5px -2px",
+        "uses": 1
+      },
+      {
+        "value": "rgb(199, 197, 199) 0px 0px 12px 2px",
+        "uses": 1
+      }
+    ],
+    "blur": [
+      {
+        "value": "blur(9.14867px)",
+        "uses": 2
+      }
+    ],
+    "bodyBackground": "rgb(246, 247, 243)"
+  },
+  "transitions": [
+    {
+      "value": "transform, -webkit-transform 0.5s, 0.5s cubic-bezier(0.49, 0.125, 0.195, 0.955), cubic-bezier(0.49, 0.125, 0.195, 0.955)",
+      "uses": 8
+    },
+    {
+      "value": "opacity, background-position 0.2s, 0.3s linear, cubic-bezier(0.55, 0.1, 0.26, 0.995)",
+      "uses": 6
+    },
+    {
+      "value": "all 0.15s ease-in",
+      "uses": 4
+    },
+    {
+      "value": "all 0.25s ease-out",
+      "uses": 4
+    },
+    {
+      "value": "opacity 0.4s linear",
+      "uses": 3
+    },
+    {
+      "value": "background 0.2s ease",
+      "uses": 3
+    },
+    {
+      "value": "all 0.2s ease-in",
+      "uses": 3
+    },
+    {
+      "value": "opacity 0.1s linear",
+      "uses": 2
+    },
+    {
+      "value": "background-position 0.3s cubic-bezier(0.55, 0.1, 0.26, 0.995)",
+      "uses": 2
+    },
+    {
+      "value": "opacity, transform, -webkit-transform 0.5s, 0.3s, 0.3s linear, cubic-bezier(0.55, 0.1, 0.26, 0.995), cubic-bezier(0.55, 0.1, 0.26, 0.995)",
+      "uses": 1
+    },
+    {
+      "value": "opacity, visibility 0.2s, 0s linear, linear",
+      "uses": 1
+    },
+    {
+      "value": "transform, -webkit-transform 0.001s, 0.001s ease, ease",
+      "uses": 1
+    },
+    {
+      "value": "opacity, transform, -webkit-transform 0.4s, 0.7s, 0.7s linear, cubic-bezier(0.215, 0.61, 0.355, 1), cubic-bezier(0.215, 0.61, 0.355, 1)",
+      "uses": 1
+    },
+    {
+      "value": "filter, -webkit-filter 0.1s, 0.1s linear, linear",
+      "uses": 1
+    }
+  ],
+  "keyframes": [
+    {
+      "name": "phase-title-settle",
+      "css": "@-webkit-keyframes phase-title-settle { \n  100% { background: 0px 0px; -webkit-text-fill-color: currentcolor; color: var(--phase-settle-color,#261d26); }\n}"
+    },
+    {
+      "name": "phase-title-settle",
+      "css": "@keyframes phase-title-settle { \n  100% { background: 0px 0px; -webkit-text-fill-color: currentcolor; color: var(--phase-settle-color,#261d26); }\n}"
+    },
+    {
+      "name": "em-color-fade",
+      "css": "@-webkit-keyframes em-color-fade { \n  0% { color: var(--phase-settle-color,#261d26); }\n  100% { color: var(--em-color); }\n}"
+    },
+    {
+      "name": "em-color-fade",
+      "css": "@keyframes em-color-fade { \n  0% { color: var(--phase-settle-color,#261d26); }\n  100% { color: var(--em-color); }\n}"
+    },
+    {
+      "name": "category-backing-in",
+      "css": "@-webkit-keyframes category-backing-in { \n  0% { height: 4.8rem; }\n  100% { height: 100%; }\n}"
+    },
+    {
+      "name": "category-backing-in",
+      "css": "@keyframes category-backing-in { \n  0% { height: 4.8rem; }\n  100% { height: 100%; }\n}"
+    },
+    {
+      "name": "category-backing-out",
+      "css": "@-webkit-keyframes category-backing-out { \n  0% { height: 100%; }\n  100% { height: 4.8rem; }\n}"
+    },
+    {
+      "name": "category-backing-out",
+      "css": "@keyframes category-backing-out { \n  0% { height: 100%; }\n  100% { height: 4.8rem; }\n}"
+    },
+    {
+      "name": "category-bg-in",
+      "css": "@-webkit-keyframes category-bg-in { \n  99.9% { background-color: transparent; }\n  100% { background-color: rgb(255, 255, 255); }\n}"
+    },
+    {
+      "name": "category-bg-in",
+      "css": "@keyframes category-bg-in { \n  99.9% { background-color: transparent; }\n  100% { background-color: rgb(255, 255, 255); }\n}"
+    },
+    {
+      "name": "category-bg-out",
+      "css": "@-webkit-keyframes category-bg-out { \n  0%, 100% { background-color: transparent; }\n}"
+    },
+    {
+      "name": "category-bg-out",
+      "css": "@keyframes category-bg-out { \n  0%, 100% { background-color: transparent; }\n}"
+    },
+    {
+      "name": "category-backing-in-mobile",
+      "css": "@-webkit-keyframes category-backing-in-mobile { \n  0% { height: 4.8rem; transform: translateY(4.8rem); }\n  100% { height: 100%; transform: translateY(0px); }\n}"
+    },
+    {
+      "name": "category-backing-in-mobile",
+      "css": "@keyframes category-backing-in-mobile { \n  0% { height: 4.8rem; transform: translateY(4.8rem); }\n  100% { height: 100%; transform: translateY(0px); }\n}"
+    },
+    {
+      "name": "category-backing-out-mobile",
+      "css": "@-webkit-keyframes category-backing-out-mobile { \n  0% { height: 100%; transform: translateY(0px); }\n  100% { height: 4.8rem; transform: translateY(4.8rem); }\n}"
+    },
+    {
+      "name": "category-backing-out-mobile",
+      "css": "@keyframes category-backing-out-mobile { \n  0% { height: 100%; transform: translateY(0px); }\n  100% { height: 4.8rem; transform: translateY(4.8rem); }\n}"
+    },
+    {
+      "name": "onetrust-fade-in",
+      "css": "@keyframes onetrust-fade-in { \n  0% { opacity: 0; }\n  100% { opacity: 1; }\n}"
+    },
+    {
+      "name": "ot-go-spin",
+      "css": "@keyframes ot-go-spin { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}"
+    },
+    {
+      "name": "ot-go-spin",
+      "css": "@keyframes ot-go-spin { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}"
+    },
+    {
+      "name": "ot-slide-in-left",
+      "css": "@keyframes ot-slide-in-left { \n  0% { transform: translate3d(-100%, 0px, 0px); }\n  100% { transform: translate3d(0px, 0px, 0px); }\n}"
+    },
+    {
+      "name": "ot-slide-in-right",
+      "css": "@keyframes ot-slide-in-right { \n  0% { transform: translate3d(100%, 0px, 0px); }\n  100% { transform: translate3d(0px, 0px, 0px); }\n}"
+    },
+    {
+      "name": "ot-slide-out-left",
+      "css": "@keyframes ot-slide-out-left { \n  0% { transform: translate3d(0px, 0px, 0px); }\n  100% { transform: translate3d(-100%, 0px, 0px); }\n}"
+    },
+    {
+      "name": "ot-slide-out-right",
+      "css": "@keyframes ot-slide-out-right { \n  0% { transform: translate3d(0px, 0px, 0px); }\n  100% { transform: translate3d(100%, 0px, 0px); }\n}"
+    }
+  ],
+  "unreadableSheets": [],
+  "libraries": {
+    "three": false,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": true,
+    "locomotive": false,
+    "lottie": true,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": false,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 0,
+    "webglCanvases": 0,
+    "videos": 3,
+    "scriptHosts": [
+      "www.googletagmanager.com",
+      "www.clarity.ms",
+      "s.yimg.com",
+      "snap.licdn.com",
+      "sc.lfeeder.com",
+      "ws-assets.zoominfo.com",
+      "acdn.adnxs.com",
+      "www.google-analytics.com",
+      "scripts.clarity.ms",
+      "cdn.cookielaw.org",
+      "assets.adobedtm.com",
+      "bat.bing.com",
+      "t.contentsquare.net",
+      "googleads.g.doubleclick.net",
+      "cdnjs.cloudflare.com",
+      "unpkg.com",
+      "worldofnrg.com",
+      "code.jquery.com",
+      "zn5adyl4hnan4lh5a-nrgbusiness.siteintercept.qualtrics.com",
+      "js.zi-scripts.com"
+    ]
+  },
+  "sections": [
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Manage Consent Preferences",
+      "height": 0,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "ot-pc-lst",
+      "heading": "Cookie List",
+      "height": 0,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "ot-fltr-modal",
+      "heading": null,
+      "height": 0,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "ot-lst-cnt",
+      "heading": null,
+      "height": 0,
+      "pinned": false
+    }
+  ],
+  "links": [
+    "https://www.nrg.com/legal/privacy-rights-and-requests.html",
+    "https://www.nrg.com/legal.html",
+    "https://www.nrg.com/energy-policy.html",
+    "https://investors.nrg.com/corporate-governance/highlights#code-of-conduct",
+    "https://www.nrg.com/suppliers.html",
+    "https://www.nrg.com/en/legal/cookies-policy",
+    "https://www.nrg.com/en/legal/privacy-rights-and-requests/privacy-policy",
+    "https://www.nrg.com/legal/privacy-rights-and-requests/privacy-policy.html",
+    "https://www.onetrust.com/solutions/consent-and-preferences/"
+  ],
+  "animations": [
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "span#explore-button.homePage__enterButton.arrowButton",
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "background-position-x",
+      "kind": "CSSTransition",
+      "target": "span.arrowButton__icon",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.55, 0.1, 0.26, 0.995)",
+      "iterations": 1,
+      "properties": [
+        "backgroundPositionX"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "span#explore-button.homePage__enterButton.arrowButton",
+      "duration": 800,
+      "delay": 0,
+      "easing": "cubic-bezier(0.55, 0.1, 0.26, 0.995)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    }
+  ],
+  "pageHeight": 900
+}

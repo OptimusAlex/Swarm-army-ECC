@@ -1,0 +1,665 @@
+{
+  "url": "https://brand.ivress.co.jp/en/?ref=landing.love",
+  "scannedAt": "2026-10-17T07:42:37.196Z",
+  "errors": [],
+  "title": "SPIN A TALE ー Weave ー | IVRESS Inc. Brand Site",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "Josefin Sans",
+        "uses": 190
+      },
+      {
+        "value": "Basilia Compress D",
+        "uses": 138
+      },
+      {
+        "value": "Roboto",
+        "uses": 38
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "24px",
+        "uses": 167
+      },
+      {
+        "value": "64px",
+        "uses": 83
+      },
+      {
+        "value": "16px",
+        "uses": 45
+      },
+      {
+        "value": "160px",
+        "uses": 28
+      },
+      {
+        "value": "12px",
+        "uses": 18
+      },
+      {
+        "value": "14px",
+        "uses": 13
+      },
+      {
+        "value": "322px",
+        "uses": 6
+      },
+      {
+        "value": "56px",
+        "uses": 5
+      },
+      {
+        "value": "48px",
+        "uses": 1
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "400",
+        "uses": 202
+      },
+      {
+        "value": "500",
+        "uses": 161
+      },
+      {
+        "value": "300",
+        "uses": 3
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "1px",
+        "uses": 74
+      },
+      {
+        "value": "4.48px",
+        "uses": 10
+      },
+      {
+        "value": "1.2px",
+        "uses": 8
+      },
+      {
+        "value": "0.48px",
+        "uses": 2
+      }
+    ],
+    "textColors": [
+      {
+        "value": "rgb(250, 245, 240)",
+        "uses": 322
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 10
+      },
+      {
+        "value": "rgb(252, 252, 252)",
+        "uses": 7
+      },
+      {
+        "value": "rgb(254, 237, 181)",
+        "uses": 3
+      },
+      {
+        "value": "rgb(255, 206, 61)",
+        "uses": 3
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.9)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(0, 2, 3)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(254, 231, 157)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(254, 225, 133)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(255, 218, 109)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(255, 212, 85)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(254, 229, 151)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(255, 222, 121)",
+        "uses": 1
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "rgb(250, 245, 240)",
+        "uses": 5
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "uses": 1
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.2)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(0, 2, 3)",
+        "uses": 1
+      }
+    ],
+    "gradients": [
+      {
+        "value": "radial-gradient(circle, rgb(14, 14, 14) 25%, rgba(13, 13, 13, 0) 60%)",
+        "uses": 2
+      },
+      {
+        "value": "radial-gradient(circle, rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.08) 90%)",
+        "uses": 1
+      }
+    ],
+    "radii": [
+      {
+        "value": "50%",
+        "uses": 9
+      },
+      {
+        "value": "48px",
+        "uses": 3
+      }
+    ],
+    "shadows": [],
+    "blur": [],
+    "bodyBackground": "rgb(0, 2, 3)"
+  },
+  "transitions": [
+    {
+      "value": "transform 1.5s cubic-bezier(0.25, 1, 0.5, 1)",
+      "uses": 56
+    },
+    {
+      "value": "transform 1s cubic-bezier(0.25, 1, 0.5, 1)",
+      "uses": 18
+    },
+    {
+      "value": "opacity, filter, transform 1.4s, 1.9s, 1s cubic-bezier(0.25, 1, 0.5, 1), cubic-bezier(0.25, 1, 0.5, 1), cubic-bezier(0.25, 1, 0.5, 1)",
+      "uses": 12
+    },
+    {
+      "value": "transform 1.7s cubic-bezier(0.25, 1, 0.5, 1)",
+      "uses": 11
+    },
+    {
+      "value": "opacity, filter, transform 5s, 6.4s, 4s cubic-bezier(0.25, 1, 0.5, 1), cubic-bezier(0.25, 1, 0.5, 1), cubic-bezier(0.25, 1, 0.5, 1)",
+      "uses": 8
+    },
+    {
+      "value": "transform 2.2s cubic-bezier(0.25, 1, 0.5, 1)",
+      "uses": 6
+    },
+    {
+      "value": "transform 0.35s ease",
+      "uses": 5
+    },
+    {
+      "value": "opacity 0.2s ease",
+      "uses": 4
+    },
+    {
+      "value": "opacity 0.9s ease",
+      "uses": 4
+    },
+    {
+      "value": "opacity 0.6s cubic-bezier(0.25, 1, 0.5, 1)",
+      "uses": 3
+    },
+    {
+      "value": "opacity 0.3s ease",
+      "uses": 3
+    },
+    {
+      "value": "opacity, filter, transform 0.7s, 0.1s, 0.1s ease, ease, cubic-bezier(0.25, 1, 0.5, 1)",
+      "uses": 3
+    },
+    {
+      "value": "border-color 0.6s ease",
+      "uses": 3
+    },
+    {
+      "value": "transform 0.3s ease",
+      "uses": 3
+    }
+  ],
+  "keyframes": [
+    {
+      "name": "eq",
+      "css": "@keyframes eq { \n  0% { transform: translateY(0px) scaleY(0.15); }\n  10% { transform: translateY(-1px) scaleY(0.95); }\n  25% { transform: translateY(-2px) scaleY(0.4); }\n  45% { transform: translateY(1px) scaleY(0.8); }\n  60% { transform: translateY(-2px) scaleY(0.3); }\n  80% { transform: translateY(2px) scaleY(0.7); }\n  100% { transform: translateY(0px) scaleY(0.15); }\n}"
+    },
+    {
+      "name": "blink-fade",
+      "css": "@keyframes blink-fade { \n  0%, 100% { opacity: 0.1; }\n  40% { opacity: 1; }\n  60% { opacity: 1; }\n}"
+    },
+    {
+      "name": "arrow-cascade",
+      "css": "@keyframes arrow-cascade { \n  0% { opacity: 0; transform: translate3d(-50%, calc(-50% - 6px), 0px); }\n  20% { opacity: 1; transform: translate3d(-50%, calc(-50% - 3px), 0px); }\n  40% { opacity: 1; transform: translate3d(-50%, calc(-50% + 3px), 0px); }\n  60%, 100% { opacity: 0; transform: translate3d(-50%, calc(-50% + 6px), 0px); }\n}"
+    },
+    {
+      "name": "shake",
+      "css": "@keyframes shake { \n  0%, 100% { transform: translate(0px); }\n  25% { transform: translate(1px, -1px); }\n  50% { transform: translate(-1px, 1px); }\n  75% { transform: translate(1px, 1px); }\n}"
+    },
+    {
+      "name": "shake2",
+      "css": "@keyframes shake2 { \n  0%, 100% { transform: translate(0px); }\n  20% { transform: translate(2px, -1px); }\n  40% { transform: translate(-1px, 1px); }\n  60% { transform: translate(1px, -2px); }\n  80% { transform: translate(-1px, 1px); }\n}"
+    },
+    {
+      "name": "shake3",
+      "css": "@keyframes shake3 { \n  0%, 100% { transform: translate(0px); }\n  33% { transform: translate(-1px, 2px); }\n  66% { transform: translate(2px, -1px); }\n}"
+    },
+    {
+      "name": "shake4",
+      "css": "@keyframes shake4 { \n  0%, 100% { transform: translate(0px); }\n  15% { transform: translate(-2px); }\n  45% { transform: translate(1px, 1px); }\n  75% { transform: translateY(-2px); }\n}"
+    },
+    {
+      "name": "shake5",
+      "css": "@keyframes shake5 { \n  0%, 100% { transform: translate(0px); }\n  25% { transform: translate(1px, 2px); }\n  50% { transform: translate(-2px, -1px); }\n  75% { transform: translate(1px, -1px); }\n}"
+    },
+    {
+      "name": "shake6",
+      "css": "@keyframes shake6 { \n  0%, 100% { transform: translate(0px); }\n  20% { transform: translateY(2px); }\n  40% { transform: translate(-1px, -1px); }\n  60% { transform: translate(2px); }\n  80% { transform: translate(-1px, 1px); }\n}"
+    },
+    {
+      "name": "animInteraction",
+      "css": "@keyframes animInteraction { \n  0% { transform: scale(0); opacity: 0; }\n  20% { transform: scale(0.7); opacity: 0.7; }\n  30% { transform: scale(1); opacity: 0; }\n  100% { transform: scale(0); opacity: 0; }\n}"
+    },
+    {
+      "name": "ripple",
+      "css": "@keyframes ripple { \n  0% { transform: scale(0); opacity: 0.35; }\n  100% { transform: scale(1); opacity: 0; }\n}"
+    }
+  ],
+  "unreadableSheets": [],
+  "libraries": {
+    "three": true,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": true,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": false,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 1,
+    "webglCanvases": 0,
+    "videos": 0,
+    "scriptHosts": [
+      "www.googletagmanager.com",
+      "brand.ivress.co.jp"
+    ]
+  },
+  "sections": [
+    {
+      "tag": "header",
+      "id": null,
+      "heading": null,
+      "height": 42,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": "T  H  E  M  Y  T  H  O  F     I  V  R  E  S  S",
+      "height": 0,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "section1",
+      "heading": null,
+      "height": 900,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "section2",
+      "heading": null,
+      "height": 900,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "section3",
+      "heading": null,
+      "height": 900,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "section4",
+      "heading": null,
+      "height": 900,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "section5",
+      "heading": null,
+      "height": 900,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "section6",
+      "heading": null,
+      "height": 900,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "end-screen",
+      "heading": null,
+      "height": 900,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": "app",
+      "heading": null,
+      "height": 20700,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": null,
+      "height": 132,
+      "pinned": false
+    }
+  ],
+  "links": [
+    "https://www.instagram.com/ivress1201",
+    "https://x.com/ivress1201",
+    "https://www.facebook.com/ivress1201",
+    "https://www.ivress.co.jp/",
+    "https://ivress.co.jp/special/",
+    "https://www.ivress.co.jp/contact/",
+    "https://www.ivress.co.jp/privacy/"
+  ],
+  "animations": [
+    {
+      "when": "load",
+      "name": "eq",
+      "kind": "CSSAnimation",
+      "target": "span.bar",
+      "duration": 5000,
+      "delay": -100,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "eq",
+      "kind": "CSSAnimation",
+      "target": "span.bar",
+      "duration": 7000,
+      "delay": -50,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "ripple",
+      "kind": "CSSAnimation",
+      "target": "div.ripple",
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "shake2",
+      "kind": "CSSAnimation",
+      "target": "span.letter",
+      "duration": 6480,
+      "delay": 50,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "shake6",
+      "kind": "CSSAnimation",
+      "target": "span.letter",
+      "duration": 7600,
+      "delay": 10,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "shake3",
+      "kind": "CSSAnimation",
+      "target": "span.letter",
+      "duration": 8640,
+      "delay": 80,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "shake5",
+      "kind": "CSSAnimation",
+      "target": "span.letter",
+      "duration": 9200,
+      "delay": 90,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "shake4",
+      "kind": "CSSAnimation",
+      "target": "span.letter",
+      "duration": 7200,
+      "delay": 30,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "shake",
+      "kind": "CSSAnimation",
+      "target": "span.letter",
+      "duration": 10800,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "shake4",
+      "kind": "CSSAnimation",
+      "target": "span.letter",
+      "duration": 10000,
+      "delay": 70,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "shake6",
+      "kind": "CSSAnimation",
+      "target": "span.letter",
+      "duration": 6200,
+      "delay": 20,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "arrow-cascade",
+      "kind": "CSSAnimation",
+      "target": "img.arrow-item.ai-1",
+      "duration": 4000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "arrow-cascade",
+      "kind": "CSSAnimation",
+      "target": "img.arrow-item.ai-2",
+      "duration": 4000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "arrow-cascade",
+      "kind": "CSSAnimation",
+      "target": "img.arrow-item.ai-3",
+      "duration": 4000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "arrow-cascade",
+      "kind": "CSSAnimation",
+      "target": "img.arrow-item.ai-4",
+      "duration": 4000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "shake5",
+      "kind": "CSSAnimation",
+      "target": "span.letter",
+      "duration": 11600,
+      "delay": 100,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "shake",
+      "kind": "CSSAnimation",
+      "target": "span.letter",
+      "duration": 6800,
+      "delay": 40,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "blink-fade",
+      "kind": "CSSAnimation",
+      "target": "span.fadeinout",
+      "duration": 3000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    }
+  ],
+  "pageHeight": 20700
+}

@@ -1,0 +1,260 @@
+{
+  "url": "https://www.marvellco.com.au/?ref=landing.love",
+  "scannedAt": "2026-10-17T07:48:56.662Z",
+  "errors": [],
+  "title": "Marvell Tile & Stone | Perth's Tiling and Natural Stone Artisans",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "neueMontreal",
+        "uses": 94
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "128px",
+        "uses": 41
+      },
+      {
+        "value": "12px",
+        "uses": 38
+      },
+      {
+        "value": "14px",
+        "uses": 13
+      },
+      {
+        "value": "16px",
+        "uses": 1
+      },
+      {
+        "value": "256px",
+        "uses": 1
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "400",
+        "uses": 90
+      },
+      {
+        "value": "500",
+        "uses": 3
+      },
+      {
+        "value": "700",
+        "uses": 1
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "-1.28px",
+        "uses": 42
+      },
+      {
+        "value": "-0.14px",
+        "uses": 10
+      },
+      {
+        "value": "0.56px",
+        "uses": 3
+      }
+    ],
+    "textColors": [
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 43
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "uses": 38
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.7)",
+        "uses": 12
+      },
+      {
+        "value": "rgb(177, 167, 129)",
+        "uses": 1
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "rgba(255, 255, 255, 0.1)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(233, 228, 223)",
+        "uses": 1
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.7)",
+        "uses": 1
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.5)",
+        "uses": 1
+      }
+    ],
+    "gradients": [],
+    "radii": [
+      {
+        "value": "8px",
+        "uses": 2
+      },
+      {
+        "value": "4px",
+        "uses": 1
+      },
+      {
+        "value": "12px",
+        "uses": 1
+      }
+    ],
+    "shadows": [],
+    "blur": [
+      {
+        "value": "blur(50px)",
+        "uses": 1
+      }
+    ],
+    "bodyBackground": "rgba(0, 0, 0, 0)"
+  },
+  "transitions": [
+    {
+      "value": "opacity 0.3s ease-in-out",
+      "uses": 77
+    },
+    {
+      "value": "opacity 0.5s ease-in-out",
+      "uses": 38
+    },
+    {
+      "value": "background-color, color 0.15s, 0.3s ease-in-out, ease-in-out",
+      "uses": 10
+    },
+    {
+      "value": "color 0.15s ease-in-out",
+      "uses": 3
+    },
+    {
+      "value": "color 0.3s ease-in-out",
+      "uses": 1
+    },
+    {
+      "value": "background-color 1.5s cubic-bezier(0.85, 0.09, 0.15, 0.91)",
+      "uses": 1
+    },
+    {
+      "value": "color, background 0.15s ease",
+      "uses": 1
+    }
+  ],
+  "keyframes": [
+    {
+      "name": "JSOAhG_spin",
+      "css": "@keyframes JSOAhG_spin { \n  0% { transform: translate(-50%, -50%) rotate(0deg); }\n  100% { transform: translate(-50%, -50%) rotate(360deg); }\n}"
+    },
+    {
+      "name": "swiper-preloader-spin",
+      "css": "@keyframes swiper-preloader-spin { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}"
+    }
+  ],
+  "unreadableSheets": [],
+  "libraries": {
+    "three": false,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": false,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 0,
+    "webglCanvases": 0,
+    "videos": 0,
+    "scriptHosts": [
+      "www.googletagmanager.com",
+      "www.marvellco.com.au"
+    ]
+  },
+  "sections": [],
+  "links": [],
+  "animations": [
+    {
+      "when": "hover",
+      "name": "color",
+      "kind": "CSSTransition",
+      "target": "a.LH6Mea_nav__logo.LH6Mea_nav__link--hover",
+      "duration": 300,
+      "delay": 0,
+      "easing": "ease-in-out",
+      "iterations": 1,
+      "properties": [
+        "color"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "li.LH6Mea_nav__hover",
+      "duration": 300,
+      "delay": 0,
+      "easing": "ease-in-out",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "a.VYBGJG_card",
+      "duration": 500,
+      "delay": 0,
+      "easing": "ease-in-out",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.VYBGJG_card-duplicate",
+      "duration": 300,
+      "delay": 0,
+      "easing": "ease-in-out",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "color",
+      "kind": "CSSTransition",
+      "target": "a.LH6Mea_nav__logo",
+      "duration": 300,
+      "delay": 0,
+      "easing": "ease-in-out",
+      "iterations": 1,
+      "properties": [
+        "color"
+      ],
+      "timeline": "DocumentTimeline"
+    }
+  ],
+  "pageHeight": 900
+}

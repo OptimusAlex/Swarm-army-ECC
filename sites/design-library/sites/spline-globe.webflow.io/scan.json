@@ -1,0 +1,165 @@
+{
+  "url": "https://spline-globe.webflow.io",
+  "scannedAt": "2026-10-17T07:43:56.166Z",
+  "errors": [],
+  "title": "Spline Globe",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "Neuehaasdisplayroman",
+        "uses": 10
+      },
+      {
+        "value": "nautica",
+        "uses": 6
+      },
+      {
+        "value": "Nephilm",
+        "uses": 3
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "16px",
+        "uses": 7
+      },
+      {
+        "value": "48px",
+        "uses": 6
+      },
+      {
+        "value": "64px",
+        "uses": 3
+      },
+      {
+        "value": "20px",
+        "uses": 3
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "400",
+        "uses": 19
+      }
+    ],
+    "letterSpacing": [],
+    "textColors": [
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 19
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "rgb(0, 0, 0)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 1
+      },
+      {
+        "value": "rgba(221, 221, 221, 0)",
+        "uses": 1
+      }
+    ],
+    "gradients": [
+      {
+        "value": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 50%)",
+        "uses": 1
+      }
+    ],
+    "radii": [
+      {
+        "value": "160px",
+        "uses": 7
+      }
+    ],
+    "shadows": [
+      {
+        "value": "rgba(255, 255, 255, 0.46) -3px 0px 8px 2px",
+        "uses": 1
+      }
+    ],
+    "blur": [
+      {
+        "value": "blur(10px)",
+        "uses": 3
+      }
+    ],
+    "bodyBackground": "rgb(0, 0, 0)"
+  },
+  "transitions": [],
+  "keyframes": [],
+  "unreadableSheets": [
+    "https://assets-global.website-files.com/65568f849bcd87e6bda8339d/css/spline-globe.webflow.6280d8844.css",
+    "https://use.typekit.net/yba7qkn.css"
+  ],
+  "libraries": {
+    "three": false,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": true,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 1,
+    "webglCanvases": 1,
+    "videos": 0,
+    "scriptHosts": [
+      "use.typekit.net",
+      "d3e54v103j8qbb.cloudfront.net",
+      "assets-global.website-files.com"
+    ]
+  },
+  "sections": [
+    {
+      "tag": "div",
+      "id": null,
+      "heading": null,
+      "height": 122,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": "Discover the planet",
+      "height": 73,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": null,
+      "height": 810,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": "Living, Breathing Earth",
+      "height": 1602,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": null,
+      "height": 96,
+      "pinned": false
+    }
+  ],
+  "links": [
+    "https://www.billietuitt.com/",
+    "https://www.youtube.com/@BillieTuitt/",
+    "https://www.billietuitt.com/resources",
+    "https://www.instagram.com/billie.designs/"
+  ],
+  "animations": [],
+  "pageHeight": 2704
+}

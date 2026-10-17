@@ -1,0 +1,119 @@
+{
+  "url": "https://gsap-3d-looping-card-animation.webflow.io",
+  "scannedAt": "2026-10-17T07:42:37.246Z",
+  "errors": [],
+  "title": "Webflow 3D Looping Card Animation",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "Satoshi",
+        "uses": 19
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "17px",
+        "uses": 10
+      },
+      {
+        "value": "20px",
+        "uses": 8
+      },
+      {
+        "value": "38px",
+        "uses": 1
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "500",
+        "uses": 9
+      },
+      {
+        "value": "300",
+        "uses": 8
+      },
+      {
+        "value": "400",
+        "uses": 2
+      }
+    ],
+    "letterSpacing": [],
+    "textColors": [
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 11
+      },
+      {
+        "value": "rgb(153, 153, 153)",
+        "uses": 8
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "rgb(27, 27, 27)",
+        "uses": 8
+      }
+    ],
+    "gradients": [],
+    "radii": [
+      {
+        "value": "20px",
+        "uses": 8
+      },
+      {
+        "value": "20px 20px 0px 0px",
+        "uses": 8
+      }
+    ],
+    "shadows": [
+      {
+        "value": "rgba(255, 255, 255, 0.07) 14px -14px 40px 3px, rgba(0, 0, 0, 0.2) 0px 0px 40px 0px inset, rgba(0, 0, 0, 0.7) -2px 2px 40px 7px",
+        "uses": 6
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.2) 0px 0px 40px 0px inset, rgba(255, 255, 255, 0.07) 14px -14px 40px 3px, rgba(0, 0, 0, 0.7) -2px 2px 40px 7px",
+        "uses": 1
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.07) 14px -14px 40px 3px, rgba(0, 0, 0, 0.2) 0px 0px 40px 0px, rgba(0, 0, 0, 0.7) -2px 2px 40px 7px",
+        "uses": 1
+      }
+    ],
+    "blur": [],
+    "bodyBackground": "rgb(27, 27, 27)"
+  },
+  "transitions": [],
+  "keyframes": [
+    {
+      "name": "spin",
+      "css": "@keyframes spin { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}"
+    }
+  ],
+  "unreadableSheets": [],
+  "libraries": {
+    "three": false,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": true,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 0,
+    "webglCanvases": 0,
+    "videos": 0,
+    "scriptHosts": [
+      "d3e54v103j8qbb.cloudfront.net",
+      "cdn.prod.website-files.com"
+    ]
+  },
+  "sections": [],
+  "links": [],
+  "animations": [],
+  "pageHeight": 900
+}

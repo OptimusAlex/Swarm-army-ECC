@@ -1,0 +1,306 @@
+{
+  "url": "https://explore.ownprimland.com/?ref=landing.love",
+  "scannedAt": "2026-10-17T07:44:08.044Z",
+  "errors": [],
+  "title": "Primland Luxury Blue Ridge Mountain Resort",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "petitserif",
+        "uses": 23
+      },
+      {
+        "value": "inferi",
+        "uses": 11
+      },
+      {
+        "value": "centra",
+        "uses": 6
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "49.92px",
+        "uses": 21
+      },
+      {
+        "value": "14px",
+        "uses": 6
+      },
+      {
+        "value": "18px",
+        "uses": 2
+      },
+      {
+        "value": "12px",
+        "uses": 2
+      },
+      {
+        "value": "10.56px",
+        "uses": 2
+      },
+      {
+        "value": "13.44px",
+        "uses": 2
+      },
+      {
+        "value": "16px",
+        "uses": 1
+      },
+      {
+        "value": "13px",
+        "uses": 1
+      },
+      {
+        "value": "8.64px",
+        "uses": 1
+      },
+      {
+        "value": "15.36px",
+        "uses": 1
+      },
+      {
+        "value": "18.24px",
+        "uses": 1
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "400",
+        "uses": 31
+      },
+      {
+        "value": "500",
+        "uses": 7
+      },
+      {
+        "value": "700",
+        "uses": 2
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "9.984px",
+        "uses": 21
+      },
+      {
+        "value": "1.056px",
+        "uses": 2
+      },
+      {
+        "value": "-0.1344px",
+        "uses": 1
+      },
+      {
+        "value": "2.688px",
+        "uses": 1
+      },
+      {
+        "value": "1.728px",
+        "uses": 1
+      },
+      {
+        "value": "-0.3072px",
+        "uses": 1
+      }
+    ],
+    "textColors": [
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 26
+      },
+      {
+        "value": "rgb(69, 106, 75)",
+        "uses": 6
+      },
+      {
+        "value": "rgb(255, 251, 231)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(33, 33, 33)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(89, 89, 89)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(20, 20, 42)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(78, 75, 102)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(41, 60, 91)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "uses": 1
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "rgb(69, 106, 75)",
+        "uses": 4
+      },
+      {
+        "value": "rgb(255, 251, 231)",
+        "uses": 3
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 3
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "uses": 2
+      },
+      {
+        "value": "rgba(255, 255, 255, 0)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(229, 244, 239)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(237, 237, 237)",
+        "uses": 1
+      }
+    ],
+    "gradients": [],
+    "radii": [
+      {
+        "value": "2px",
+        "uses": 5
+      },
+      {
+        "value": "6px",
+        "uses": 4
+      },
+      {
+        "value": "8px",
+        "uses": 1
+      },
+      {
+        "value": "0px 0px 6px 6px",
+        "uses": 1
+      }
+    ],
+    "shadows": [
+      {
+        "value": "rgba(172, 171, 171, 0.3) 0px -1px 10px 0px",
+        "uses": 1
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.3) 0px 32px 68px 0px",
+        "uses": 1
+      },
+      {
+        "value": "rgb(128, 128, 128) 0px 0px 5px 0px",
+        "uses": 1
+      }
+    ],
+    "blur": [
+      {
+        "value": "blur(2px)",
+        "uses": 2
+      }
+    ],
+    "bodyBackground": "rgba(0, 0, 0, 0)"
+  },
+  "transitions": [
+    {
+      "value": "transform 0.5s cubic-bezier(0.23, 1, 0.32, 1)",
+      "uses": 2
+    },
+    {
+      "value": "opacity 0.5s cubic-bezier(0.23, 1, 0.32, 1)",
+      "uses": 1
+    },
+    {
+      "value": "right 0.3s ease",
+      "uses": 1
+    }
+  ],
+  "keyframes": [
+    {
+      "name": "rotateAndFade-1a1e9cc4",
+      "css": "@keyframes rotateAndFade-1a1e9cc4 { \n  0% { opacity: 0.3; transform: rotate(90deg); }\n  25% { opacity: 1; transform: rotate(0deg); }\n  75% { opacity: 1; transform: rotate(0deg); }\n  100% { opacity: 0; transform: rotate(0deg); }\n}"
+    },
+    {
+      "name": "spin",
+      "css": "@keyframes spin { \n  100% { transform: rotate(1turn); }\n}"
+    },
+    {
+      "name": "rotateAndFade-1a1e9cc4",
+      "css": "@keyframes rotateAndFade-1a1e9cc4 { \n  0% { opacity: 0.3; transform: rotate(90deg); }\n  25% { opacity: 1; transform: rotate(0deg); }\n  75% { opacity: 1; transform: rotate(0deg); }\n  100% { opacity: 0; transform: rotate(0deg); }\n}"
+    },
+    {
+      "name": "fade-b610ab43",
+      "css": "@keyframes fade-b610ab43 { \n  0%, 50% { opacity: 0; }\n  10%, 40% { opacity: 1; }\n}"
+    }
+  ],
+  "unreadableSheets": [],
+  "libraries": {
+    "three": true,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": true,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": false,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 1,
+    "webglCanvases": 1,
+    "videos": 1,
+    "scriptHosts": [
+      "www.clarity.ms",
+      "scripts.clarity.ms",
+      "www.gstatic.com",
+      "www.googletagmanager.com",
+      "cdn-cookieyes.com",
+      "explore.ownprimland.com",
+      "recaptcha.net",
+      "connect.facebook.net",
+      "googleads.g.doubleclick.net"
+    ]
+  },
+  "sections": [
+    {
+      "tag": "header",
+      "id": null,
+      "heading": null,
+      "height": 62,
+      "pinned": false
+    }
+  ],
+  "links": [
+    "https://www.cookieyes.com/product/cookie-consent/?ref=cypbcyb&utm_source=cookie-banner&utm_medium=powered-by-cookieyes"
+  ],
+  "animations": [
+    {
+      "when": "load",
+      "name": "spin",
+      "kind": "CSSAnimation",
+      "target": "div.absolute.top-0",
+      "duration": 1000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    }
+  ],
+  "pageHeight": 900
+}

@@ -1,0 +1,151 @@
+{
+  "url": "https://retro-3d-grid.webflow.io",
+  "scannedAt": "2026-10-17T07:43:45.497Z",
+  "errors": [],
+  "title": "011 Retro 3D Grid",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "Inter",
+        "uses": 14
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "14px",
+        "uses": 9
+      },
+      {
+        "value": "10px",
+        "uses": 5
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "600",
+        "uses": 9
+      },
+      {
+        "value": "400",
+        "uses": 5
+      }
+    ],
+    "letterSpacing": [],
+    "textColors": [
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 9
+      },
+      {
+        "value": "rgb(19, 19, 19)",
+        "uses": 5
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "rgb(99, 184, 82)",
+        "uses": 33
+      },
+      {
+        "value": "rgb(235, 235, 235)",
+        "uses": 1
+      },
+      {
+        "value": "rgba(19, 19, 19, 0.1)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(253, 56, 70)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "uses": 1
+      },
+      {
+        "value": "rgba(19, 19, 19, 0.2)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 1
+      },
+      {
+        "value": "rgba(19, 19, 19, 0.5)",
+        "uses": 1
+      }
+    ],
+    "gradients": [
+      {
+        "value": "radial-gradient(circle, rgba(0, 0, 0, 0), rgb(0, 0, 0) 69%)",
+        "uses": 1
+      }
+    ],
+    "radii": [
+      {
+        "value": "20px",
+        "uses": 6
+      }
+    ],
+    "shadows": [
+      {
+        "value": "rgb(58, 233, 76) 0px 0px 10px 0px",
+        "uses": 33
+      }
+    ],
+    "blur": [],
+    "bodyBackground": "rgb(0, 0, 0)"
+  },
+  "transitions": [
+    {
+      "value": "background-color, border 0.2s, 0.2s ease, ease",
+      "uses": 4
+    },
+    {
+      "value": "background-color 0.2s ease",
+      "uses": 1
+    },
+    {
+      "value": "color 0.2s ease",
+      "uses": 1
+    }
+  ],
+  "keyframes": [],
+  "unreadableSheets": [
+    "https://cdn.prod.website-files.com/616db9e8c16e87733de992ab/css/retro-3d-grid.webflow.shared.7b1457181.css",
+    "https://fonts.googleapis.com/css?family=Roboto+Mono:300,regular,700%7CRubik+Mono+One:regular%7CInter:regular,600,800"
+  ],
+  "libraries": {
+    "three": false,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": true,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 0,
+    "webglCanvases": 0,
+    "videos": 1,
+    "scriptHosts": [
+      "ajax.googleapis.com",
+      "cdn.usefathom.com",
+      "d3e54v103j8qbb.cloudfront.net",
+      "cdn.prod.website-files.com"
+    ]
+  },
+  "sections": [],
+  "links": [
+    "https://try.webflow.com/retro-3d-grid",
+    "https://youtube.com/kevinhaagsucks?sub_confirmation=1",
+    "https://twitter.com/intent/follow?screen_name=kevinhaag",
+    "https://try.webflow.com/kh-templates",
+    "https://try.webflow.com/webflow-kevinhaag"
+  ],
+  "animations": [],
+  "pageHeight": 900
+}

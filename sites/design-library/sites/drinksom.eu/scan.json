@@ -1,0 +1,853 @@
+{
+  "url": "https://www.drinksom.eu/?ref=landing.love",
+  "scannedAt": "2026-10-17T07:44:56.553Z",
+  "errors": [],
+  "title": "SŌM | Bio-Active Rituals for the Modern Human",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "ABC Diatype Mono",
+        "uses": 248
+      },
+      {
+        "value": "ABC Diatype",
+        "uses": 163
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "14px",
+        "uses": 195
+      },
+      {
+        "value": "16px",
+        "uses": 87
+      },
+      {
+        "value": "20px",
+        "uses": 54
+      },
+      {
+        "value": "12px",
+        "uses": 44
+      },
+      {
+        "value": "10.512px",
+        "uses": 10
+      },
+      {
+        "value": "18px",
+        "uses": 5
+      },
+      {
+        "value": "33.12px",
+        "uses": 4
+      },
+      {
+        "value": "28px",
+        "uses": 4
+      },
+      {
+        "value": "32px",
+        "uses": 2
+      },
+      {
+        "value": "22.7px",
+        "uses": 1
+      },
+      {
+        "value": "11.4px",
+        "uses": 1
+      },
+      {
+        "value": "34px",
+        "uses": 1
+      },
+      {
+        "value": "17px",
+        "uses": 1
+      },
+      {
+        "value": "44px",
+        "uses": 1
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "400",
+        "uses": 348
+      },
+      {
+        "value": "500",
+        "uses": 63
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "-0.42px",
+        "uses": 175
+      },
+      {
+        "value": "-0.28px",
+        "uses": 48
+      },
+      {
+        "value": "-0.36px",
+        "uses": 25
+      },
+      {
+        "value": "-0.8px",
+        "uses": 19
+      },
+      {
+        "value": "-0.4px",
+        "uses": 9
+      },
+      {
+        "value": "-0.64px",
+        "uses": 6
+      },
+      {
+        "value": "-1.76px",
+        "uses": 5
+      },
+      {
+        "value": "-0.72px",
+        "uses": 5
+      },
+      {
+        "value": "-1.12px",
+        "uses": 4
+      },
+      {
+        "value": "-1.28px",
+        "uses": 2
+      },
+      {
+        "value": "-1.36px",
+        "uses": 1
+      },
+      {
+        "value": "-0.11px",
+        "uses": 1
+      },
+      {
+        "value": "-2.02px",
+        "uses": 1
+      },
+      {
+        "value": "-0.17px",
+        "uses": 1
+      }
+    ],
+    "textColors": [
+      {
+        "value": "rgb(14, 15, 17)",
+        "uses": 190
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 123
+      },
+      {
+        "value": "oklab(0.999994 0.0000455677 0.0000200868 / 0.6)",
+        "uses": 40
+      },
+      {
+        "value": "oklab(0.168158 -0.000424862 -0.0044519 / 0.6)",
+        "uses": 26
+      },
+      {
+        "value": "rgba(14, 15, 17, 0.6)",
+        "uses": 17
+      },
+      {
+        "value": "rgb(245, 245, 245)",
+        "uses": 6
+      },
+      {
+        "value": "rgb(171, 171, 172)",
+        "uses": 3
+      },
+      {
+        "value": "oklab(0.168158 -0.000424862 -0.0044519 / 0.4)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(255, 230, 220)",
+        "uses": 1
+      },
+      {
+        "value": "oklab(0.999994 0.0000455678 0.0000200868 / 0.4)",
+        "uses": 1
+      },
+      {
+        "value": "oklab(0.999994 0.0000455678 0.0000200868 / 0.2)",
+        "uses": 1
+      },
+      {
+        "value": "oklab(0.168158 -0.000424862 -0.0044519 / 0.3)",
+        "uses": 1
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "oklab(0.999994 0.0000455678 0.0000200868 / 0.16)",
+        "uses": 42
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 22
+      },
+      {
+        "value": "rgb(236, 236, 236)",
+        "uses": 21
+      },
+      {
+        "value": "rgb(14, 15, 17)",
+        "uses": 16
+      },
+      {
+        "value": "rgb(251, 251, 251)",
+        "uses": 13
+      },
+      {
+        "value": "rgb(245, 245, 245)",
+        "uses": 9
+      },
+      {
+        "value": "oklab(0.999994 0.0000455678 0.0000200868 / 0.1)",
+        "uses": 7
+      },
+      {
+        "value": "oklab(0.999994 0.0000455678 0.0000200868 / 0.2)",
+        "uses": 5
+      },
+      {
+        "value": "oklab(0.999994 0.0000455678 0.0000200868 / 0.9)",
+        "uses": 4
+      },
+      {
+        "value": "rgb(255, 58, 31)",
+        "uses": 3
+      },
+      {
+        "value": "rgb(110, 111, 112)",
+        "uses": 1
+      },
+      {
+        "value": "oklab(0.999994 0.0000455677 0.0000200868 / 0.7)",
+        "uses": 1
+      },
+      {
+        "value": "oklab(0.168158 -0.000424862 -0.0044519 / 0.1)",
+        "uses": 1
+      },
+      {
+        "value": "oklab(0.168158 -0.000424862 -0.0044519 / 0.3)",
+        "uses": 1
+      }
+    ],
+    "gradients": [
+      {
+        "value": "linear-gradient(in oklab, rgba(14, 15, 17, 0.1) 0%, rgba(14, 15, 17, 0.8) 100%)",
+        "uses": 10
+      },
+      {
+        "value": "linear-gradient(oklab(0.168158 -0.000424862 -0.0044519 / 0.1) 0%, oklab(0.168158 -0.000424862 -0.0044519 / 0.8) 100%)",
+        "uses": 3
+      },
+      {
+        "value": "linear-gradient(rgba(7, 7, 7, 0.18) 0%, rgba(7, 7, 7, 0.05) 32%, rgba(7, 7, 7, 0.5) 54%, rgba(7, 7, 7, 0.62) 74%, rgba(7, 7, 7, 0.66) 100%)",
+        "uses": 2
+      },
+      {
+        "value": "radial-gradient(rgba(7, 7, 7, 0) 0%, rgb(7, 7, 7) 100%)",
+        "uses": 1
+      },
+      {
+        "value": "linear-gradient(rgba(14, 15, 17, 0.95) 11.148%, rgba(14, 15, 17, 0.1) 30.764%, rgba(14, 15, 17, 0.9) 65%)",
+        "uses": 1
+      },
+      {
+        "value": "linear-gradient(rgba(14, 15, 17, 0.1) 44.744%, rgb(13, 14, 15) 65%)",
+        "uses": 1
+      },
+      {
+        "value": "radial-gradient(rgba(7, 7, 7, 0) 0%, rgba(7, 7, 7, 0.85) 100%)",
+        "uses": 1
+      },
+      {
+        "value": "repeating-linear-gradient(to right, rgb(236, 236, 236) 0px, rgb(236, 236, 236) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 80px), repeating-linear-gradient(rgb(",
+        "uses": 1
+      }
+    ],
+    "radii": [
+      {
+        "value": "4px",
+        "uses": 59
+      },
+      {
+        "value": "3.35544e+07px",
+        "uses": 51
+      },
+      {
+        "value": "2px",
+        "uses": 15
+      },
+      {
+        "value": "1px",
+        "uses": 8
+      }
+    ],
+    "shadows": [
+      {
+        "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(75, 75, 75, 0.15) 0px 1px 1px 0px",
+        "uses": 2
+      }
+    ],
+    "blur": [
+      {
+        "value": "blur(16px)",
+        "uses": 38
+      },
+      {
+        "value": "blur(18px)",
+        "uses": 7
+      },
+      {
+        "value": "blur(2px)",
+        "uses": 6
+      },
+      {
+        "value": "blur(12px)",
+        "uses": 5
+      }
+    ],
+    "bodyBackground": "rgb(255, 255, 255)"
+  },
+  "transitions": [
+    {
+      "value": "opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "uses": 51
+    },
+    {
+      "value": "translate 0.4s cubic-bezier(0.95, 0, 0.05, 1)",
+      "uses": 20
+    },
+    {
+      "value": "box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "uses": 12
+    },
+    {
+      "value": "rotate 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+      "uses": 10
+    },
+    {
+      "value": "opacity 1.2s cubic-bezier(0.4, 0, 0.2, 1)",
+      "uses": 7
+    },
+    {
+      "value": "color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "uses": 6
+    },
+    {
+      "value": "color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+      "uses": 6
+    },
+    {
+      "value": "transform, translate, scale, rotate 0.3s cubic-bezier(0.32, 0.72, 0, 1)",
+      "uses": 5
+    },
+    {
+      "value": "grid-template-rows, opacity 0.4s cubic-bezier(0.32, 0.72, 0, 1)",
+      "uses": 5
+    },
+    {
+      "value": "transform, translate, scale, rotate 0.3s cubic-bezier(0, 0, 0.2, 1)",
+      "uses": 4
+    },
+    {
+      "value": "opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+      "uses": 4
+    },
+    {
+      "value": "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "uses": 3
+    },
+    {
+      "value": "rotate 0.3s cubic-bezier(0.65, 0, 0.35, 1)",
+      "uses": 3
+    },
+    {
+      "value": "transform, translate, scale, rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "uses": 2
+    }
+  ],
+  "keyframes": [
+    {
+      "name": "float",
+      "css": "@keyframes float { \n  0%, 100% { transform: translateY(0px); }\n  50% { transform: translateY(-14px); }\n}"
+    },
+    {
+      "name": "hero-stagger-up",
+      "css": "@keyframes hero-stagger-up { \n  0% { opacity: 0; transform: translateY(32px); }\n  100% { opacity: 1; transform: translateY(0px); }\n}"
+    },
+    {
+      "name": "review-in",
+      "css": "@keyframes review-in { \n  0% { opacity: 0; filter: blur(4px); transform: translateY(14px); }\n  100% { opacity: 1; filter: blur(); transform: translateY(0px); }\n}"
+    },
+    {
+      "name": "som-drawer-in",
+      "css": "@keyframes som-drawer-in { \n  0% { transform: translate(100%); }\n  100% { transform: translate(0px); }\n}"
+    },
+    {
+      "name": "som-drawer-out",
+      "css": "@keyframes som-drawer-out { \n  0% { transform: translate(0px); }\n  100% { transform: translate(100%); }\n}"
+    },
+    {
+      "name": "som-backdrop-in",
+      "css": "@keyframes som-backdrop-in { \n  0% { opacity: 0; }\n  100% { opacity: 1; }\n}"
+    },
+    {
+      "name": "som-backdrop-out",
+      "css": "@keyframes som-backdrop-out { \n  0% { opacity: 1; }\n  100% { opacity: 0; }\n}"
+    },
+    {
+      "name": "benefit-in",
+      "css": "@keyframes benefit-in { \n  0% { opacity: 0; filter: blur(3px); transform: translateY(10px); }\n  100% { opacity: 1; filter: blur(); transform: translateY(0px); }\n}"
+    },
+    {
+      "name": "bottle-spin-y",
+      "css": "@keyframes bottle-spin-y { \n  0% { transform: rotateY(0deg); }\n  100% { transform: rotateY(360deg); }\n}"
+    },
+    {
+      "name": "legalIndicatorReveal",
+      "css": "@keyframes legalIndicatorReveal { \n  0% { opacity: 0; transform: scale(0); }\n  100% { opacity: 1; transform: scale(1); }\n}"
+    },
+    {
+      "name": "underlineSweep",
+      "css": "@keyframes underlineSweep { \n  0% { opacity: 1; transform: translate(0px); }\n  45% { opacity: 1; transform: translate(104%); }\n  50% { opacity: 0; transform: translate(104%); }\n  51% { opacity: 0; transform: translate(-104%); }\n  56% { opacity: 1; transform: translate(-104%); }\n  100% { opacity: 1; transform: translate(0px); }\n}"
+    },
+    {
+      "name": "spin",
+      "css": "@keyframes spin { \n  100% { transform: rotate(360deg); }\n}"
+    }
+  ],
+  "unreadableSheets": [],
+  "libraries": {
+    "three": true,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": false,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 2,
+    "webglCanvases": 0,
+    "videos": 0,
+    "scriptHosts": [
+      "www.drinksom.eu"
+    ]
+  },
+  "sections": [
+    {
+      "tag": "header",
+      "id": null,
+      "heading": null,
+      "height": 57,
+      "pinned": true
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Power. Focus. Presence.In one daily shot.",
+      "height": 900,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "shop",
+      "heading": "SŌM Power Elixir",
+      "height": 828,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "benefits",
+      "heading": "One daily elixir.Steady energy.Mental clarity.",
+      "height": 900,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "rituals",
+      "heading": "Fuel your day with a meaningful ritual that stays.",
+      "height": 1054,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "story",
+      "heading": null,
+      "height": 1080,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "community",
+      "heading": "Trusted by those who refuse to settle for the default setting",
+      "height": 1218,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Inside the SŌM Lab: Research & Rituals",
+      "height": 1074,
+      "pinned": false
+    },
+    {
+      "tag": "footer",
+      "id": null,
+      "heading": "Sign up to receive updates on new rituals, products, and collaborations.",
+      "height": 1080,
+      "pinned": false
+    }
+  ],
+  "links": [
+    "https://som-9634.myshopify.com/account",
+    "https://som-9634.myshopify.com/account",
+    "https://www.tiktok.com/@drink.som",
+    "https://www.instagram.com/drink.som",
+    "https://www.rawlab.co/",
+    "https://som-9634.myshopify.com/account",
+    "https://www.rawlab.co/",
+    "https://www.instagram.com/drink.som",
+    "https://www.tiktok.com/@drink.som"
+  ],
+  "animations": [
+    {
+      "when": "load",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "div.absolute.inset-0",
+      "duration": 1200,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "hero-stagger-up",
+      "kind": "CSSAnimation",
+      "target": "p.font-diatype-mono.text-[12px]",
+      "duration": 800,
+      "delay": 150,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "hero-stagger-up",
+      "kind": "CSSAnimation",
+      "target": "h1.font-diatype.text-[32px]",
+      "duration": 800,
+      "delay": 300,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "hero-stagger-up",
+      "kind": "CSSAnimation",
+      "target": "p.max-w-[290px].lg:max-w-[408px]",
+      "duration": 800,
+      "delay": 450,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "hero-stagger-up",
+      "kind": "CSSAnimation",
+      "target": "div.mt-5.mb-8",
+      "duration": 800,
+      "delay": 600,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "benefit-in",
+      "kind": "CSSAnimation",
+      "target": "p.benefit-fade.max-w-[614px]",
+      "duration": 550,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity",
+        "transform",
+        "filter"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "benefit-in",
+      "kind": "CSSAnimation",
+      "target": "p.benefit-fade.font-diatype-mono",
+      "duration": 550,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity",
+        "transform",
+        "filter"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "float",
+      "kind": "CSSAnimation",
+      "target": "button.bottle-clickable.animate-float",
+      "duration": 4000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 700px",
+      "name": "background-color",
+      "kind": "CSSTransition",
+      "target": "header.sticky.left-0",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "backgroundColor"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 700px",
+      "name": "border-bottom-color",
+      "kind": "CSSTransition",
+      "target": "header.sticky.left-0",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "borderBottomColor"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 700px",
+      "name": "border-left-color",
+      "kind": "CSSTransition",
+      "target": "header.sticky.left-0",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "borderLeftColor"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 700px",
+      "name": "border-right-color",
+      "kind": "CSSTransition",
+      "target": "header.sticky.left-0",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "borderRightColor"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 700px",
+      "name": "border-top-color",
+      "kind": "CSSTransition",
+      "target": "header.sticky.left-0",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "borderTopColor"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 700px",
+      "name": "padding-bottom",
+      "kind": "CSSTransition",
+      "target": "div.relative.mx-auto",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "paddingBottom"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 700px",
+      "name": "padding-top",
+      "kind": "CSSTransition",
+      "target": "div.relative.mx-auto",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "paddingTop"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 700px",
+      "name": "scale",
+      "kind": "CSSTransition",
+      "target": "a.absolute.left-1/2",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "scale"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 700px",
+      "name": "padding-bottom",
+      "kind": "CSSTransition",
+      "target": "a.group.flex",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "paddingBottom"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 700px",
+      "name": "padding-left",
+      "kind": "CSSTransition",
+      "target": "a.group.flex",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "paddingLeft"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 700px",
+      "name": "padding-right",
+      "kind": "CSSTransition",
+      "target": "a.group.flex",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "paddingRight"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 700px",
+      "name": "padding-top",
+      "kind": "CSSTransition",
+      "target": "a.group.flex",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "paddingTop"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 1400px",
+      "name": "background-color",
+      "kind": "CSSTransition",
+      "target": "a.group.flex",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "backgroundColor"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 1400px",
+      "name": "color",
+      "kind": "CSSTransition",
+      "target": "a.group.flex",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "color"
+      ],
+      "timeline": "DocumentTimeline"
+    }
+  ],
+  "pageHeight": 8153
+}

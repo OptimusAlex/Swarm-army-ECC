@@ -1,0 +1,549 @@
+{
+  "url": "https://refokus-2021.webflow.io",
+  "scannedAt": "2026-10-17T07:44:44.064Z",
+  "errors": [],
+  "title": "Refokus' Amazing Year in Review 2021",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "Poppins",
+        "uses": 211
+      },
+      {
+        "value": "Silkscreen",
+        "uses": 19
+      },
+      {
+        "value": "Roboto Mono",
+        "uses": 1
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "13.648px",
+        "uses": 70
+      },
+      {
+        "value": "114.643px",
+        "uses": 26
+      },
+      {
+        "value": "9.5536px",
+        "uses": 25
+      },
+      {
+        "value": "173.466px",
+        "uses": 19
+      },
+      {
+        "value": "153.54px",
+        "uses": 16
+      },
+      {
+        "value": "76.8382px",
+        "uses": 13
+      },
+      {
+        "value": "9.41712px",
+        "uses": 10
+      },
+      {
+        "value": "22.7922px",
+        "uses": 9
+      },
+      {
+        "value": "18px",
+        "uses": 8
+      },
+      {
+        "value": "17.06px",
+        "uses": 8
+      },
+      {
+        "value": "34.12px",
+        "uses": 7
+      },
+      {
+        "value": "16px",
+        "uses": 4
+      },
+      {
+        "value": "11.3278px",
+        "uses": 3
+      },
+      {
+        "value": "16.3776px",
+        "uses": 2
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "400",
+        "uses": 138
+      },
+      {
+        "value": "700",
+        "uses": 55
+      },
+      {
+        "value": "600",
+        "uses": 27
+      },
+      {
+        "value": "500",
+        "uses": 11
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "-0.64px",
+        "uses": 28
+      },
+      {
+        "value": "-4.58573px",
+        "uses": 20
+      },
+      {
+        "value": "-8px",
+        "uses": 16
+      },
+      {
+        "value": "-4.62394px",
+        "uses": 2
+      },
+      {
+        "value": "-3.18817px",
+        "uses": 1
+      }
+    ],
+    "textColors": [
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 148
+      },
+      {
+        "value": "rgba(0, 0, 0, 0)",
+        "uses": 26
+      },
+      {
+        "value": "rgb(22, 22, 22)",
+        "uses": 18
+      },
+      {
+        "value": "rgb(83, 83, 94)",
+        "uses": 11
+      },
+      {
+        "value": "rgb(210, 210, 217)",
+        "uses": 6
+      },
+      {
+        "value": "rgb(116, 67, 255)",
+        "uses": 6
+      },
+      {
+        "value": "rgb(227, 227, 227)",
+        "uses": 5
+      },
+      {
+        "value": "rgb(255, 152, 210)",
+        "uses": 4
+      },
+      {
+        "value": "rgb(254, 254, 254)",
+        "uses": 3
+      },
+      {
+        "value": "rgb(104, 104, 117)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(239, 135, 232)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(62, 62, 70)",
+        "uses": 1
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "rgb(0, 0, 0)",
+        "uses": 12
+      },
+      {
+        "value": "rgb(237, 237, 237)",
+        "uses": 10
+      },
+      {
+        "value": "rgb(116, 67, 255)",
+        "uses": 8
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 5
+      },
+      {
+        "value": "rgb(55, 55, 55)",
+        "uses": 5
+      },
+      {
+        "value": "rgb(25, 25, 27)",
+        "uses": 4
+      },
+      {
+        "value": "rgb(27, 192, 0)",
+        "uses": 3
+      },
+      {
+        "value": "rgb(22, 22, 22)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(132, 128, 155)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(173, 168, 125)",
+        "uses": 2
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.05)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(31, 27, 32)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(69, 74, 103)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(65, 86, 129)",
+        "uses": 1
+      }
+    ],
+    "gradients": [
+      {
+        "value": "linear-gradient(116deg, rgba(255, 255, 255, 0.6) 20%, rgba(255, 255, 255, 0.2) 65%, rgba(255, 255, 255, 0.1) 88%)",
+        "uses": 16
+      },
+      {
+        "value": "linear-gradient(rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14)), linear-gradient(108deg, rgba(255, 255, 255, 0.4) 1.5%, rgba(255, 255, 255, 0.1) 74%)",
+        "uses": 5
+      },
+      {
+        "value": "linear-gradient(113deg, rgba(0, 0, 0, 0.52) 3%, rgba(0, 0, 0, 0.54) 99%)",
+        "uses": 1
+      },
+      {
+        "value": "linear-gradient(0deg, rgb(22, 22, 22), rgba(0, 0, 0, 0))",
+        "uses": 1
+      },
+      {
+        "value": "linear-gradient(90deg, rgba(0, 0, 0, 0), rgb(255, 46, 129))",
+        "uses": 1
+      },
+      {
+        "value": "linear-gradient(135deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 72%, rgb(243, 68, 105) 90%, rgb(89, 0, 19))",
+        "uses": 1
+      }
+    ],
+    "radii": [
+      {
+        "value": "4px",
+        "uses": 20
+      },
+      {
+        "value": "18.0154px",
+        "uses": 16
+      },
+      {
+        "value": "21.8368px",
+        "uses": 16
+      },
+      {
+        "value": "10.9184px",
+        "uses": 16
+      },
+      {
+        "value": "50%",
+        "uses": 12
+      },
+      {
+        "value": "12.2832px",
+        "uses": 5
+      },
+      {
+        "value": "100%",
+        "uses": 3
+      },
+      {
+        "value": "1000px",
+        "uses": 2
+      },
+      {
+        "value": "40px",
+        "uses": 2
+      },
+      {
+        "value": "20px",
+        "uses": 1
+      },
+      {
+        "value": "11.3278px",
+        "uses": 1
+      },
+      {
+        "value": "5.73216px",
+        "uses": 1
+      },
+      {
+        "value": "947.717px",
+        "uses": 1
+      },
+      {
+        "value": "47.3586px 47.3586px 0px 0px",
+        "uses": 1
+      }
+    ],
+    "shadows": [
+      {
+        "value": "rgba(0, 0, 0, 0.25) 0px 11px 24px 0px",
+        "uses": 9
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.1) 0px 20px 60px 0px",
+        "uses": 2
+      },
+      {
+        "value": "rgb(65, 214, 115) 0px 0px 40px 10px",
+        "uses": 1
+      }
+    ],
+    "blur": [
+      {
+        "value": "blur(20px)",
+        "uses": 17
+      },
+      {
+        "value": "blur(10px)",
+        "uses": 6
+      },
+      {
+        "value": "blur(16px)",
+        "uses": 1
+      }
+    ],
+    "bodyBackground": "rgb(22, 22, 22)"
+  },
+  "transitions": [
+    {
+      "value": "all 0.8s cubic-bezier(0.19, 0.75, 0.56, 1.06)",
+      "uses": 8
+    },
+    {
+      "value": "all 0.2s ease",
+      "uses": 2
+    },
+    {
+      "value": "width, background-color 0.4s, 0.4s ease, ease",
+      "uses": 2
+    },
+    {
+      "value": "color 0.2s ease",
+      "uses": 2
+    },
+    {
+      "value": "opacity 0.2s ease",
+      "uses": 1
+    },
+    {
+      "value": "all 2s ease",
+      "uses": 1
+    }
+  ],
+  "keyframes": [
+    {
+      "name": "greenDotPulse",
+      "css": "@keyframes greenDotPulse { \n  0% { background-color: rgb(9, 62, 0); }\n  50% { background-color: rgb(29, 209, 0); }\n  100% { background-color: rgb(9, 62, 0); }\n}"
+    }
+  ],
+  "unreadableSheets": [
+    "https://assets.website-files.com/625e8524a4e1135fbab93b78/css/refokus-2021.0b3eaa6b1.min.css",
+    "https://fonts.googleapis.com/css?family=Merriweather:300,300italic,400,400italic,700,700italic,900,900italic%7CInconsolata:400,700%7CRoboto+Mono:regular",
+    "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+  ],
+  "libraries": {
+    "three": true,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": true,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 2,
+    "webglCanvases": 2,
+    "videos": 3,
+    "scriptHosts": [
+      "cdn.iubenda.com",
+      "ajax.googleapis.com",
+      "www.googletagmanager.com",
+      "cdnjs.cloudflare.com",
+      "d3e54v103j8qbb.cloudfront.net",
+      "assets.website-files.com",
+      "year-review.vercel.app",
+      "tools.refokus.com"
+    ]
+  },
+  "sections": [
+    {
+      "tag": "header",
+      "id": null,
+      "heading": null,
+      "height": 87,
+      "pinned": true
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "1st YearIn reviewi",
+      "height": 2671,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Our#1Goal",
+      "height": 1599,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "We grewto a team of 16 amazingPeople",
+      "height": 1186,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "We focused on creating",
+      "height": 556,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "amazingWebsitesFor amazing",
+      "height": 1350,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "0024ProjectsFinished",
+      "height": 6074,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Websites in this category are simply a joy to interact with, especially in the small detai",
+      "height": 1235,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "They say we are the best Webflow Agency in Europe",
+      "height": 1069,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": null,
+      "height": 414,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "We are sharing our internal Webflow tools.",
+      "height": 75,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "CMS Tabs",
+      "height": 495,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": null,
+      "height": 162,
+      "pinned": false
+    },
+    {
+      "tag": "footer",
+      "id": null,
+      "heading": "None of this would have been possible without you.",
+      "height": 1815,
+      "pinned": false
+    }
+  ],
+  "links": [
+    "https://www.gomehrsprachig.com/",
+    "https://experts.webflow.com/profile/refokus",
+    "https://www.refokus.com/",
+    "https://www.refokus.com/careers#openings",
+    "https://www.instagram.com/refokusagency/",
+    "https://www.linkedin.com/company/refokusagency/mycompany/",
+    "https://twitter.com/refokusagency",
+    "https://www.iubenda.com/privacy-policy/16317949/full-legal",
+    "https://www.iubenda.com/privacy-policy/16317949/cookie-policy",
+    "https://www.refokus.com/impressum",
+    "https://www.refokus.com/terms-of-service"
+  ],
+  "animations": [
+    {
+      "when": "load",
+      "name": "greenDotPulse",
+      "kind": "CSSAnimation",
+      "target": "div.c-task_status-dot",
+      "duration": 4000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "backgroundColor"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 7000px",
+      "name": "r",
+      "kind": "CSSTransition",
+      "target": "circle.circle",
+      "duration": 2000,
+      "delay": 0,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "r"
+      ],
+      "timeline": "DocumentTimeline"
+    }
+  ],
+  "pageHeight": 19598
+}

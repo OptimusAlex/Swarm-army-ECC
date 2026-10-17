@@ -1,0 +1,163 @@
+{
+  "url": "https://lightweight.info/en?ref=landing.love",
+  "scannedAt": "2026-10-17T07:49:30.599Z",
+  "errors": [],
+  "title": "",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "system-ui",
+        "uses": 1
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "14px",
+        "uses": 1
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "400",
+        "uses": 1
+      }
+    ],
+    "letterSpacing": [],
+    "textColors": [
+      {
+        "value": "rgb(0, 0, 0)",
+        "uses": 1
+      }
+    ],
+    "backgrounds": [],
+    "gradients": [],
+    "radii": [],
+    "shadows": [],
+    "blur": [],
+    "bodyBackground": "rgb(0, 0, 0)"
+  },
+  "transitions": [],
+  "keyframes": [
+    {
+      "name": "react-loading-skeleton",
+      "css": "@keyframes react-loading-skeleton { \n  100% { transform: translateX(100%); }\n}"
+    },
+    {
+      "name": "f-spinner-rotate",
+      "css": "@keyframes f-spinner-rotate { \n  100% { transform: rotate(1turn); }\n}"
+    },
+    {
+      "name": "f-spinner-dash",
+      "css": "@keyframes f-spinner-dash { \n  0% { stroke-dasharray: 1, 150; stroke-dashoffset: 0; }\n  50% { stroke-dasharray: 90, 150; stroke-dashoffset: -35; }\n  100% { stroke-dasharray: 90, 150; stroke-dashoffset: -124; }\n}"
+    },
+    {
+      "name": "f-throwOutUp",
+      "css": "@keyframes f-throwOutUp { \n  100% { transform: translate3d(0,calc(var(--f-throw-out-distance, 150px) * -1),0); opacity: 0; }\n}"
+    },
+    {
+      "name": "f-throwOutDown",
+      "css": "@keyframes f-throwOutDown { \n  100% { transform: translate3d(0,var(--f-throw-out-distance,150px),0); opacity: 0; }\n}"
+    },
+    {
+      "name": "f-zoomInUp",
+      "css": "@keyframes f-zoomInUp { \n  0% { transform: scale(0.975) translate3d(0px, 16px, 0px); opacity: 0; }\n  100% { transform: scale(1) translateZ(0px); opacity: 1; }\n}"
+    },
+    {
+      "name": "f-zoomOutDown",
+      "css": "@keyframes f-zoomOutDown { \n  100% { transform: scale(0.975) translate3d(0px, 16px, 0px); opacity: 0; }\n}"
+    },
+    {
+      "name": "f-fadeIn",
+      "css": "@keyframes f-fadeIn { \n  0% { opacity: 0; }\n  100% { opacity: 1; }\n}"
+    },
+    {
+      "name": "f-fadeOut",
+      "css": "@keyframes f-fadeOut { \n  100% { opacity: 0; }\n}"
+    },
+    {
+      "name": "f-fadeFastIn",
+      "css": "@keyframes f-fadeFastIn { \n  0% { opacity: 0.75; }\n  100% { opacity: 1; }\n}"
+    },
+    {
+      "name": "f-fadeFastOut",
+      "css": "@keyframes f-fadeFastOut { \n  100% { opacity: 0; }\n}"
+    },
+    {
+      "name": "f-fadeSlowIn",
+      "css": "@keyframes f-fadeSlowIn { \n  0% { opacity: 0; }\n  100% { opacity: 1; }\n}"
+    },
+    {
+      "name": "f-fadeSlowOut",
+      "css": "@keyframes f-fadeSlowOut { \n  100% { opacity: 0; }\n}"
+    },
+    {
+      "name": "f-crossfadeIn",
+      "css": "@keyframes f-crossfadeIn { \n  0% { opacity: 0; }\n  100% { opacity: 1; }\n}"
+    },
+    {
+      "name": "f-crossfadeOut",
+      "css": "@keyframes f-crossfadeOut { \n  100% { opacity: 0; }\n}"
+    },
+    {
+      "name": "f-slideInPrev",
+      "css": "@keyframes f-slideInPrev { \n  0% { transform: translateX(100%); }\n  100% { transform: translateZ(0px); }\n}"
+    },
+    {
+      "name": "f-slideInNext",
+      "css": "@keyframes f-slideInNext { \n  0% { transform: translateX(-100%); }\n  100% { transform: translateZ(0px); }\n}"
+    },
+    {
+      "name": "f-slideOutNext",
+      "css": "@keyframes f-slideOutNext { \n  100% { transform: translateX(-100%); }\n}"
+    },
+    {
+      "name": "f-slideOutPrev",
+      "css": "@keyframes f-slideOutPrev { \n  100% { transform: translateX(100%); }\n}"
+    },
+    {
+      "name": "f-classicInNext",
+      "css": "@keyframes f-classicInNext { \n  0% { transform: translateX(-75px); opacity: 0; }\n  100% { transform: translateZ(0px); opacity: 1; }\n}"
+    },
+    {
+      "name": "f-classicInPrev",
+      "css": "@keyframes f-classicInPrev { \n  0% { transform: translateX(75px); opacity: 0; }\n  100% { transform: translateZ(0px); opacity: 1; }\n}"
+    },
+    {
+      "name": "f-classicOutNext",
+      "css": "@keyframes f-classicOutNext { \n  100% { transform: translateX(-75px); opacity: 0; }\n}"
+    },
+    {
+      "name": "f-classicOutPrev",
+      "css": "@keyframes f-classicOutPrev { \n  100% { transform: translateX(75px); opacity: 0; }\n}"
+    }
+  ],
+  "unreadableSheets": [],
+  "libraries": {
+    "three": true,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": false,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 0,
+    "webglCanvases": 0,
+    "videos": 0,
+    "scriptHosts": [
+      "cdn.consentmanager.net",
+      "lightweight.info",
+      "delivery.consentmanager.net",
+      "www.googletagmanager.com",
+      "d.delivery.consentmanager.net"
+    ]
+  },
+  "sections": [],
+  "links": [],
+  "animations": [],
+  "pageHeight": 900
+}

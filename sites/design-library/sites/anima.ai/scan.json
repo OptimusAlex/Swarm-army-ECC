@@ -1,0 +1,399 @@
+{
+  "url": "https://www.anima.ai/?ref=landing.love",
+  "scannedAt": "2026-10-17T07:42:37.256Z",
+  "errors": [],
+  "title": "Anima - Growing nature-inspired ventures",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "Helvetica Neue",
+        "uses": 680
+      },
+      {
+        "value": "Martian Mono",
+        "uses": 511
+      },
+      {
+        "value": "Parabole",
+        "uses": 444
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "14px",
+        "uses": 524
+      },
+      {
+        "value": "10px",
+        "uses": 511
+      },
+      {
+        "value": "64px",
+        "uses": 271
+      },
+      {
+        "value": "18px",
+        "uses": 143
+      },
+      {
+        "value": "48px",
+        "uses": 121
+      },
+      {
+        "value": "128px",
+        "uses": 32
+      },
+      {
+        "value": "32px",
+        "uses": 20
+      },
+      {
+        "value": "28px",
+        "uses": 13
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "300",
+        "uses": 1634
+      },
+      {
+        "value": "700",
+        "uses": 1
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "-1px",
+        "uses": 304
+      },
+      {
+        "value": "-0.5px",
+        "uses": 143
+      },
+      {
+        "value": "-2px",
+        "uses": 121
+      },
+      {
+        "value": "-10px",
+        "uses": 32
+      }
+    ],
+    "textColors": [
+      {
+        "value": "rgb(2, 2, 2)",
+        "uses": 1251
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 338
+      },
+      {
+        "value": "rgb(189, 201, 202)",
+        "uses": 46
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "rgb(2, 2, 2)",
+        "uses": 90
+      },
+      {
+        "value": "rgb(245, 246, 246)",
+        "uses": 64
+      },
+      {
+        "value": "rgb(218, 228, 175)",
+        "uses": 50
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 47
+      },
+      {
+        "value": "rgb(240, 240, 240)",
+        "uses": 24
+      },
+      {
+        "value": "rgb(189, 201, 202)",
+        "uses": 21
+      },
+      {
+        "value": "rgb(221, 222, 222)",
+        "uses": 4
+      },
+      {
+        "value": "rgba(2, 2, 2, 0.1)",
+        "uses": 2
+      },
+      {
+        "value": "rgba(2, 2, 2, 0.15)",
+        "uses": 2
+      }
+    ],
+    "gradients": [
+      {
+        "value": "linear-gradient(rgb(2, 2, 2), rgb(2, 2, 2))",
+        "uses": 1
+      }
+    ],
+    "radii": [
+      {
+        "value": "10px",
+        "uses": 74
+      },
+      {
+        "value": "5px",
+        "uses": 48
+      }
+    ],
+    "shadows": [],
+    "blur": [
+      {
+        "value": "blur(50px)",
+        "uses": 2
+      }
+    ],
+    "bodyBackground": "rgb(245, 246, 246)"
+  },
+  "transitions": [
+    {
+      "value": "opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "uses": 6
+    }
+  ],
+  "keyframes": [
+    {
+      "name": "spin",
+      "css": "@keyframes spin { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}"
+    },
+    {
+      "name": "fadeIn",
+      "css": "@keyframes fadeIn { \n  0% { opacity: 0; }\n  100% { opacity: 1; }\n}"
+    },
+    {
+      "name": "marquee",
+      "css": "@keyframes marquee { \n  0% { transform: translateZ(0px); }\n  100% { transform: translate3d(calc(var(--marquee-distance)),0,0); }\n}"
+    },
+    {
+      "name": "grain",
+      "css": "@keyframes grain { \n  0% { transform: translate(0px); }\n  10% { transform: translate(-5%, -10%); }\n  20% { transform: translate(-15%, 5%); }\n  30% { transform: translate(7%, -25%); }\n  40% { transform: translate(-5%, 25%); }\n  50% { transform: translate(-15%, 10%); }\n  60% { transform: translate(15%); }\n  70% { transform: translateY(15%); }\n  80% { transform: translate(3%, 35%); }\n  100% { transform: translate(-10%, 10%); }\n}"
+    }
+  ],
+  "unreadableSheets": [],
+  "libraries": {
+    "three": false,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": true,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": false,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 2,
+    "webglCanvases": 0,
+    "videos": 2,
+    "scriptHosts": [
+      "www.anima.ai"
+    ]
+  },
+  "sections": [
+    {
+      "tag": "header",
+      "id": null,
+      "heading": null,
+      "height": 56,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Growing\n              nature-inspired\n              companies",
+      "height": 900,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Breakthrough scienceneeds the rightconditions to grow",
+      "height": 698,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Breakthrough science needs the right conditions to grow",
+      "height": 0,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "We are your partner",
+      "height": 1243,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Who wework with",
+      "height": 476,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Discover our ventures",
+      "height": 1047,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Out of the Lab",
+      "height": 693,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Meet our team",
+      "height": 1537,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": null,
+      "height": 596,
+      "pinned": false
+    },
+    {
+      "tag": "footer",
+      "id": null,
+      "heading": null,
+      "height": 900,
+      "pinned": false
+    }
+  ],
+  "links": [
+    "https://www.anima.ai/",
+    "https://www.anima.ai/the-studio/",
+    "https://www.anima.ai/the-team/",
+    "https://www.anima.ai/our-ventures/",
+    "https://www.anima.ai/out-of-the-lab/",
+    "https://rightful-bandicoot-7f4.notion.site/Careers-at-Anima-ea3c56bdf2d344fab0eb59697dd3211f",
+    "https://www.anima.ai/contact/",
+    "https://www.anima.ai/the-studio/",
+    "https://www.anima.ai/the-studio/",
+    "https://alphastar.capital/",
+    "https://anima.ai/the-studio/",
+    "https://animastudio.notion.site/I-m-a-startup-I-am-building-a-bioinspired-product-and-want-to-scale-200dce104da28039a939d2e65b0cffe3?pvs=74",
+    "https://animastudio.notion.site/Anima-the-biomimicry-venture-studio-1fcdce104da280d2ad54c3701ca202e8?p=1ffdce104da280baa1f8c96259bcb7bb&pm=c",
+    "https://www.anima.ai/venture/asteria/",
+    "https://www.anima.ai/venture/hb-materials/",
+    "https://www.anima.ai/venture/renature/",
+    "https://www.anima.ai/venture/wata/",
+    "https://www.anima.ai/venture/myc_/",
+    "https://www.anima.ai/venture/reecover/",
+    "https://www.anima.ai/venture/biowraptor/",
+    "https://www.anima.ai/venture/leonina-bio/",
+    "https://www.anima.ai/venture/tera-mira/",
+    "https://www.anima.ai/venture/amylen/",
+    "https://www.anima.ai/venture/noiet/",
+    "https://www.anima.ai/venture/formutis/",
+    "https://www.anima.ai/venture/purezone/",
+    "https://www.anima.ai/venture/oleo/",
+    "https://www.anima.ai/venture/tumbleweed-earth-mission/",
+    "https://www.anima.ai/venture/c1-bio/",
+    "https://www.anima.ai/venture/xatoms/",
+    "https://www.anima.ai/venture/melwear/",
+    "https://www.anima.ai/venture/nanoscale-labs/",
+    "https://www.anima.ai/venture/artsilk/",
+    "https://www.anima.ai/venture/asteria/",
+    "https://www.anima.ai/venture/hb-materials/",
+    "https://www.anima.ai/venture/renature/",
+    "https://www.anima.ai/venture/wata/",
+    "https://www.anima.ai/venture/myc_/",
+    "https://www.anima.ai/venture/reecover/",
+    "https://www.anima.ai/venture/biowraptor/",
+    "https://www.anima.ai/venture/leonina-bio/",
+    "https://www.anima.ai/venture/tera-mira/",
+    "https://www.anima.ai/venture/amylen/",
+    "https://www.anima.ai/venture/noiet/",
+    "https://www.anima.ai/venture/formutis/",
+    "https://www.anima.ai/venture/purezone/",
+    "https://www.anima.ai/venture/oleo/",
+    "https://www.anima.ai/venture/tumbleweed-earth-mission/",
+    "https://www.anima.ai/venture/c1-bio/",
+    "https://www.anima.ai/venture/xatoms/",
+    "https://www.anima.ai/venture/melwear/",
+    "https://www.anima.ai/venture/nanoscale-labs/",
+    "https://www.anima.ai/venture/artsilk/",
+    "https://www.anima.ai/our-ventures/",
+    "https://www.anima.ai/out-of-the-lab/",
+    "https://www.anima.ai/team/sandra-rey/",
+    "https://www.anima.ai/team/florence-durillon/",
+    "https://www.anima.ai/team/alexandre-cadain/",
+    "https://www.anima.ai/team/cassandra-delage/",
+    "https://www.anima.ai/team/tom-bonin/",
+    "https://www.anima.ai/team/alex-de-las-heras/",
+    "https://www.anima.ai/the-team/",
+    "https://www.anima.ai/contact/",
+    "https://www.anima.ai/faq/",
+    "https://animastudio.notion.site/edad0974ba504d0c841047f491893cc8?v=f07c949c084246188b5f05270caa2e38",
+    "https://beaucoup.studio/",
+    "https://www.anima.ai/legals/",
+    "https://www.linkedin.com/company/animaventurestudio"
+  ],
+  "animations": [
+    {
+      "when": "load",
+      "name": "grain",
+      "kind": "CSSAnimation",
+      "target": "div.noise.absolute",
+      "duration": 10000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "marquee",
+      "kind": "CSSAnimation",
+      "target": "div.marquee__wrapper.flex",
+      "duration": 6791.666666666667,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 1400px",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "img.lazy.opacity-0",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    }
+  ],
+  "pageHeight": 9605
+}

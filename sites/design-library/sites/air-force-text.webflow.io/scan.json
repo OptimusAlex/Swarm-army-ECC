@@ -1,0 +1,226 @@
+{
+  "url": "https://air-force-text.webflow.io",
+  "scannedAt": "2026-10-17T07:44:06.737Z",
+  "errors": [],
+  "title": "Air Force Text",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "Montserrat",
+        "uses": 10
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "144px",
+        "uses": 3
+      },
+      {
+        "value": "13px",
+        "uses": 3
+      },
+      {
+        "value": "9px",
+        "uses": 2
+      },
+      {
+        "value": "16px",
+        "uses": 1
+      },
+      {
+        "value": "10px",
+        "uses": 1
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "500",
+        "uses": 5
+      },
+      {
+        "value": "600",
+        "uses": 5
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "3px",
+        "uses": 3
+      },
+      {
+        "value": "4px",
+        "uses": 1
+      }
+    ],
+    "textColors": [
+      {
+        "value": "rgb(212, 246, 249)",
+        "uses": 8
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 2
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "rgb(212, 246, 249)",
+        "uses": 1
+      }
+    ],
+    "gradients": [
+      {
+        "value": "radial-gradient(circle, rgb(8, 24, 31), rgb(4, 17, 22))",
+        "uses": 1
+      }
+    ],
+    "radii": [
+      {
+        "value": "3px",
+        "uses": 1
+      }
+    ],
+    "shadows": [
+      {
+        "value": "rgba(212, 246, 249, 0.27) 0px 0px 6px 0px, rgba(212, 246, 249, 0.88) 0px 0px 7px 0px inset",
+        "uses": 1
+      }
+    ],
+    "blur": [],
+    "bodyBackground": "rgb(255, 255, 255)"
+  },
+  "transitions": [
+    {
+      "value": "text-shadow 0.2s ease",
+      "uses": 1
+    },
+    {
+      "value": "border-color, letter-spacing, text-shadow 0.2s, 0.2s, 0.2s ease, ease, ease",
+      "uses": 1
+    },
+    {
+      "value": "opacity, transform, box-shadow, -webkit-transform 0.5s, 0.5s, 0.5s, 0.5s ease, ease, ease, ease",
+      "uses": 1
+    }
+  ],
+  "keyframes": [],
+  "unreadableSheets": [
+    "https://assets.website-files.com/60270f1e509c08cd60591795/css/air-force-text.webflow.2a5e2d682.css",
+    "https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic%7CLexend+Peta:regular"
+  ],
+  "libraries": {
+    "three": false,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": true,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 0,
+    "webglCanvases": 0,
+    "videos": 0,
+    "scriptHosts": [
+      "ajax.googleapis.com",
+      "d3e54v103j8qbb.cloudfront.net",
+      "assets.website-files.com"
+    ]
+  },
+  "sections": [],
+  "links": [
+    "https://www.dunclyde.com/",
+    "https://airforceecho.com/",
+    "https://airforceecho.com/"
+  ],
+  "animations": [
+    {
+      "when": "hover",
+      "name": "box-shadow",
+      "kind": "CSSTransition",
+      "target": "a.button.w-button",
+      "duration": 500,
+      "delay": 0,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "boxShadow"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "a.button.w-button",
+      "duration": 500,
+      "delay": 0,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "a.button.w-button",
+      "duration": 500,
+      "delay": 0,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "box-shadow",
+      "kind": "CSSTransition",
+      "target": "a.button.w-button",
+      "duration": 499.69712426403436,
+      "delay": 0,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "boxShadow"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "a.button.w-button",
+      "duration": 499.69712426403436,
+      "delay": 0,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "a.button.w-button",
+      "duration": 499.69712426403436,
+      "delay": 0,
+      "easing": "ease",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    }
+  ],
+  "pageHeight": 900
+}

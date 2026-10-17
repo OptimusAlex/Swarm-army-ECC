@@ -1,0 +1,312 @@
+{
+  "url": "https://skylrk.com/?ref=landing.love",
+  "scannedAt": "2026-10-17T07:54:29.069Z",
+  "errors": [],
+  "title": "SKYLRK",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "Suisse Intl Mono",
+        "uses": 256
+      },
+      {
+        "value": "Suisse Intl",
+        "uses": 164
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "10px",
+        "uses": 240
+      },
+      {
+        "value": "16px",
+        "uses": 154
+      },
+      {
+        "value": "12px",
+        "uses": 17
+      },
+      {
+        "value": "14px",
+        "uses": 7
+      },
+      {
+        "value": "9px",
+        "uses": 2
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "400",
+        "uses": 401
+      },
+      {
+        "value": "600",
+        "uses": 19
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "0.45px",
+        "uses": 2
+      }
+    ],
+    "textColors": [
+      {
+        "value": "rgb(103, 127, 144)",
+        "uses": 259
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 137
+      },
+      {
+        "value": "rgb(251, 251, 251)",
+        "uses": 23
+      },
+      {
+        "value": "rgb(241, 245, 247)",
+        "uses": 1
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "rgba(251, 251, 251, 0.2)",
+        "uses": 9
+      },
+      {
+        "value": "rgb(251, 251, 251)",
+        "uses": 7
+      },
+      {
+        "value": "rgba(251, 251, 251, 0.8)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(103, 127, 144)",
+        "uses": 1
+      },
+      {
+        "value": "rgba(255, 100, 100, 0.2)",
+        "uses": 1
+      },
+      {
+        "value": "rgba(251, 251, 251, 0.35)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(241, 245, 247)",
+        "uses": 1
+      }
+    ],
+    "gradients": [
+      {
+        "value": "radial-gradient(at 50% 30%, rgb(157, 213, 241), rgb(143, 213, 255))",
+        "uses": 1
+      }
+    ],
+    "radii": [
+      {
+        "value": "39px",
+        "uses": 5
+      },
+      {
+        "value": "4px",
+        "uses": 4
+      },
+      {
+        "value": "22px",
+        "uses": 3
+      },
+      {
+        "value": "8px",
+        "uses": 3
+      },
+      {
+        "value": "50%",
+        "uses": 1
+      }
+    ],
+    "shadows": [
+      {
+        "value": "color(srgb 1 1 1 / 0.1) 0px 0px 0px 1px inset, color(srgb 1 1 1 / 0.9) 1.8px 3px 0px -2px inset, color(srgb 1 1 1 / 0.8) -2px -2px 0px -2px inset, color(srgb 1 1 1 / 0.6) -3px -8px 1px -6px inset, color(srgb 0 0 0 / 0.12) -0.3px -1px 4px 0px inset, color(srgb 0 0 0 / 0.2) -1.5px 2.5px 0px -2px inset, color(srgb 0 0 0 / 0.2) 0px 3px 4px -2px inset, color(srgb 0 0 0 / 0.1) 2px -6.5px 1px -4px inset, color(srgb 0 0 0 / 0.1) 0px 1px 5px 0px, color(srgb 0 0 0 / 0.08) 0px 6px 16px 0px",
+        "uses": 7
+      },
+      {
+        "value": "color(srgb 1 1 1 / 0.1) 0px 0px 0px 1px inset, color(srgb 1 1 1 / 0.9) 1.8px 3px 0px -2px inset, color(srgb 1 1 1 / 0.8) -2px -2px 0px -2px inset, color(srgb 1 1 1 / 0.6) -3px -8px 1px -6px inset, color(srgb 0 0 0 / 0.12) -0.3px -1px 4px 0px inset, color(srgb 0 0 0 / 0.2) -1.5px 2.5px 0px -2px inset, color(srgb 0 0 0 / 0.2) 0px 3px 4px -2px inset, color(srgb 0 0 0 / 0.1) 2px -6.5px 1px -4px inset",
+        "uses": 5
+      }
+    ],
+    "blur": [
+      {
+        "value": "blur(24px) saturate(1.5)",
+        "uses": 1
+      }
+    ],
+    "bodyBackground": "rgb(0, 0, 0)"
+  },
+  "transitions": [
+    {
+      "value": "opacity 0.2s ease",
+      "uses": 131
+    },
+    {
+      "value": "opacity, filter 0.4s, 0.4s cubic-bezier(0.23, 1, 0.32, 1), cubic-bezier(0.23, 1, 0.32, 1)",
+      "uses": 21
+    },
+    {
+      "value": "transform 0.35s ease",
+      "uses": 21
+    },
+    {
+      "value": "filter 0.1s linear",
+      "uses": 21
+    },
+    {
+      "value": "opacity, color 0.2s, 0.35s ease, cubic-bezier(0.77, 0, 0.175, 1)",
+      "uses": 6
+    },
+    {
+      "value": "opacity, color, background 0.25s, 0.25s, 0.25s cubic-bezier(0.77, 0, 0.175, 1), cubic-bezier(0.77, 0, 0.175, 1), cubic-bezier(0.77, 0, 0.175, 1)",
+      "uses": 5
+    },
+    {
+      "value": "color 0.35s cubic-bezier(0.77, 0, 0.175, 1)",
+      "uses": 1
+    },
+    {
+      "value": "background, color 0.35s, 0.35s cubic-bezier(0.77, 0, 0.175, 1), cubic-bezier(0.77, 0, 0.175, 1)",
+      "uses": 1
+    },
+    {
+      "value": "max-width, opacity 0.4s, 0.4s cubic-bezier(0.77, 0, 0.175, 1), cubic-bezier(0.77, 0, 0.175, 1)",
+      "uses": 1
+    },
+    {
+      "value": "transform, color 0.4s, 0.35s cubic-bezier(0.77, 0, 0.175, 1), cubic-bezier(0.77, 0, 0.175, 1)",
+      "uses": 1
+    },
+    {
+      "value": "opacity 0.35s cubic-bezier(0.23, 1, 0.32, 1)",
+      "uses": 1
+    },
+    {
+      "value": "opacity 0.2s cubic-bezier(0.23, 1, 0.32, 1)",
+      "uses": 1
+    }
+  ],
+  "keyframes": [
+    {
+      "name": "shopify-rotator",
+      "css": "@keyframes shopify-rotator { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(270deg); }\n}"
+    },
+    {
+      "name": "shopify-dash",
+      "css": "@keyframes shopify-dash { \n  0% { stroke-dashoffset: 280px; }\n  50% { stroke-dashoffset: 75px; transform: rotate(135deg); }\n  100% { stroke-dashoffset: 280px; transform: rotate(450deg); }\n}"
+    },
+    {
+      "name": "acceleratedCheckoutLoadingSkeleton",
+      "css": "@keyframes acceleratedCheckoutLoadingSkeleton { \n  50% { opacity: var(--shopify-accelerated-checkout-skeleton-animation-opacity-start,1); }\n  75% { opacity: var(--shopify-accelerated-checkout-skeleton-animation-opacity-end,.5); }\n  100% { opacity: var(--shopify-accelerated-checkout-skeleton-animation-opacity-start,1); }\n}"
+    }
+  ],
+  "unreadableSheets": [],
+  "libraries": {
+    "three": true,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": true,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": false,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 1,
+    "webglCanvases": 1,
+    "videos": 0,
+    "scriptHosts": [
+      "7ce243a1e1a2.cdn4.forter.com",
+      "cdn.shopify.com",
+      "crossborder-integration.global-e.com",
+      "scripts.clarity.ms",
+      "cdn-odl.avada.io",
+      "skylrk.com",
+      "www.clarity.ms",
+      "shop.app",
+      "unpkg.com",
+      "static.klaviyo.com",
+      "static-tracking.klaviyo.com",
+      "cdn-scripts.signifyd.com",
+      "web.global-e.com",
+      "imgs.signifyd.com"
+    ]
+  },
+  "sections": [
+    {
+      "tag": "header",
+      "id": null,
+      "heading": null,
+      "height": 100,
+      "pinned": false
+    },
+    {
+      "tag": "header",
+      "id": null,
+      "heading": "Cart",
+      "height": 0,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "shopify-section-template--21252142727347__floating_product_grid_pzmMjW",
+      "heading": null,
+      "height": 2876,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": null,
+      "height": 2876,
+      "pinned": false
+    }
+  ],
+  "links": [
+    "https://www.instagram.com/skylrk/",
+    "https://www.instagram.com/skylrk/"
+  ],
+  "animations": [
+    {
+      "when": "scroll 700px",
+      "name": "web-animation",
+      "kind": "Animation",
+      "target": "a.floating-product-grid__tile",
+      "duration": 400,
+      "delay": 0,
+      "easing": "cubic-bezier(0.87, 0, 0.13, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 2100px",
+      "name": "web-animation",
+      "kind": "Animation",
+      "target": "div.floating-product-grid__tile.floating-product-grid__tile--sold-out",
+      "duration": 400,
+      "delay": 0,
+      "easing": "cubic-bezier(0.87, 0, 0.13, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    }
+  ],
+  "pageHeight": 2936
+}

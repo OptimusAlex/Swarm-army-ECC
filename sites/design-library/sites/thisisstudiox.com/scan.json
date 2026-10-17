@@ -1,0 +1,496 @@
+{
+  "url": "https://www.thisisstudiox.com/?ref=landing.love",
+  "scannedAt": "2026-10-17T07:49:48.604Z",
+  "errors": [],
+  "title": "Studio X — Commercial Interior Design | HK & Singapore",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "Saans",
+        "uses": 402
+      },
+      {
+        "value": "Serrif Compressed",
+        "uses": 356
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "16.004px",
+        "uses": 366
+      },
+      {
+        "value": "72.016px",
+        "uses": 343
+      },
+      {
+        "value": "24.016px",
+        "uses": 15
+      },
+      {
+        "value": "55.984px",
+        "uses": 13
+      },
+      {
+        "value": "14px",
+        "uses": 12
+      },
+      {
+        "value": "16px",
+        "uses": 5
+      },
+      {
+        "value": "12px",
+        "uses": 2
+      },
+      {
+        "value": "18px",
+        "uses": 1
+      },
+      {
+        "value": "14.004px",
+        "uses": 1
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "300",
+        "uses": 356
+      },
+      {
+        "value": "500",
+        "uses": 253
+      },
+      {
+        "value": "400",
+        "uses": 142
+      },
+      {
+        "value": "700",
+        "uses": 6
+      },
+      {
+        "value": "600",
+        "uses": 1
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "-1.44032px",
+        "uses": 343
+      },
+      {
+        "value": "-1.11968px",
+        "uses": 13
+      }
+    ],
+    "textColors": [
+      {
+        "value": "rgb(29, 29, 29)",
+        "uses": 480
+      },
+      {
+        "value": "rgb(242, 240, 230)",
+        "uses": 165
+      },
+      {
+        "value": "color(srgb 0.113725 0.113725 0.113725 / 0.7)",
+        "uses": 71
+      },
+      {
+        "value": "color(srgb 0.94902 0.941177 0.901961 / 0.7)",
+        "uses": 21
+      },
+      {
+        "value": "rgb(208, 208, 208)",
+        "uses": 16
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 3
+      },
+      {
+        "value": "rgb(33, 33, 33)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(4, 183, 69)",
+        "uses": 1
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "rgb(234, 231, 219)",
+        "uses": 34
+      },
+      {
+        "value": "rgba(146, 146, 146, 0.06)",
+        "uses": 24
+      },
+      {
+        "value": "rgb(242, 240, 230)",
+        "uses": 22
+      },
+      {
+        "value": "rgb(255, 65, 1)",
+        "uses": 14
+      },
+      {
+        "value": "color(srgb 0.113725 0.113725 0.113725 / 0.05)",
+        "uses": 11
+      },
+      {
+        "value": "color(srgb 0.113725 0.113725 0.113725 / 0.5)",
+        "uses": 9
+      },
+      {
+        "value": "rgb(38, 38, 38)",
+        "uses": 8
+      },
+      {
+        "value": "rgba(255, 255, 255, 0)",
+        "uses": 6
+      },
+      {
+        "value": "rgb(21, 120, 247)",
+        "uses": 3
+      },
+      {
+        "value": "rgb(29, 29, 29)",
+        "uses": 3
+      },
+      {
+        "value": "color(srgb 0 0 0 / 0.4)",
+        "uses": 3
+      },
+      {
+        "value": "rgb(18, 18, 18)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 2
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.2)",
+        "uses": 2
+      }
+    ],
+    "gradients": [
+      {
+        "value": "linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(18, 18, 18) 100%)",
+        "uses": 1
+      },
+      {
+        "value": "linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0))",
+        "uses": 1
+      }
+    ],
+    "radii": [
+      {
+        "value": "1440px",
+        "uses": 112
+      },
+      {
+        "value": "8px",
+        "uses": 18
+      },
+      {
+        "value": "6px",
+        "uses": 4
+      },
+      {
+        "value": "2px",
+        "uses": 3
+      },
+      {
+        "value": "0px 0px 6px 6px",
+        "uses": 2
+      },
+      {
+        "value": "24px",
+        "uses": 2
+      },
+      {
+        "value": "800.2px",
+        "uses": 1
+      },
+      {
+        "value": "8.002px",
+        "uses": 1
+      }
+    ],
+    "shadows": [
+      {
+        "value": "rgba(179, 179, 179, 0.5) 3px 4.5px 1.5px -3px inset",
+        "uses": 2
+      },
+      {
+        "value": "rgba(179, 179, 179, 0.3) -3px -4.5px 1.5px -3px inset",
+        "uses": 2
+      },
+      {
+        "value": "rgba(242, 242, 242, 0.3) 0px 0px 33px 0px inset",
+        "uses": 2
+      },
+      {
+        "value": "rgba(172, 171, 171, 0.3) 0px -1px 10px 0px",
+        "uses": 1
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.3) 0px 32px 68px 0px",
+        "uses": 1
+      }
+    ],
+    "blur": [
+      {
+        "value": "blur(7.5px)",
+        "uses": 2
+      },
+      {
+        "value": "blur(5px)",
+        "uses": 2
+      }
+    ],
+    "bodyBackground": "rgb(242, 240, 230)"
+  },
+  "transitions": [
+    {
+      "value": "opacity 0.15s cubic-bezier(0.65, 0, 0, 1)",
+      "uses": 22
+    },
+    {
+      "value": "color, background-color 0.3s, 0.3s ease, ease",
+      "uses": 11
+    },
+    {
+      "value": "all 0.2s ease",
+      "uses": 9
+    },
+    {
+      "value": "border-color 0.2s ease",
+      "uses": 4
+    },
+    {
+      "value": "transform 0.6s cubic-bezier(0.65, 0, 0, 1)",
+      "uses": 3
+    },
+    {
+      "value": "transform 0.6s ease",
+      "uses": 3
+    },
+    {
+      "value": "opacity 0.2s ease",
+      "uses": 2
+    },
+    {
+      "value": "opacity, visibility 0.6s, 0.6s cubic-bezier(0.65, 0, 0, 1), cubic-bezier(0.65, 0, 0, 1)",
+      "uses": 1
+    },
+    {
+      "value": "transform 0.3s cubic-bezier(0.65, 0, 0, 1)",
+      "uses": 1
+    },
+    {
+      "value": "background-color 0.2s ease",
+      "uses": 1
+    },
+    {
+      "value": "color, transform 0.2s, 0.6s ease, cubic-bezier(0.65, 0, 0, 1)",
+      "uses": 1
+    },
+    {
+      "value": "width 0.6s cubic-bezier(0.65, 0, 0, 1)",
+      "uses": 1
+    },
+    {
+      "value": "gap, color 0.6s, 0.2s cubic-bezier(0.65, 0, 0, 1), ease",
+      "uses": 1
+    },
+    {
+      "value": "all 0.6s cubic-bezier(0.65, 0, 0, 1)",
+      "uses": 1
+    }
+  ],
+  "keyframes": [
+    {
+      "name": "spin",
+      "css": "@keyframes spin { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}"
+    }
+  ],
+  "unreadableSheets": [
+    "https://cdn.odyn.dev/auto/dktf/bundle.css"
+  ],
+  "libraries": {
+    "three": false,
+    "gsap": true,
+    "scrollTrigger": true,
+    "lenis": true,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": true,
+    "barba": true,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 0,
+    "webglCanvases": 0,
+    "videos": 0,
+    "scriptHosts": [
+      "www.googletagmanager.com",
+      "cdn.odyn.dev",
+      "cdn-cookieyes.com",
+      "assets.apollo.io",
+      "googleads.g.doubleclick.net",
+      "d3e54v103j8qbb.cloudfront.net",
+      "cdn.prod.website-files.com",
+      "cdn.jsdelivr.net"
+    ]
+  },
+  "sections": [
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "We design high-performance commercial interiors for retail, workplace, and food & beverage",
+      "height": 900,
+      "pinned": true
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "(About)We deliver physical environments that shape customer experience and directly improv",
+      "height": 1363,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "(Featured Projects)",
+      "height": 945,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "(Process)Our work follows a clear, structured process, allowing creativity to sit alongsid",
+      "height": 1195,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": null,
+      "height": 495,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": null,
+      "height": 513,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": null,
+      "height": 900,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "(Insights)Perspectives on design, space, and commercial performance.",
+      "height": 1136,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "For project enquiries, collaborations, or joining the studio.",
+      "height": 1172,
+      "pinned": false
+    }
+  ],
+  "links": [
+    "https://www.cookieyes.com/product/cookie-consent/?ref=cypbcyb&utm_source=cookie-banner&utm_medium=fl-branding",
+    "https://www.cookieyes.com/product/cookie-consent/?ref=cypbcyb&utm_source=cookie-banner&utm_medium=sl-branding",
+    "https://www.instagram.com/thisisstudiox/",
+    "https://www.linkedin.com/company/studio-x-commercial-interior-design/"
+  ],
+  "animations": [
+    {
+      "when": "scroll 4900px",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "div.cursor_drag_dots",
+      "duration": 600,
+      "delay": 0,
+      "easing": "cubic-bezier(0.65, 0, 0, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 4900px",
+      "name": "width",
+      "kind": "CSSTransition",
+      "target": "div.cursor_drag_dots",
+      "duration": 600,
+      "delay": 0,
+      "easing": "cubic-bezier(0.65, 0, 0, 1)",
+      "iterations": 1,
+      "properties": [
+        "width"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 4900px",
+      "name": "clip-path",
+      "kind": "CSSTransition",
+      "target": "div.cursor_bubble",
+      "duration": 600,
+      "delay": 0,
+      "easing": "cubic-bezier(0.65, 0, 0, 1)",
+      "iterations": 1,
+      "properties": [
+        "clipPath"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 4900px",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "span.cursor_bubble_drag_span.u-text-style-small",
+      "duration": 600,
+      "delay": 0,
+      "easing": "cubic-bezier(0.65, 0, 0, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "logo-rotate-scale",
+      "kind": "CSSAnimation",
+      "target": "a.nav_logo.w-inline-block",
+      "duration": 600,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "rotate",
+        "scale"
+      ],
+      "timeline": "DocumentTimeline"
+    }
+  ],
+  "pageHeight": 8618
+}

@@ -1,0 +1,358 @@
+{
+  "url": "https://novacsupercap.webflow.io",
+  "scannedAt": "2026-10-17T07:44:21.761Z",
+  "errors": [],
+  "title": "Novac",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "Aeonik",
+        "uses": 104
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "18px",
+        "uses": 40
+      },
+      {
+        "value": "29.952px",
+        "uses": 14
+      },
+      {
+        "value": "15.12px",
+        "uses": 6
+      },
+      {
+        "value": "14.4px",
+        "uses": 5
+      },
+      {
+        "value": "34.992px",
+        "uses": 5
+      },
+      {
+        "value": "64.8px",
+        "uses": 5
+      },
+      {
+        "value": "43.056px",
+        "uses": 4
+      },
+      {
+        "value": "19.008px",
+        "uses": 4
+      },
+      {
+        "value": "55.008px",
+        "uses": 3
+      },
+      {
+        "value": "17.28px",
+        "uses": 3
+      },
+      {
+        "value": "30.24px",
+        "uses": 3
+      },
+      {
+        "value": "28.8px",
+        "uses": 3
+      },
+      {
+        "value": "27.36px",
+        "uses": 2
+      },
+      {
+        "value": "43.2px",
+        "uses": 2
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "400",
+        "uses": 65
+      },
+      {
+        "value": "700",
+        "uses": 16
+      },
+      {
+        "value": "500",
+        "uses": 12
+      },
+      {
+        "value": "300",
+        "uses": 11
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "-0.41256px",
+        "uses": 3
+      }
+    ],
+    "textColors": [
+      {
+        "value": "rgb(211, 211, 211)",
+        "uses": 45
+      },
+      {
+        "value": "rgb(236, 236, 236)",
+        "uses": 40
+      },
+      {
+        "value": "rgb(197, 197, 197)",
+        "uses": 7
+      },
+      {
+        "value": "rgb(59, 212, 174)",
+        "uses": 6
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(202, 202, 202)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(94, 94, 94)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(158, 158, 158)",
+        "uses": 1
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "rgb(59, 212, 174)",
+        "uses": 13
+      },
+      {
+        "value": "rgb(29, 29, 29)",
+        "uses": 11
+      },
+      {
+        "value": "rgb(197, 197, 197)",
+        "uses": 10
+      },
+      {
+        "value": "rgba(29, 29, 29, 0.85)",
+        "uses": 5
+      },
+      {
+        "value": "rgba(255, 255, 255, 0)",
+        "uses": 5
+      },
+      {
+        "value": "rgb(17, 17, 17)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(28, 29, 33)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(110, 110, 110)",
+        "uses": 1
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.35)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "uses": 1
+      },
+      {
+        "value": "rgba(221, 221, 221, 0)",
+        "uses": 1
+      },
+      {
+        "value": "rgba(182, 13, 13, 0.35)",
+        "uses": 1
+      },
+      {
+        "value": "rgba(39, 39, 39, 0.8)",
+        "uses": 1
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.12)",
+        "uses": 1
+      }
+    ],
+    "gradients": [
+      {
+        "value": "linear-gradient(rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.03)), linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.65)), url(\"https://assets.website-fi",
+        "uses": 1
+      },
+      {
+        "value": "linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.85)), url(\"https://assets.website-files.com/622e4870da4a6ef19030b457/622e4870da4a6e21d230b4f7_novac-team.jp",
+        "uses": 1
+      }
+    ],
+    "radii": [
+      {
+        "value": "50%",
+        "uses": 11
+      },
+      {
+        "value": "14.4px",
+        "uses": 1
+      }
+    ],
+    "shadows": [
+      {
+        "value": "rgba(0, 0, 0, 0.45) 1px 1px 18px 0px",
+        "uses": 5
+      }
+    ],
+    "blur": [
+      {
+        "value": "blur(5px)",
+        "uses": 5
+      },
+      {
+        "value": "saturate(0.44) blur(5px)",
+        "uses": 2
+      },
+      {
+        "value": "blur(3px)",
+        "uses": 1
+      },
+      {
+        "value": "blur(8px)",
+        "uses": 1
+      }
+    ],
+    "bodyBackground": "rgb(0, 0, 0)"
+  },
+  "transitions": [
+    {
+      "value": "all 0.1s ease",
+      "uses": 6
+    },
+    {
+      "value": "color 0.3s ease",
+      "uses": 5
+    },
+    {
+      "value": "background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "uses": 4
+    },
+    {
+      "value": "all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "uses": 3
+    },
+    {
+      "value": "opacity 0.2s cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "uses": 3
+    },
+    {
+      "value": "all, color 0.2s, 0.3s ease, cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "uses": 2
+    },
+    {
+      "value": "opacity 0.65s ease",
+      "uses": 1
+    },
+    {
+      "value": "width 8s cubic-bezier(0.25, 0, 0, 1)",
+      "uses": 1
+    },
+    {
+      "value": "border-color 0.3s ease",
+      "uses": 1
+    },
+    {
+      "value": "all 0.35s ease",
+      "uses": 1
+    }
+  ],
+  "keyframes": [],
+  "unreadableSheets": [
+    "https://assets.website-files.com/622e4870da4a6ef19030b457/css/novacsupercap.webflow.adfff3d88.css"
+  ],
+  "libraries": {
+    "three": false,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": true,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 0,
+    "webglCanvases": 0,
+    "videos": 0,
+    "scriptHosts": [
+      "d3e54v103j8qbb.cloudfront.net",
+      "assets.website-files.com"
+    ]
+  },
+  "sections": [
+    {
+      "tag": "footer",
+      "id": null,
+      "heading": null,
+      "height": 494,
+      "pinned": false
+    }
+  ],
+  "links": [
+    "https://calendly.com/novac-srl/30min?month=2022-01",
+    "https://calendly.com/novac-srl/30min?month=2022-01",
+    "https://www.iubenda.com/privacy-policy/60584967",
+    "https://www.iubenda.com/privacy-policy/60584967/cookie-policy",
+    "https://www.linkedin.com/company/novac-supercap/jobs/",
+    "https://www.linkedin.com/company/novac-supercap/",
+    "https://www.instagram.com/novac.srl/",
+    "https://www.facebook.com/novac.srl/",
+    "https://www.matteofabbiani.com/",
+    "https://www.iubenda.com/privacy-policy/60584967",
+    "https://www.iubenda.com/privacy-policy/60584967/cookie-policy",
+    "https://www.novacsupercap.com/"
+  ],
+  "animations": [
+    {
+      "when": "hover",
+      "name": "background-color",
+      "kind": "CSSTransition",
+      "target": "a.main-button.w-inline-block",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "backgroundColor"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "background-color",
+      "kind": "CSSTransition",
+      "target": "a.secondary-button.w-inline-block",
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "backgroundColor"
+      ],
+      "timeline": "DocumentTimeline"
+    }
+  ],
+  "pageHeight": 11707
+}

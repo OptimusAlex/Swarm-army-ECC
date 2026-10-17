@@ -1,0 +1,206 @@
+{
+  "url": "https://3d-scrolling-animation.webflow.io",
+  "scannedAt": "2026-10-17T07:42:44.622Z",
+  "errors": [],
+  "title": "3D Scroll Animation in Webflow",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "Manrope",
+        "uses": 9
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "50.8269px",
+        "uses": 2
+      },
+      {
+        "value": "17.9389px",
+        "uses": 2
+      },
+      {
+        "value": "116.603px",
+        "uses": 2
+      },
+      {
+        "value": "19.4338px",
+        "uses": 2
+      },
+      {
+        "value": "13.4542px",
+        "uses": 1
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "600",
+        "uses": 3
+      },
+      {
+        "value": "400",
+        "uses": 2
+      },
+      {
+        "value": "500",
+        "uses": 2
+      },
+      {
+        "value": "700",
+        "uses": 2
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "-1.52481px",
+        "uses": 2
+      },
+      {
+        "value": "-3.49809px",
+        "uses": 2
+      },
+      {
+        "value": "1.07633px",
+        "uses": 1
+      }
+    ],
+    "textColors": [
+      {
+        "value": "rgb(253, 240, 111)",
+        "uses": 4
+      },
+      {
+        "value": "rgb(26, 28, 32)",
+        "uses": 3
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(51, 51, 51)",
+        "uses": 1
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(253, 240, 111)",
+        "uses": 1
+      },
+      {
+        "value": "rgba(253, 240, 111, 0.15)",
+        "uses": 1
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.2)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(255, 0, 235)",
+        "uses": 1
+      },
+      {
+        "value": "rgba(253, 240, 111, 0.2)",
+        "uses": 1
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.16)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(26, 28, 32)",
+        "uses": 1
+      }
+    ],
+    "gradients": [
+      {
+        "value": "linear-gradient(rgba(0, 0, 0, 0.5) 65%, rgba(3, 3, 3, 0.25))",
+        "uses": 1
+      },
+      {
+        "value": "linear-gradient(rgba(56, 255, 247, 0) 67%, rgba(56, 255, 247, 0.19)), linear-gradient(rgba(56, 255, 247, 0.23), rgba(56, 255, 247, 0) 30%), radial-gradient(circ",
+        "uses": 1
+      },
+      {
+        "value": "linear-gradient(to right, rgb(78, 0, 255) 33%, rgb(7, 236, 255))",
+        "uses": 1
+      }
+    ],
+    "radii": [
+      {
+        "value": "14934.1px",
+        "uses": 4
+      },
+      {
+        "value": "1440px",
+        "uses": 3
+      },
+      {
+        "value": "13440.7px",
+        "uses": 1
+      },
+      {
+        "value": "14.9491px",
+        "uses": 1
+      }
+    ],
+    "shadows": [
+      {
+        "value": "rgba(253, 240, 111, 0.44) 0px -2px 5.97964px 0px inset",
+        "uses": 1
+      },
+      {
+        "value": "rgba(65, 32, 5, 0.34) 0px 13px 44.8473px 0px",
+        "uses": 1
+      }
+    ],
+    "blur": [
+      {
+        "value": "blur(8.96946px)",
+        "uses": 2
+      },
+      {
+        "value": "blur(2.98982px)",
+        "uses": 1
+      }
+    ],
+    "bodyBackground": "rgb(255, 255, 255)"
+  },
+  "transitions": [],
+  "keyframes": [],
+  "unreadableSheets": [
+    "https://cdn.prod.website-files.com/62837c6dd636eb3990c27199/css/3d-scrolling-animation.webflow.shared.c4f5f3fa9.css",
+    "https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800"
+  ],
+  "libraries": {
+    "three": false,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": true,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 0,
+    "webglCanvases": 0,
+    "videos": 0,
+    "scriptHosts": [
+      "ajax.googleapis.com",
+      "cdn.usefathom.com",
+      "d3e54v103j8qbb.cloudfront.net",
+      "cdn.prod.website-files.com"
+    ]
+  },
+  "sections": [],
+  "links": [],
+  "animations": [],
+  "pageHeight": 5255
+}

@@ -1,0 +1,187 @@
+{
+  "url": "https://3d-tablet-scroll-animation.webflow.io",
+  "scannedAt": "2026-10-17T07:42:57.456Z",
+  "errors": [],
+  "title": "3D Tablet Scroll Animation in Webflow",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "Manrope",
+        "uses": 9
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "48px",
+        "uses": 2
+      },
+      {
+        "value": "96px",
+        "uses": 2
+      },
+      {
+        "value": "68px",
+        "uses": 1
+      },
+      {
+        "value": "24px",
+        "uses": 1
+      },
+      {
+        "value": "16px",
+        "uses": 1
+      },
+      {
+        "value": "14px",
+        "uses": 1
+      },
+      {
+        "value": "54px",
+        "uses": 1
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "600",
+        "uses": 7
+      },
+      {
+        "value": "400",
+        "uses": 2
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "1.28px",
+        "uses": 1
+      }
+    ],
+    "textColors": [
+      {
+        "value": "rgb(253, 245, 199)",
+        "uses": 7
+      },
+      {
+        "value": "rgb(237, 235, 209)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(125, 125, 125)",
+        "uses": 1
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "rgb(230, 215, 205)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "uses": 1
+      }
+    ],
+    "gradients": [
+      {
+        "value": "linear-gradient(172deg, rgb(255, 239, 205) 32%, rgb(118, 154, 224) 76%)",
+        "uses": 4
+      },
+      {
+        "value": "radial-gradient(circle at 50% 0px, rgb(22, 45, 100), rgb(4, 11, 27))",
+        "uses": 1
+      },
+      {
+        "value": "linear-gradient(135deg, rgb(255, 193, 92), rgb(255, 251, 230) 84%)",
+        "uses": 1
+      }
+    ],
+    "radii": [
+      {
+        "value": "15984px",
+        "uses": 1
+      }
+    ],
+    "shadows": [],
+    "blur": [],
+    "bodyBackground": "rgb(8, 20, 48)"
+  },
+  "transitions": [
+    {
+      "value": "all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "uses": 1
+    }
+  ],
+  "keyframes": [],
+  "unreadableSheets": [
+    "https://cdn.prod.website-files.com/621d34e14338d0568a0b5222/css/3d-tablet-scroll-animation.webflow.shared.038f0fd3b.css",
+    "https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700,800"
+  ],
+  "libraries": {
+    "three": false,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": true,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 0,
+    "webglCanvases": 0,
+    "videos": 1,
+    "scriptHosts": [
+      "ajax.googleapis.com",
+      "d3e54v103j8qbb.cloudfront.net",
+      "cdn.prod.website-files.com"
+    ]
+  },
+  "sections": [],
+  "links": [],
+  "animations": [
+    {
+      "when": "hover",
+      "name": "padding-left",
+      "kind": "CSSTransition",
+      "target": "a.tutorial-link",
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "paddingLeft"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "padding-right",
+      "kind": "CSSTransition",
+      "target": "a.tutorial-link",
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "paddingRight"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "hover",
+      "name": "transform",
+      "kind": "CSSTransition",
+      "target": "a.tutorial-link",
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    }
+  ],
+  "pageHeight": 6301
+}

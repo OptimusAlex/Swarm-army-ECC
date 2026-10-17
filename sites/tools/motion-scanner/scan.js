@@ -26,7 +26,7 @@ const flag = (name, fallback) => {
 const FOLLOW = Number(flag('--follow', '0'));
 const OUT = path.resolve(flag('--out', 'scan-output'));
 const urls = args.filter((a) => /^https?:\/\//.test(a));
-if (urls.length === 0) {
+if (urls.length === 0 && process.argv[2] !== '--resummarize') {
   console.error('Usage: node scan.js <url> [url...] [--follow 6] [--out scan-output]');
   process.exit(1);
 }
@@ -194,11 +194,12 @@ async function scan(browser, url) {
 function summarize(r) {
   const libs = r.libraries ? Object.entries(r.libraries).filter(([k, v]) => v && k !== 'scriptHosts').map(([k, v]) => (v === true ? k : `${k}: ${v}`)) : [];
   const top = (list) => (list || []).slice(0, 6).map((t) => `${t.value} (${t.uses})`).join(', ') || 'none';
+  const cell = (v) => String(v === null || v === undefined ? '' : v).replace(/\|/g, '/').replace(/\s+/g, ' ');
   const anim = (r.animations || []).slice(0, 40).map((a) =>
-    `| ${a.when} | ${a.name} | ${a.target || ''} | ${Math.round(a.duration) || a.duration} | ${a.easing} | ${a.properties.join(' ')} |`);
-  return [
-    `# ${r.title || r.url}`, '', `Source: ${r.url}`, `Scanned: ${r.scannedAt}`, '',
-    r.errors.length ? `Errors: ${r.errors.join('; ')}\n` : '',
+    `| ${cell(a.when)} | ${cell(a.name)} | ${cell(a.target)} | ${Math.round(a.duration) || cell(a.duration)} | ${cell(a.easing)} | ${cell(a.properties.join(' '))} |`);
+  const lines = [
+    `# ${cell(r.title) || 'Untitled page'}`, '', `Source: <${r.url}>`, '', `Scanned: ${r.scannedAt}`, '',
+    r.errors.length ? `Errors: ${cell(r.errors.join('; ').slice(0, 200))}` : '', '',
     '## Libraries', '', libs.join(', ') || 'none detected', '',
     '## Tokens', '',
     `- Fonts: ${top(r.tokens && r.tokens.fonts)}`,
@@ -209,11 +210,14 @@ function summarize(r) {
     `- Backdrop blur: ${top(r.tokens && r.tokens.blur)}`, '',
     '## Transitions', '', ...(r.transitions || []).slice(0, 10).map((t) => `- ${t.value} (${t.uses})`), '',
     '## Animations seen', '', '| When | Name | Target | ms | Easing | Properties |', '| --- | --- | --- | --- | --- | --- |', ...anim, '',
-    '## Sections', '', ...(r.sections || []).map((s) => `- ${s.tag}${s.id ? '#' + s.id : ''} ${s.height}px${s.pinned ? ' pinned' : ''}: ${s.heading || ''}`), ''
-  ].join('\n');
+    '## Sections', '', ...(r.sections || []).map((s) => `- ${s.tag}${s.id ? ' (' + cell(s.id) + ')' : ''} ${s.height}px${s.pinned ? ' pinned' : ''}: ${cell(s.heading)}`), ''
+  ];
+  if (!anim.length) lines.splice(lines.indexOf('| When | Name | Target | ms | Easing | Properties |'), 2, 'None captured.');
+  // Collapse repeated blank lines so the digest passes markdownlint.
+  return lines.map((l) => l.trimEnd()).filter((l, i, all) => !(l === '' && all[i - 1] === '')).join('\n').replace(/\n+$/, '\n');
 }
 
-(async () => {
+async function main() {
   const browser = await chromium.launch({ args: process.env.NO_SANDBOX ? ['--no-sandbox'] : [] });
   const index = [];
   for (const url of urls) {
@@ -235,4 +239,15 @@ function summarize(r) {
   await browser.close();
   fs.writeFileSync(path.join(OUT, 'index.json'), JSON.stringify(index, null, 2));
   console.log(`[motion-scanner] done: ${index.length} pages in ${OUT}`);
-})();
+}
+
+// node scan.js --resummarize <dir>: rebuild summary.md files from saved scan.json files.
+if (process.argv[2] === '--resummarize') {
+  const root = path.resolve(process.argv[3] || OUT);
+  for (const name of fs.readdirSync(root)) {
+    const file = path.join(root, name, 'scan.json');
+    if (fs.existsSync(file)) fs.writeFileSync(path.join(root, name, 'summary.md'), summarize(JSON.parse(fs.readFileSync(file, 'utf8'))));
+  }
+} else {
+  main();
+}

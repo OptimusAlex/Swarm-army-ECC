@@ -1,0 +1,737 @@
+{
+  "url": "https://www.ciridae.com/?ref=landing.love",
+  "scannedAt": "2026-10-17T07:44:18.963Z",
+  "errors": [],
+  "title": "Ciridae — Build the Business AI Makes Possible",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "ABC Monument Grotesk Mono",
+        "uses": 127
+      },
+      {
+        "value": "Pragmatica Cond",
+        "uses": 79
+      },
+      {
+        "value": "Pragmatica",
+        "uses": 60
+      },
+      {
+        "value": "Roboto Mono",
+        "uses": 53
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "14px",
+        "uses": 104
+      },
+      {
+        "value": "11px",
+        "uses": 47
+      },
+      {
+        "value": "13px",
+        "uses": 32
+      },
+      {
+        "value": "36px",
+        "uses": 30
+      },
+      {
+        "value": "16px",
+        "uses": 17
+      },
+      {
+        "value": "28px",
+        "uses": 15
+      },
+      {
+        "value": "10px",
+        "uses": 15
+      },
+      {
+        "value": "9px",
+        "uses": 13
+      },
+      {
+        "value": "12px",
+        "uses": 13
+      },
+      {
+        "value": "64px",
+        "uses": 6
+      },
+      {
+        "value": "18px",
+        "uses": 5
+      },
+      {
+        "value": "8px",
+        "uses": 4
+      },
+      {
+        "value": "27px",
+        "uses": 4
+      },
+      {
+        "value": "7px",
+        "uses": 3
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "400",
+        "uses": 319
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "-0.28px",
+        "uses": 51
+      },
+      {
+        "value": "0.88px",
+        "uses": 30
+      },
+      {
+        "value": "-1.224px",
+        "uses": 27
+      },
+      {
+        "value": "0.66px",
+        "uses": 14
+      },
+      {
+        "value": "0.78px",
+        "uses": 14
+      },
+      {
+        "value": "-1.68px",
+        "uses": 12
+      },
+      {
+        "value": "0.48px",
+        "uses": 11
+      },
+      {
+        "value": "-2.944px",
+        "uses": 5
+      },
+      {
+        "value": "0.4px",
+        "uses": 5
+      },
+      {
+        "value": "-0.22px",
+        "uses": 3
+      },
+      {
+        "value": "0.5px",
+        "uses": 3
+      },
+      {
+        "value": "-0.21px",
+        "uses": 3
+      },
+      {
+        "value": "-2.08px",
+        "uses": 2
+      },
+      {
+        "value": "-2.016px",
+        "uses": 2
+      }
+    ],
+    "textColors": [
+      {
+        "value": "rgb(20, 17, 13)",
+        "uses": 135
+      },
+      {
+        "value": "rgb(239, 237, 231)",
+        "uses": 52
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 42
+      },
+      {
+        "value": "color(srgb 0.21749 0.199373 0.166039)",
+        "uses": 41
+      },
+      {
+        "value": "color(srgb 0.356549 0.332078 0.281098)",
+        "uses": 14
+      },
+      {
+        "value": "rgb(247, 242, 231)",
+        "uses": 9
+      },
+      {
+        "value": "color(srgb 0.826196 0.807843 0.769098)",
+        "uses": 7
+      },
+      {
+        "value": "color(srgb 0.665961 0.64902 0.615216)",
+        "uses": 6
+      },
+      {
+        "value": "color(srgb 1 1 1 / 0.55)",
+        "uses": 4
+      },
+      {
+        "value": "rgb(141, 67, 35)",
+        "uses": 3
+      },
+      {
+        "value": "color(srgb 0.937255 0.929412 0.905882 / 0.55)",
+        "uses": 3
+      },
+      {
+        "value": "rgb(204, 100, 55)",
+        "uses": 1
+      },
+      {
+        "value": "color(srgb 0.937255 0.929412 0.905882 / 0.62)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(232, 183, 104)",
+        "uses": 1
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "color(srgb 0.879059 0.874196 0.861961)",
+        "uses": 15
+      },
+      {
+        "value": "rgb(234, 225, 206)",
+        "uses": 7
+      },
+      {
+        "value": "rgb(10, 8, 6)",
+        "uses": 6
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 5
+      },
+      {
+        "value": "rgb(39, 42, 42)",
+        "uses": 4
+      },
+      {
+        "value": "rgb(252, 251, 248)",
+        "uses": 3
+      },
+      {
+        "value": "rgb(20, 17, 13)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(204, 100, 55)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(239, 237, 231)",
+        "uses": 2
+      },
+      {
+        "value": "rgb(11, 11, 11)",
+        "uses": 1
+      },
+      {
+        "value": "color(srgb 1 1 1 / 0.1)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(36, 66, 92)",
+        "uses": 1
+      },
+      {
+        "value": "rgb(247, 242, 231)",
+        "uses": 1
+      }
+    ],
+    "gradients": [
+      {
+        "value": "repeating-linear-gradient(to top, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) calc(25% - 1px), color(srgb 0.0784314 0.0666667 0.0509804 / 0.22) calc(25% - 1px), colo",
+        "uses": 1
+      },
+      {
+        "value": "repeating-linear-gradient(to right, color(srgb 0.0784314 0.0666667 0.0509804 / 0.1364) 0px, color(srgb 0.0784314 0.0666667 0.0509804 / 0.1364) 1px, rgba(0, 0, 0",
+        "uses": 1
+      },
+      {
+        "value": "radial-gradient(at 50% 0%, rgb(39, 42, 42) 0%, rgb(11, 11, 11) 78%)",
+        "uses": 1
+      }
+    ],
+    "radii": [
+      {
+        "value": "3px",
+        "uses": 11
+      },
+      {
+        "value": "1440px",
+        "uses": 9
+      },
+      {
+        "value": "4px",
+        "uses": 4
+      },
+      {
+        "value": "1px",
+        "uses": 2
+      }
+    ],
+    "shadows": [
+      {
+        "value": "rgba(255, 255, 255, 0.18) 0px 0px 16px 0px, rgba(255, 255, 255, 0.14) 0px 0px 16px 0px inset",
+        "uses": 1
+      }
+    ],
+    "blur": [],
+    "bodyBackground": "rgb(234, 225, 206)"
+  },
+  "transitions": [
+    {
+      "value": "transform, color 0.14s, 0.2s cubic-bezier(0.23, 1, 0.32, 1), cubic-bezier(0.23, 1, 0.32, 1)",
+      "uses": 19
+    },
+    {
+      "value": "translate, opacity, scale, color 0.2s, 0.2s, 0.14s, 0.2s cubic-bezier(0.23, 1, 0.32, 1), cubic-bezier(0.23, 1, 0.32, 1), cubic-bezier(0.23, 1, 0.32, 1), cubic-bezier(0.23, 1, 0.32, 1)",
+      "uses": 16
+    },
+    {
+      "value": "opacity 0.65s cubic-bezier(0.22, 0.61, 0.36, 1)",
+      "uses": 15
+    },
+    {
+      "value": "transform, background-color, color 0.14s, 0.2s, 0.2s cubic-bezier(0.23, 1, 0.32, 1), cubic-bezier(0.23, 1, 0.32, 1), cubic-bezier(0.23, 1, 0.32, 1)",
+      "uses": 11
+    },
+    {
+      "value": "opacity, transform 0.2s, 0.18s cubic-bezier(0.23, 1, 0.32, 1), cubic-bezier(0.23, 1, 0.32, 1)",
+      "uses": 8
+    },
+    {
+      "value": "transform 0.18s cubic-bezier(0.23, 1, 0.32, 1)",
+      "uses": 7
+    },
+    {
+      "value": "opacity 0.16s cubic-bezier(0.23, 1, 0.32, 1)",
+      "uses": 6
+    },
+    {
+      "value": "opacity, transform 0.16s, 0.16s cubic-bezier(0.23, 1, 0.32, 1), cubic-bezier(0.23, 1, 0.32, 1)",
+      "uses": 6
+    },
+    {
+      "value": "transform, opacity, border-color, background-color, color 0.14s, 0.2s, 0.2s, 0.2s, 0.2s cubic-bezier(0.23, 1, 0.32, 1), cubic-bezier(0.23, 1, 0.32, 1), cubic-bezier(0.23, 1, 0.32, 1), cubic-bezier(0.23, 1, 0.32, 1), cubic-bezier(0.23, 1, 0.32, 1)",
+      "uses": 5
+    },
+    {
+      "value": "transform 0.32s cubic-bezier(0.2, 1.45, 0.4, 1)",
+      "uses": 5
+    },
+    {
+      "value": "border-bottom-color, color, transform 0.2s, 0.2s, 0.14s cubic-bezier(0.23, 1, 0.32, 1), cubic-bezier(0.23, 1, 0.32, 1), cubic-bezier(0.23, 1, 0.32, 1)",
+      "uses": 4
+    },
+    {
+      "value": "opacity, transform, display 0.12s, 0.12s, 0.12s cubic-bezier(0.23, 1, 0.32, 1), cubic-bezier(0.23, 1, 0.32, 1), cubic-bezier(0.23, 1, 0.32, 1)",
+      "uses": 3
+    },
+    {
+      "value": "transform 0.14s cubic-bezier(0.23, 1, 0.32, 1)",
+      "uses": 2
+    },
+    {
+      "value": "opacity 0.2s cubic-bezier(0.23, 1, 0.32, 1)",
+      "uses": 2
+    }
+  ],
+  "keyframes": [
+    {
+      "name": "blog-animation-grow",
+      "css": "@keyframes blog-animation-grow { \n  0%, 18%, 82%, 100% { transform: scaleY(1); }\n  50% { transform: scaleY(0.55); }\n}"
+    },
+    {
+      "name": "blog-animation-drop",
+      "css": "@keyframes blog-animation-drop { \n  0% { opacity: 0; transform: translateY(-2rem); }\n  8% { opacity: var(--blog-animation-tone-opacity,1); }\n  14% { transform: translateY(0.12rem); }\n  18%, 82% { opacity: var(--blog-animation-tone-opacity,1); transform: translateY(0px); }\n  92%, 100% { opacity: 0; transform: translateY(0px); }\n}"
+    },
+    {
+      "name": "blog-animation-redraw",
+      "css": "@keyframes blog-animation-redraw { \n  0% { stroke-dashoffset: 1px; }\n  28%, 78% { stroke-dashoffset: 0; }\n  100% { stroke-dashoffset: -1px; }\n}"
+    },
+    {
+      "name": "blog-animation-pulse",
+      "css": "@keyframes blog-animation-pulse { \n  0%, 20%, 90%, 100% { opacity: var(--blog-animation-tone-opacity,1); }\n  55% { opacity: calc(var(--blog-animation-tone-opacity,1) * .2); }\n}"
+    },
+    {
+      "name": "blog-animation-fade-one",
+      "css": "@keyframes blog-animation-fade-one { \n  0%, 100% { opacity: 0; }\n  10%, 58% { opacity: var(--blog-animation-tone-opacity,1); }\n  68% { opacity: 0; }\n}"
+    },
+    {
+      "name": "blog-animation-fade-two",
+      "css": "@keyframes blog-animation-fade-two { \n  0%, 10%, 100% { opacity: 0; }\n  20%, 68% { opacity: var(--blog-animation-tone-opacity,1); }\n  78% { opacity: 0; }\n}"
+    },
+    {
+      "name": "blog-animation-fade-three",
+      "css": "@keyframes blog-animation-fade-three { \n  0%, 20%, 100% { opacity: 0; }\n  30%, 78% { opacity: var(--blog-animation-tone-opacity,1); }\n  88% { opacity: 0; }\n}"
+    },
+    {
+      "name": "blog-animation-fade-four",
+      "css": "@keyframes blog-animation-fade-four { \n  0%, 42% { opacity: 0; }\n  52%, 92% { opacity: var(--blog-animation-tone-opacity,1); }\n  100% { opacity: 0; }\n}"
+    },
+    {
+      "name": "blog-animation-turn",
+      "css": "@keyframes blog-animation-turn { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}"
+    },
+    {
+      "name": "spin",
+      "css": "@keyframes spin { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}"
+    },
+    {
+      "name": "splide-loading",
+      "css": "@keyframes splide-loading { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(1turn); }\n}"
+    },
+    {
+      "name": "marketing-operation-handoff",
+      "css": "@keyframes marketing-operation-handoff { \n  0% { offset-distance: 0%; }\n  100% { offset-distance: 100%; }\n}"
+    },
+    {
+      "name": "marketing-stack-arrow-in",
+      "css": "@keyframes marketing-stack-arrow-in { \n  100% { opacity: 1; transform: translateY(-50%) scaleX(1); }\n}"
+    },
+    {
+      "name": "marketing-stack-card-in",
+      "css": "@keyframes marketing-stack-card-in { \n  100% { opacity: 1; transform: translateY(0px); }\n}"
+    },
+    {
+      "name": "marketing-article-quote-beat-in",
+      "css": "@keyframes marketing-article-quote-beat-in { \n  0% { opacity: 0; transform: translateY(0.4rem); }\n  100% { opacity: 1; transform: none; }\n}"
+    },
+    {
+      "name": "industry-machine-quote",
+      "css": "@keyframes industry-machine-quote { \n  0% { stroke-dashoffset: 1px; }\n  100% { stroke-dashoffset: 0; }\n}"
+    },
+    {
+      "name": "industry-machine-takeoff",
+      "css": "@keyframes industry-machine-takeoff { \n  0% { stroke-dashoffset: 1px; stroke-width: 2.6px; }\n  100% { stroke-dashoffset: 0; stroke-width: 1.8px; }\n}"
+    },
+    {
+      "name": "industry-machine-schedule",
+      "css": "@keyframes industry-machine-schedule { \n  0% { transform: scaleX(0.12); }\n  100% { transform: scaleX(1); }\n}"
+    },
+    {
+      "name": "industry-machine-procurement",
+      "css": "@keyframes industry-machine-procurement { \n  0% { transform: translate(-16px); }\n  100% { transform: translate(0px); }\n}"
+    },
+    {
+      "name": "industry-machine-inventory",
+      "css": "@keyframes industry-machine-inventory { \n  0% { transform: translateY(-4px); }\n  100% { transform: translateY(0px); }\n}"
+    },
+    {
+      "name": "industry-machine-service",
+      "css": "@keyframes industry-machine-service { \n  0% { transform: rotate(-14deg); }\n  70% { transform: rotate(4deg); }\n  100% { transform: rotate(0deg); }\n}"
+    },
+    {
+      "name": "industry-machine-fulfillment",
+      "css": "@keyframes industry-machine-fulfillment { \n  0% { transform: translate(0px); }\n  55% { transform: translate(18px); }\n  100% { transform: translate(24px, -12px); }\n}"
+    },
+    {
+      "name": "industry-machine-receivables",
+      "css": "@keyframes industry-machine-receivables { \n  0% { opacity: 0.3; transform: translateY(-3px); }\n  100% { opacity: 1; transform: translateY(0px); }\n}"
+    },
+    {
+      "name": "industry-machine-payables",
+      "css": "@keyframes industry-machine-payables { \n  0% { opacity: 0.3; transform: translate(-5px); }\n  100% { opacity: 1; transform: translate(0px); }\n}"
+    },
+    {
+      "name": "industry-machine-close",
+      "css": "@keyframes industry-machine-close { \n  0% { opacity: 0.2; transform: scale(0.3); }\n  100% { opacity: 1; transform: scale(1); }\n}"
+    },
+    {
+      "name": "marketing-home-ledger-post",
+      "css": "@keyframes marketing-home-ledger-post { \n  0% { transform: translateY(10px); }\n  100% { transform: translateY(0px); }\n}"
+    },
+    {
+      "name": "marketing-home-lane-out",
+      "css": "@keyframes marketing-home-lane-out { \n  100% { transform: translate(-50%); }\n}"
+    },
+    {
+      "name": "marketing-home-lane-back",
+      "css": "@keyframes marketing-home-lane-back { \n  0% { transform: translate(-50%); }\n}"
+    },
+    {
+      "name": "marketing-os-record-draw",
+      "css": "@keyframes marketing-os-record-draw { \n  0% { stroke-dashoffset: 1px; }\n  100% { stroke-dashoffset: 0; }\n}"
+    },
+    {
+      "name": "marketing-os-record-rise",
+      "css": "@keyframes marketing-os-record-rise { \n  0% { opacity: 0; transform: translateY(-10px); }\n  100% { opacity: 1; transform: translateY(0px); }\n}"
+    },
+    {
+      "name": "marketing-os-record-halo",
+      "css": "@keyframes marketing-os-record-halo { \n  0% { opacity: 0; transform: scale(0.3); }\n  60% { opacity: 0.9; transform: scale(1.15); }\n  100% { opacity: 0.5; transform: scale(1); }\n}"
+    },
+    {
+      "name": "marketing-os-record-settle",
+      "css": "@keyframes marketing-os-record-settle { \n  0% { opacity: 1; }\n  100% { opacity: 0.45; }\n}"
+    },
+    {
+      "name": "marketing-bootcamp-step-in",
+      "css": "@keyframes marketing-bootcamp-step-in { \n  0% { opacity: 0.72; transform: translateY(8px); }\n}"
+    },
+    {
+      "name": "marketing-bootcamp-node-in",
+      "css": "@keyframes marketing-bootcamp-node-in { \n  0% { transform: scale(0.55); }\n}"
+    },
+    {
+      "name": "marketing-bootcamp-connection-in",
+      "css": "@keyframes marketing-bootcamp-connection-in { \n  0% { stroke-dasharray: 3, 7; stroke-dashoffset: 20px; }\n}"
+    }
+  ],
+  "unreadableSheets": [],
+  "libraries": {
+    "three": false,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": false,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": false,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 0,
+    "webglCanvases": 0,
+    "videos": 1,
+    "scriptHosts": [
+      "hedge-ciridae.ciridae.app"
+    ]
+  },
+  "sections": [
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Build the business AI makes possible.",
+      "height": 865,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": null,
+      "height": 648,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "second-section",
+      "heading": "Your business. One operating system.",
+      "height": 1328,
+      "pinned": false
+    },
+    {
+      "tag": "header",
+      "id": null,
+      "heading": "Your business. One operating system.",
+      "height": 123,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "time-to-value",
+      "heading": "Start with a three-day bootcamp.",
+      "height": 1638,
+      "pinned": false
+    },
+    {
+      "tag": "header",
+      "id": null,
+      "heading": "Start with a three-day bootcamp.",
+      "height": 140,
+      "pinned": false
+    },
+    {
+      "tag": "header",
+      "id": null,
+      "heading": "The value compounds.",
+      "height": 298,
+      "pinned": false
+    },
+    {
+      "tag": "footer",
+      "id": null,
+      "heading": null,
+      "height": 92,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "These companies run on systems we built.",
+      "height": 584,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Customers",
+      "height": 89,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Backed by",
+      "height": 89,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Our team comes from",
+      "height": 90,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": "testimonials",
+      "heading": "Hear from our partners",
+      "height": 1004,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Let’s build your operating system.",
+      "height": 556,
+      "pinned": false
+    },
+    {
+      "tag": "footer",
+      "id": null,
+      "heading": null,
+      "height": 831,
+      "pinned": false
+    }
+  ],
+  "links": [
+    "https://www.linkedin.com/company/ciridae/",
+    "https://x.com/TheCiridae",
+    "https://www.linkedin.com/company/ciridae/",
+    "https://x.com/TheCiridae"
+  ],
+  "animations": [
+    {
+      "when": "load",
+      "name": "marketing-operation-handoff",
+      "kind": "CSSAnimation",
+      "target": "rect.marketing-operation-packet",
+      "duration": 700,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "offsetDistance"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "marketing-home-lane-out",
+      "kind": "CSSAnimation",
+      "target": "div.marketing-home-credential-lane",
+      "duration": 64000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "load",
+      "name": "marketing-home-lane-back",
+      "kind": "CSSAnimation",
+      "target": "div.marketing-home-credential-lane",
+      "duration": 78000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": null,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 700px",
+      "name": "opacity",
+      "kind": "CSSTransition",
+      "target": "span.marketing-home-statement-word",
+      "duration": 650,
+      "delay": 0,
+      "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+      "iterations": 1,
+      "properties": [
+        "opacity"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 2800px",
+      "name": "marketing-bootcamp-step-in",
+      "kind": "CSSAnimation",
+      "target": "li",
+      "duration": 520,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 2800px",
+      "name": "marketing-bootcamp-node-in",
+      "kind": "CSSAnimation",
+      "target": "li",
+      "duration": 360,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "transform"
+      ],
+      "timeline": "DocumentTimeline"
+    },
+    {
+      "when": "scroll 2800px",
+      "name": "marketing-bootcamp-connection-in",
+      "kind": "CSSAnimation",
+      "target": "path.marketing-bootcamp-connections",
+      "duration": 700,
+      "delay": 160,
+      "easing": "linear",
+      "iterations": 1,
+      "properties": [
+        "strokeDasharray",
+        "strokeDashoffset"
+      ],
+      "timeline": "DocumentTimeline"
+    }
+  ],
+  "pageHeight": 7453
+}

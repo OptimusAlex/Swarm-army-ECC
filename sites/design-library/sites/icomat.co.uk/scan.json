@@ -1,0 +1,653 @@
+{
+  "url": "https://www.icomat.co.uk/?ref=landing.love",
+  "scannedAt": "2026-10-17T07:47:07.495Z",
+  "errors": [],
+  "title": "ICOMAT - Engineer Without Limits™",
+  "tokens": {
+    "fonts": [
+      {
+        "value": "LayGrotesk-Semibold",
+        "uses": 222
+      },
+      {
+        "value": "AkkuratMono",
+        "uses": 64
+      },
+      {
+        "value": "Doto-VariableFont-opti",
+        "uses": 7
+      }
+    ],
+    "fontSizes": [
+      {
+        "value": "17.8408px",
+        "uses": 131
+      },
+      {
+        "value": "47.5756px",
+        "uses": 56
+      },
+      {
+        "value": "10.9027px",
+        "uses": 32
+      },
+      {
+        "value": "11.8939px",
+        "uses": 28
+      },
+      {
+        "value": "73.3457px",
+        "uses": 13
+      },
+      {
+        "value": "13.8762px",
+        "uses": 12
+      },
+      {
+        "value": "29.7347px",
+        "uses": 7
+      },
+      {
+        "value": "9.81246px",
+        "uses": 4
+      },
+      {
+        "value": "23.7878px",
+        "uses": 4
+      },
+      {
+        "value": "59.4695px",
+        "uses": 3
+      },
+      {
+        "value": "11.101px",
+        "uses": 2
+      },
+      {
+        "value": "34.6905px",
+        "uses": 1
+      }
+    ],
+    "fontWeights": [
+      {
+        "value": "400",
+        "uses": 286
+      },
+      {
+        "value": "463",
+        "uses": 7
+      }
+    ],
+    "letterSpacing": [
+      {
+        "value": "-0.475756px",
+        "uses": 56
+      },
+      {
+        "value": "0.218055px",
+        "uses": 32
+      },
+      {
+        "value": "0.198232px",
+        "uses": 29
+      },
+      {
+        "value": "0.237878px",
+        "uses": 28
+      },
+      {
+        "value": "-1.10018px",
+        "uses": 13
+      },
+      {
+        "value": "-0.892042px",
+        "uses": 3
+      },
+      {
+        "value": "-0.122904px",
+        "uses": 3
+      },
+      {
+        "value": "-0.446021px",
+        "uses": 1
+      }
+    ],
+    "textColors": [
+      {
+        "value": "rgb(207, 217, 224)",
+        "uses": 102
+      },
+      {
+        "value": "rgb(248, 248, 248)",
+        "uses": 27
+      },
+      {
+        "value": "rgb(40, 39, 40)",
+        "uses": 25
+      },
+      {
+        "value": "rgb(28, 28, 28)",
+        "uses": 25
+      },
+      {
+        "value": "rgba(8, 8, 8, 0.5)",
+        "uses": 24
+      },
+      {
+        "value": "rgb(0, 0, 0)",
+        "uses": 23
+      },
+      {
+        "value": "rgb(8, 8, 8)",
+        "uses": 20
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 11
+      },
+      {
+        "value": "rgba(207, 217, 224, 0.5)",
+        "uses": 11
+      },
+      {
+        "value": "rgba(207, 217, 224, 0.27)",
+        "uses": 7
+      },
+      {
+        "value": "rgba(8, 8, 8, 0.41)",
+        "uses": 5
+      },
+      {
+        "value": "rgba(207, 217, 224, 0.85)",
+        "uses": 4
+      },
+      {
+        "value": "rgba(248, 248, 248, 0.44)",
+        "uses": 3
+      },
+      {
+        "value": "rgba(248, 248, 248, 0.5)",
+        "uses": 2
+      }
+    ],
+    "backgrounds": [
+      {
+        "value": "rgb(248, 248, 248)",
+        "uses": 30
+      },
+      {
+        "value": "rgb(8, 8, 8)",
+        "uses": 23
+      },
+      {
+        "value": "rgb(77, 77, 77)",
+        "uses": 23
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.7)",
+        "uses": 19
+      },
+      {
+        "value": "rgb(207, 217, 224)",
+        "uses": 17
+      },
+      {
+        "value": "rgb(255, 255, 255)",
+        "uses": 12
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.3)",
+        "uses": 8
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.11)",
+        "uses": 7
+      },
+      {
+        "value": "rgba(207, 217, 224, 0.5)",
+        "uses": 6
+      },
+      {
+        "value": "rgba(80, 80, 80, 0.8)",
+        "uses": 5
+      },
+      {
+        "value": "rgb(241, 241, 241)",
+        "uses": 5
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.06)",
+        "uses": 4
+      },
+      {
+        "value": "rgb(236, 236, 236)",
+        "uses": 4
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.38)",
+        "uses": 4
+      }
+    ],
+    "gradients": [
+      {
+        "value": "radial-gradient(150% 70% at 50% 80%, rgb(255, 255, 255) 0px, rgb(255, 255, 255) 20%, rgba(0, 0, 0, 0) 50%, rgb(255, 255, 255) 80%, rgb(255, 255, 255) 100%)",
+        "uses": 4
+      },
+      {
+        "value": "radial-gradient(355.13% 125.17% at 50% 130.96%, rgb(220, 220, 220) 9.21%, rgb(94, 93, 105) 69.76%, rgb(8, 18, 37) 150%)",
+        "uses": 2
+      },
+      {
+        "value": "conic-gradient(from 90deg at 40% -25%, rgb(218, 244, 247), rgba(218, 244, 247, 0.75), rgba(218, 244, 247, 0.5), rgba(218, 244, 247, 0.25), rgba(255, 255, 255, 0",
+        "uses": 2
+      },
+      {
+        "value": "radial-gradient(355.13% 125.17% at 50% 130.96%, rgb(220, 220, 220) 9.21%, rgb(94, 93, 105) 29.76%, rgb(8, 18, 37) 90%)",
+        "uses": 1
+      }
+    ],
+    "radii": [
+      {
+        "value": "7.92926px",
+        "uses": 44
+      },
+      {
+        "value": "9.91158px",
+        "uses": 30
+      },
+      {
+        "value": "50%",
+        "uses": 18
+      },
+      {
+        "value": "6.9381px",
+        "uses": 10
+      },
+      {
+        "value": "12.885px",
+        "uses": 8
+      },
+      {
+        "value": "35.6817px",
+        "uses": 8
+      },
+      {
+        "value": "13px",
+        "uses": 4
+      },
+      {
+        "value": "3.96463px",
+        "uses": 4
+      },
+      {
+        "value": "1px",
+        "uses": 4
+      },
+      {
+        "value": "4.95579px",
+        "uses": 2
+      },
+      {
+        "value": "8px",
+        "uses": 2
+      },
+      {
+        "value": "10px",
+        "uses": 2
+      },
+      {
+        "value": "24.7789px",
+        "uses": 1
+      },
+      {
+        "value": "35.6817px 35.6817px 0px 0px",
+        "uses": 1
+      }
+    ],
+    "shadows": [
+      {
+        "value": "rgba(58, 58, 58, 0.3) 0px 20px 60px 0px",
+        "uses": 5
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.3) 0px 0px 0px 1px inset",
+        "uses": 2
+      }
+    ],
+    "blur": [
+      {
+        "value": "blur(17px)",
+        "uses": 16
+      },
+      {
+        "value": "blur(43px)",
+        "uses": 8
+      },
+      {
+        "value": "blur(38px)",
+        "uses": 6
+      },
+      {
+        "value": "blur(4px)",
+        "uses": 5
+      },
+      {
+        "value": "blur(62px)",
+        "uses": 1
+      },
+      {
+        "value": "blur(40px)",
+        "uses": 1
+      }
+    ],
+    "bodyBackground": "rgb(248, 248, 248)"
+  },
+  "transitions": [
+    {
+      "value": "fill 0.3s ease",
+      "uses": 45
+    },
+    {
+      "value": "opacity 0.3s ease",
+      "uses": 30
+    },
+    {
+      "value": "opacity 1s ease-in-out",
+      "uses": 19
+    },
+    {
+      "value": "transform 0.3s ease",
+      "uses": 18
+    },
+    {
+      "value": "filter 0.3s ease",
+      "uses": 9
+    },
+    {
+      "value": "color 0.3s ease",
+      "uses": 6
+    },
+    {
+      "value": "transform 2s ease",
+      "uses": 6
+    },
+    {
+      "value": "background, color 0.3s, 0.3s ease, ease",
+      "uses": 6
+    },
+    {
+      "value": "width, height, outline-color 0.6s, 0.6s, 0.3s ease, ease, ease",
+      "uses": 5
+    },
+    {
+      "value": "stroke 0.25s cubic-bezier(0.645, 0.045, 0.355, 1)",
+      "uses": 4
+    },
+    {
+      "value": "transform 1s cubic-bezier(0.645, 0.045, 0.355, 1)",
+      "uses": 2
+    },
+    {
+      "value": "background 0.3s ease",
+      "uses": 1
+    },
+    {
+      "value": "transform 0.1s ease",
+      "uses": 1
+    },
+    {
+      "value": "all 0.3s ease",
+      "uses": 1
+    }
+  ],
+  "keyframes": [
+    {
+      "name": "DialogTriggerButton_dialogtrigger-glow__Cf_MW",
+      "css": "@keyframes DialogTriggerButton_dialogtrigger-glow__Cf_MW { \n  0% { opacity: 0; transform: scale(3) rotate(0deg); }\n  20% { opacity: 1; }\n  40% { opacity: 1; }\n  90% { opacity: 0; }\n  100% { transform: scale(1.2) rotate(180deg); }\n}"
+    }
+  ],
+  "unreadableSheets": [],
+  "libraries": {
+    "three": true,
+    "gsap": false,
+    "scrollTrigger": false,
+    "lenis": true,
+    "locomotive": false,
+    "lottie": false,
+    "spline": false,
+    "framerMotion": false,
+    "webflow": false,
+    "barba": false,
+    "pixi": false,
+    "babylon": false,
+    "canvases": 5,
+    "webglCanvases": 1,
+    "videos": 5,
+    "scriptHosts": [
+      "www.icomat.co.uk"
+    ]
+  },
+  "sections": [
+    {
+      "tag": "div",
+      "id": null,
+      "heading": null,
+      "height": 900,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": null,
+      "height": 51,
+      "pinned": false
+    },
+    {
+      "tag": "header",
+      "id": null,
+      "heading": null,
+      "height": 59,
+      "pinned": false
+    },
+    {
+      "tag": "footer",
+      "id": null,
+      "heading": null,
+      "height": 0,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": "Contact us",
+      "height": 900,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": null,
+      "height": 80,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": null,
+      "height": 123,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": null,
+      "height": 65,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": null,
+      "height": 65,
+      "pinned": false
+    },
+    {
+      "tag": "footer",
+      "id": null,
+      "heading": null,
+      "height": 9,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": "Engineer Without Limits™",
+      "height": 21121,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": "Engineer Without Limits™",
+      "height": 902,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": null,
+      "height": 50,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": "ICOMAT invented RTS. Rapid Tow Shearing.",
+      "height": 738,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": null,
+      "height": 50,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": "Conventional / straight Fiber Composites",
+      "height": 918,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": "Before RTS",
+      "height": 900,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": "RTS Design",
+      "height": 900,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": null,
+      "height": 943,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": "At scale",
+      "height": 900,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": "Zero defects",
+      "height": 900,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": "10× faster",
+      "height": 900,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": null,
+      "height": 964,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": "Unlocking innovation for all.",
+      "height": 640,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": null,
+      "height": 99,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": "End-to-end production",
+      "height": 4500,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": null,
+      "height": 0,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": "Our customers have no margin for error.",
+      "height": 4500,
+      "pinned": false
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "heading": null,
+      "height": 900,
+      "pinned": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "heading": "We don't sell machines.\nWe unlock a new way to build.",
+      "height": 1180,
+      "pinned": false
+    }
+  ],
+  "links": [
+    "https://maps.app.goo.gl/y8YTyqHsgrvkrpjr6",
+    "https://www.linkedin.com/company/icomat-bristol/",
+    "https://careers.icomat.co.uk/jobs",
+    "https://www.linkedin.com/company/icomat-bristol/",
+    "https://x.com/i_comat",
+    "https://www.youtube.com/@icomat4609",
+    "https://www.rejouice.com/"
+  ],
+  "animations": [],
+  "pageHeight": 21121
+}

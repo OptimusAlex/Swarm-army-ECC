@@ -30,5 +30,14 @@ module.exports = [
         languageOptions: {
             sourceType: 'module'
         }
+    },
+    {
+        files: ['sites/**/*.js'],
+        languageOptions: {
+            sourceType: 'script',
+            globals: {
+                ...globals.browser
+            }
+        }
     }
 ];

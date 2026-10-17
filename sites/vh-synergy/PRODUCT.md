@@ -18,7 +18,7 @@ Owners and managers of small and growing businesses, and founders of startups, w
 
 ## Product Purpose
 
-VH Synergy Growth Services offers two services:
+VH Synergy Growth Solution offers two services:
 
 1. **Digital marketing:** getting a business found and chosen online.
 2. **Business consultancy:** making sure the business behind the marketing is ready to grow.
@@ -45,8 +45,18 @@ Service catalogue, modelled on common agency catalogues and the owner's referenc
 Open decisions:
 
 - Pricing is not published; the site offers a free growth audit instead. *(owner said "give any for now"; replaced sample prices to avoid inventing numbers)*
-- Contact email, hours and area served are placeholders. *(inferred)*
-- Brand name: the owner gave "VH Synergy Growth Services"; the logo reads "SYNERGY Growth Solutions". **Needs confirmation.**
+- Contact email and hours are placeholders. *(inferred)*
+- Brand name: "VH Synergy Growth Solution", the registered name, confirmed by the owner on 17 October 2026.
+- Location: office in Solapur, Maharashtra, confirmed by the owner. Most work is online, so the site also welcomes clients in other cities. *(inferred)*
+
+## Company Record
+
+From third-party company listings, not the official MCA record; verify before relying on them:
+
+- Legal name: VH Synergy Growth Solution Private Limited
+- CIN: U70200PN2023PTC223908
+- Incorporated: 12 September 2023, registered in Maharashtra
+- Activity: head office activities and management consultancy
 
 ## Brand Commitments
 

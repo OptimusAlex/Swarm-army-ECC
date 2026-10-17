@@ -1,37 +1,67 @@
-// VH Synergy Growth Services: the script the page needs.
+// VH Synergy Growth Solution: the script the page needs.
 // Everything is progressive: without it, all content is visible and the form still submits.
 (() => {
   const root = document.documentElement;
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const wide = () => window.matchMedia('(min-width: 40.01em)').matches;
+  const storyQuery = window.matchMedia('(min-width: 64em)');
+  const finePointer = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+
+  // ---------- smooth scrolling (Lenis), skipped for reduced motion ----------
+  let lenis = null;
+  if (!reduced && window.Lenis) {
+    lenis = new window.Lenis({ lerp: 0.085, smoothWheel: true, anchors: { offset: -88 } });
+    const raf = (time) => { lenis.raf(time); requestAnimationFrame(raf); };
+    requestAnimationFrame(raf);
+  }
 
   // ---------- entrances: reveal once, staggered by order inside each section ----------
   const reveals = document.querySelectorAll('[data-reveal]');
   const counts = new Map();
   reveals.forEach((el) => {
-    const host = el.closest('section') || document.body;
+    const host = el.closest('section, ul, dl') || document.body;
     const i = counts.get(host) || 0;
     el.style.setProperty('--i', String(Math.min(i, 6)));
     counts.set(host, i + 1);
   });
-  const watched = [...reveals, ...document.querySelectorAll('.facts, .card')];
+  const reveal = (el) => {
+    el.classList.add('is-in');
+    // After the entrance, tiles switch to a quick transition so the pointer tilt feels direct.
+    if (el.classList.contains('tile')) setTimeout(() => el.classList.add('is-settled'), 2200);
+  };
   if ('IntersectionObserver' in window) {
     const io = new IntersectionObserver((entries) => {
       for (const entry of entries) {
         if (!entry.isIntersecting) continue;
-        entry.target.classList.add('is-in');
+        reveal(entry.target);
         io.unobserve(entry.target);
       }
     }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
-    watched.forEach((el) => io.observe(el));
+    reveals.forEach((el) => io.observe(el));
     window.addEventListener('load', () => setTimeout(() => {
-      watched.forEach((el) => {
+      reveals.forEach((el) => {
         const r = el.getBoundingClientRect();
-        if (r.top < innerHeight && r.bottom > 0) el.classList.add('is-in');
+        if (r.top < innerHeight && r.bottom > 0) reveal(el);
       });
     }, 2500));
   } else {
-    watched.forEach((el) => el.classList.add('is-in'));
+    reveals.forEach(reveal);
+  }
+
+  // ---------- service tiles lean toward the pointer ----------
+  if (finePointer && !reduced) {
+    document.querySelectorAll('.tile').forEach((tile) => {
+      tile.addEventListener('pointermove', (e) => {
+        const r = tile.getBoundingClientRect();
+        const x = (e.clientX - r.left) / r.width - 0.5;
+        const y = (e.clientY - r.top) / r.height - 0.5;
+        tile.style.setProperty('--ry', `${(x * 7).toFixed(2)}deg`);
+        tile.style.setProperty('--rx', `${(-y * 7).toFixed(2)}deg`);
+      });
+      tile.addEventListener('pointerleave', () => {
+        tile.style.setProperty('--ry', '0deg');
+        tile.style.setProperty('--rx', '0deg');
+      });
+    });
   }
 
   // ---------- header and reading progress ----------
@@ -41,7 +71,7 @@
     const max = root.scrollHeight - innerHeight;
     root.style.setProperty('--progress', String(max > 0 ? Math.min(1, scrollY / max) : 0));
     if (bar) bar.classList.toggle('is-scrolled', scrollY > 24);
-    updateRail();
+    updateSteps();
     ticking = false;
   };
   window.addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(onScroll); } }, { passive: true });
@@ -49,7 +79,7 @@
   // ---------- decode: letters scramble, then settle on the real word ----------
   const GLYPHS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
   const decode = (el) => {
-    if (reduced || el.dataset.decoding) return;
+    if (reduced || el.dataset.decoding || el.children.length) return;
     const text = el.dataset.text || el.textContent;
     el.dataset.text = text;
     el.dataset.decoding = '1';
@@ -89,16 +119,6 @@
     el.addEventListener('pointerenter', () => decode(el));
     el.addEventListener('focus', () => decode(el));
   });
-  if ('IntersectionObserver' in window) {
-    const headIo = new IntersectionObserver((entries) => {
-      for (const entry of entries) {
-        if (!entry.isIntersecting) continue;
-        decode(entry.target);
-        headIo.unobserve(entry.target);
-      }
-    }, { threshold: 0.6 });
-    document.querySelectorAll('h1 [data-decode], h2[data-decode], .step__word').forEach((el) => headIo.observe(el));
-  }
 
   // ---------- the query inside the hero sentence types real searches ----------
   const typed = document.querySelector('.query__text');
@@ -123,34 +143,6 @@
     setTimeout(tick, 2800);
   }
 
-  // ---------- digital marketing: the rail moves sideways while the page scrolls ----------
-  const rail = document.querySelector('.rail');
-  const track = document.querySelector('.rail__track');
-  const viewport = document.querySelector('.rail__viewport');
-  const railIndex = document.getElementById('rail-index');
-  let railDistance = 0;
-  function sizeRail() {
-    if (!rail || !track || !viewport) return;
-    if (!wide()) { rail.style.removeProperty('--rail-height'); railDistance = 0; track.style.transform = ''; return; }
-    railDistance = Math.max(0, track.scrollWidth - viewport.clientWidth);
-    rail.style.setProperty('--rail-height', `${innerHeight + railDistance}px`);
-  }
-  function updateRail() {
-    if (!rail || !track || !railDistance) return;
-    const r = rail.getBoundingClientRect();
-    const p = Math.min(1, Math.max(0, -r.top / railDistance));
-    track.style.transform = `translate3d(${-p * railDistance}px, 0, 0)`;
-    if (railIndex) railIndex.textContent = String(Math.min(6, 1 + Math.round(p * 5)));
-  }
-  if (viewport && railIndex) {
-    viewport.addEventListener('scroll', () => {
-      if (wide()) return;
-      const card = track.firstElementChild;
-      const step = card ? card.getBoundingClientRect().width : 1;
-      railIndex.textContent = String(Math.min(6, 1 + Math.round(viewport.scrollLeft / step)));
-    }, { passive: true });
-  }
-
   // ---------- showcase: one frame, three distances ----------
   const showcase = document.querySelector('.showcase');
   const frame = document.querySelector('.showcase__frame');
@@ -168,7 +160,7 @@
   }
 
   // the frame shows its own size, like a design tool
-  const sizeTag = document.querySelector('.dotframe__size');
+  const sizeTag = document.querySelector('.showcase__size');
   if (sizeTag && frame && 'ResizeObserver' in window) {
     new ResizeObserver(([entry]) => {
       const { width, height } = entry.contentRect;
@@ -176,7 +168,7 @@
     }).observe(frame);
   }
 
-  // ---------- live thing: see your page as a search result ----------
+  // ---------- live tool: see your page as a search result ----------
   const form = document.getElementById('snippet-form');
   if (form) {
     const fields = { title: form.elements.title, desc: form.elements.desc, url: form.elements.url };
@@ -219,14 +211,35 @@
     render();
   }
 
-  // ---------- process scenes play only while they are on screen ----------
+  // ---------- process: drawn scenes play while on screen (the fallback view) ----------
+  const steps = [...document.querySelectorAll('.step')];
   if ('IntersectionObserver' in window) {
     const sceneIo = new IntersectionObserver((entries) => {
       for (const entry of entries) entry.target.classList.toggle('is-playing', entry.isIntersecting);
     }, { threshold: 0.25 });
-    document.querySelectorAll('.step').forEach((el) => sceneIo.observe(el));
+    steps.forEach((el) => sceneIo.observe(el));
   } else {
-    document.querySelectorAll('.step').forEach((el) => el.classList.add('is-playing'));
+    steps.forEach((el) => el.classList.add('is-playing'));
+  }
+
+  // Story progress: 0 at the first step, 3 at the last, measured at the middle of the screen.
+  const meter = [...document.querySelectorAll('.story__meter li')];
+  let storyProgress = 0;
+  function updateSteps() {
+    if (!root.classList.contains('has-story') || !steps.length) return;
+    const mid = innerHeight / 2;
+    const centers = steps.map((el) => { const r = el.getBoundingClientRect(); return r.top + r.height / 2; });
+    let p = 0;
+    if (mid >= centers[centers.length - 1]) p = centers.length - 1;
+    else if (mid > centers[0]) {
+      for (let i = 0; i < centers.length - 1; i += 1) {
+        if (mid >= centers[i] && mid < centers[i + 1]) { p = i + (mid - centers[i]) / (centers[i + 1] - centers[i]); break; }
+      }
+    }
+    storyProgress = p;
+    const active = Math.round(p);
+    steps.forEach((el, i) => el.classList.toggle('is-active', i === active));
+    meter.forEach((el, i) => el.classList.toggle('is-on', i === active));
   }
 
   // ---------- consultancy: cards turn on tap ----------
@@ -234,26 +247,66 @@
     btn.addEventListener('click', () => btn.setAttribute('aria-pressed', btn.getAttribute('aria-pressed') === 'true' ? 'false' : 'true'));
   });
 
-  // ---------- hero: the logo as a 3D medallion ----------
+  // ---------- shared pointer for the 3D scenes ----------
+  let pointerX = 0;
+  let pointerY = 0;
+  window.addEventListener('pointermove', (e) => {
+    pointerX = (e.clientX / innerWidth) * 2 - 1;
+    pointerY = (e.clientY / innerHeight) * 2 - 1;
+  }, { passive: true });
+
+  // Runs draw() every frame while the element is on screen, once on resize, and on scroll when motion is reduced.
+  function animateWhileVisible(el, canvas, renderer, camera, draw) {
+    const resize = () => {
+      const { width, height } = canvas.getBoundingClientRect();
+      if (!width || !height) return;
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+      renderer.setSize(width, height, false);
+      camera.aspect = width / height;
+      camera.updateProjectionMatrix();
+      draw(performance.now());
+    };
+    let raf = 0;
+    const loop = (now) => { draw(now); raf = requestAnimationFrame(loop); };
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(([entry]) => {
+        if (reduced) return;
+        if (entry.isIntersecting && !raf) raf = requestAnimationFrame(loop);
+        if (!entry.isIntersecting && raf) { cancelAnimationFrame(raf); raf = 0; }
+      }).observe(el);
+    } else if (!reduced) {
+      raf = requestAnimationFrame(loop);
+    }
+    if ('ResizeObserver' in window) new ResizeObserver(resize).observe(canvas);
+    resize();
+    if (reduced) window.addEventListener('scroll', () => draw(performance.now()), { passive: true });
+  }
+
+  function makeRenderer(THREE, canvas) {
+    try {
+      const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true });
+      renderer.outputEncoding = THREE.sRGBEncoding;
+      return renderer;
+    } catch (_e) {
+      return null;
+    }
+  }
+
+  // ---------- hero: the logo as a glowing medallion with orbiting light rings ----------
   function startMedal() {
     const canvas = document.getElementById('medal');
     const fallback = document.querySelector('.medal__fallback');
     const THREE = window.THREE;
     if (!canvas || !fallback || !THREE) return;
-    let renderer;
-    try {
-      renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true });
-    } catch (_e) {
-      return;
-    }
-    renderer.outputEncoding = THREE.sRGBEncoding;
+    const renderer = makeRenderer(THREE, canvas);
+    if (!renderer) return;
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(30, 1, 0.1, 100);
-    camera.position.set(0, 0, 4.4);
+    camera.position.set(0, 0, 5.2);
 
     const texture = new THREE.TextureLoader().load(fallback.currentSrc || fallback.src, () => {
       root.classList.add('has-webgl');
-      draw(0);
+      draw(performance.now());
     });
     texture.encoding = THREE.sRGBEncoding;
     texture.center.set(0.5, 0.5);
@@ -269,7 +322,6 @@
     const face = new THREE.MeshStandardMaterial({ map: texture, metalness: 0.15, roughness: 0.55 });
     const medal = new THREE.Mesh(geometry, [edge, face, face]);
     scene.add(medal);
-
     const rim = new THREE.Mesh(new THREE.TorusGeometry(1.0, 0.03, 16, 180), edge);
     rim.position.z = 0.066;
     medal.add(rim);
@@ -277,32 +329,37 @@
     rimBack.position.z = -0.066;
     medal.add(rimBack);
 
-    scene.add(new THREE.AmbientLight(0xfff3dc, 0.6));
-    const key = new THREE.DirectionalLight(0xffffff, 1.1);
+    // Two thin rings of light orbit the medallion at different tilts.
+    const ringGold = new THREE.Mesh(new THREE.TorusGeometry(1.32, 0.006, 8, 240), new THREE.MeshBasicMaterial({ color: 0xf2cf4f, transparent: true, opacity: 0.85, blending: THREE.AdditiveBlending }));
+    const ringGreen = new THREE.Mesh(new THREE.TorusGeometry(1.5, 0.004, 8, 240), new THREE.MeshBasicMaterial({ color: 0x3ddc97, transparent: true, opacity: 0.6, blending: THREE.AdditiveBlending }));
+    const orbitA = new THREE.Group();
+    const orbitB = new THREE.Group();
+    orbitA.add(ringGold);
+    orbitB.add(ringGreen);
+    orbitA.rotation.x = 1.15;
+    orbitB.rotation.x = 1.35;
+    orbitB.rotation.y = 0.5;
+    scene.add(orbitA, orbitB);
+    // A small bright bead travels along each ring.
+    const bead = (r, color) => { const m = new THREE.Mesh(new THREE.SphereGeometry(0.03, 16, 16), new THREE.MeshBasicMaterial({ color })); m.position.x = r; return m; };
+    const beadA = bead(1.32, 0xfff1b0);
+    const beadB = bead(1.5, 0xa8ffd6);
+    ringGold.add(beadA);
+    ringGreen.add(beadB);
+
+    scene.add(new THREE.AmbientLight(0xfff3dc, 0.55));
+    const key = new THREE.DirectionalLight(0xffffff, 1.05);
     key.position.set(2.5, 3, 4);
     scene.add(key);
-    const warm = new THREE.PointLight(0xf2cf4f, 1.6, 12);
+    const warm = new THREE.PointLight(0xf2cf4f, 1.5, 12);
     warm.position.set(-3, -1.5, 3);
     scene.add(warm);
+    const cool = new THREE.PointLight(0x3ddc97, 1.2, 12);
+    cool.position.set(3, 1, 2.5);
+    scene.add(cool);
 
-    const resize = () => {
-      const { width, height } = canvas.getBoundingClientRect();
-      if (!width || !height) return;
-      renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
-      renderer.setSize(width, height, false);
-      camera.aspect = width / height;
-      camera.updateProjectionMatrix();
-      draw(performance.now());
-    };
-    let pointerX = 0;
-    let pointerY = 0;
     let tiltX = 0;
     let tiltY = 0;
-    window.addEventListener('pointermove', (e) => {
-      pointerX = (e.clientX / innerWidth) * 2 - 1;
-      pointerY = (e.clientY / innerHeight) * 2 - 1;
-    }, { passive: true });
-
     function draw(now) {
       const t = now / 1000;
       const hero = canvas.closest('.hero');
@@ -312,31 +369,148 @@
       medal.rotation.x = tiltX + (reduced ? 0.15 : Math.sin(t * 0.4) * 0.06);
       medal.rotation.y = -0.35 + tiltY + scrolled * Math.PI * 1.2 + (reduced ? 0 : Math.sin(t * 0.28) * 0.25);
       medal.position.y = reduced ? 0 : Math.sin(t * 0.55) * 0.04;
+      ringGold.rotation.z = reduced ? 0.6 : t * 0.35;
+      ringGreen.rotation.z = reduced ? 2.4 : -t * 0.22;
+      orbitA.rotation.y = tiltY * 0.5;
+      orbitB.rotation.x = 1.35 + tiltX * 0.4;
       renderer.render(scene, camera);
     }
-
-    let visible = true;
-    let raf = 0;
-    const loop = (now) => { draw(now); raf = requestAnimationFrame(loop); };
-    if ('IntersectionObserver' in window) {
-      new IntersectionObserver(([entry]) => {
-        visible = entry.isIntersecting;
-        if (reduced) return;
-        if (visible && !raf) raf = requestAnimationFrame(loop);
-        if (!visible && raf) { cancelAnimationFrame(raf); raf = 0; }
-      }).observe(canvas);
-    }
-    if ('ResizeObserver' in window) new ResizeObserver(resize).observe(canvas);
-    resize();
-    if (reduced) window.addEventListener('scroll', () => draw(performance.now()), { passive: true });
-    else if (visible) raf = requestAnimationFrame(loop);
+    animateWhileVisible(canvas, canvas, renderer, camera, draw);
   }
 
-  window.addEventListener('resize', () => { sizeRail(); updateRail(); });
-  window.addEventListener('load', () => { sizeRail(); onScroll(); });
-  sizeRail();
-  onScroll();
+  // ---------- process: 96 blocks rearrange into Audit, Plan, Build and Grow ----------
+  function startStory() {
+    const canvas = document.getElementById('story');
+    const section = document.getElementById('process');
+    const THREE = window.THREE;
+    if (!canvas || !section || !THREE || reduced) return;
+    const renderer = makeRenderer(THREE, canvas);
+    if (!renderer) return;
+    const setMode = () => { root.classList.toggle('has-story', storyQuery.matches); updateSteps(); };
+    if (storyQuery.addEventListener) storyQuery.addEventListener('change', setMode);
+    setMode();
+
+    const N = 96;
+    const C = { mist: 0xeef3e9, sage: 0xb9c7b0, gold: 0xf2cf4f, deep: 0x1d4a33, leaf: 0x3d8455, leaf2: 0x4d9a63, bark: 0x8a7350 };
+    // Each layout gives every block a position, a size and a colour.
+    const audit = [];
+    for (let i = 0; i < N; i += 1) {
+      const row = Math.floor(i / 12);
+      const col = i % 12;
+      // Rows read like lines of text on a page; short last line, a highlighted finding in gold.
+      const lineLength = [12, 11, 12, 9, 12, 10, 12, 6][row];
+      const on = col < lineLength;
+      audit.push({ p: [(col - 5.5) * 0.17, (3.5 - row) * 0.26, 0], s: on ? [0.15, 0.07, 0.07] : [0.001, 0.001, 0.001], c: row === 3 && col < 9 ? C.gold : C.mist });
+    }
+    const plan = [];
+    const columnSizes = [6, 8, 5, 7];
+    let k = 0;
+    columnSizes.forEach((size, col) => {
+      for (let r = 0; r < size; r += 1) {
+        plan.push({ p: [(col - 1.5) * 0.52, 0.95 - r * 0.27, 0], s: [0.42, 0.2, 0.05], c: (col + r) % 4 === 0 ? C.gold : C.sage });
+        k += 1;
+      }
+    });
+    // The rest become a timeline along the bottom.
+    for (let i = k; i < N; i += 1) {
+      const j = i - k;
+      plan.push({ p: [-1.1 + (j / (N - k - 1)) * 2.2, -1.35, 0], s: [0.035, 0.035, 0.035], c: j % 10 === 0 ? C.gold : C.sage });
+    }
+    const build = [];
+    for (let i = 0; i < N; i += 1) {
+      const floor = Math.floor(i / 16);
+      const x = i % 4;
+      const z = Math.floor(i / 4) % 4;
+      const lit = (x + z + floor) % 5 === 0;
+      build.push({ p: [(x - 1.5) * 0.24, -1.2 + floor * 0.34, (z - 1.5) * 0.24], s: [0.22, 0.3, 0.22], c: lit ? C.gold : (floor % 2 ? C.sage : C.mist) });
+    }
+    const grow = [];
+    for (let i = 0; i < N; i += 1) {
+      if (i < 12) { grow.push({ p: [0, -1.4 + i * 0.13, 0], s: [0.16, 0.14, 0.16], c: C.bark }); continue; }
+      if (i < 20) {
+        const side = i % 2 ? 1 : -1;
+        const j = Math.floor((i - 12) / 2);
+        grow.push({ p: [side * (0.15 + j * 0.13), -0.2 + j * 0.12, (j % 2 ? 0.08 : -0.08)], s: [0.1, 0.1, 0.1], c: C.bark });
+        continue;
+      }
+      // Canopy: points spread over a sphere, with gold fruit among the leaves.
+      const n = i - 20;
+      const phi = Math.acos(1 - 2 * (n + 0.5) / (N - 20));
+      const theta = Math.PI * (1 + Math.sqrt(5)) * n;
+      const r = 0.82 + ((n * 37) % 10) / 60;
+      grow.push({ p: [Math.cos(theta) * Math.sin(phi) * r, 0.55 + Math.cos(phi) * r * 0.78, Math.sin(theta) * Math.sin(phi) * r], s: n % 9 === 0 ? [0.11, 0.11, 0.11] : [0.17, 0.17, 0.17], c: n % 9 === 0 ? C.gold : (n % 3 ? C.leaf : C.leaf2) });
+    }
+    const layouts = [audit, plan, build, grow];
+    const tilts = [[0.0, 0.0], [-0.12, 0.0], [0.35, 0.65], [0.12, 0.0]];
+
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(32, 1, 0.1, 100);
+    camera.position.set(0, 0, 7.2);
+    const mesh = new THREE.InstancedMesh(new THREE.BoxGeometry(1, 1, 1), new THREE.MeshStandardMaterial({ roughness: 0.45, metalness: 0.15 }), N);
+    const group = new THREE.Group();
+    group.add(mesh);
+    scene.add(group);
+    scene.add(new THREE.AmbientLight(0xffffff, 0.55));
+    const key = new THREE.DirectionalLight(0xffffff, 0.9);
+    key.position.set(3, 4, 5);
+    scene.add(key);
+    const glow = new THREE.PointLight(0x3ddc97, 1.4, 14);
+    glow.position.set(-3, -1, 3);
+    scene.add(glow);
+    const warm = new THREE.PointLight(0xf2cf4f, 1.1, 14);
+    warm.position.set(3, 2, 2);
+    scene.add(warm);
+
+    const dummy = new THREE.Object3D();
+    const colA = new THREE.Color();
+    const colB = new THREE.Color();
+    const ease = (x) => (x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2);
+    let shown = 0;
+    let tiltX = 0;
+    let tiltY = 0;
+    function draw(now) {
+      const t = now / 1000;
+      shown += (storyProgress - shown) * 0.06;
+      const stage = Math.min(2, Math.floor(shown));
+      const local = Math.min(1, Math.max(0, shown - stage));
+      const from = layouts[stage];
+      const to = layouts[stage + 1];
+      for (let i = 0; i < N; i += 1) {
+        // Blocks leave one after another, so each change ripples through the form.
+        const delay = (i / N) * 0.45;
+        const m = ease(Math.min(1, Math.max(0, (local - delay) / 0.55)));
+        const a = from[i];
+        const b = to[i];
+        const lift = Math.sin(m * Math.PI) * 0.35;
+        dummy.position.set(a.p[0] + (b.p[0] - a.p[0]) * m, a.p[1] + (b.p[1] - a.p[1]) * m + lift, a.p[2] + (b.p[2] - a.p[2]) * m);
+        dummy.scale.set(a.s[0] + (b.s[0] - a.s[0]) * m, a.s[1] + (b.s[1] - a.s[1]) * m, a.s[2] + (b.s[2] - a.s[2]) * m);
+        dummy.rotation.set(m * (1 - m) * 2.4, m * (1 - m) * 3.2, 0);
+        dummy.updateMatrix();
+        mesh.setMatrixAt(i, dummy.matrix);
+        colA.setHex(a.c);
+        colB.setHex(b.c);
+        mesh.setColorAt(i, colA.lerp(colB, m));
+      }
+      mesh.instanceMatrix.needsUpdate = true;
+      if (mesh.instanceColor) mesh.instanceColor.needsUpdate = true;
+      const fromTilt = tilts[stage];
+      const toTilt = tilts[stage + 1];
+      const tm = ease(local);
+      tiltX += (pointerY * 0.18 - tiltX) * 0.04;
+      tiltY += (pointerX * 0.3 - tiltY) * 0.04;
+      group.rotation.x = fromTilt[0] + (toTilt[0] - fromTilt[0]) * tm + tiltX;
+      group.rotation.y = fromTilt[1] + (toTilt[1] - fromTilt[1]) * tm + tiltY + Math.sin(t * 0.3) * 0.12;
+      group.position.y = Math.sin(t * 0.6) * 0.04;
+      renderer.render(scene, camera);
+    }
+    animateWhileVisible(section, canvas, renderer, camera, draw);
+  }
+
+  window.addEventListener('resize', onScroll);
+  window.addEventListener('load', onScroll);
   startMedal();
+  startStory();
+  onScroll();
 
   const year = document.getElementById('year');
   if (year) year.textContent = String(new Date().getFullYear());

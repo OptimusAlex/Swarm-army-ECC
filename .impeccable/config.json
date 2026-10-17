@@ -19,7 +19,34 @@
           "sites/vh-synergy/site/index.html"
         ],
         "createdAt": "2026-10-17T06:42:27.287Z",
-        "reason": "Claude decided: 1.0 to 1.2 leading is only on large uppercase display text (intro statement, spec values, FAQ questions, card titles) as part of the oryzo.ai style the user asked for; body text is 1.55"
+        "reason": "Claude decided: 0.9 to 1.0 leading is only on large display headlines (condensed uppercase in the light sections, wide type on the dark stages); body text is 1.55"
+      },
+      {
+        "rule": "dark-glow",
+        "value": "*",
+        "files": [
+          "sites/vh-synergy/site/index.html"
+        ],
+        "createdAt": "2026-10-17T08:39:26.000Z",
+        "reason": "Owner chose a mix including direction B (dark, glowing); the glow is limited to the gold button hover and the small status dots in the hero strip"
+      },
+      {
+        "rule": "italic-serif-display",
+        "value": "*",
+        "files": [
+          "sites/vh-synergy/site/index.html"
+        ],
+        "createdAt": "2026-10-17T08:39:26.000Z",
+        "reason": "Owner-approved mood board direction: one italic Bodoni word per headline as a warm accent against Archivo, not whole italic headlines"
+      },
+      {
+        "rule": "hero-eyebrow-chip",
+        "value": "*",
+        "files": [
+          "sites/vh-synergy/site/index.html"
+        ],
+        "createdAt": "2026-10-17T08:39:26.000Z",
+        "reason": "The hero label states the two services and the city, which the headline does not; it is plain mono text, not a chip"
       }
     ]
   }

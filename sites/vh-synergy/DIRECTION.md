@@ -1,54 +1,52 @@
-# Direction: dark product page, after oryzo.ai
+# Direction: light page, dark stages
 
-The owner asked for the design of [oryzo.ai](https://oryzo.ai/) (built by Lusion). The page takes that site's design language and applies it to the VH Synergy brand. It reuses no Oryzo content, imagery or code.
+The second redesign. The owner found the oryzo-style dark page dated and asked for a fresh look,
+choosing a mix of the two directions proposed in the mood board: a light, premium page (A) and a
+dark, cinematic one (B). The choices draw on the reference scan in `sites/design-library/`.
 
-The reference could not be opened from the build machine (network policy), so its traits come from published descriptions: the studio's behind-the-scenes post, a Refero design-system extraction and the Awwwards listing.
+## The idea
 
-## Traits taken from the reference
+A light stone page holds three dark, rounded "stages": the hero, the process story and the
+footer. The light world is for reading and deciding (services, the listing tool, consultancy,
+the free audit, questions, the form). The dark stages are for the brand's big moments.
 
-- A warm near-black page with cream type, and one bright accent used sparingly.
-- One typeface for almost everything, set in uppercase at medium weight for display and labels, sentence case for body copy.
-- Pill-shaped navigation and buttons.
-- A 3D product as the hero, moving with scroll and pointer.
-- Dotted "design tool" frames with corner handles.
-- A pinned horizontal carousel, 3D flip cards, text that scrambles and decodes on hover, and a spec sheet.
+One type family changes width between the two worlds:
 
-## Applied to this brand
-
-- The 3D product is the owner's logo as a gold-rimmed medallion (three.js r128, vendored in `site/vendor/`, MIT licence). It turns with scroll and tilts with the pointer. Without WebGL it falls back to the flat logo image.
-- The spec sheet describes the free growth audit, with real terms only.
-
-## Type
-
-Hanken Grotesk 400 / 500 / 600 (Google Fonts), standing in for Oryzo's Halyard Display, which is a paid font.
+- Light world: Archivo condensed, heavy, uppercase headlines.
+- Dark stages: Archivo wide, light weight, sentence case.
+- Both: one italic Bodoni Moda word for warmth (grow, find you, audit, growth).
+- Labels: IBM Plex Mono, small and uppercase.
 
 ## Colour
 
 | Role | Value |
 | --- | --- |
-| Page | `#07150e`, near-black tinted with the logo green |
-| Raised surface | `#0c2117`, `#12301f` |
-| Type | `#f3e9d2` cream |
-| Secondary type | `#a7ad97` muted olive |
-| Accent | `#f2cf4f`, the logo's gold: progress line, small highlights, the "Free" mark, credits |
+| Page | stone `#e9ece4`, surfaces `#f6f8f2` and `#dde2d6` |
+| Light-world type | forest `#10291c`, secondary `#55635a` |
+| Gold on light | `#75590a` for text, `#c69a1e` for shapes |
+| Stages | night `#050d09`, type mist `#eef3e9`, secondary `#91a198` |
+| Glow | signal green `#3ddc97` (lights and dots only), gold `#f2cf4f` |
 
 ## Sections
 
-Hero with the medallion → four facts in dotted frames → statement → digital marketing as a pinned horizontal carousel → search result zooming in three stages → listing preview tool → business consultancy as flip cards → process (Audit, Plan, Build, Grow) → free audit spec sheet on cream → FAQ → contact form → footer with the email at display size.
+Hero stage (logo medallion with two orbiting light rings) → facts → statement → digital
+marketing as bento tiles → search result zoom → listing preview tool → consultancy flip cards →
+process stage → free audit card in forest → questions → form → footer stage.
 
 ## Motion
 
-- Load: headline lines rise out of masks, the medallion settles in, the hero text decodes.
-- Scroll: gold progress line; medallion turns; the carousel moves sideways while the page scrolls (native swipe on phones); search result zooms; sections and drawings enter in sequence.
-- Hover: pills fill, headings and labels scramble then settle, process words shift and turn gold, flip cards turn (tap on touch).
-- Process scenes (10-second loops, played only while on screen):
-  - Audit: a pen writes four lines on a report, then a check stamp appears.
-  - Plan: a robot and a person place notes on a planning board, then a timeline draws.
-  - Build: floors drop onto the ground one by one beside a crane, then the windows light up.
-  - Grow: a small plan sinks into the ground and grows into a tree with gold fruit.
-- Pace: entrances, the hero, the medallion, the zoom, flips, scrambles and typing were slowed down on request. Press and hover feedback stays quick so the page still feels responsive.
-- Reduced motion: no scrambling, no flips (both card faces shown), no zoom transitions, process scenes shown in their finished state; the medallion only follows scroll.
+Pace follows the scan: quick feedback (140 to 180 ms), entrances around one second, slow loops.
 
-## Departures from the Taste skill's house rules
+- Smooth scrolling with Lenis (MIT, vendored in `site/vendor/`).
+- Hero: headline lines rise, medallion settles, rings orbit with travelling beads, the glow drifts.
+- Service tiles rise and tip back as they enter, then lean toward the pointer.
+- Process: on wide screens with WebGL, the 3D view stays pinned while the steps scroll past.
+  96 blocks rearrange from a scanned page (Audit) to a planning board with a timeline (Plan) to a
+  tower with lit windows (Build) to a tree with gold fruit (Grow). Phones, reduced motion and
+  devices without WebGL get the four drawn scenes instead.
+- Reduced motion: no smooth scrolling, no 3D story, scenes shown finished, the medallion only follows scroll.
 
-The owner's chosen reference uses uppercase labels, small labels above figures, divider lines, a cream palette and a long pinned carousel, all of which the Taste inspector flags. They are kept on purpose, because the owner's direction takes precedence.
+## Kept from the first version
+
+The logo medallion, the search result zoom, the listing preview tool, the flip cards, the drawn
+process scenes (now the fallback), the typing search query and all copy.

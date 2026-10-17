@@ -6,7 +6,7 @@
   <title>Digital Marketing and Business Consultancy | VH Synergy Growth Services</title>
   <meta name="description" content="VH Synergy Growth Services offers digital marketing (SEO, Google and Meta ads, social media, websites, branding, email and WhatsApp campaigns) and business consultancy for growing businesses and startups.">
   <link rel="canonical" href="https://www.vhsynergygrowth.com/">
-  <meta name="theme-color" content="#012f1d">
+  <meta name="theme-color" content="#07150e">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="VH Synergy Growth Services">
@@ -22,7 +22,7 @@
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500&family=Libre+Caslon+Condensed:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script>document.documentElement.classList.add('js')</script>
 
@@ -90,154 +90,144 @@
 
   <header class="bar" id="top">
     <a class="brand" href="#top" aria-label="VH Synergy Growth Services, back to top">
-      <img class="brand__logo" src="assets/logo.png" width="44" height="44" alt="">
-      <span class="wordmark">VH Synergy</span>
+      <img class="brand__logo" src="assets/logo.png" width="40" height="40" alt="">
+      <span class="brand__name">VH Synergy</span>
     </a>
     <nav class="bar__nav" aria-label="Main">
-      <a class="link" href="#marketing">Digital marketing</a>
-      <a class="link" href="#consultancy">Consultancy</a>
-      <a class="link" href="#process">How we work</a>
-      <a class="link" href="#faq">FAQ</a>
+      <a class="pill" href="#marketing" data-decode>Marketing</a>
+      <a class="pill" href="#consultancy" data-decode>Consultancy</a>
+      <a class="pill" href="#process" data-decode>Process</a>
+      <a class="pill" href="#faq" data-decode>FAQ</a>
     </nav>
-    <a class="button bar__action" href="#contact">Get a free audit</a>
+    <a class="pill pill--solid bar__action" href="#contact" data-decode>Free audit</a>
   </header>
 
   <main id="main">
 
-    <!-- HERO: two fields, the headline cut by the seam -->
-    <section class="hero" data-ink="#012f1d" data-ground="#f7f7f7" aria-labelledby="hero-title">
+    <!-- HERO: the medallion between the two halves of the line -->
+    <section class="hero" aria-labelledby="hero-title">
       <h1 class="hero__title" id="hero-title">
-        <span class="hero__copy hero__copy--top"><span class="hero__line"><span>Be found.</span></span><span class="hero__line"><span>Then grow.</span></span></span>
-        <span class="hero__copy hero__copy--low" aria-hidden="true"><span class="hero__line"><span>Be found.</span></span><span class="hero__line"><span>Then grow.</span></span></span>
+        <span class="hero__line hero__line--a"><span data-decode>Be found.</span></span>
+        <span class="hero__line hero__line--b"><span data-decode>Then grow.</span></span>
       </h1>
-      <div class="hero__low">
+      <div class="hero__medal" aria-hidden="true">
+        <canvas class="medal__canvas" id="medal"></canvas>
+        <img class="medal__fallback" src="assets/logo.png" width="330" height="330" alt="">
+      </div>
+      <div class="hero__meta">
         <p class="hero__sub">Digital marketing and business consultancy, so the customer searching
-          <span class="query" aria-hidden="true"><svg class="query__glass" viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12.6 12.6 17 17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span class="query__text" data-queries='["interior designer near me","best bakery for birthday cakes","CA firm for startups","physiotherapy clinic open now","wedding photographer packages"]'>interior designer near me</span></span><span class="sr-only">for a business like yours</span>
+          <span class="query" aria-hidden="true"><svg class="query__glass" viewBox="0 0 20 20"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12.6 12.6 17 17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span class="query__text" data-queries='["interior designer near me","best bakery for birthday cakes","CA firm for startups","physiotherapy clinic open now","wedding photographer packages"]'>interior designer near me</span></span><span class="sr-only">for a business like yours</span>
           finds you, and your business is ready to grow.</p>
+        <a class="hero__cue" href="#facts"><span>Scroll</span><span class="hero__cue-line" aria-hidden="true"></span></a>
       </div>
     </section>
 
-    <!-- MARQUEE: the catalogue, moving -->
-    <div class="marquee" data-ink="#012f1d" data-ground="#f2cf4f" aria-label="Services">
-      <div class="marquee__track">
-        <ul class="marquee__list" role="list">
-          <li>SEO</li><li>Google Business Profile</li><li>Google Ads</li><li>Meta Ads</li><li>Social media</li><li>Websites</li><li>Online stores</li><li>Branding</li><li>WhatsApp campaigns</li><li>Email marketing</li><li>Business strategy</li><li>Startup consultancy</li><li>Market research</li><li>Operations</li><li>Budgeting</li><li>Sales process</li>
-        </ul>
-        <ul class="marquee__list" role="list" aria-hidden="true">
-          <li>SEO</li><li>Google Business Profile</li><li>Google Ads</li><li>Meta Ads</li><li>Social media</li><li>Websites</li><li>Online stores</li><li>Branding</li><li>WhatsApp campaigns</li><li>Email marketing</li><li>Business strategy</li><li>Startup consultancy</li><li>Market research</li><li>Operations</li><li>Budgeting</li><li>Sales process</li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- INTRO: one statement with inline frames -->
-    <section class="intro" data-ink="#012f1d" data-ground="#f7f7f7" aria-label="Why it matters">
-      <p class="intro__statement" data-reveal>Customers search
-        <span class="frame frame--wide" aria-hidden="true"><svg viewBox="0 0 96 40"><rect width="96" height="40" fill="#ebebeb"/><rect x="6" y="9" width="84" height="22" rx="11" fill="#ffffff"/><circle cx="19" cy="20" r="5" fill="none" stroke="#012f1d" stroke-width="2"/><path d="m22.5 23.5 4 4" stroke="#012f1d" stroke-width="2"/><path d="M33 20h44" stroke="#5f6b64" stroke-width="2.4"/></svg></span>,
-        compare
-        <span class="frame" aria-hidden="true"><svg viewBox="0 0 64 40"><rect width="64" height="40" fill="#012f1d"/><rect x="6" y="10" width="22" height="26" fill="#f7f7f7"/><rect x="21" y="7" width="22" height="29" fill="#ebebeb"/><rect x="36" y="4" width="22" height="32" fill="#f2cf4f"/></svg></span>
-        and ask around
-        <span class="frame" aria-hidden="true"><svg viewBox="0 0 64 40"><rect width="64" height="40" fill="#f2cf4f"/><rect x="8" y="8" width="34" height="13" rx="6" fill="#ffffff"/><rect x="22" y="22" width="34" height="13" rx="6" fill="#012f1d"/></svg></span>
-        before they buy. We make sure they find you.</p>
+    <!-- FACTS: the offer in four frames -->
+    <section class="facts" id="facts" aria-label="At a glance">
+      <dl class="facts__grid">
+        <div class="facts__cell dotframe"><dt>Services</dt><dd>2</dd><p>Digital marketing and business consultancy</p></div>
+        <div class="facts__cell dotframe"><dt>Disciplines</dt><dd>12</dd><p>From SEO and ads to strategy and budgeting</p></div>
+        <div class="facts__cell dotframe"><dt>Team</dt><dd>1</dd><p>Campaigns and the business behind them, planned together</p></div>
+        <div class="facts__cell dotframe"><dt>First step</dt><dd>Free</dd><p>A written growth audit within five working days</p></div>
+      </dl>
     </section>
 
-    <!-- DIGITAL MARKETING: rows on one axis, drawings in the margin -->
-    <section class="services" id="marketing" data-ink="#012f1d" data-ground="#ebebeb" aria-labelledby="marketing-title">
-      <div class="services__head">
-        <h2 class="head services__title" id="marketing-title" data-reveal>Digital marketing</h2>
-        <p class="services__intro" data-reveal>Six services that bring the right people to you, measured in enquiries and sales.</p>
+    <!-- INTRO -->
+    <section class="intro" aria-label="Why it matters">
+      <p class="intro__statement" data-reveal>Customers search, compare and ask before they buy. We make sure they find you.</p>
+    </section>
+
+    <!-- DIGITAL MARKETING: pinned horizontal carousel -->
+    <section class="rail" id="marketing" aria-labelledby="marketing-title">
+      <div class="rail__pin">
+        <div class="rail__head">
+          <h2 class="head" id="marketing-title" data-decode>Digital marketing</h2>
+          <p class="rail__intro">Six services that bring the right people to you, measured in enquiries and sales.</p>
+          <p class="rail__count" aria-hidden="true"><span id="rail-index">1</span> / 6</p>
+        </div>
+        <div class="rail__viewport">
+          <ol class="rail__track" role="list">
+            <li class="card">
+              <figure class="card__art dotframe" aria-hidden="true">
+                <div class="ui-profile" data-ui>
+                  <strong class="ui-profile__name">Your Business</strong>
+                  <span>Interior designer · <b>Open now</b></span>
+                  <span>Closes 7 pm · Free first visit</span>
+                  <span class="ui-profile__actions"><span>Call</span><span>Directions</span><span>Website</span></span>
+                </div>
+              </figure>
+              <h3 class="card__title">SEO and Google Business Profile</h3>
+              <p>Keyword research, on-page and technical SEO, local listings, and a Google Business Profile that is complete, verified and kept up to date, so nearby customers find you first.</p>
+            </li>
+            <li class="card">
+              <figure class="card__art dotframe" aria-hidden="true">
+                <div class="ui-ad" data-ui>
+                  <span class="ui-ad__tag">Sponsored</span>
+                  <span class="ui-ad__url">yourbusiness.com</span>
+                  <strong class="ui-ad__title">Kitchen Renovation Quotes in 48 Hours</strong>
+                  <span>Fixed prices, 3D plans and a single team from design to handover.</span>
+                  <span class="ui-ad__bar"><span></span></span>
+                </div>
+              </figure>
+              <h3 class="card__title">Google and Meta ads</h3>
+              <p>Search, display and social campaigns on Google, Facebook and Instagram, with conversion tracking set up properly so you can see which ads bring enquiries and switch off the ones that do not.</p>
+            </li>
+            <li class="card">
+              <figure class="card__art dotframe" aria-hidden="true">
+                <svg class="grid-art" viewBox="0 0 240 180"><g>
+                  <rect x="18" y="12" width="64" height="48" fill="#f2cf4f"/><rect x="88" y="12" width="64" height="48" fill="#f3e9d2"/><rect x="158" y="12" width="64" height="48" fill="#1d3f2c"/>
+                  <rect x="18" y="66" width="64" height="48" fill="#1d3f2c"/><rect x="88" y="66" width="64" height="48" fill="#f2cf4f"/><rect x="158" y="66" width="64" height="48" fill="#f3e9d2"/>
+                  <rect x="18" y="120" width="64" height="48" fill="#f3e9d2"/><rect x="88" y="120" width="64" height="48" fill="#1d3f2c"/><rect x="158" y="120" width="64" height="48" fill="#f2cf4f"/></g></svg>
+              </figure>
+              <h3 class="card__title">Social media management</h3>
+              <p>Content calendars, posts, reels and replies across Instagram, Facebook and LinkedIn, made in your brand and published on schedule, with a monthly review of what worked.</p>
+            </li>
+            <li class="card">
+              <figure class="card__art dotframe" aria-hidden="true">
+                <div class="ui-product" data-ui>
+                  <span class="ui-product__crumb">Shop / Home decor</span>
+                  <strong class="ui-product__title">Handwoven Cotton Throw</strong>
+                  <span>In stock · Ships in 2 days</span>
+                  <span class="ui-product__cta">Add to cart</span>
+                </div>
+              </figure>
+              <h3 class="card__title">Websites and online stores</h3>
+              <p>Fast, mobile-first websites and online stores, plus product listings on online marketplaces, built to turn visits into calls, enquiries and orders.</p>
+            </li>
+            <li class="card">
+              <figure class="card__art dotframe" aria-hidden="true">
+                <svg class="brand-art" viewBox="0 0 240 180">
+                  <text x="20" y="104" font-family="Hanken Grotesk, Arial, sans-serif" font-weight="500" font-size="92" fill="#f3e9d2">Aa</text>
+                  <rect class="swatch" x="20" y="124" width="58" height="40" fill="#f2cf4f"/><rect class="swatch" x="86" y="124" width="58" height="40" fill="#f3e9d2"/><rect class="swatch" x="152" y="124" width="58" height="40" fill="#1d3f2c"/></svg>
+              </figure>
+              <h3 class="card__title">Branding and design</h3>
+              <p>Logos, brand colours, social templates and print-ready material, so every place a customer meets you looks like the same business.</p>
+            </li>
+            <li class="card">
+              <figure class="card__art dotframe" aria-hidden="true">
+                <svg class="chat-art" viewBox="0 0 240 180"><g font-family="Hanken Grotesk, Arial, sans-serif" font-size="12">
+                  <g class="bubble"><rect x="14" y="18" width="164" height="34" rx="12" fill="#f3e9d2"/><text x="28" y="40" fill="#07150e">Your order has shipped</text></g>
+                  <g class="bubble"><rect x="62" y="70" width="164" height="34" rx="12" fill="#f2cf4f"/><text x="76" y="92" fill="#07150e">Thanks, see you Friday</text></g>
+                  <g class="bubble"><rect x="14" y="122" width="180" height="34" rx="12" fill="#f3e9d2"/><text x="28" y="144" fill="#07150e">Festive offer ends Sunday</text></g></g></svg>
+              </figure>
+              <h3 class="card__title">Email, WhatsApp and SMS campaigns</h3>
+              <p>Offers, reminders and follow-ups your customers actually open, sent with their consent and measured, so repeat business does not depend on luck.</p>
+            </li>
+          </ol>
+        </div>
       </div>
-      <ol class="rows" role="list">
-        <li class="row" data-reveal>
-          <div class="row__text">
-            <h3 class="row__title">SEO and Google Business Profile</h3>
-            <p>Keyword research, on-page and technical SEO, local listings, and a Google Business Profile that is complete, verified and kept up to date, so nearby customers find you first.</p>
-          </div>
-          <figure class="row__art row__art--a" aria-hidden="true">
-            <div class="ui-profile" data-ui>
-              <strong class="ui-profile__name">Your Business</strong>
-              <span class="ui-profile__meta">Interior designer · <b>Open now</b></span>
-              <span class="ui-profile__meta">Closes 7 pm · Free first visit</span>
-              <span class="ui-profile__actions"><span>Call</span><span>Directions</span><span>Website</span></span>
-            </div>
-          </figure>
-        </li>
-        <li class="row" data-reveal>
-          <div class="row__text">
-            <h3 class="row__title">Google and Meta ads</h3>
-            <p>Search, display and social campaigns on Google, Facebook and Instagram, with conversion tracking set up properly so you can see which ads bring enquiries and switch off the ones that do not.</p>
-          </div>
-          <figure class="row__art row__art--b" aria-hidden="true">
-            <div class="ui-ad" data-ui>
-              <span class="ui-ad__tag">Sponsored</span>
-              <span class="ui-ad__url">yourbusiness.com</span>
-              <strong class="ui-ad__title">Kitchen Renovation Quotes in 48 Hours</strong>
-              <span class="ui-ad__desc">Fixed prices, 3D plans and a single team from design to handover.</span>
-              <span class="ui-ad__bar"><span></span></span>
-            </div>
-          </figure>
-        </li>
-        <li class="row" data-reveal>
-          <div class="row__text">
-            <h3 class="row__title">Social media management</h3>
-            <p>Content calendars, posts, reels and replies across Instagram, Facebook and LinkedIn, made in your brand and published on schedule, with a monthly review of what worked.</p>
-          </div>
-          <figure class="row__art row__art--c" aria-hidden="true">
-            <svg class="grid-art" viewBox="0 0 180 180"><rect width="180" height="180" fill="#012f1d"/>
-              <g><rect x="12" y="12" width="48" height="48" fill="#f2cf4f"/><rect x="66" y="12" width="48" height="48" fill="#f7f7f7"/><rect x="120" y="12" width="48" height="48" fill="#1b4a33"/>
-              <rect x="12" y="66" width="48" height="48" fill="#1b4a33"/><rect x="66" y="66" width="48" height="48" fill="#f2cf4f"/><rect x="120" y="66" width="48" height="48" fill="#f7f7f7"/>
-              <rect x="12" y="120" width="48" height="48" fill="#f7f7f7"/><rect x="66" y="120" width="48" height="48" fill="#1b4a33"/><rect x="120" y="120" width="48" height="48" fill="#f2cf4f"/></g></svg>
-          </figure>
-        </li>
-        <li class="row" data-reveal>
-          <div class="row__text">
-            <h3 class="row__title">Websites and online stores</h3>
-            <p>Fast, mobile-first websites and online stores, plus product listings on online marketplaces, built to turn visits into calls, enquiries and orders.</p>
-          </div>
-          <figure class="row__art row__art--d" aria-hidden="true">
-            <div class="ui-product" data-ui>
-              <span class="ui-product__crumb">Shop / Home decor</span>
-              <strong class="ui-product__title">Handwoven Cotton Throw</strong>
-              <span class="ui-product__meta">In stock · Ships in 2 days</span>
-              <span class="ui-product__cta">Add to cart</span>
-            </div>
-          </figure>
-        </li>
-        <li class="row" data-reveal>
-          <div class="row__text">
-            <h3 class="row__title">Branding and design</h3>
-            <p>Logos, brand colours, social templates and print-ready material, so every place a customer meets you looks like the same business.</p>
-          </div>
-          <figure class="row__art row__art--e" aria-hidden="true">
-            <svg class="brand-art" viewBox="0 0 260 260"><rect width="260" height="260" fill="#f7f7f7"/>
-              <text x="24" y="150" font-family="Libre Caslon Condensed, Georgia, serif" font-size="128" fill="#012f1d">Aa</text>
-              <rect class="swatch" x="24" y="186" width="60" height="50" fill="#012f1d"/><rect class="swatch" x="96" y="186" width="60" height="50" fill="#f2cf4f"/><rect class="swatch" x="168" y="186" width="60" height="50" fill="#ebebeb"/></svg>
-          </figure>
-        </li>
-        <li class="row" data-reveal>
-          <div class="row__text">
-            <h3 class="row__title">Email, WhatsApp and SMS campaigns</h3>
-            <p>Offers, reminders and follow-ups your customers actually open, sent with their consent and measured, so repeat business does not depend on luck.</p>
-          </div>
-          <figure class="row__art row__art--f" aria-hidden="true">
-            <svg class="chat-art" viewBox="0 0 300 220"><rect width="300" height="220" fill="#f2cf4f"/>
-              <g font-family="Hanken Grotesk, Arial, sans-serif" font-size="14">
-                <g class="bubble"><rect x="20" y="22" width="190" height="40" rx="14" fill="#ffffff"/><text x="36" y="47" fill="#012f1d">Your order has shipped</text></g>
-                <g class="bubble"><rect x="90" y="78" width="190" height="40" rx="14" fill="#012f1d"/><text x="106" y="103" fill="#f7f7f7">Thanks, see you Friday</text></g>
-                <g class="bubble"><rect x="20" y="134" width="210" height="40" rx="14" fill="#ffffff"/><text x="36" y="159" fill="#012f1d">Festive offer ends Sunday</text></g>
-              </g></svg>
-          </figure>
-        </li>
-      </ol>
     </section>
 
     <!-- SHOWCASE: one frame, three distances -->
-    <section class="showcase" data-ink="#f7f7f7" data-ground="#012f1d" aria-labelledby="showcase-title">
+    <section class="showcase" aria-labelledby="showcase-title">
       <div class="showcase__stage">
         <h2 class="showcase__title" id="showcase-title">
           <span class="showcase__half showcase__half--a">Page one</span>
-          <span class="showcase__half showcase__half--b">is your shop window.</span>
+          <span class="showcase__half showcase__half--b">is your shop window</span>
         </h2>
-        <div class="showcase__frame" data-stage="1" data-ui>
+        <div class="showcase__frame dotframe" data-stage="1" data-ui>
+          <span class="dotframe__size" aria-hidden="true"></span>
+          <div class="showcase__clip">
           <div class="serp" role="img" aria-label="Example search results page with your business listed first">
             <div class="serp__bar"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12.6 12.6 17 17" stroke="currentColor" stroke-width="2"/></svg>interior designer near me</div>
             <div class="serp__result serp__result--you">
@@ -257,6 +247,7 @@
               <span class="serp__desc">Residential and commercial projects.</span>
             </div>
           </div>
+          </div>
         </div>
         <p class="showcase__caption">Customers often decide from the results page, before they ever open your website. We make sure what they see there makes them choose you.</p>
       </div>
@@ -266,9 +257,9 @@
     </section>
 
     <!-- LIVE THING: write your listing -->
-    <section class="try" id="try" data-ink="#012f1d" data-ground="#f7f7f7" aria-labelledby="try-title">
+    <section class="try" id="try" aria-labelledby="try-title">
       <div class="try__text" data-reveal>
-        <h2 class="head" id="try-title">See your page as customers do</h2>
+        <h2 class="head" id="try-title" data-decode>Preview your listing</h2>
         <p class="try__lead">Type your page title and a short description. The preview shows how it could look in search results, and warns you when it is likely to be cut off.</p>
         <form class="try__form" id="snippet-form" onsubmit="return false">
           <label class="try__label" for="s-title">Page title <span class="try__count" id="c-title">0 / 60</span></label>
@@ -280,7 +271,7 @@
         </form>
       </div>
       <div class="try__preview" data-reveal>
-        <div class="snippet" data-ui aria-live="polite">
+        <div class="snippet dotframe" data-ui aria-live="polite">
           <span class="snippet__url" id="p-url">yourbusiness.com › interior-design</span>
           <span class="snippet__title" id="p-title">Interior Design for Homes and Offices | Your Studio</span>
           <span class="snippet__desc" id="p-desc">Free first visit, 3D plans in a week and fixed quotes. Book a visit today, serving homes and offices across the city.</span>
@@ -290,79 +281,76 @@
       </div>
     </section>
 
-    <!-- BUSINESS CONSULTANCY -->
-    <section class="consult" id="consultancy" data-ink="#f7f7f7" data-ground="#012f1d" aria-labelledby="consult-title">
-      <div class="consult__side">
-        <h2 class="head" id="consult-title" data-reveal>Business consultancy</h2>
+    <!-- BUSINESS CONSULTANCY: flip cards -->
+    <section class="consult" id="consultancy" aria-labelledby="consult-title">
+      <div class="consult__head">
+        <h2 class="head" id="consult-title" data-decode>Business consultancy</h2>
         <p class="consult__lead" data-reveal>Marketing brings customers in. Consultancy makes sure the business behind it is ready to grow.</p>
-        <img class="consult__mark" src="assets/logo.png" width="160" height="160" alt="" data-reveal>
       </div>
-      <ul class="consult__list" role="list">
-        <li class="consult__item" data-reveal><h3>Business strategy and growth plans</h3><p>Where you are, where you want to be in 12 to 24 months, and the steps, owners and budget to get there.</p></li>
-        <li class="consult__item" data-reveal><h3>Startup consultancy</h3><p>From idea to launch: business model, pricing, positioning and a go-to-market plan you can act on from week one.</p></li>
-        <li class="consult__item" data-reveal><h3>Market and competitor research</h3><p>Who your customers are, what they compare you with, and where the gaps in your market are.</p></li>
-        <li class="consult__item" data-reveal><h3>Operations and process improvement</h3><p>Mapping how work really gets done, removing bottlenecks, and setting up simple systems and tools your team will use.</p></li>
-        <li class="consult__item" data-reveal><h3>Financial planning and budgeting</h3><p>Budgets, cash-flow forecasts and pricing reviews, so growth plans are backed by numbers. We work alongside your accountant.</p></li>
-        <li class="consult__item" data-reveal><h3>Sales and customer journey</h3><p>How enquiries become customers: follow-up, sales scripts, CRM set-up and a clean handover from marketing to sales.</p></li>
+      <ul class="flips" role="list">
+        <li class="flip" data-reveal><button class="flip__inner" type="button" aria-pressed="false">
+          <span class="flip__face flip__front"><span class="flip__title">Business strategy and growth plans</span><span class="flip__hint">Turn</span></span>
+          <span class="flip__face flip__back">Where you are, where you want to be in 12 to 24 months, and the steps, owners and budget to get there.</span>
+        </button></li>
+        <li class="flip" data-reveal><button class="flip__inner" type="button" aria-pressed="false">
+          <span class="flip__face flip__front"><span class="flip__title">Startup consultancy</span><span class="flip__hint">Turn</span></span>
+          <span class="flip__face flip__back">From idea to launch: business model, pricing, positioning and a go-to-market plan you can act on from week one.</span>
+        </button></li>
+        <li class="flip" data-reveal><button class="flip__inner" type="button" aria-pressed="false">
+          <span class="flip__face flip__front"><span class="flip__title">Market and competitor research</span><span class="flip__hint">Turn</span></span>
+          <span class="flip__face flip__back">Who your customers are, what they compare you with, and where the gaps in your market are.</span>
+        </button></li>
+        <li class="flip" data-reveal><button class="flip__inner" type="button" aria-pressed="false">
+          <span class="flip__face flip__front"><span class="flip__title">Operations and process improvement</span><span class="flip__hint">Turn</span></span>
+          <span class="flip__face flip__back">Mapping how work really gets done, removing bottlenecks, and setting up simple systems and tools your team will use.</span>
+        </button></li>
+        <li class="flip" data-reveal><button class="flip__inner" type="button" aria-pressed="false">
+          <span class="flip__face flip__front"><span class="flip__title">Financial planning and budgeting</span><span class="flip__hint">Turn</span></span>
+          <span class="flip__face flip__back">Budgets, cash-flow forecasts and pricing reviews, so growth plans are backed by numbers. We work alongside your accountant.</span>
+        </button></li>
+        <li class="flip" data-reveal><button class="flip__inner" type="button" aria-pressed="false">
+          <span class="flip__face flip__front"><span class="flip__title">Sales and customer journey</span><span class="flip__hint">Turn</span></span>
+          <span class="flip__face flip__back">How enquiries become customers: follow-up, sales scripts, CRM set-up and a clean handover from marketing to sales.</span>
+        </button></li>
       </ul>
     </section>
 
-    <!-- PROCESS: one verb at a time -->
-    <section class="process" id="process" aria-label="How we work">
-      <div class="verb verb--a" data-ink="#012f1d" data-ground="#ebebeb">
-        <div class="verb__hold"><span class="verb__word">Audit</span></div>
-        <svg class="verb__art" viewBox="200 70 570 520" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
-          <rect x="380" y="90" width="380" height="250" fill="#fffdf2"/><rect x="380" y="90" width="380" height="34" fill="#f2cf4f"/>
-          <g font-family="Hanken Grotesk, sans-serif" font-size="20" fill="#012f1d"><text x="404" y="168">Google profile incomplete</text><text x="404" y="208">Ad tracking missing</text><text x="404" y="248">Slow pages on mobile</text><text x="404" y="288">No follow-up on enquiries</text></g>
-          <g class="lens"><circle cx="330" cy="410" r="110" fill="none" stroke="#012f1d" stroke-width="18"/><path d="m408 488 92 92" stroke="#012f1d" stroke-width="26" stroke-linecap="round"/></g>
-        </svg>
-        <p class="verb__line">We review your website, search presence, ads, social channels and how the business runs, then list what is holding you back, in plain language.</p>
-      </div>
-      <div class="verb verb--b" data-ink="#f7f7f7" data-ground="#012f1d">
-        <div class="verb__hold"><span class="verb__word">Plan</span></div>
-        <svg class="verb__art" viewBox="40 60 700 410" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
-          <g fill="#1b4a33"><rect x="60" y="80" width="150" height="110"/><rect x="230" y="80" width="150" height="110"/><rect x="400" y="80" width="150" height="110"/><rect x="570" y="80" width="150" height="110"/><rect x="60" y="210" width="150" height="110"/><rect x="230" y="210" width="150" height="110"/><rect x="570" y="210" width="150" height="110"/><rect x="60" y="340" width="150" height="110"/><rect x="230" y="340" width="150" height="110"/><rect x="400" y="340" width="150" height="110"/><rect x="570" y="340" width="150" height="110"/></g>
-          <rect class="cal-hit" x="400" y="210" width="150" height="110" fill="#f2cf4f"/>
-          <g font-family="Hanken Grotesk, sans-serif" font-size="18" fill="#f7f7f7"><text x="74" y="108">Week 1</text><text x="244" y="108">Week 2</text><text x="414" y="108">Week 3</text><text x="584" y="108">Week 4</text><text x="74" y="238">Week 5</text><text x="244" y="238">Week 6</text><text x="584" y="238">Week 8</text><text x="74" y="368">Week 9</text><text x="244" y="368">Week 10</text><text x="414" y="368">Week 11</text><text x="584" y="368">Week 12</text><text x="414" y="238" fill="#012f1d">Launch</text></g>
-        </svg>
-        <p class="verb__line">A 90-day plan with clear priorities: which channels to use, what to fix in the business first, who does what, and what it will cost.</p>
-      </div>
-      <div class="verb verb--c" data-ink="#012f1d" data-ground="#f2cf4f">
-        <div class="verb__hold"><span class="verb__word">Build</span></div>
-        <svg class="verb__art" viewBox="400 40 360 460" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
-          <rect x="420" y="180" width="320" height="300" fill="#012f1d"/><rect x="420" y="150" width="320" height="40" fill="#1b4a33"/>
-          <g class="cards"><rect x="450" y="70" width="260" height="150" fill="#fffdf2" transform="rotate(-4 580 145)"/><rect x="460" y="110" width="260" height="150" fill="#fffdf2"/>
-          <g font-family="Hanken Grotesk, sans-serif" font-size="18" fill="#012f1d"><text x="484" y="160">Festive campaign</text><text x="484" y="192">Ads · Social · WhatsApp</text></g></g>
-          <rect x="545" y="330" width="70" height="40" fill="#f2cf4f"/><circle cx="580" cy="410" r="16" fill="#f7f7f7"/>
-        </svg>
-        <p class="verb__line">We launch the campaigns, build the pages and put the new processes in place with your team, without a rebuild of what already works.</p>
-      </div>
-      <div class="verb verb--d" data-ink="#012f1d" data-ground="#f7f7f7">
-        <div class="verb__hold"><span class="verb__word">Grow</span></div>
-        <svg class="verb__art" viewBox="410 40 370 500" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
-          <rect x="430" y="60" width="330" height="460" fill="#fffdf2"/><rect x="430" y="60" width="330" height="54" fill="#012f1d"/>
-          <g font-family="Hanken Grotesk, sans-serif" font-size="18" fill="#012f1d"><text x="452" y="94" fill="#f7f7f7">Monthly review</text><text x="452" y="160">Enquiries</text><text x="452" y="220">Cost per lead</text><text x="452" y="280">Search rankings</text><text x="452" y="340">Done this month</text><text x="452" y="400">Next month</text></g>
-          <g fill="#f2cf4f"><rect class="meter" x="452" y="170" width="200" height="12"/><rect class="meter" x="452" y="230" width="150" height="12"/><rect class="meter" x="452" y="290" width="110" height="12"/></g>
-        </svg>
-        <p class="verb__line">One clear review each month: enquiries, cost per lead, rankings and business changes, with what we did and what comes next.</p>
-      </div>
+    <!-- PROCESS -->
+    <section class="process" id="process" aria-labelledby="process-title">
+      <h2 class="head" id="process-title" data-decode>How we work</h2>
+      <ol class="steps" role="list">
+        <li class="step" data-reveal><span class="step__word" data-decode>Audit</span><p>We review your website, search presence, ads, social channels and how the business runs, then list what is holding you back, in plain language.</p></li>
+        <li class="step" data-reveal><span class="step__word" data-decode>Plan</span><p>A 90-day plan with clear priorities: which channels to use, what to fix in the business first, who does what, and what it will cost.</p></li>
+        <li class="step" data-reveal><span class="step__word" data-decode>Build</span><p>We launch the campaigns, build the pages and put the new processes in place with your team, without a rebuild of what already works.</p></li>
+        <li class="step" data-reveal><span class="step__word" data-decode>Grow</span><p>One clear review each month: enquiries, cost per lead, rankings and business changes, with what we did and what comes next.</p></li>
+      </ol>
     </section>
 
-    <!-- PRICING: one offer as a sentence -->
-    <section class="pricing" id="pricing" data-ink="#012f1d" data-ground="#f2cf4f" aria-labelledby="pricing-title">
-      <h2 class="pricing__title" id="pricing-title" data-reveal>Start with a <span class="price">free</span> growth audit.</h2>
-      <div class="pricing__foot" data-reveal>
-        <p class="pricing__includes">We review your website, search presence, ads, social channels and how the business runs, then send a written plan with a price for each service. Plans are monthly or per project, sized to your goals and budget.</p>
-        <div class="pricing__actions">
-          <a class="button button--ink" href="#contact">Book a free audit <span class="arrow" aria-hidden="true">→</span></a>
-          <a class="link-plain pricing__alt" href="mailto:hello@vhsynergygrowth.com?subject=Book%20a%2020-minute%20call">Prefer a call? Book 20 minutes</a>
+    <!-- SPEC SHEET: the free audit -->
+    <section class="spec" id="pricing" aria-labelledby="spec-title">
+      <div class="spec__sheet">
+        <h2 class="spec__title" id="spec-title" data-reveal>The free growth audit</h2>
+        <table class="spec__table" data-reveal>
+          <caption class="sr-only">What the free growth audit includes</caption>
+          <tbody>
+            <tr><th scope="row">Cost</th><td><span class="spec__free">Free</span></td></tr>
+            <tr><th scope="row">Turnaround</th><td>Five working days</td></tr>
+            <tr><th scope="row">We review</th><td>Website, search presence, ads, social channels and how the business runs</td></tr>
+            <tr><th scope="row">You receive</th><td>A written plan with a price for each service</td></tr>
+            <tr><th scope="row">Plans after that</th><td>Monthly or per project, sized to your goals and budget</td></tr>
+            <tr><th scope="row">Commitment</th><td>None</td></tr>
+          </tbody>
+        </table>
+        <div class="spec__actions" data-reveal>
+          <a class="pill pill--dark" href="#contact" data-decode>Book a free audit</a>
+          <a class="spec__alt" href="mailto:hello@vhsynergygrowth.com?subject=Book%20a%2020-minute%20call">Prefer a call? Book 20 minutes</a>
         </div>
       </div>
     </section>
 
     <!-- FAQ -->
-    <section class="faq" id="faq" data-ink="#012f1d" data-ground="#f7f7f7" aria-labelledby="faq-title">
-      <h2 class="head faq__title" id="faq-title" data-reveal>Questions owners ask</h2>
+    <section class="faq" id="faq" aria-labelledby="faq-title">
+      <h2 class="head faq__title" id="faq-title" data-decode>Questions owners ask</h2>
       <div class="faq__list">
         <details class="q" data-reveal><summary>Do we have to take both services?<span class="chev" aria-hidden="true"></span></summary><p>No. Many clients start with one service, such as ads or a growth plan, and add others later. The free audit tells you where to start.</p></details>
         <details class="q" data-reveal><summary>How soon will we see results?<span class="chev" aria-hidden="true"></span></summary><p>Ads can bring enquiries within days of launch. SEO and social media usually take three to six months to build. Consultancy work shows up as decisions and changes within the first month.</p></details>
@@ -374,20 +362,17 @@
     </section>
 
     <!-- CONTACT -->
-    <section class="contact" id="contact" data-ink="#012f1d" data-ground="#ebebeb" aria-labelledby="contact-title">
-      <h2 class="sr-only" id="contact-title">Get a free growth audit</h2>
-      <p class="contact__sentence" data-reveal>Tell us about your business and where you want it to grow. We will send a free growth audit within five working days.</p>
-      <figure class="contact__card" aria-hidden="true" data-reveal>
-        <img src="assets/logo.png" width="160" height="160" alt="">
-      </figure>
-      <div class="contact__side" data-reveal>
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact__side">
+        <h2 class="head" id="contact-title" data-decode>Get a free audit</h2>
+        <p class="contact__sentence">Tell us about your business and where you want it to grow. We will send a free growth audit within five working days.</p>
         <p class="contact__q">Prefer to talk first?</p>
-        <a class="link-plain" href="mailto:hello@vhsynergygrowth.com?subject=Free%20growth%20audit">hello@vhsynergygrowth.com</a>
-        <a class="link-plain" href="mailto:hello@vhsynergygrowth.com?subject=Book%20a%2020-minute%20call">Book a 20-minute call</a>
+        <a class="contact__link" href="mailto:hello@vhsynergygrowth.com?subject=Free%20growth%20audit">hello@vhsynergygrowth.com</a>
+        <a class="contact__link" href="mailto:hello@vhsynergygrowth.com?subject=Book%20a%2020-minute%20call">Book a 20-minute call</a>
         <p class="contact__meta">Working online, worldwide. We reply within one working day.</p>
       </div>
 
-      <form class="audit" name="audit" method="POST" action="/thank-you.html" data-netlify="true" netlify-honeypot="company-url" data-reveal>
+      <form class="audit dotframe" name="audit" method="POST" action="/thank-you.html" data-netlify="true" netlify-honeypot="company-url" data-reveal>
         <input type="hidden" name="form-name" value="audit">
         <p class="hp"><label>Leave this empty <input name="company-url" tabindex="-1" autocomplete="off"></label></p>
         <div class="audit__field">
@@ -416,26 +401,27 @@
           <label for="f-msg">What should we know? Your business, your goals, what you have tried.</label>
           <textarea class="field" id="f-msg" name="message" rows="4"></textarea>
         </div>
-        <button class="button audit__send" type="submit">Send for a free audit <span class="arrow" aria-hidden="true">→</span></button>
+        <button class="pill pill--solid audit__send" type="submit">Send for a free audit</button>
       </form>
     </section>
   </main>
 
-  <footer class="foot" data-ink="#f7f7f7" data-ground="#012f1d">
+  <footer class="foot">
     <div class="foot__top">
-      <img class="foot__logo" src="assets/logo.png" width="96" height="96" alt="VH Synergy logo">
+      <img class="foot__logo" src="assets/logo.png" width="88" height="88" alt="VH Synergy logo">
       <p>VH Synergy Growth Services. Digital marketing and business consultancy.</p>
       <p>Monday to Saturday, replies within one working day.</p>
-      <a class="link foot__up" href="#top">Back to top</a>
+      <a class="pill foot__up" href="#top" data-decode>Back to top</a>
     </div>
-    <a class="foot__mail" href="mailto:hello@vhsynergygrowth.com"><span>hello</span><span>@vhsynergygrowth.com</span></a>
+    <a class="foot__mail" href="mailto:hello@vhsynergygrowth.com" data-decode>hello@vhsynergygrowth.com</a>
     <div class="foot__meta">
-      <span><a class="link" href="#marketing">Digital marketing</a> · <a class="link" href="#consultancy">Consultancy</a> · <a class="link" href="#faq">FAQ</a></span>
-      <span>Illustrations drawn for this site</span>
+      <span><a href="#marketing">Marketing</a> · <a href="#consultancy">Consultancy</a> · <a href="#faq">FAQ</a></span>
+      <span class="foot__credit">Illustrations drawn for this site</span>
       <span>Online, worldwide · <span id="year">2026</span></span>
     </div>
   </footer>
 
+  <script src="vendor/three.min.js" defer></script>
   <script src="script.js" defer></script>
 </body>
 </html>

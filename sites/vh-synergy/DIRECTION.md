@@ -1,47 +1,48 @@
-# Direction: The sentence is the layout
+# Direction: dark product page, after oryzo.ai
 
-Dealt by the Taste skill (`design-taste-frontend`), seed 1684932448, sector agency. Full sheet: `.taste-skill/direction.json` (reprint with `node ~/.claude/skills/design-taste-frontend/scripts/draw.mjs --show`).
+The owner asked for the design of [oryzo.ai](https://oryzo.ai/) (built by Lusion). The page takes that site's design language and applies it to the VH Synergy brand. It reuses no Oryzo content, imagery or code.
 
-## The idea
+The reference could not be opened from the build machine (network policy), so its traits come from published descriptions: the studio's behind-the-scenes post, a Refero design-system extraction and the Awwwards listing.
 
-On this page, **the search a future customer types** becomes **the sentence that carries the layout**. The hero sentence holds a live search query; the showcase zooms into a results page; the listing tool lets owners see their own page as a result.
+## Traits taken from the reference
 
-## The live thing
+- A warm near-black page with cream type, and one bright accent used sparingly.
+- One typeface for almost everything, set in uppercase at medium weight for display and labels, sentence case for body copy.
+- Pill-shaped navigation and buttons.
+- A 3D product as the hero, moving with scroll and pointer.
+- Dotted "design tool" frames with corner handles.
+- A pinned horizontal carousel, 3D flip cards, text that scrambles and decodes on hover, and a spec sheet.
 
-"See your page as customers do": the visitor types a page title and description and sees it as a search result, with length checks and advice. Works without script as a plain form with a sample preview.
+## Applied to this brand
 
-## Brand
-
-The owner's logo (VH monogram in a gold ornamental ring on green) sets the palette. Every logo instance sits on a gold disc so it reads on both light and green grounds.
+- The 3D product is the owner's logo as a gold-rimmed medallion (three.js r128, vendored in `site/vendor/`, MIT licence). It turns with scroll and tilts with the pointer. Without WebGL it falls back to the flat logo image.
+- The spec sheet describes the free growth audit, with real terms only.
 
 ## Type
 
-- Display: Libre Caslon Condensed 400 (Google Fonts), stand-in for the dealt Gambarino because Fontshare was unreachable from the build machine.
-- Text: Hanken Grotesk 400 / 500 (Google Fonts), stand-in for the dealt General Sans.
+Hanken Grotesk 400 / 500 / 600 (Google Fonts), standing in for Oryzo's Halyard Display, which is a paid font.
 
 ## Colour
 
 | Role | Value |
 | --- | --- |
-| Ground | `#f7f7f7` |
-| Surface | `#ebebeb` |
-| Ink (logo green) | `#012f1d` |
-| Muted | `#5f6b64` |
-| Accent (logo gold) | `#f2cf4f` on actions, the services strip, the pricing field and logo discs |
+| Page | `#07150e`, near-black tinted with the logo green |
+| Raised surface | `#0c2117`, `#12301f` |
+| Type | `#f3e9d2` cream |
+| Secondary type | `#a7ad97` muted olive |
+| Accent | `#f2cf4f`, the logo's gold: progress line, small highlights, the "Free" mark, credits |
 
 ## Sections
 
-Hero (two fields) → moving services strip → intro statement with inline frames → digital marketing rows with animated drawings → pinned search result at three distances → live listing preview → business consultancy (pinned statement beside the list) → four verbs (Audit, Plan, Build, Grow) → free audit offer on gold → FAQ → contact band with form → footer with the email as the headline.
+Hero with the medallion → four facts in dotted frames → statement → digital marketing as a pinned horizontal carousel → search result zooming in three stages → listing preview tool → business consultancy as flip cards → process (Audit, Plan, Build, Grow) → free audit spec sheet on cream → FAQ → contact form → footer with the email at display size.
 
 ## Motion
 
-- Signature: colour by chapter (the fixed header takes the ink of the field beneath it).
-- Load: the green field rises, the headline lines rise out of their masks, the logo pops in, the hero query types real searches.
-- Scroll: a gold reading-progress line; staggered entrances in every section; drawings open like shutters, then their parts move (post grid, chat bubbles, brand swatches, ad budget bar, calendar, report meters); the search result zooms in three stages; the price block wipes in.
-- Ambient: the services strip scrolls at a constant pace and pauses under the pointer; the magnifier drifts; the consultancy logo floats.
-- Feedback: press scale 0.97 on buttons, arrow nudge on hover, underline motion on links, logo tilt on hover.
-- All of it is switched off under reduced motion, and no content depends on script to be visible.
+- Load: headline lines rise out of masks, the medallion settles in, the hero text decodes.
+- Scroll: gold progress line; medallion turns; the carousel moves sideways while the page scrolls (native swipe on phones); search result zooms; sections and drawings enter in sequence.
+- Hover: pills fill, headings and labels scramble then settle, process words shift and turn gold, flip cards turn (tap on touch).
+- Reduced motion: no scrambling, no flips (both card faces shown), no zoom transitions; the medallion only follows scroll.
 
-## Taste dials
+## Departures from the Taste skill's house rules
 
-Design variance 7, motion intensity 6, visual density 5.
+The owner's chosen reference uses uppercase labels, small labels above figures, divider lines, a cream palette and a long pinned carousel, all of which the Taste inspector flags. They are kept on purpose, because the owner's direction takes precedence.

@@ -270,10 +270,10 @@ textarea.field { resize: vertical; }
 
 /* ---------- motion (content stays visible without script) ---------- */
 @media (prefers-reduced-motion: no-preference) {
-  .js .hero__line > span { display: inline-block; animation: line 1700ms var(--ease-out) both; }
+  .js .hero__line > span { display: inline-block; animation: line 2400ms var(--ease-out) both; }
   .js .hero__line { overflow: hidden; padding-bottom: 0.04em; }
-  .js .hero__line--a > span { animation-delay: 350ms; }
-  .js .hero__line--b > span { animation-delay: 560ms; }
+  .js .hero__line--a > span { animation-delay: 400ms; }
+  .js .hero__line--b > span { animation-delay: 750ms; }
   .js .hero__medal { animation: medal 2200ms var(--ease-out) both; animation-delay: 150ms; }
   .js .hero__meta { animation: rise 1400ms var(--ease-out) both; animation-delay: 1100ms; }
   .hero__cue-line { animation: cue 4s var(--ease-in-out) infinite; }

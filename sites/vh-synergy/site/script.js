@@ -53,19 +53,33 @@
     const text = el.dataset.text || el.textContent;
     el.dataset.text = text;
     el.dataset.decoding = '1';
+    // Hold the element's box so scrambled letters of a different width never move the layout.
+    const box = el.getBoundingClientRect();
+    const inline = getComputedStyle(el).display === 'inline';
+    if (inline) el.style.display = 'inline-block';
+    el.style.width = `${box.width}px`;
+    el.style.height = `${box.height}px`;
+    el.style.overflow = 'visible';
     const start = performance.now();
-    const length = 800;
+    const length = 1600;
+    let lastSwap = 0;
+    let scrambled = text;
     const frame = (now) => {
       const p = Math.min(1, (now - start) / length);
-      const settled = Math.floor(p * text.length);
-      let out = '';
-      for (let i = 0; i < text.length; i += 1) {
-        const ch = text[i];
-        out += i < settled || ch === ' ' || /[^A-Za-z0-9]/.test(ch) ? ch : GLYPHS[Math.floor(Math.random() * GLYPHS.length)];
+      // Letters settle left to right on an ease-out curve; unsettled letters change about 12 times a second.
+      const settled = Math.floor((1 - (1 - p) * (1 - p)) * text.length);
+      if (now - lastSwap > 85) {
+        lastSwap = now;
+        scrambled = [...text].map((ch) => (ch === ' ' || /[^A-Za-z0-9]/.test(ch) ? ch : GLYPHS[Math.floor(Math.random() * GLYPHS.length)])).join('');
       }
-      el.textContent = out;
-      if (p < 1) requestAnimationFrame(frame);
-      else { el.textContent = text; delete el.dataset.decoding; }
+      el.textContent = text.slice(0, settled) + scrambled.slice(settled);
+      if (p < 1) { requestAnimationFrame(frame); return; }
+      el.textContent = text;
+      el.style.width = '';
+      el.style.height = '';
+      el.style.overflow = '';
+      if (inline) el.style.display = '';
+      delete el.dataset.decoding;
     };
     requestAnimationFrame(frame);
   };

@@ -21,11 +21,11 @@ One type family changes width between the two worlds:
 
 | Role | Value |
 | --- | --- |
-| Page | stone `#e9ece4`, surfaces `#f6f8f2` and `#dde2d6` |
+| Page | sage stone `#d9e3d5`, surfaces `#e6ede2` and `#c9d7c4` |
 | Light-world type | forest `#10291c`, secondary `#55635a` |
-| Gold on light | `#75590a` for text, `#c69a1e` for shapes |
-| Stages | night `#050d09`, type mist `#eef3e9`, secondary `#91a198` |
-| Glow | signal green `#3ddc97` (lights and dots only), gold `#f2cf4f` |
+| Gold on light | `#6b520c` for text, `#b08f2e` for shapes |
+| Stages | deep green `#0c2218`, type mist `#e1eadd`, secondary `#9fb2a5` |
+| Glow | soft green `#7cbf98` (lights and dots only), muted gold `#dcbf62` |
 
 ## Sections
 
@@ -50,3 +50,5 @@ Pace follows the scan: quick feedback (140 to 180 ms), entrances around one seco
 
 The logo medallion, the search result zoom, the listing preview tool, the flip cards, the drawn
 process scenes (now the fallback), the typing search query and all copy.
+
+Palette softened on request (17 October 2026): greener page, deep green stages instead of near-black, muted gold and lower glow.

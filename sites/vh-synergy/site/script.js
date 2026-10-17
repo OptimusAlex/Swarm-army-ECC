@@ -330,8 +330,8 @@
     medal.add(rimBack);
 
     // Two thin rings of light orbit the medallion at different tilts.
-    const ringGold = new THREE.Mesh(new THREE.TorusGeometry(1.32, 0.006, 8, 240), new THREE.MeshBasicMaterial({ color: 0xf2cf4f, transparent: true, opacity: 0.85, blending: THREE.AdditiveBlending }));
-    const ringGreen = new THREE.Mesh(new THREE.TorusGeometry(1.5, 0.004, 8, 240), new THREE.MeshBasicMaterial({ color: 0x3ddc97, transparent: true, opacity: 0.6, blending: THREE.AdditiveBlending }));
+    const ringGold = new THREE.Mesh(new THREE.TorusGeometry(1.32, 0.006, 8, 240), new THREE.MeshBasicMaterial({ color: 0xdcbf62, transparent: true, opacity: 0.5, blending: THREE.AdditiveBlending }));
+    const ringGreen = new THREE.Mesh(new THREE.TorusGeometry(1.5, 0.004, 8, 240), new THREE.MeshBasicMaterial({ color: 0x7cbf98, transparent: true, opacity: 0.35, blending: THREE.AdditiveBlending }));
     const orbitA = new THREE.Group();
     const orbitB = new THREE.Group();
     orbitA.add(ringGold);
@@ -342,8 +342,8 @@
     scene.add(orbitA, orbitB);
     // A small bright bead travels along each ring.
     const bead = (r, color) => { const m = new THREE.Mesh(new THREE.SphereGeometry(0.03, 16, 16), new THREE.MeshBasicMaterial({ color })); m.position.x = r; return m; };
-    const beadA = bead(1.32, 0xfff1b0);
-    const beadB = bead(1.5, 0xa8ffd6);
+    const beadA = bead(1.32, 0xe8d79a);
+    const beadB = bead(1.5, 0xb5d9c3);
     ringGold.add(beadA);
     ringGreen.add(beadB);
 
@@ -351,10 +351,10 @@
     const key = new THREE.DirectionalLight(0xffffff, 1.05);
     key.position.set(2.5, 3, 4);
     scene.add(key);
-    const warm = new THREE.PointLight(0xf2cf4f, 1.5, 12);
+    const warm = new THREE.PointLight(0xdcbf62, 1.2, 12);
     warm.position.set(-3, -1.5, 3);
     scene.add(warm);
-    const cool = new THREE.PointLight(0x3ddc97, 1.2, 12);
+    const cool = new THREE.PointLight(0x7cbf98, 0.8, 12);
     cool.position.set(3, 1, 2.5);
     scene.add(cool);
 
@@ -391,7 +391,7 @@
     setMode();
 
     const N = 96;
-    const C = { mist: 0xeef3e9, sage: 0xb9c7b0, gold: 0xf2cf4f, deep: 0x1d4a33, leaf: 0x3d8455, leaf2: 0x4d9a63, bark: 0x8a7350 };
+    const C = { mist: 0xc9d8c4, sage: 0x8fae94, gold: 0xc9aa52, deep: 0x1d4a33, leaf: 0x3d8455, leaf2: 0x4d9a63, bark: 0x8a7350 };
     // Each layout gives every block a position, a size and a colour.
     const audit = [];
     for (let i = 0; i < N; i += 1) {
@@ -450,14 +450,14 @@
     const group = new THREE.Group();
     group.add(mesh);
     scene.add(group);
-    scene.add(new THREE.AmbientLight(0xffffff, 0.55));
-    const key = new THREE.DirectionalLight(0xffffff, 0.9);
+    scene.add(new THREE.AmbientLight(0xe6f0e2, 0.5));
+    const key = new THREE.DirectionalLight(0xf0f5ec, 0.7);
     key.position.set(3, 4, 5);
     scene.add(key);
-    const glow = new THREE.PointLight(0x3ddc97, 1.4, 14);
+    const glow = new THREE.PointLight(0x7cbf98, 0.9, 14);
     glow.position.set(-3, -1, 3);
     scene.add(glow);
-    const warm = new THREE.PointLight(0xf2cf4f, 1.1, 14);
+    const warm = new THREE.PointLight(0xdcbf62, 0.8, 14);
     warm.position.set(3, 2, 2);
     scene.add(warm);
 

@@ -1,0 +1,14 @@
+{
+  "name": "motion-scanner",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Records design tokens and motion from reference websites for future site builds.",
+  "main": "scan.js",
+  "scripts": {
+    "setup": "npx playwright install chromium",
+    "scan": "node scan.js"
+  },
+  "dependencies": {
+    "playwright": "^1.47.0"
+  }
+}

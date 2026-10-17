@@ -31,7 +31,7 @@ if (urls.length === 0) {
   process.exit(1);
 }
 
-const SKIP_HOSTS = /(facebook|twitter|x\.com|instagram|linkedin|youtube|pinterest|tiktok|google|apple\.com|discord|behance|github|t\.co)/i;
+const SKIP_HOSTS = /(facebook|twitter|x\.com|instagram|linkedin|youtube|pinterest|tiktok|google|apple\.com|discord|behance|github|t\.co|bsky|buysellads|carbonads|mobbin|framer\.link|doubleclick)/i;
 const slug = (url) => new URL(url).hostname.replace(/^www\./, '') +
   (new URL(url).pathname.replace(/\/+$/, '').replace(/[^a-z0-9]+/gi, '-') || '');
 
@@ -221,8 +221,11 @@ function summarize(r) {
     index.push({ url, title: r.title, errors: r.errors });
     if (FOLLOW > 0 && r.links) {
       const host = new URL(url).hostname.replace(/^www\./, '').split('.').slice(-2).join('.');
-      const picks = [...new Set(r.links.map((l) => new URL(l).origin + '/'))]
-        .filter((l) => !l.includes(host) && !SKIP_HOSTS.test(l)).slice(0, FOLLOW);
+      // Galleries tag featured sites with ?ref=<gallery> or link to hosted previews; rank those first.
+      const featured = (l) => (/[?&](ref|utm_source)=/i.test(l) || /\.(webflow\.io|framer\.website|framer\.app)/i.test(l) ? 0 : 1);
+      const picks = [...new Set(r.links.filter((l) => !l.includes(host) && !SKIP_HOSTS.test(l))
+        .sort((a, b) => featured(a) - featured(b))
+        .map((l) => new URL(l).origin + '/'))].slice(0, FOLLOW);
       for (const link of picks) {
         const sub = await scan(browser, link);
         index.push({ url: link, from: url, title: sub.title, errors: sub.errors });

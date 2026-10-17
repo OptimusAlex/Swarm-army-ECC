@@ -4,17 +4,19 @@ Dealt by the Taste skill (`design-taste-frontend`), seed 1684932448, sector agen
 
 ## The idea
 
-On this page, **the search a future student types** becomes **the sentence that carries the layout**. The library card catalogue (the original way students searched before enrolling) is the page's one drawn motif: index cards, drawer fronts and search results, in one flat graphic language.
-
-Competitor test: another SEO agency has no reason to build its page around a student's query, a course catalogue and an intake calendar.
+On this page, **the search a future customer types** becomes **the sentence that carries the layout**. The hero sentence holds a live search query; the showcase zooms into a results page; the listing tool lets owners see their own page as a result.
 
 ## The live thing
 
-"Write your listing": the visitor types their course title and description and sees it as a search result, with length checks for the title and the description. Works without script as a plain form with a sample preview.
+"See your page as customers do": the visitor types a page title and description and sees it as a search result, with length checks and advice. Works without script as a plain form with a sample preview.
+
+## Brand
+
+The owner's logo (VH monogram in a gold ornamental ring on green) sets the palette. Every logo instance sits on a gold disc so it reads on both light and green grounds.
 
 ## Type
 
-- Display: Libre Caslon Condensed 400 (Google Fonts), stand-in for the dealt Gambarino because Fontshare was unreachable from the build machine. Tracking -0.02em, leading 0.92.
+- Display: Libre Caslon Condensed 400 (Google Fonts), stand-in for the dealt Gambarino because Fontshare was unreachable from the build machine.
 - Text: Hanken Grotesk 400 / 500 (Google Fonts), stand-in for the dealt General Sans.
 
 ## Colour
@@ -23,18 +25,23 @@ Competitor test: another SEO agency has no reason to build its page around a stu
 | --- | --- |
 | Ground | `#f7f7f7` |
 | Surface | `#ebebeb` |
-| Ink (bottle green) | `#0d2a1c` |
+| Ink (logo green) | `#012f1d` |
 | Muted | `#5f6b64` |
-| Accent (yellow) | `#f6e016` on the action, the pricing field and the price block |
+| Accent (logo gold) | `#f2cf4f` on actions, the services strip, the pricing field and logo discs |
 
 ## Sections
 
-Hero (two fields) → intro statement with inline frames → services rows with margin drawings → pinned search result at three distances → live listing preview → four verbs (Audit, Plan, Build, Report) → pricing as one sentence on yellow → FAQ → contact band with form → footer with the email as the headline.
+Hero (two fields) → moving services strip → intro statement with inline frames → digital marketing rows with animated drawings → pinned search result at three distances → live listing preview → business consultancy (pinned statement beside the list) → four verbs (Audit, Plan, Build, Grow) → free audit offer on gold → FAQ → contact band with form → footer with the email as the headline.
 
 ## Motion
 
-Signature: colour by chapter (the fixed header takes the ink of the field beneath it). Plus staggered section entrances, press feedback on every control, the pinned zoom on the search result, and a typed query cycling in the hero. Ease-out, 300ms or less on interface motion, all of it off under reduced motion.
+- Signature: colour by chapter (the fixed header takes the ink of the field beneath it).
+- Load: the green field rises, the headline lines rise out of their masks, the logo pops in, the hero query types real searches.
+- Scroll: a gold reading-progress line; staggered entrances in every section; drawings open like shutters, then their parts move (post grid, chat bubbles, brand swatches, ad budget bar, calendar, report meters); the search result zooms in three stages; the price block wipes in.
+- Ambient: the services strip scrolls at a constant pace and pauses under the pointer; the magnifier drifts; the consultancy logo floats.
+- Feedback: press scale 0.97 on buttons, arrow nudge on hover, underline motion on links, logo tilt on hover.
+- All of it is switched off under reduced motion, and no content depends on script to be visible.
 
 ## Taste dials
 
-Design variance 7, motion intensity 5, visual density 4.
+Design variance 7, motion intensity 6, visual density 5.

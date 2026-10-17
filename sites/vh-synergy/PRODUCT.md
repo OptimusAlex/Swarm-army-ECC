@@ -2,7 +2,7 @@
 
 <!-- impeccable:product-schema 1 -->
 
-> Facts marked *(inferred)* were not confirmed by the owner. The owner said "consider it yourself for now, will edit later", so they were filled in to unblock the first build. Review each before launch.
+> Facts marked *(inferred)* were not confirmed by the owner. Review each before launch.
 
 ## Platform
 
@@ -14,47 +14,56 @@ Delegated: static HTML, CSS and vanilla JavaScript with no build step, so the `s
 
 ## Users
 
-Owners and marketing leads of online schools: independent course creators, online academies, tutoring platforms and small edtech companies that sell courses directly to learners or parents. *(inferred: segment named by owner as "online schooling"; sub-types inferred)*
-
-They arrive while deciding whether SEO is worth paying for before their next intake, usually after paid ads became too expensive. *(inferred)*
+Owners and managers of small and growing businesses, and founders of startups, who want more customers from online channels and clearer direction for the business. *(inferred: the owner named the services, not the audience)*
 
 ## Product Purpose
 
-VH Synergy Growth Services is an SEO agency that gets online schools found by the students and parents who are already searching for a course like theirs, on Google and in AI answers. Success is more enrolments and enquiries from organic search, not traffic for its own sake.
+VH Synergy Growth Services offers two services:
+
+1. **Digital marketing:** getting a business found and chosen online.
+2. **Business consultancy:** making sure the business behind the marketing is ready to grow.
+
+Success is more enquiries and sales for the client, and decisions they can act on.
 
 ## Positioning
 
-SEO that is planned around a school's calendar (intakes and terms) and its catalogue (course pages), and that understands course platforms such as Teachable, Thinkific, Kajabi, LearnWorlds, Moodle and WordPress LMS plugins. *(inferred)*
+Marketing and consultancy from one team, so the campaigns that bring customers in and the business that serves them are planned together. *(inferred)*
 
 ## Operating Context
 
-- Learners search with plain questions before enrolling: course names, exam boards, "online", "for beginners", "for kids", price and schedule words.
-- Schools sell through hosted course platforms with limited technical control, so fixes must work inside those platforms.
-- Results are reviewed monthly; schools plan around intakes.
+- Customers search, compare and ask around before buying; local search and Google Business Profile matter for local businesses.
+- Many clients start with one service and add others.
+- Work runs as a free audit, a 90-day plan, delivery, then monthly reviews.
 
 ## Capabilities and Constraints
 
-- Services: course page SEO, technical SEO for course platforms, learner-question content, AI search visibility, local and international targeting. *(inferred)*
-- Area served: online, worldwide. *(inferred)*
-- Pricing on the site is sample pricing. *(owner: "give any for now")*
-- Contact email and details are placeholders. *(owner: "give any for now")*
+Service catalogue, modelled on common agency catalogues and the owner's reference site (goseodigital.com):
+
+- Digital marketing: SEO and Google Business Profile; Google and Meta ads; social media management; websites, online stores and marketplace product listings; branding and design; email, WhatsApp and SMS campaigns.
+- Business consultancy: business strategy and growth plans; startup consultancy; market and competitor research; operations and process improvement; financial planning and budgeting (alongside the client's accountant, not regulated financial advice); sales and customer journey.
+
+Open decisions:
+
+- Pricing is not published; the site offers a free growth audit instead. *(owner said "give any for now"; replaced sample prices to avoid inventing numbers)*
+- Contact email, hours and area served are placeholders. *(inferred)*
+- Brand name: the owner gave "VH Synergy Growth Services"; the logo reads "SYNERGY Growth Solutions". **Needs confirmation.**
 
 ## Brand Commitments
 
-- Name: VH Synergy Growth Services. Short form used on the site: VH Synergy.
-- No logo, colours or fonts supplied yet.
+- Logo supplied by the owner: VH monogram in a gold ornamental ring on a dark green circle (`site/assets/logo.png`).
+- Brand colours taken from the logo: green `#012f1d`, gold `#f2cf4f`.
 
 ## Evidence on Hand
 
-None yet. No client names, case studies, testimonials, rankings, revenue figures or statistics exist, and none may be invented. Any proof section waits for real results.
+None yet. No client names, case studies, testimonials, results or statistics exist, and none may be invented.
 
 ## Product Principles
 
-1. Enrolments over traffic: every recommendation ties back to students signing up.
-2. Honest timelines: SEO compounds slowly and the site says so.
-3. Work inside the school's platform instead of asking them to rebuild.
-4. Plain language for non-technical school owners.
+1. Measured by enquiries and sales, not likes or traffic.
+2. Honest timelines: ads are fast, SEO and social take months.
+3. Improve what the client already has before rebuilding.
+4. Plain language for busy owners.
 
 ## Accessibility & Inclusion
 
-WCAG 2.2 AA as the working standard. Respect reduced motion. Readable at 375px.
+WCAG 2.2 AA as the working standard. Respect reduced motion. Readable at 320px.

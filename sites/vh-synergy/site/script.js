@@ -113,14 +113,14 @@
     const cut = (text, max) => (text.length > max ? `${text.slice(0, max - 1).trimEnd()}…` : text);
     const prettyUrl = (raw) => {
       const clean = raw.trim().replace(/^https?:\/\//i, '').replace(/\/+$/, '');
-      if (!clean) return 'yourschool.com';
+      if (!clean) return 'yourbusiness.com';
       return clean.split('/').filter(Boolean).join(' › ');
     };
     const render = () => {
       const t = fields.title.value.trim();
       const d = fields.desc.value.trim();
-      out.title.textContent = cut(t || 'Your course title', LIMIT_TITLE);
-      out.desc.textContent = cut(d || 'A sentence or two on who the course is for and what they will get.', LIMIT_DESC);
+      out.title.textContent = cut(t || 'Your page title', LIMIT_TITLE);
+      out.desc.textContent = cut(d || 'A sentence or two on what you offer, who it is for, and what to do next.', LIMIT_DESC);
       out.url.textContent = prettyUrl(fields.url.value);
       out.cTitle.textContent = `${t.length} / ${LIMIT_TITLE}`;
       out.cDesc.textContent = `${d.length} / ${LIMIT_DESC}`;
@@ -132,21 +132,25 @@
       else if (t.length < 25) notes.push('Your title is short. Name the subject and who it is for.');
       if (d.length > LIMIT_DESC) notes.push(`Your description runs ${d.length - LIMIT_DESC} characters over.`);
       else if (d && d.length < 70) notes.push('Your description is short. Say how it is taught and when it starts.');
-      if (t && !/online/i.test(`${t} ${d}`)) notes.push('Students often search with the word “online”. Consider using it.');
+      if (d && !/\b(call|book|visit|order|shop|get|try|contact|enquire|request)\b/i.test(d)) notes.push('Add a next step to the description, such as “Book a visit” or “Order today”.');
       out.verdict.textContent = notes.length ? notes.join(' ') : 'Title and description both fit. Next, make sure the page itself answers the search.';
     };
     form.addEventListener('input', render);
     render();
   }
 
-  // Clocks show the real time in each city.
-  const clocks = document.querySelectorAll('[data-tz]');
-  const setClocks = () => clocks.forEach((el) => {
-    try {
-      el.textContent = new Intl.DateTimeFormat('en-GB', { hour: '2-digit', minute: '2-digit', timeZone: el.dataset.tz }).format(new Date());
-    } catch (_e) { /* keep the written time */ }
-  });
-  if (clocks.length) { setClocks(); setInterval(setClocks, 30000); }
+  // Reading progress along the top edge.
+  const bar = document.querySelector('.progress');
+  if (bar) {
+    let ticking = false;
+    const update = () => {
+      const max = document.documentElement.scrollHeight - innerHeight;
+      root.style.setProperty('--progress', String(max > 0 ? Math.min(1, scrollY / max) : 0));
+      ticking = false;
+    };
+    window.addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true });
+    update();
+  }
 
   const year = document.getElementById('year');
   if (year) year.textContent = String(new Date().getFullYear());

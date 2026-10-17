@@ -54,7 +54,7 @@
     el.dataset.text = text;
     el.dataset.decoding = '1';
     const start = performance.now();
-    const length = 420;
+    const length = 800;
     const frame = (now) => {
       const p = Math.min(1, (now - start) / length);
       const settled = Math.floor(p * text.length);
@@ -98,12 +98,12 @@
         n -= 1;
         typed.textContent = queries[q].slice(0, n);
         if (n <= 0) { deleting = false; q = (q + 1) % queries.length; }
-        setTimeout(tick, 32);
+        setTimeout(tick, 50);
       } else {
         n += 1;
         typed.textContent = queries[q].slice(0, n);
-        if (n >= queries[q].length) { deleting = true; setTimeout(tick, 2400); return; }
-        setTimeout(tick, 58 + Math.random() * 50);
+        if (n >= queries[q].length) { deleting = true; setTimeout(tick, 3400); return; }
+        setTimeout(tick, 95 + Math.random() * 60);
       }
     };
     setTimeout(tick, 2800);
@@ -205,6 +205,16 @@
     render();
   }
 
+  // ---------- process scenes play only while they are on screen ----------
+  if ('IntersectionObserver' in window) {
+    const sceneIo = new IntersectionObserver((entries) => {
+      for (const entry of entries) entry.target.classList.toggle('is-playing', entry.isIntersecting);
+    }, { threshold: 0.25 });
+    document.querySelectorAll('.step').forEach((el) => sceneIo.observe(el));
+  } else {
+    document.querySelectorAll('.step').forEach((el) => el.classList.add('is-playing'));
+  }
+
   // ---------- consultancy: cards turn on tap ----------
   document.querySelectorAll('.flip__inner').forEach((btn) => {
     btn.addEventListener('click', () => btn.setAttribute('aria-pressed', btn.getAttribute('aria-pressed') === 'true' ? 'false' : 'true'));
@@ -283,11 +293,11 @@
       const t = now / 1000;
       const hero = canvas.closest('.hero');
       const scrolled = hero ? Math.min(1, Math.max(0, scrollY / hero.offsetHeight)) : 0;
-      tiltX += (pointerY * 0.35 - tiltX) * 0.06;
-      tiltY += (pointerX * 0.45 - tiltY) * 0.06;
-      medal.rotation.x = tiltX + (reduced ? 0.15 : Math.sin(t * 0.7) * 0.06);
-      medal.rotation.y = -0.35 + tiltY + scrolled * Math.PI * 1.2 + (reduced ? 0 : Math.sin(t * 0.45) * 0.25);
-      medal.position.y = reduced ? 0 : Math.sin(t * 0.9) * 0.04;
+      tiltX += (pointerY * 0.35 - tiltX) * 0.035;
+      tiltY += (pointerX * 0.45 - tiltY) * 0.035;
+      medal.rotation.x = tiltX + (reduced ? 0.15 : Math.sin(t * 0.4) * 0.06);
+      medal.rotation.y = -0.35 + tiltY + scrolled * Math.PI * 1.2 + (reduced ? 0 : Math.sin(t * 0.28) * 0.25);
+      medal.position.y = reduced ? 0 : Math.sin(t * 0.55) * 0.04;
       renderer.render(scene, camera);
     }
 

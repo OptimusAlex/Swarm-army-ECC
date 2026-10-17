@@ -41,7 +41,13 @@ Hero with the medallion → four facts in dotted frames → statement → digita
 - Load: headline lines rise out of masks, the medallion settles in, the hero text decodes.
 - Scroll: gold progress line; medallion turns; the carousel moves sideways while the page scrolls (native swipe on phones); search result zooms; sections and drawings enter in sequence.
 - Hover: pills fill, headings and labels scramble then settle, process words shift and turn gold, flip cards turn (tap on touch).
-- Reduced motion: no scrambling, no flips (both card faces shown), no zoom transitions; the medallion only follows scroll.
+- Process scenes (10-second loops, played only while on screen):
+  - Audit: a pen writes four lines on a report, then a check stamp appears.
+  - Plan: a robot and a person place notes on a planning board, then a timeline draws.
+  - Build: floors drop onto the ground one by one beside a crane, then the windows light up.
+  - Grow: a small plan sinks into the ground and grows into a tree with gold fruit.
+- Pace: entrances, the hero, the medallion, the zoom, flips, scrambles and typing were slowed down on request. Press and hover feedback stays quick so the page still feels responsive.
+- Reduced motion: no scrambling, no flips (both card faces shown), no zoom transitions, process scenes shown in their finished state; the medallion only follows scroll.
 
 ## Departures from the Taste skill's house rules
 

@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "sites/vh-synergy/site/index.html"
+        ],
+        "createdAt": "2026-10-17T06:42:27.277Z",
+        "reason": "Claude decided: static regex scan cannot resolve CSS custom-property padding; the flagged .step, .spec, .faq__list and .query all have real padding/height in styles.css, and Playwright QA found no clipped or flush text"
+      },
+      {
+        "rule": "tight-leading",
+        "value": "*",
+        "files": [
+          "sites/vh-synergy/site/index.html"
+        ],
+        "createdAt": "2026-10-17T06:42:27.287Z",
+        "reason": "Claude decided: 1.0 to 1.2 leading is only on large uppercase display text (intro statement, spec values, FAQ questions, card titles) as part of the oryzo.ai style the user asked for; body text is 1.55"
+      }
+    ]
+  }
+}

@@ -73,7 +73,7 @@ textarea.field { resize: vertical; }
 .dotframe::before, .dotframe::after { content: ""; position: absolute; width: 7px; height: 7px; background: var(--bg); border: 1px solid var(--cream); pointer-events: none; z-index: 2; }
 .dotframe::before { left: -4px; top: -4px; }
 .dotframe::after { right: -4px; bottom: -4px; }
-.dotframe__size { position: absolute; left: 50%; bottom: -1.9rem; transform: translateX(-50%); padding: 0.15rem 0.5rem; background: var(--gold); color: var(--ink); border-radius: 0.3rem; font-size: 0.75rem; font-weight: 500; font-variant-numeric: tabular-nums; white-space: nowrap; z-index: 3; }
+.dotframe__size { position: absolute; left: 50%; bottom: -2.1rem; transform: translateX(-50%); padding: 0.3rem 0.6rem; background: var(--gold); color: var(--ink); border-radius: 0.3rem; font-size: 0.75rem; font-weight: 500; font-variant-numeric: tabular-nums; white-space: nowrap; z-index: 3; }
 
 /* ---------- header ---------- */
 .progress { position: fixed; inset: 0 0 auto; height: 2px; z-index: 30; pointer-events: none; }
@@ -162,7 +162,7 @@ textarea.field { resize: vertical; }
 .serp__title { font-size: var(--step-body); font-weight: 600; line-height: 1.3; }
 .serp__result--you .serp__title { text-decoration: underline; text-decoration-color: var(--gold); text-decoration-thickness: 0.2em; text-underline-offset: 0.14em; }
 .serp__rich { display: flex; flex-wrap: wrap; gap: 0.4em; margin-top: 0.4em; }
-.serp__rich span { padding: 0.15em 0.7em; background: var(--gold); border-radius: var(--pill); }
+.serp__rich span { padding: 0.25em 0.75em; background: var(--gold); border-radius: var(--pill); }
 .showcase__frame[data-stage="2"] .serp { transform: scale(1.5); transform-origin: 0% 22%; }
 .showcase__frame[data-stage="3"] .serp { transform: scale(2.2); transform-origin: 0% 52%; }
 .showcase__caption { position: absolute; left: calc(50% + min(15vw, (100svh - 24rem) * 0.4) + 2.5rem); top: 50%; max-width: 28ch; color: var(--muted); transition: opacity 500ms var(--ease-out), transform 700ms var(--ease-out); }
@@ -224,7 +224,7 @@ textarea.field { resize: vertical; }
 .spec__table tr:last-child th, .spec__table tr:last-child td { border-bottom: 1px dashed rgba(7, 21, 14, 0.35); }
 .spec__table th { width: 30%; padding-right: 1rem; font-size: var(--step-small); font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; }
 .spec__table td { font-size: var(--step-sub); font-weight: 500; line-height: 1.2; letter-spacing: -0.015em; }
-.spec__free { display: inline-block; padding: 0 0.5em; background: var(--ink); color: var(--gold); border-radius: var(--pill); text-transform: uppercase; }
+.spec__free { display: inline-block; padding: 0.12em 0.55em; background: var(--ink); color: var(--gold); border-radius: var(--pill); text-transform: uppercase; }
 .spec__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem; margin-top: 3rem; }
 .spec__alt { text-underline-offset: 0.25em; display: inline-flex; align-items: center; min-height: 44px; }
 

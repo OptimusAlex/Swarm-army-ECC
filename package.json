@@ -350,8 +350,8 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.2",
-    "@opencode-ai/plugin": "^1.0.0",
-    "@types/node": "25.7.0",
+    "@opencode-ai/plugin": "^1.15.13",
+    "@types/node": "25.9.1",
     "c8": "^11.0.0",
     "eslint": "^9.39.2",
     "globals": "^17.4.0",
@@ -361,5 +361,11 @@
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "yarn@4.9.2+sha512.1fc009bc09d13cfd0e19efa44cbfc2b9cf6ca61482725eb35bbc5e257e093ebf4130db6dfe15d604ff4b79efd8e1e8e99b25fa7d0a6197c9f9826358d4d65c3c"
+  "packageManager": "yarn@4.9.2+sha512.1fc009bc09d13cfd0e19efa44cbfc2b9cf6ca61482725eb35bbc5e257e093ebf4130db6dfe15d604ff4b79efd8e1e8e99b25fa7d0a6197c9f9826358d4d65c3c",
+  "overrides": {
+    "js-yaml": "^4.3.2",
+    "markdown-it": "^14.3.3",
+    "smol-toml": "^1.9.1",
+    "zod": "^4.6.6"
+  }
 }
